@@ -1,0 +1,241 @@
+{
+    "Version": 3,
+    "ScaleFactor": 0.13,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "TapTouchHead": [
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchHead_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_1_Sound_0.wav"
+                }
+            ],
+            "TapTouchBody": [
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchBody_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_1_Sound_0.wav"
+                }
+            ],
+            "TapTouchSpecial": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_2_Sound_0.wav"
+                }
+            ],
+            "TapTouchLeg": [
+                {
+                    "File": "motions/Motions_TapTouchLeg_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchLeg_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_1_Sound_0.wav"
+                }
+            ],
+            "TapTouchHand": [
+                {
+                    "File": "motions/Motions_TapTouchHand_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHand_0_Sound_0.wav"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchHead_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchBody_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchLeg_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchLeg_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapTouchHand_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHand_0_Sound_0.wav"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_TapTouchHead_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_1_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_TapTouchBody_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_1_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_1_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_2_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_TapTouchLeg_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_0_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_TapTouchLeg_1_File_0.json",
+                    "Sound": "voice/Motions_TapTouchLeg_1_Sound_0.wav"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_TapTouchHand_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHand_0_Sound_0.wav"
+                }
+            ]
+        }
+    },
+    "Groups": [
+        {
+            "Target": "Parameter",
+            "Name": "LipSync",
+            "Text": null,
+            "Ids": [
+                "ParamMouthOpenY"
+            ]
+        }
+    ],
+    "Bubble": null,
+    "HitAreas": [
+        {
+            "Name": "TouchSpecial",
+            "Id": "TouchSpecial",
+            "Motion": "TapTouchSpecial"
+        },
+        {
+            "Name": "TouchLeg",
+            "Id": "ArtMesh122",
+            "Motion": "TapTouchLeg"
+        },
+        {
+            "Name": "TouchHead",
+            "Id": "TouchHead",
+            "Motion": "TapTouchHead"
+        },
+        {
+            "Name": "TouchBody",
+            "Id": "ArtMesh108",
+            "Motion": "TapTouchBody"
+        },
+        {
+            "Name": "TouchHand",
+            "Id": "ArtMesh83",
+            "Motion": "TapTouchHand"
+        }
+    ],
+    "LipSync": true,
+    "IntimacyParam": {
+        "InitValue": 50,
+        "MinValue": 0,
+        "MaxValue": 100,
+        "BonusActive": 5,
+        "BonusInactive": 3
+    },
+    "TexFixed": true
+}

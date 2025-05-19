@@ -1,0 +1,487 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png",
+            "textures/Textures_1_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Start": [
+                {
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Case": [
+                {
+                    "File": "motions/Motions_Case_2_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_3_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_4_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_5_File_0.json"
+                }
+            ],
+            "TapSocks": [
+                {
+                    "File": "motions/Motions_TapSocks_0_File_0.json"
+                }
+            ],
+            "TapShoes3": [
+                {
+                    "File": "motions/Motions_TapShoes3_0_File_0.json"
+                }
+            ],
+            "TapHead": [
+                {
+                    "File": "motions/Motions_TapHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapHead_0_Sound_0.wav"
+                }
+            ],
+            "TapBody": [
+                {
+                    "File": "motions/Motions_TapBody_0_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                }
+            ],
+            "TapArm": [
+                {
+                    "File": "motions/Motions_TapArm_0_File_0.json",
+                    "Sound": "voice/Motions_TapArm_0_Sound_0.wav"
+                }
+            ],
+            "Tapnangua": [
+                {
+                    "File": "motions/Motions_Tapnangua_0_File_0.json"
+                }
+            ],
+            "Leave2_10_10": [
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Start_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Case_2_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_3_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_4_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Case_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapSocks_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapShoes3_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapHead_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapBody_0_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_TapArm_0_File_0.json",
+                    "Sound": "voice/Motions_TapArm_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapnangua_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "Sound": "voice/Motions_Start_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "Sound": "voice/Motions_Start_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "Sound": "voice/Motions_Start_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_Case_2_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_Case_3_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_Case_4_File_0.json",
+                    "Sound": "voice/Motions_Case_3_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_Case_5_File_0.json"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_TapSocks_0_File_0.json"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_TapShoes3_0_File_0.json"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_TapHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapHead_0_Sound_0.wav"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_TapBody_0_File_0.json",
+                    "Sound": "voice/Motions_Case_2_Sound_0.wav"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_TapArm_0_File_0.json",
+                    "Sound": "voice/Motions_TapArm_0_Sound_0.wav"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_Tapnangua_0_File_0.json"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "Sound": "voice/Motions_Leave2_10_10_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {
+            "Items": [
+                {
+                    "Name": "socks1",
+                    "Id": "ParamLegS1",
+                    "HitArea": "Leg1",
+                    "Axis": 0,
+                    "Factor": -0.01,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:sock1_end"
+                },
+                {
+                    "Name": "socks2",
+                    "Id": "ParamLegS1",
+                    "HitArea": "Leg3",
+                    "Axis": 0,
+                    "Factor": -0.02,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MinMtn": "Case:sock1_1_end"
+                },
+                {
+                    "Name": "socks3",
+                    "Id": "ParamLegS2",
+                    "HitArea": "Leg2",
+                    "Axis": 1,
+                    "Factor": 0.01,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:sock2_end"
+                },
+                {
+                    "Name": "shoe1x",
+                    "Id": "ParamShoe1X",
+                    "HitArea": "Shoes1",
+                    "Axis": 0,
+                    "Factor": 0.3,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:shoe1"
+                },
+                {
+                    "Name": "shoe1y",
+                    "Id": "ParamShoe1Y",
+                    "HitArea": "Shoes1",
+                    "Axis": 1,
+                    "Factor": -0.3,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:shoe1"
+                },
+                {
+                    "Name": "shoe2y",
+                    "Id": "ParamShoe2Y",
+                    "HitArea": "Shoes2",
+                    "Axis": 1,
+                    "Factor": -0.3,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:shoe2"
+                },
+                {
+                    "Name": "shoe2x",
+                    "Id": "ParamShoe2X",
+                    "HitArea": "Shoes2",
+                    "Axis": 0,
+                    "Factor": 0.3,
+                    "Release": 400,
+                    "ReleaseType": 0,
+                    "MaxMtn": "Case:shoe2"
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0,
+            "Items": [
+                {
+                    "Id": "ParamMouthOpenY",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamMouthForm",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "Input": 0
+                }
+            ],
+            "Enabled": true
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "Leg1",
+            "Id": "HitAreaLeg1",
+            "Motion": "TapLeg1"
+        },
+        {
+            "Name": "Leg2",
+            "Id": "HitAreaLeg2",
+            "Order": 1,
+            "Motion": "TapLeg2"
+        },
+        {
+            "Name": "Leg3",
+            "Id": "HitAreaLeg3",
+            "Motion": "TapLeg3"
+        },
+        {
+            "Name": "Socks",
+            "Id": "HitAreaSocks",
+            "Order": 2,
+            "Motion": "TapSocks"
+        },
+        {
+            "Name": "Head",
+            "Id": "HitAreaHead",
+            "Motion": "TapHead"
+        },
+        {
+            "Name": "Shoes1",
+            "Id": "HitAreaShoes1",
+            "Order": 1,
+            "Motion": "TapShoes1"
+        },
+        {
+            "Name": "Shoes2",
+            "Id": "HitAreaShoes2",
+            "Order": 1,
+            "Motion": "TapShoes2"
+        },
+        {
+            "Name": "Shoes3",
+            "Id": "HitAreaShoes3",
+            "Motion": "TapShoes3"
+        },
+        {
+            "Name": "Arm",
+            "Id": "HitAreaArm",
+            "Motion": "TapArm"
+        },
+        {
+            "Name": "Body",
+            "Id": "HitAreaBody",
+            "Motion": "TapBody"
+        },
+        {
+            "Name": "nangua",
+            "Id": "nangua",
+            "Motion": "Tapnangua"
+        }
+    ],
+    "Options": {
+        "ScaleFactor": 2.0,
+        "TexFixed": true
+    }
+}

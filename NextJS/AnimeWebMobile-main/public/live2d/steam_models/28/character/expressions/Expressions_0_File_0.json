@@ -1,0 +1,76 @@
+{
+	"Type": "Live2D Expression",
+	"FadeInTime": 0.2,
+	"Parameters": [
+		{
+			"Id": "ParamEyeLOpen",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeForm",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param10",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param23",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamCheek",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param9",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param13",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param25",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param31",
+			"Value": 0,
+			"Blend": "Add"
+		}
+	]
+}

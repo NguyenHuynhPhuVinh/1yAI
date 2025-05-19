@@ -1,0 +1,720 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png",
+            "textures/Textures_1_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Leg": [
+                {
+                    "File": "motions/Motions_Leg_0_File_0.json",
+                    "Sound": "voice/Motions_Leg_0_Sound_0.wav"
+                }
+            ],
+            "Head": [
+                {
+                    "File": "motions/Motions_Head_0_File_0.json",
+                    "Sound": "voice/Motions_Head_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Head_1_File_0.json"
+                }
+            ],
+            "Xiong": [
+                {
+                    "File": "motions/Motions_Xiong_0_File_0.json",
+                    "Sound": "voice/Motions_Xiong_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Xiong_1_File_0.json"
+                }
+            ],
+            "Hand": [
+                {
+                    "File": "motions/Motions_Hand_0_File_0.json",
+                    "Sound": "voice/Motions_Hand_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Hand_1_File_0.json"
+                }
+            ],
+            "Rqunzi": [
+                {
+                    "File": "motions/Motions_Rqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Rqunzi_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rqunzi_1_File_0.json"
+                }
+            ],
+            "Rsiwa1": [
+                {
+                    "File": "motions/Motions_Rsiwa1_0_File_0.json",
+                    "Sound": "voice/Motions_Rsiwa1_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rsiwa1_1_File_0.json"
+                }
+            ],
+            "Ryifu": [
+                {
+                    "File": "motions/Motions_Ryifu_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Ryifu_1_File_0.json"
+                }
+            ],
+            "Rsiwa2": [
+                {
+                    "File": "motions/Motions_Rsiwa2_0_File_0.json"
+                }
+            ],
+            "Tyifu": [
+                {
+                    "File": "motions/Motions_Tyifu_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Tyifu_1_File_0.json"
+                }
+            ],
+            "限定": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "idle": [
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                }
+            ],
+            "Rneiku": [
+                {
+                    "File": "motions/Motions_Rneiku_0_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rneiku_1_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rneiku_2_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_2_Sound_0.wav"
+                }
+            ],
+            "drink": [
+                {
+                    "Sound": "voice/Motions_drink_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "ring": [
+                {
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav"
+                }
+            ],
+            "banzi": [
+                {
+                    "File": "motions/Motions_banzi_0_File_0.json",
+                    "Sound": "voice/Motions_banzi_0_Sound_0.wav"
+                }
+            ],
+            "maka": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "dangao": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_dangao_3_File_0.json",
+                    "Sound": "voice/Motions_dangao_3_Sound_0.wav"
+                }
+            ],
+            "idle4-2": [
+                {
+                    "File": "motions/Motions_idle4-2_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                }
+            ],
+            "语音#2": [
+                {
+                    "Sound": "voice/Motions_语音2_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leg_0_File_0.json",
+                    "Sound": "voice/Motions_Leg_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Head_0_File_0.json",
+                    "Sound": "voice/Motions_Head_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Head_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Xiong_0_File_0.json",
+                    "Sound": "voice/Motions_Xiong_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Xiong_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Hand_0_File_0.json",
+                    "Sound": "voice/Motions_Hand_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Hand_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Rqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Rqunzi_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rqunzi_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Rsiwa1_0_File_0.json",
+                    "Sound": "voice/Motions_Rsiwa1_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rsiwa1_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Ryifu_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Ryifu_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Rsiwa2_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Tyifu_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Tyifu_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rneiku_0_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rneiku_1_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Rneiku_2_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_2_Sound_0.wav"
+                },
+                {
+                    "Sound": "voice/Motions_drink_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_banzi_0_File_0.json",
+                    "Sound": "voice/Motions_banzi_0_Sound_0.wav"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_dangao_3_File_0.json",
+                    "Sound": "voice/Motions_dangao_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_idle4-2_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                },
+                {
+                    "Sound": "voice/Motions_语音2_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_Leg_0_File_0.json",
+                    "Sound": "voice/Motions_Leg_0_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_Head_0_File_0.json",
+                    "Sound": "voice/Motions_Head_0_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_Head_1_File_0.json"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_Xiong_0_File_0.json",
+                    "Sound": "voice/Motions_Xiong_0_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_Xiong_1_File_0.json"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_Hand_0_File_0.json",
+                    "Sound": "voice/Motions_Hand_0_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_Hand_1_File_0.json"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_Rqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Rqunzi_0_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_Rqunzi_1_File_0.json"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_Rsiwa1_0_File_0.json",
+                    "Sound": "voice/Motions_Rsiwa1_0_Sound_0.wav"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_Rsiwa1_1_File_0.json"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_Ryifu_0_File_0.json"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_Ryifu_1_File_0.json"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "File": "motions/Motions_Rsiwa2_0_File_0.json"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "File": "motions/Motions_Tyifu_0_File_0.json"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "File": "motions/Motions_Tyifu_1_File_0.json"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_20": [
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                }
+            ],
+            "Animation_21": [
+                {
+                    "File": "motions/Motions_Rneiku_0_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_0_Sound_0.wav"
+                }
+            ],
+            "Animation_22": [
+                {
+                    "File": "motions/Motions_Rneiku_1_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_1_Sound_0.wav"
+                }
+            ],
+            "Animation_23": [
+                {
+                    "File": "motions/Motions_Rneiku_2_File_0.json",
+                    "Sound": "voice/Motions_Rneiku_2_Sound_0.wav"
+                }
+            ],
+            "Animation_24": [
+                {
+                    "Sound": "voice/Motions_drink_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_25": [
+                {
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_26": [
+                {
+                    "File": "Motions_idle_0_File_0.json",
+                    "Sound": "voice/Motions_ring_0_Sound_0.wav"
+                }
+            ],
+            "Animation_27": [
+                {
+                    "File": "motions/Motions_banzi_0_File_0.json",
+                    "Sound": "voice/Motions_banzi_0_Sound_0.wav"
+                }
+            ],
+            "Animation_28": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_29": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_30": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_31": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_32": [
+                {
+                    "Sound": "voice/Motions_maka_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_33": [
+                {
+                    "File": "motions/Motions_dangao_3_File_0.json",
+                    "Sound": "voice/Motions_dangao_3_Sound_0.wav"
+                }
+            ],
+            "Animation_34": [
+                {
+                    "File": "motions/Motions_idle4-2_0_File_0.json",
+                    "Sound": "voice/Motions_idle_0_Sound_0.wav"
+                }
+            ],
+            "Animation_35": [
+                {
+                    "Sound": "voice/Motions_语音2_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ]
+        },
+        "Expressions": [
+            {
+                "Name": "exp1.exp3",
+                "File": "expressions/Expressions_0_File_0.json"
+            },
+            {
+                "Name": "exp2.exp3",
+                "File": "expressions/Expressions_1_File_0.json"
+            },
+            {
+                "Name": "exp3.exp3",
+                "File": "expressions/Expressions_2_File_0.json"
+            }
+        ]
+    },
+    "Controllers": {
+        "ParamHit": {
+            "Items": [
+                {
+                    "Name": "qunzi",
+                    "Id": "Param67",
+                    "HitArea": "HitArea_Qunzi",
+                    "Axis": 0,
+                    "Factor": -0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true,
+                    "EndMtn": "Rqunzi:no"
+                },
+                {
+                    "Name": "clothe",
+                    "Id": "Param129",
+                    "HitArea": "HitArea_Xiong",
+                    "Axis": 1,
+                    "Factor": -0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true,
+                    "EndMtn": "Ryifu:1"
+                },
+                {
+                    "Name": "siwa",
+                    "Id": "Param95",
+                    "HitArea": "HitArea_Siwa",
+                    "Axis": 0,
+                    "Factor": 0.01,
+                    "ReleaseType": 0,
+                    "LockParam": true,
+                    "MaxMtn": "Rsiwa2"
+                },
+                {
+                    "Name": "cake",
+                    "Id": "Param91",
+                    "HitArea": "HitArea_Cake",
+                    "Axis": 0,
+                    "Factor": 100.0,
+                    "Release": 10000,
+                    "ReleaseType": 0,
+                    "Type": 2,
+                    "Enabled": false,
+                    "EndMtn": "dangao:4"
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {
+            "Items": [
+                {
+                    "Name": "背景",
+                    "Ids": [
+                        "bgb1"
+                    ],
+                    "Value": 1.0
+                }
+            ],
+            "Enabled": true
+        },
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "HitArea_Xiong",
+            "Id": "HitArea_Xiong",
+            "Motion": "Xiong:no"
+        },
+        {
+            "Name": "HitArea_Head",
+            "Id": "HitArea_Head",
+            "Motion": "Head:no"
+        },
+        {
+            "Name": "HitArea_Hand",
+            "Id": "HitArea_Hand",
+            "Motion": "Hand:no"
+        },
+        {
+            "Name": "HitArea_Cake",
+            "Id": "HitArea_Cake",
+            "Motion": "dangao"
+        },
+        {
+            "Name": "HitArea_Maka",
+            "Id": "HitArea_Maka",
+            "Order": 2,
+            "Motion": "maka"
+        },
+        {
+            "Name": "HitArea_Ring",
+            "Id": "HitArea_Ring",
+            "Motion": "ring"
+        },
+        {
+            "Name": "HitArea_Cup",
+            "Id": "HitArea_Cup",
+            "Motion": "drink"
+        },
+        {
+            "Name": "HitArea_Qunzi",
+            "Id": "HitArea_Qunzi",
+            "Order": 3,
+            "Motion": "TapHitArea_Qunzi"
+        },
+        {
+            "Name": "HitArea_Siwa",
+            "Id": "HitArea_Siwa",
+            "Motion": "Leg"
+        },
+        {
+            "Name": "HitArea_Banzi",
+            "Id": "HitArea_Banzi",
+            "Motion": "banzi"
+        },
+        {
+            "Name": "HitArea_Wa",
+            "Id": "HitArea_Wa",
+            "Motion": "Wa:96"
+        },
+        {
+            "Name": "HitArea_Yifu",
+            "Id": "HitArea_Yifu",
+            "Motion": "Tyifu:1"
+        },
+        {
+            "Name": "HitArea_Neiku",
+            "Id": "HitArea_Neiku",
+            "Order": 2,
+            "Motion": "Rneiku"
+        },
+        {
+            "Name": "bgb3",
+            "Id": "bgb3",
+            "Motion": "Rsiwa1:1"
+        },
+        {
+            "Name": "限定",
+            "Id": "ArtMesh202",
+            "Order": 2,
+            "Motion": "限定"
+        },
+        {
+            "Name": "开关",
+            "Id": "ArtMesh195",
+            "Order": 2,
+            "Motion": "摇晃"
+        }
+    ],
+    "Options": {
+        "ScaleFactor": 0.00079999934,
+        "TexFixed": true
+    }
+}

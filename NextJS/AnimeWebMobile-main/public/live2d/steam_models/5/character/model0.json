@@ -1,0 +1,512 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png",
+            "textures/Textures_1_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Idle1": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.mp3"
+                }
+            ],
+            "Tap": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json"
+                }
+            ],
+            "TapTouchHead": [
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.mp3"
+                }
+            ],
+            "TapTouchSpecial": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.mp3"
+                }
+            ],
+            "TapTouchBody": [
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.mp3"
+                }
+            ],
+            "TapTouchDrag1": [
+                {
+                    "File": "motions/Motions_TapTouchDrag1_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchDrag1_0_Sound_0.mp3"
+                }
+            ],
+            "TapTouchDrag2": [
+                {
+                    "File": "motions/Motions_TapTouchDrag2_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag3": [
+                {
+                    "File": "motions/Motions_TapTouchDrag3_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag4": [
+                {
+                    "File": "motions/Motions_TapTouchDrag4_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag5": [
+                {
+                    "File": "motions/Motions_TapTouchDrag5_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag7": [
+                {
+                    "File": "motions/Motions_TapTouchDrag7_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag8": [
+                {
+                    "File": "motions/Motions_TapTouchDrag8_0_File_0.json"
+                }
+            ],
+            "TapTouchDrag10": [
+                {
+                    "File": "motions/Motions_TapTouchDrag10_0_File_0.json"
+                }
+            ],
+            "MenuMotions": [
+                {
+                    "File": "motions/Motions_MenuMotions_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_1_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_1_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_2_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_2_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_3_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_3_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_4_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_4_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_5_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_5_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_6_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_6_Sound_0.mp3"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag1_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchDrag1_0_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag2_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag3_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag4_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag5_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag7_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag8_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_TapTouchDrag10_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_1_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_1_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_2_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_2_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_3_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_3_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_4_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_4_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_5_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_5_Sound_0.mp3"
+                },
+                {
+                    "File": "motions/Motions_MenuMotions_6_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_6_Sound_0.mp3"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.mp3"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_TapTouchHead_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchHead_0_Sound_0.mp3"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_TapTouchSpecial_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchSpecial_0_Sound_0.mp3"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_TapTouchBody_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchBody_0_Sound_0.mp3"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_TapTouchDrag1_0_File_0.json",
+                    "Sound": "voice/Motions_TapTouchDrag1_0_Sound_0.mp3"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_TapTouchDrag2_0_File_0.json"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_TapTouchDrag3_0_File_0.json"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_TapTouchDrag4_0_File_0.json"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_TapTouchDrag5_0_File_0.json"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_TapTouchDrag7_0_File_0.json"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_TapTouchDrag8_0_File_0.json"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_TapTouchDrag10_0_File_0.json"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "File": "motions/Motions_MenuMotions_0_File_0.json"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "File": "motions/Motions_MenuMotions_1_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_1_Sound_0.mp3"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "File": "motions/Motions_MenuMotions_2_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_2_Sound_0.mp3"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "File": "motions/Motions_MenuMotions_3_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_3_Sound_0.mp3"
+                }
+            ],
+            "Animation_20": [
+                {
+                    "File": "motions/Motions_MenuMotions_4_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_4_Sound_0.mp3"
+                }
+            ],
+            "Animation_21": [
+                {
+                    "File": "motions/Motions_MenuMotions_5_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_5_Sound_0.mp3"
+                }
+            ],
+            "Animation_22": [
+                {
+                    "File": "motions/Motions_MenuMotions_6_File_0.json",
+                    "Sound": "voice/Motions_MenuMotions_6_Sound_0.mp3"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {
+            "Items": [
+                {
+                    "Name": "JoystickX",
+                    "Id": "touch_drag11",
+                    "HitArea": "TouchDrag11",
+                    "Axis": 0,
+                    "Factor": 0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "JoystickY",
+                    "Id": "touch_drag12",
+                    "HitArea": "TouchDrag11",
+                    "Axis": 1,
+                    "Factor": -0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "BackdropX",
+                    "Id": "touch_drag13",
+                    "HitArea": "TouchDrag11",
+                    "Axis": 0,
+                    "Factor": 0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "BackdropY",
+                    "Id": "touch_drag14",
+                    "HitArea": "TouchDrag11",
+                    "Axis": 1,
+                    "Factor": -0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Items": [
+                {
+                    "Id": "ParamEyeLOpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "BlendMode": 2,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamEyeROpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "BlendMode": 2,
+                    "Input": 0
+                }
+            ],
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0,
+            "Items": [
+                {
+                    "Id": "ParamMouthOpenY",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "Input": 0
+                }
+            ],
+            "Enabled": true
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "TouchHead",
+            "Id": "TouchHead",
+            "Motion": "TapTouchHead"
+        },
+        {
+            "Name": "TouchSpecial",
+            "Id": "TouchSpecial",
+            "Motion": "TapTouchSpecial"
+        },
+        {
+            "Name": "TouchBody",
+            "Id": "TouchBody",
+            "Motion": "TapTouchBody"
+        },
+        {
+            "Name": "TouchDrag1",
+            "Id": "TouchDrag1",
+            "Motion": "TapTouchDrag1"
+        },
+        {
+            "Name": "TouchDrag2",
+            "Id": "TouchDrag2",
+            "Motion": "TapTouchDrag2"
+        },
+        {
+            "Name": "TouchDrag3",
+            "Id": "TouchDrag3",
+            "Motion": "TapTouchDrag3"
+        },
+        {
+            "Name": "TouchDrag4",
+            "Id": "TouchDrag4",
+            "Motion": "TapTouchDrag4"
+        },
+        {
+            "Name": "TouchDrag5",
+            "Id": "TouchDrag5",
+            "Motion": "TapTouchDrag5"
+        },
+        {
+            "Name": "TouchDrag6",
+            "Id": "TouchDrag6",
+            "Motion": "TapTouchDrag6"
+        },
+        {
+            "Name": "TouchDrag7",
+            "Id": "TouchDrag7",
+            "Motion": "TapTouchDrag7"
+        },
+        {
+            "Name": "TouchDrag8",
+            "Id": "TouchDrag8",
+            "Motion": "TapTouchDrag8"
+        },
+        {
+            "Name": "TouchDrag10",
+            "Id": "TouchDrag10",
+            "Motion": "TapTouchDrag10"
+        },
+        {
+            "Name": "TouchDrag11",
+            "Id": "TouchDrag11",
+            "Order": 1,
+            "Motion": "TapTouchDrag11"
+        },
+        {
+            "Name": "TouchDrag15",
+            "Id": "TouchDrag15",
+            "Motion": "TapTouchDrag15"
+        }
+    ],
+    "Options": {
+        "Name": "dewenjun_2",
+        "ScaleFactor": 0.15,
+        "TexFixed": true
+    }
+}

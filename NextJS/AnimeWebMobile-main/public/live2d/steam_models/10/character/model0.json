@@ -1,0 +1,185 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "TapHitArea": [
+                {
+                    "File": "motions/Motions_TapHitArea_0_File_0.json",
+                    "Sound": "voice/Motions_TapHitArea_0_Sound_0.wav"
+                }
+            ],
+            "Tap": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_3_File_0.json",
+                    "Sound": "voice/Motions_Tap_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_4_File_0.json",
+                    "Sound": "voice/Motions_Tap_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_5_File_0.json",
+                    "Sound": "voice/Motions_Tap_5_Sound_0.wav"
+                }
+            ],
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_TapHitArea_0_File_0.json",
+                    "Sound": "voice/Motions_TapHitArea_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_3_File_0.json",
+                    "Sound": "voice/Motions_Tap_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_4_File_0.json",
+                    "Sound": "voice/Motions_Tap_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_5_File_0.json",
+                    "Sound": "voice/Motions_Tap_5_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_TapHitArea_0_File_0.json",
+                    "Sound": "voice/Motions_TapHitArea_0_Sound_0.wav"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_Tap_3_File_0.json",
+                    "Sound": "voice/Motions_Tap_3_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_Tap_4_File_0.json",
+                    "Sound": "voice/Motions_Tap_4_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_Tap_5_File_0.json",
+                    "Sound": "voice/Motions_Tap_5_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {},
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000
+        },
+        "LipSync": {
+            "Gain": 5.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "HitArea",
+            "Id": "HitArea",
+            "Motion": "TapHitArea"
+        }
+    ],
+    "Options": {
+        "TexFixed": true
+    }
+}
