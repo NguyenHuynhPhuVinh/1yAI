@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GDT TomiSakae</string>
+    <string name="select_mode">Chọn Chế Độ Chơi Game</string>
+    <string name="mode_online">Chơi Online</string>
+    <string name="mode_online_desc">Kết nối internet để chơi game</string>
+    <string name="mode_offline">Chơi Offline</string>
+    <string name="mode_offline_desc">Chơi game mà không cần internet</string>
+    <string name="version">Phiên bản beta 0.3</string>
+</resources>

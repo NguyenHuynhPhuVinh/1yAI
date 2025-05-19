@@ -1,0 +1,35 @@
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Configuration files
+config.json
+chat_history.json
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak

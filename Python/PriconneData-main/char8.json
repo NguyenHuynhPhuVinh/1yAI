@@ -1,0 +1,193 @@
+{
+    "character": {
+      "id": 8,
+      "name": "Kaori",
+      "name_jp": "カオリ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92883_main.jpg",
+      "catchphrase": "Chào cậu! Hãy cùng nhau hát và nhảy múa nào~!",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Nhân vật mạnh đối với kẻ địch đơn lẻ",
+          "Sở hữu kỹ năng tăng tấn công tích lũy quý hiếm nên hoạt động tốt trong trận đấu với boss",
+          "Tỏa sáng trong Clan Battle với boss có HP cao"
+        ],
+        "weaknesses": [
+          "Vị trí dễ tiến lên hàng đầu",
+          "Phòng thủ thấp nên cần chú ý"
+        ],
+        "exclusive_equipment": [
+          "Tăng sát thương kỹ năng tấn công đơn lẻ",
+          "Trang bị giúp tăng tấn công vật lý và chỉ số crit vật lý"
+        ],
+        "six_star_upgrade": [
+          "Thêm hiệu ứng tăng tấn công vật lý vĩnh viễn vào UB",
+          "Sức mạnh UB tăng đáng kể",
+          "Tăng 10 điểm TP từ bộ trang bị",
+          "Khả năng tấn công đơn lẻ thuộc hàng top",
+          "Là một trong những đấu sĩ mạnh nhất khi kẻ địch bị giảm phòng thủ xuống mức tối đa",
+          "Khó sử dụng trong các trận đấu với boss có phòng thủ cao"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "A",
+        "arena": "A",
+        "boss_battle": "S",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Thú nhân tộc",
+        "guild": "Đội tự vệ (Kaon)"
+      },
+      "max_stats": {
+        "hp": 12168,
+        "physical_attack": 6216,
+        "magic_attack": 0,
+        "physical_defense": 176,
+        "magic_defense": 99
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Mũi Tên Quyền Chó Ryukyu",
+          "description": "Gây sát thương vật lý cực lớn cho 1 kẻ địch phía trước.",
+          "effects": [
+            "Gây 27367 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "six_star_effect": [
+            "Tăng sức tấn công vật lý của bản thân lên mức trung bình (hiệu ứng vĩnh viễn), và gây sát thương vật lý cực đại cho 1 kẻ địch phía trước."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Đâm Trung Tâm",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước",
+          "effects": [
+            "Gây 9122 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Tập Trung Tinh Thần",
+          "description": "Sau khi sử dụng kỹ năng này, mỗi lần Kaori tấn công kẻ địch, sát thương gây ra cho kẻ địch đó sẽ tăng lên. Hiệu ứng này có thể tích lũy tối đa 5 lần.",
+          "effects": [
+            "Mỗi lần tấn công sẽ tăng thêm 1121 sát thương"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Kỹ Thuật Luyện Khí Phong Cách Chó Ryukyu",
+          "description": "Tăng sức tấn công vật lý của bản thân lên mức trung bình khi bắt đầu trận đấu.",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân lên mức trung bình khi bắt đầu trận đấu.",
+            "Nâng cấp hiệu ứng tăng sức tấn công vật lý từ mức trung bình lên mức lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Tăng sát thương tích lũy mạnh mẽ",
+            "description": "Kỹ năng \"Tập Trung Tinh Thần\" giúp Kaori tăng sát thương đối với kẻ địch mỗi khi tấn công, tích lũy tối đa 5 lần. Khi đã tích lũy tối đa \"Tập Trung Tinh Thần\", ngay cả đòn tấn công thường cũng có thể gây sát thương cao.",
+            "sub_point": "Chỉ số crit cao nên dễ gây sát thương chí mạng là một điểm mạnh nổi bật. Tạo ra những đòn đánh thỏa mãn về mặt thị giác."
+          },
+          {
+            "main_point": "Xuất sắc trong tấn công đơn lẻ",
+            "description": "Có thể gây sát thương lớn cho kẻ địch đơn lẻ thông qua Union Burst/Kỹ năng. Kết hợp với kỹ năng tăng sát thương, sở hữu sức mạnh tấn công thuộc hàng top.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Vị trí gần hàng đầu",
+            "description": "Khả năng chống chịu thấp nên cơ bản cần phải có tank đồng đội, nhưng vị trí của cô ấy khá gần hàng đầu nên có thể đứng trước một số tank. Do đó, lựa chọn nhân vật tank bị hạn chế.",
+            "sub_point": "Một số tank như Pecorine hay Nozomi sẽ đứng sau Kaori. Khi sử dụng Kaori, hãy chọn nhân vật phù hợp từ Jun/Miyako/Kuuka/Lima tùy theo tình huống."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ chuyên đánh boss đơn lẻ",
+            "description": "Với Union Burst/Kỹ năng tấn công đơn lẻ và kỹ năng tăng sát thương, cô ấy gây được lượng sát thương lớn cho một kẻ địch. Là một đấu sĩ vật lý xuất sắc đối với boss đơn lẻ như trong Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động tốt ngay cả trong đội hình không có tank",
+            "description": "Kaori có chỉ số TP cao nhờ trang bị, nên tốc độ sử dụng Union Burst rất tốt. Nhờ khả năng hút máu, cô ấy có thể hồi phục mỗi khi gây sát thương, giúp dễ dàng trụ lại lâu hơn so với các đấu sĩ khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Tăng khả năng gây sát thương",
+            "description": "Kaori được tăng sát thương kỹ năng nhờ trang bị chuyên dụng. Ngoài ra, trang bị còn tăng sức tấn công vật lý và chỉ số crit vật lý. Khả năng gây sát thương đơn thuần của đấu sĩ được nâng cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Lợi ích từ việc tăng cường kỹ năng rất lớn",
+            "description": "Mặc dù kỹ năng được tăng cường bởi trang bị chuyên dụng chỉ tăng sát thương nên không có thay đổi đột phá, nhưng Kaori có tần suất sử dụng kỹ năng gây sát thương cao trong chu kỳ hành động. Chỉ riêng việc tăng sức mạnh tấn công cũng giúp tổng sát thương tăng đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vai trò không thay đổi",
+            "description": "Vai trò cơ bản của Kaori là một đấu sĩ xuất sắc trong các trận đấu với boss như Clan Battle. Ngay cả khi trang bị chuyên dụng, vai trò của cô ấy không thay đổi, nên là nhân vật được khuyến nghị cho những người chú trọng vào Clan Battle.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tăng sức mạnh UB + Thêm buff cho bản thân!",
+            "description": "Sức mạnh UB tấn công đơn lẻ tăng gấp khoảng 3 lần và được thêm hiệu ứng tăng tấn công vật lý cho bản thân. Sức mạnh vượt qua UB của Akino 6 sao, có thể gây sát thương cao cho kẻ địch đơn lẻ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Buff bản thân có hiệu ứng vĩnh viễn!",
+            "description": "Hiệu ứng tăng tấn công vật lý cho bản thân được thêm vào UB là hiệu ứng vĩnh viễn. Buff sẽ chồng lên mỗi khi sử dụng UB, nên càng đánh lâu càng trở thành đấu sĩ mạnh mẽ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ đơn lẻ cực kỳ mạnh mẽ",
+            "description": "Sát thương UB gây ra cho mục tiêu đơn lẻ đạt mức top. Có thể được sử dụng như một đấu sĩ để đạt điểm cao trong các trận đấu với boss Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vẫn là nhân vật thuần đấu sĩ",
+            "description": "Mặc dù có thể tăng cường bản thân, nhưng không thể hỗ trợ đồng đội bằng buff hoặc debuff phòng thủ. Khó sử dụng trong các tình huống kẻ địch có phòng thủ cao, cần các đấu sĩ debuff như Makoto (Mùa Hè) hoặc Hiyori (Princess).",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đối phó với phòng thủ thiên về trụ trong Arena",
+            "description": "Với sát thương cực cao đối với mục tiêu đơn lẻ, có thể nhắm vào việc hạ gục tank trước trong Arena. Khả năng chống chịu của bản thân thấp, dễ bị tổn thương trước UB tốc độ cao của đối thủ, nên hãy sử dụng đối với đội hình phòng thủ thiên về trụ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ジュン",
+        "ミヤコ",
+        "マコト",
+        "ラビリスタ",
+        "イノリ(タイムトラベル)",
+        "ユニ",
+        "マホ(シンデレラ)",
+        "コッコロ(プリンセス)"
+      ]
+    }
+  }

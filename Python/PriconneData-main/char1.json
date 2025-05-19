@@ -1,0 +1,194 @@
+{
+  "character": {
+    "id": 1,
+    "name": "Nozomi",
+    "name_jp": "ノゾミ",
+    "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92870_main.jpg",
+    "catchphrase": "Tôi tin tưởng bạn.\nHãy hợp tác với tôi cho đến khi tôi trở thành thần tượng hàng đầu nhé?\nAhaha, hãy tiếp tục ủng hộ tôi nhé!",
+    "element": "光属性",
+    "quick_summary": {
+      "strengths": [
+        "Tăng phòng vật lý/phép cho bản thân bằng Union Burst",
+        "Tăng tấn công vật lý cho toàn bộ đồng đội bằng Union Burst",
+        "Thu hút sự chú ý của kẻ địch bằng hiệu ứng khiêu khích",
+        "Sở hữu kỹ năng gây choáng diện rộng mạnh mẽ",
+        "Tăng khả năng sống sót của party bằng kỹ năng hồi máu"
+      ],
+      "weaknesses": [
+        "Lượng hồi máu của kỹ năng hơi thấp",
+        "Không thể sử dụng khiêu khích khi bắt đầu trận chiến"
+      ],
+      "exclusive_equipment": [
+        "Chỉ số phòng thủ tăng thêm",
+        "Kỹ năng gây choáng được thêm hiệu ứng giảm tấn công vật lý"
+      ],
+      "six_star_upgrade": [
+        "Có thể tạo lá chắn vô hiệu hóa sát thương vật lý/phép cho toàn đội",
+        "Thêm hiệu ứng gây choáng toàn bộ kẻ địch",
+        "Thời gian buff và khiêu khích kéo dài hơn so với trước khi nâng 6 sao",
+        "Tăng hiệu quả của buff tấn công vật lý/buff phòng thủ bản thân",
+        "Tăng 5 điểm TP từ set bonus"
+      ]
+    },
+    "content_ratings_text": {
+      "quest": "S",
+      "high_difficulty_quest": "S+",
+      "arena": "S",
+      "boss_battle": "A",
+      "elemental_evaluation": "S+"
+    },
+    "basic_information": {
+      "type": "前衛 / 物理攻撃",
+      "initial_rarity": "★★★☆☆",
+      "race": "Nhân loại",
+      "guild": "Carmina"
+    },
+    "max_stats": {
+      "hp": 26237,
+      "physical_attack": 3977,
+      "magic_attack": 20,
+      "physical_defense": 384,
+      "magic_defense": 304
+    },
+    "skills": {
+      "union_burst": {
+        "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+        "name": "Biểu Diễn Trên Sân Khấu",
+        "description": "【Khiêu khích】Tăng nhẹ tấn công vật lý cho toàn đội, tăng mạnh phòng thủ vật lý và phòng thủ phép cho bản thân. Đồng thời khiêu khích toàn bộ kẻ địch.",
+        "effects": [
+          "Tăng tấn công vật lý của toàn đội lên 509",
+          "Tăng phòng thủ vật lý của bản thân lên 204",
+          "Tăng phòng thủ phép của bản thân lên 204",
+          "Khiêu khích toàn bộ kẻ địch"
+        ],
+        "six_star_effect": [
+          "【Khiêu khích】Tăng mạnh tấn công vật lý cho toàn đội, tạo lá chắn vô hiệu hóa sát thương vật lý/phép, tăng cực mạnh phòng thủ vật lý và phòng thủ phép cho bản thân. Đồng thời khiêu khích và gây choáng toàn bộ kẻ địch."
+        ]
+      },
+      "skill_1": {
+        "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_13.png",
+        "name": "Chém Claire",
+        "description": "Gây sát thương vật lý nhẹ cho tất cả kẻ địch ở phía trước, đồng thời gây choáng.",
+        "effects": [
+          "Gây 1122 sát thương vật lý cho kẻ địch trong phạm vi",
+          "Làm cho kẻ địch trong phạm vi không thể hành động trong một khoảng thời gian"
+        ],
+        "exclusive_equipment_effect": [
+          "Gây sát thương vật lý nhẹ cho tất cả kẻ địch ở phía trước, đồng thời gây choáng và giảm nhẹ tấn công vật lý (khoảng 12 giây)."
+        ]
+      },
+      "skill_2": {
+        "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+        "name": "Cổ Vũ Thần Tượng",
+        "description": "Hồi phục HP trung bình cho tất cả đồng đội xung quanh bản thân.",
+        "effects": [
+          "Hồi phục 2035 HP cho đồng đội trong phạm vi"
+        ]
+      },
+      "ex_skill": {
+        "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_19.png",
+        "name": "Nụ Cười Rạng Rỡ",
+        "description": "Khi bắt đầu trận đấu, tăng trung bình phòng thủ vật lý cho bản thân.",
+        "effects": [
+          "Tăng trung bình phòng thủ vật lý cho bản thân",
+          "Tăng nhẹ phòng thủ phép"
+        ]
+      }
+    },
+    "strengths_and_usage": {
+      "points": [
+        {
+          "main_point": "Union Burst cực kỳ mạnh mẽ",
+          "description": "Nozomi có thể tăng tấn công vật lý cho toàn đội, đồng thời tăng phòng thủ và gây khiêu khích với Union Burst mạnh mẽ. Ngoài ra, cô còn có kỹ năng gây choáng nên rất giỏi trong việc cản trở kẻ địch.",
+          "sub_point": null
+        },
+        {
+          "main_point": "HP cao và là tank xuất sắc",
+          "description": "Nozomi có chỉ số HP thuộc hàng top. Cô còn có kỹ năng hồi máu cho bản thân và đồng đội xung quanh, nên còn đóng vai trò hỗ trợ trong đội hình.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Tần suất sử dụng kỹ năng choáng cao",
+          "description": "Mô hình kỹ năng của Nozomi có nhiều kỹ năng gây choáng. Trong Arena và các tình huống mà choáng diện rộng có hiệu quả, cô thể hiện khả năng cản trở kẻ địch rất cao.",
+          "sub_point": null
+        }
+      ]
+    },
+    "weaknesses_and_limitations": {
+      "points": [
+        {
+          "main_point": "Lượng hồi phục thấp",
+          "description": "Kỹ năng hồi phục của Nozomi có thể hồi cho nhiều nhân vật xung quanh, nhưng lượng hồi không cao. Tần suất sử dụng kỹ năng hồi phục cũng không nhiều, nên nếu chỉ dựa vào Nozomi để hồi máu, đội hình có thể không đủ khả năng chống chịu.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Không thể khiêu khích ngay từ đầu",
+          "description": "Khác với các nhân vật như Kuuka có thể khiêu khích bằng kỹ năng, Nozomi sử dụng UB để khiêu khích. Lúc đầu trận, cô không thể bảo vệ đồng đội khỏi các nhân vật như Tamaki hay Hatsune, những người có thể tấn công bỏ qua tank.",
+          "sub_point": null
+        }
+      ]
+    },
+    "overall_evaluation": {
+      "points": [
+        {
+          "main_point": "Tuyến đầu tối ưu cho cả Quest và Arena",
+          "description": "Với khả năng tăng phòng thủ vật lý/phép và hiệu ứng khiêu khích, Nozomi có những khả năng lý tưởng của một tank và dễ dàng đối phó với mọi loại tấn công. Ngoài ra, với kỹ năng gây choáng và hồi phục, cô có thể tăng khả năng sống sót cho cả đội, vừa làm lá chắn vừa cung cấp hỗ trợ hàng đầu.",
+          "sub_point": null
+        }
+      ]
+    },
+    "equipment_evaluation": {
+      "points": [
+        {
+          "main_point": "Khả năng phòng thủ được tăng cường",
+          "description": "Trang bị giúp tăng chỉ số HP và phòng thủ, làm mạnh thêm khả năng tank vốn đã xuất sắc. Tuy nhiên, phần tăng cường kỹ năng hầu như không thay đổi, nên cảm giác sử dụng không khác nhiều.",
+          "sub_point": null
+        }
+      ]
+    },
+    "six_star_improvements": {
+      "points": [
+        {
+          "main_point": "Khả năng hỗ trợ của UB được cải thiện",
+          "description": "Sau khi nâng 6 sao, cô có thể tạo lá chắn vô hiệu hóa sát thương vật lý/phép cho toàn đội. Hiệu quả của buff tấn công vật lý cũng tăng lên, cải thiện khả năng hỗ trợ.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Thêm hiệu ứng gây choáng toàn bộ kẻ địch!",
+          "description": "UB được bổ sung thêm hiệu ứng gây choáng toàn bộ kẻ địch. Đây là hiệu ứng choáng không gây sát thương nên có thể bỏ qua lá chắn của kẻ địch. Kết hợp với kỹ năng choáng, cô có thể cản trở kẻ địch hiệu quả hơn.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Thời gian hiệu lực của buff cũng tăng nhẹ",
+          "description": "Khi nâng 6 sao, thời gian hiệu lực của buff tấn công cho đồng đội, buff phòng thủ cho bản thân và khiêu khích đều tăng nhẹ. Cô có thể bổ sung khả năng chống chịu cho bản thân và đồng đội tốt hơn trước.",
+          "sub_point": null
+        }
+      ]
+    },
+    "six_star_evaluation": {
+      "points": [
+        {
+          "main_point": "Tank cho boss độ khó cao",
+          "description": "Với phòng thủ cơ bản cao, khả năng khiêu khích và tạo lá chắn cho toàn đội, cô có khả năng bảo vệ đồng đội rất tốt. Cô có thể tỏa sáng trong các trận boss khó như Tháp Luna, nơi kẻ địch có sát thương cao và gây debuff.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Ứng viên tank cho Clan Battle",
+          "description": "Cô là ứng viên cho vai trò giảm sát thương và ngăn debuff. Công dụng tương tự Saren (Christmas) nhưng không có khả năng tự chống chịu cao như Saren (Christmas), thay vào đó cô có thể hỗ trợ khả năng sống sót cho đồng đội.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Tốc độ ban đầu chậm là điểm yếu trong Arena",
+          "description": "Mặc dù có UB mạnh, nhưng với khả năng chống chịu cao và TP thấp, UB của cô tích lũy chậm và tốc độ ban đầu thấp. Trong môi trường Arena nơi tấn công nhanh là mạnh mẽ, sự chậm chạp của UB là nhược điểm. UB của cô mạnh và có thể phát huy hiệu quả trong một số tình huống, nên cô là ứng viên tank cho đội hình thứ 2, 3 trong Princess Arena.",
+          "sub_point": null
+        }
+      ]
+    },
+    "recommended_pairings_name": [
+      "モニカ",
+      "ジュン",
+      "マコト",
+      "シズル"
+    ]
+  }
+}

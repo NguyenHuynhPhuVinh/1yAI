@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gdt-tomisakae.vercel.app/sitemap.xml 

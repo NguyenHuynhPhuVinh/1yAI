@@ -1,0 +1,213 @@
+{
+    "character": {
+      "id": 19,
+      "name": "Ninon",
+      "name_jp": "ニノン",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92895_main.jpg",
+      "catchphrase": "Rất vui được gặp bạn! Shogun, hãy cùng tôi thống nhất thiên hạ nào!",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Chỉ số HP/Tấn công hàng đầu trong nhóm vị trí giữa",
+          "Dễ dàng xử lý kẻ địch yếu với đòn tấn công diện rộng",
+          "Có thể hồi TP khi hạ gục kẻ địch bằng kỹ năng",
+          "Có thể đẩy lùi và cản trở một kẻ địch"
+        ],
+        "weaknesses": [
+          "Không mạnh khi đối đầu với boss do chủ yếu tấn công diện rộng",
+          "Không thể hồi TP nếu không hạ gục kẻ địch"
+        ],
+        "exclusive_equipment": [
+          "Tăng cường sức mạnh và hiệu quả kỹ năng",
+          "Tăng chỉ số từ trang bị rất tốt"
+        ],
+        "six_star_upgrade": [
+          "Tăng TP từ set bonus",
+          "UB bổ sung hiệu ứng tăng tấn công vật lý và hồi TP",
+          "Tăng tấn công vật lý và hồi TP dựa trên số kẻ địch bị hạ gục bởi UB",
+          "Cực kỳ mạnh trong tấn công Arena",
+          "Có thể hoạt động hiệu quả trong nhiệm vụ chính nếu có thể hạ gục kẻ địch"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "B",
+        "arena": "SS",
+        "boss_battle": "A",
+        "elemental_evaluation": "B"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Người",
+        "guild": "Weissflügel Chi nhánh Landosol"
+      },
+      "max_stats": {
+        "hp": 17886,
+        "physical_attack": 6341,
+        "magic_attack": 0,
+        "physical_defense": 197,
+        "magic_defense": 147
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92895_ub.jpg",
+          "name": "Nhẫn Pháp - Địa Ngục Thiêu Đốt",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước.",
+          "effects": [
+            "Gây 8400 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước, tăng mạnh tấn công vật lý của bản thân và hồi TP nhỏ.",
+            "Lượng tăng tấn công vật lý và hồi TP tăng theo số kẻ địch bị hạ gục. (※Mỗi kẻ địch bị hạ gục sẽ tăng khoảng 8440 tấn công vật lý và hồi thêm 200 TP.)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1_1.png",
+          "name": "Đòn Đánh Lốc Xoáy",
+          "description": "Gây sát thương vật lý nhỏ cho tất cả kẻ địch trong phạm vi phía trước, và nếu hạ gục kẻ địch bằng kỹ năng này, hồi TP trung bình cho bản thân.",
+          "effects": [
+            "Gây 4200 sát thương vật lý cho kẻ địch trong phạm vi",
+            "Khi hạ gục kẻ địch, hồi 150 TP cho bản thân"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước, và nếu hạ gục kẻ địch bằng kỹ năng này, hồi TP cực lớn cho bản thân."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1_2.png",
+          "name": "Quạt Lửa",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước và đẩy lùi chúng một khoảng nhỏ.",
+          "effects": [
+            "Gây 7000 sát thương vật lý cho một kẻ địch"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Tăng Sức Mạnh Bản Năng",
+          "description": "Tăng tấn công vật lý trung bình cho bản thân khi bắt đầu trận đấu.",
+          "effects": [
+            "Tăng tấn công vật lý trung bình cho bản thân khi bắt đầu trận đấu.",
+            "Nâng cấp hiệu ứng tăng tấn công vật lý trung bình thành tăng tấn công vật lý lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Chỉ số cao hơn so với các nhân vật vị trí giữa khác",
+            "description": "Ninon có chỉ số HP và tấn công cao hơn so với các nhân vật vị trí giữa khác. Hơn nữa, với độ hiếm ban đầu là 3 sao, cô ấy có thể đạt được chỉ số cao mà không cần mở tài năng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tấn công vật lý với nhiều kỹ năng gây sát thương",
+            "description": "Ninon sở hữu Union Burst và các kỹ năng có phạm vi tấn công rộng. Cô ấy là một nhân vật tấn công có thể dễ dàng gây sát thương diện rộng nhờ vào chỉ số tấn công vật lý cao của mình.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kỹ năng đẩy lùi rất hữu ích",
+            "description": "Ninon có thể gây sát thương và đẩy lùi một kẻ địch. Việc đẩy lùi giúp gom kẻ địch lại với nhau, làm cho các đòn tấn công diện rộng của cô ấy có thể ảnh hưởng đến nhiều kẻ địch hơn, đây là một điểm mạnh đáng chú ý.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sát thương đơn mục tiêu thấp",
+            "description": "Mặc dù Ninon có nhiều kỹ năng gây sát thương, nhưng phần lớn là tấn công diện rộng, nên không hiệu quả khi đối đầu với một kẻ địch đơn lẻ. Khi sử dụng Ninon, tốt nhất nên đối đầu với nhiều kẻ địch để tận dụng tối đa khả năng tấn công của cô ấy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Xuất sắc trong Arena khi đối đầu với nhân vật phép thuật vị trí giữa",
+            "description": "Ninon là một nhân vật tấn công có thể sử dụng Union Burst để tấn công diện rộng. Cô ấy đảm nhận vai trò quý giá là có thể hạ gục các nhân vật tấn công ở vị trí giữa đang đứng sau các tanker.",
+            "sub_point": "Đặc biệt hiệu quả khi đối đầu với các nhân vật tấn công vị trí giữa yếu về phòng thủ như Ilya. Hãy cùng Ninon chinh phục Arena nào!"
+          },
+          {
+            "main_point": "Đóng vai trò tấn công trong các nhiệm vụ",
+            "description": "Ninon là nhân vật vị trí giữa nên hoạt động tốt trong các nhiệm vụ có nhiều đòn tấn công nhắm vào vị trí trước. Mặc dù sát thương tức thời không cao do chủ yếu tấn công diện rộng, nhưng với nhiều kỹ năng gây sát thương, cô ấy có sát thương liên tục cao.",
+            "sub_point": "Ninon có thể thiếu sát thương ở giai đoạn đầu, nhưng khi đạt Rank 7 và học được EX Skill, cảm giác sử dụng sẽ thay đổi. Hãy phát triển cô ấy nếu có thể!"
+          },
+          {
+            "main_point": "Là ứng cử viên cho đội hình chiến đấu đa mục tiêu",
+            "description": "Trong các trận đấu đa mục tiêu, nơi một boss có nhiều điểm tấn công, các đòn tấn công diện rộng rất hiệu quả. Ninon có thể sử dụng kỹ năng/UB để tấn công diện rộng, nên mặc dù không phải là lựa chọn hàng đầu, cô ấy vẫn là ứng cử viên cho đội hình trong các trận đấu đa mục tiêu.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Xuất sắc trong các trận boss triệu hồi quái nhỏ",
+            "description": "Trong các trận boss có triệu hồi quái nhỏ, Ninon có thể nhắm đến việc hạ gục chúng bằng UB. Mỗi lần hạ gục quái nhỏ sẽ tăng sức mạnh thông qua buff, giúp giảm thiểu việc bỏ sót quái nhỏ, đây là một điểm hấp dẫn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Tăng sát thương kỹ năng",
+            "description": "Trang bị chuyên dụng tăng cường kỹ năng tấn công diện rộng. Sát thương của kỹ năng tăng lên, và hơn nữa, khi hạ gục kẻ địch bằng kỹ năng, có thể kích hoạt UB ngay lập tức. Việc trang bị cũng làm tăng chỉ số tấn công và chí mạng, đây là một điểm mạnh đáng chú ý.",
+            "sub_point": "Mặc dù có đối thủ mạnh là Halloween Shinobu, Ninon vẫn xuất sắc trong Arena. Kết hợp với các nhân vật như Tamaki, Arisa, Christmas Chika để tạo đội hình có thể hạ gục kẻ địch bằng kỹ năng sẽ giúp phát huy tối đa tiềm năng của cô ấy."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB bổ sung tự buff + hồi TP!",
+            "description": "Khi đạt 6 sao, UB được bổ sung hiệu ứng tăng tấn công vật lý + hồi TP cho bản thân. Hiệu ứng bổ sung này tăng theo số lượng kẻ địch bị hạ gục bởi UB. Đây là UB tấn công tỏa sáng trong các nhiệm vụ và Arena có nhiều kẻ địch.",
+            "sub_point": "Nếu hạ gục được 2 kẻ địch bằng UB, có thể sử dụng UB liên tục. Sát thương khi sử dụng UB liên tiếp 2 lần trở lên có thể gây sát thương chí mạng ngay cả với tanker vật lý...!"
+          },
+          {
+            "main_point": "Mối tương quan giữa số lượng hạ gục bởi UB và buff/hồi TP",
+            "description": null,
+            "sub_point": null
+          },
+          {
+            "main_point": "Sức mạnh và phạm vi UB được tăng cường!",
+            "description": "Sức mạnh và phạm vi tấn công của UB cũng được tăng cường, giúp dễ dàng nhắm vào việc hạ gục các nhân vật yếu với sát thương vật lý. Với sự hỗ trợ từ các buff tấn công vật lý hoặc chí mạng, có thể nhắm đến việc hạ gục ngay lập tức các nhân vật có độ bền tương đương Io 6 sao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng TP và các chỉ số khác cũng được tăng cường",
+            "description": "Khi đạt 6 sao, các chỉ số cơ bản tăng đáng kể. Ngoài ra, set bonus cũng tăng cường tốc độ tăng TP. Tốc độ quay vòng UB được cải thiện, tạo nhiều cơ hội hơn để hạ gục kẻ địch bằng UB.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Cực kỳ mạnh trong tấn công Arena",
+            "description": "Sức mạnh và phạm vi hiệu quả của UB đều được tăng cường, làm tăng khả năng tiêu diệt. Đặc biệt mạnh khi có thể hạ gục ít nhất 1 kẻ địch bằng UB. Hãy hỗ trợ Ninon với các buff và tăng khả năng hạ gục ngay lập tức để có thể sử dụng UB liên tục.",
+            "sub_point": "Để tăng số lượng mục tiêu bị tấn công bởi UB, nên 'đặt Ninon ở vị trí đầu tiên' hoặc 'kết hợp với Lima'."
+          },
+          {
+            "main_point": "Có thể hoạt động tốt trong phòng thủ",
+            "description": "Mặc dù cần sự hỗ trợ, nhưng khả năng hạ gục kẻ địch nhanh chóng giúp cô ấy hoạt động tốt trong đội hình phòng thủ. Tùy thuộc vào đội hình đối phương, việc đặt cô ấy trong đội hình ẩn của Princess Arena có thể rất hiệu quả.",
+            "sub_point": "Trong Princess Arena, từ một thứ hạng nhất định, bạn có thể ẩn đội hình của mình. Vì bên tấn công thường sử dụng các nhân vật tấn công có độ bền thấp, Ninon tấn công nhanh có thể rất hiệu quả."
+          },
+          {
+            "main_point": "Có thể làm nhân vật tấn công trong trận đa mục tiêu",
+            "description": "Có thể gây sát thương bằng UB nên có thể đảm nhận vai trò tấn công trong trận đa mục tiêu. Tuy nhiên, hiệu ứng tăng buff/hồi TP không tăng khi phá vỡ (break) bằng UB. Trong Clan Battle, nơi thường cần các nhân vật có khả năng hỗ trợ, cô ấy chỉ là lựa chọn thay thế.",
+            "sub_point": "Trong vai trò tấn công thuần túy, cô ấy phải cạnh tranh vị trí với các nhân vật như Summer Luka hoặc Muimi, nên khá khó khăn. Hy vọng cô ấy sẽ tỏa sáng khi có các boss đa mục tiêu với meta vị trí trước!"
+          },
+          {
+            "main_point": "Xuất sắc trong các trận boss triệu hồi quái nhỏ",
+            "description": "Trong các trận boss có triệu hồi quái nhỏ, Ninon có thể nhắm đến việc hạ gục chúng bằng UB. Mỗi lần hạ gục quái nhỏ sẽ tăng sức mạnh thông qua buff, giúp giảm thiểu việc bỏ sót quái nhỏ, đây là một điểm hấp dẫn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "サレン",
+        "ユキ",
+        "ユニ",
+        "リマ",
+        "正月コッコロ",
+        "正月レイ"
+      ]
+    }
+  }

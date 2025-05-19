@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.custom-toastify {
+  width: 50% !important;
+  margin-left: 50% !important;
+}
+
+* {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Safari và Chrome */
+}
+
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Zooming entrances */
+@-webkit-keyframes zoomInLow {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.95, 0.95, 0.95);
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomInLow {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.95, 0.95, 0.95);
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate__zoomInLow {
+  -webkit-animation-name: zoomInLow;
+  animation-name: zoomInLow;
+}
+
+.box {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#131219, #131219) padding-box, linear-gradient(var(--angle), #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) border-box;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.box-tomi {
+  border: 5px solid transparent;
+  background:
+    linear-gradient(#131219, #131219) padding-box, linear-gradient(var(--angle), transparent 50%, #f03 50%, transparent) border-box;
+  animation: rotate 0.5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.truncate-2-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* Số dòng tối đa muốn hiển thị */
+  overflow: hidden;
+}

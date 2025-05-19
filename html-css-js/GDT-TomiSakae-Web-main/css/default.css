@@ -1,0 +1,237 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+
+/*WinJS custom style overrides - created with http://code.msdn.microsoft.com/windowsapps/Theme-roller-sample-64b679f2
+	settings:
+	1: 255, 182, 56
+	2: 0,0,0
+	3: 255, 165, 0
+	4: 255,255,255
+	
+	removed link color overrides
+	*/
+
+
+/*
+Text selection color
+*/
+::selection, select:focus::-ms-value {
+	background-color: rgb(255, 165, 0);
+	color: rgb(255, 255, 255);
+}
+
+/*
+Option control color
+*/
+option:checked {
+	background-color: rgb(255, 165, 0);
+	color: rgb(255, 255, 255);
+}
+
+	option:checked:hover, select:focus option:checked:hover {
+		background-color: rgb(255, 177, 33);
+		color: rgb(255, 255, 255);
+	}
+
+/*
+Button control colors.
+*/
+button[type=submit], input[type=submit] {
+	background-color: rgb(255, 165, 0);
+	border-color: rgb(255, 165, 0);
+	color: rgb(255, 255, 255);
+}
+
+	button[type=submit]:hover, input[type=submit]:hover {
+		background-color: rgb(255, 177, 33);
+		border-color: rgb(255, 177, 33);
+	}
+
+/*
+Range control colors.
+*/
+input[type=range]::-ms-fill-lower {
+	background-color: rgb(255, 165, 0);
+}
+
+input[type=range]:hover::-ms-fill-lower {
+	background-color: rgb(255, 177, 33);
+}
+
+/*
+Progress control colors.
+*/
+progress, progress:indeterminate {
+	color: rgb(255, 165, 0);
+}
+
+/*
+ListView control colors.
+*/
+.win-listview .win-container.win-selected:hover {
+	background-color: rgb(255, 177, 33);
+}
+
+.win-listview .win-selected {
+	color: rgb(255, 255, 255);
+}
+
+.win-dragoverlay {
+	background-color: rgb(255, 165, 0);
+}
+
+.win-container.win-selected .win-selectionborder {
+	border: 4px solid rgb(255, 165, 0);
+}
+
+.win-container.win-selected:hover .win-selectionborder {
+	border: 4px solid rgb(255, 177, 33);
+}
+
+.win-selected .win-selectionbackground {
+	background-color: rgb(255, 165, 0);
+}
+
+.win-selected:hover .win-selectionbackground {
+	background-color: rgb(255, 177, 33);
+}
+
+.win-selectioncheckmark {
+	color: rgb(255, 255, 255);
+}
+
+.win-selectionhint {
+	color: rgb(255, 165, 0);
+}
+
+.win-selectioncheckmarkbackground {
+	border-top: solid 20px rgb(255, 165, 0);
+	border-right: solid 20px rgb(255, 165, 0);
+	border-left: solid 20px transparent;
+	border-bottom: solid 20px transparent;
+}
+
+.win-container.win-selected:hover .win-selectioncheckmarkbackground {
+	border-top: solid 20px rgb(255, 177, 33);
+	border-right: solid 20px rgb(255, 177, 33);
+	border-left: solid 20px transparent;
+	border-bottom: solid 20px transparent;
+}
+
+.win-rtl .win-selectioncheckmarkbackground {
+	border-top: solid 20px rgb(255, 165, 0));
+	border-left: solid 20px rgb(255, 165, 0);
+	border-right: solid 20px transparent;
+	border-bottom: solid 20px transparent;
+}
+
+.win-rtl .win-container.win-selected:hover .win-selectioncheckmarkbackground {
+	border-top: solid 20px rgb(255, 177, 33);
+	border-left: solid 20px rgb(255, 177, 33);
+	border-right: solid 20px transparent;
+	border-bottom: solid 20px transparent;
+}
+
+/*
+Command button colors.
+*/
+button.win-command {
+	color: rgb(0, 0, 0);
+}
+
+	button.win-command:hover {
+		color: rgb(0, 0, 0);
+	}
+
+	button.win-command:active {
+		color: rgb(0, 0, 0);
+	}
+
+	button.win-command:hover:active {
+		color: rgb(0, 0, 0);
+	}
+
+.win-commandimage {
+	color: rgb(0, 0, 0);
+}
+
+button:hover:active .win-commandimage {
+	color: rgb(256, 182, 56);
+}
+
+button[aria-selected=true] .win-commandimage {
+	color: rgb(256, 182, 56);
+}
+
+button[aria-selected=true]:hover .win-commandimage,
+button[aria-selected=true]:active .win-commandimage,
+button[aria-selected=true]:hover:active .win-commandimage {
+	color: rgb(0, 0, 0);
+}
+
+/*
+Command ring colors.
+*/
+.win-commandring {
+	background-color: transparent;
+	border-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+}
+
+button:hover .win-commandring, button:active .win-commandring {
+	background-color: rgb(256, 191, 82);
+	border-color: rgb(0, 0, 0);
+}
+
+button:hover:active .win-commandring {
+	background-color: rgb(0, 0, 0);
+	border-color: rgb(0, 0, 0);
+}
+
+button[aria-selected=true] .win-commandring {
+	background-color: rgb(0, 0, 0);
+	border-color: rgb(0, 0, 0);
+}
+
+button[aria-selected=true]:hover .win-commandring,
+button[aria-selected=true]:active .win-commandring {
+	background-color: transparent;
+	border-color: rgb(0, 0, 0);
+}
+
+button[aria-selected=true]:hover:active .win-commandring {
+	background-color: transparent;
+	border-color: rgb(0, 0, 0);
+}
+
+/*
+AppBar control colors.
+*/
+.win-appbar {
+	background-color: rgb(256, 182, 56);
+	border-color: rgb(256, 182, 56);
+}
+
+/*
+Rating control colors.
+*/
+.win-rating .win-star.win-user.win-full {
+	color: rgb(255, 165, 0);
+}
+
+.win-rating .win-star.win-tentative.win-full {
+	color: rgb(255, 177, 33);
+}

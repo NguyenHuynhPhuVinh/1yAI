@@ -1,0 +1,201 @@
+{
+    "character": {
+      "id": 6,
+      "name": "Kuuka",
+      "name_jp": "クウカ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92881_main.jpg",
+      "catchphrase": "Tôi đang nghĩ về bạn đấy.\nKuuka không thể chống cự này, làm thế này, làm thế kia, hừ hừ, hừ hừ hừ...",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Triển khai lá chắn hấp thụ phép thuật bằng Union Burst",
+          "Khiêu khích kẻ địch + tăng phòng thủ vật lý để bảo vệ đồng đội",
+          "Có thể tăng phòng thủ phép thuật thông qua Skill và EX Skill",
+          "Là tank hiếm có khả năng chống đỡ phép thuật",
+          "Tỏa sáng trong các màn chơi sau với đòn tấn công phép thuật mạnh"
+        ],
+        "weaknesses": [
+          "Không mạnh lắm đối với tấn công vật lý",
+          "Khả năng gây sát thương không cao"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng hồi phục cho kỹ năng khiêu khích",
+          "Tăng hiệu quả tăng phòng thủ vật lý",
+          "Có thể tăng cường lượng hồi phục thông qua chỉ số trang bị"
+        ],
+        "six_star_upgrade": [
+          "Tăng hiệu quả lá chắn hấp thụ phép thuật",
+          "Thêm hiệu ứng mới giảm 25% sát thương phép thuật lên bản thân",
+          "Không có thêm hiệu ứng hỗ trợ đồng đội",
+          "Được tăng cường thuần túy như một tank phép thuật"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "S",
+        "high_difficulty_quest": "SS",
+        "arena": "S+",
+        "boss_battle": "A",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Nhân loại",
+        "guild": "Weissflügel chi nhánh Landosol"
+      },
+      "max_stats": {
+        "hp": 21414,
+        "physical_attack": 2660,
+        "magic_attack": 749,
+        "physical_defense": 309,
+        "magic_defense": 382
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_8.png",
+          "name": "Chuyến Đi Xuất Thần",
+          "description": "Triển khai lá chắn hấp thụ phép thuật cho bản thân, đồng thời hồi phục HP ở mức trung bình.",
+          "effects": [
+            "Triển khai lá chắn hấp thụ phép thuật với lượng 3955 sát thương",
+            "Hồi phục 3130 HP cho bản thân"
+          ],
+          "six_star_effect": [
+            "Triển khai lá chắn hấp thụ phép thuật cho bản thân (tăng hiệu quả), hồi phục HP ở mức trung bình. Thêm vào đó, bản thân nhận hiệu ứng giảm sát thương phép thuật. (Mỗi hiệu ứng kéo dài khoảng 18 giây)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_7.png",
+          "name": "Nhắm Vào Kuuka Này!",
+          "description": "【Khiêu khích】Khiêu khích toàn bộ kẻ địch, đồng thời tăng mạnh phòng thủ vật lý cho bản thân",
+          "effects": [
+            "Khiêu khích toàn bộ kẻ địch",
+            "Tăng phòng thủ vật lý của bản thân lên 136 (khoảng 12 giây)"
+          ],
+          "exclusive_equipment_effect": [
+            "Khiêu khích toàn bộ kẻ địch, tăng mạnh phòng thủ vật lý cho bản thân. Thêm vào đó, hồi phục HP ở mức trung bình cho bản thân."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Chào Mừng Đến Với Cảm Giác Mãnh Liệt!",
+          "description": "Tăng phòng thủ phép thuật của bản thân ở mức trung bình",
+          "effects": [
+            "Tăng phòng thủ phép thuật của bản thân lên 181 (khoảng 12 giây)"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_20.png",
+          "name": "Bảo Vệ Bằng Tưởng Tượng",
+          "description": "Khi bắt đầu trận đấu, tăng phòng thủ phép thuật của bản thân ở mức trung bình",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng phòng thủ phép thuật của bản thân ở mức trung bình",
+            "Nâng cấp hiệu ứng tăng phòng thủ phép thuật từ mức trung bình lên mức mạnh."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Tank phòng thủ phép thuật dễ sử dụng",
+            "description": "Kuuka có thể tăng phòng thủ phép thuật của bản thân thông qua Skill và EX Skill. Ngoài ra, với Union Burst, cô có thể triển khai lá chắn hấp thụ các đòn tấn công phép thuật của kẻ địch, khiến cô trở thành một tank mạnh mẽ đối với các đòn tấn công phép thuật.",
+            "sub_point": "Mặc dù chủ yếu là phòng thủ phép thuật, nhưng cô cũng có khả năng tăng phòng thủ vật lý. Vì vậy, thực tế cô có thể đối phó với cả hai loại tấn công vật lý/phép thuật."
+          },
+          {
+            "main_point": "Kỹ năng khiêu khích đối phó với kẻ địch tấn công từ xa",
+            "description": "Với kỹ năng khiêu khích toàn bộ kẻ địch, cô có thể thu hút mọi đòn tấn công về phía mình. Cô có thể đóng vai trò tank ngay cả đối với kẻ địch tấn công tầm trung và xa, giúp bảo vệ các đồng đội tấn công.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tỏa sáng trong các màn chơi sau",
+            "description": "Kuuka là một tank mạnh mẽ đối với các đòn tấn công phép thuật. Cô cực kỳ hiệu quả trong các màn chơi sau khi cần đối phó với các đòn tấn công phép thuật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Dễ bị đánh bại khi đứng đầu",
+            "description": "Mặc dù Kuuka có kỹ năng tăng phòng thủ tốt, nhưng cô chỉ có thể tự hồi phục thông qua Union Burst. Khi đặt ở vị trí đầu tiên, cô có thể bị đánh bại trước khi kích hoạt Union Burst, vì vậy hãy cẩn thận.",
+            "sub_point": "Trong số các nhân vật tank, cô có phòng thủ vật lý thấp, vì vậy khi bị giảm phòng thủ, cô dễ bị đánh bại nhanh chóng. Khi sử dụng trong Arena, hãy đảm bảo rằng cô được phát triển đầy đủ!"
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Tank mạnh mẽ trong Arena",
+            "description": "Trong Arena, nhiều nhân vật có đòn tấn công phép thuật mạnh thường được sử dụng. Kuuka có phòng thủ phép thuật cao và khả năng hấp thụ phép thuật, vì vậy tùy thuộc vào đội hình đối phương, cô có thể là một tank cực kỳ hiệu quả.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đối phó với các đòn tấn công bỏ qua tank",
+            "description": "Kuuka có thể sử dụng khiêu khích để nhận các đòn tấn công từ kỹ năng có thể bỏ qua tank như của Hatsune hoặc Tamaki. Điều này giúp bảo vệ các đồng đội tấn công dễ dàng hơn và góp phần vào chiến thắng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tỏa sáng trong các màn chơi sau",
+            "description": "Kuuka là một tank mạnh mẽ đối với các đòn tấn công phép thuật. Cô cực kỳ hiệu quả trong các màn chơi sau khi cần đối phó với các đòn tấn công phép thuật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Trở nên bền bỉ hơn với hồi phục từ kỹ năng!",
+            "description": "Với việc thêm tự hồi phục vào kỹ năng khiêu khích, cô trở nên bền bỉ hơn trước. Cô trở nên rất tiện dụng làm tank trong các nhiệm vụ và Tháp Luna, mở rộng phạm vi hoạt động của mình.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Nâng cao khả năng tank thông qua chỉ số trang bị",
+            "description": "Trang bị của Kuuka tăng phòng thủ và lượng hồi phục. Thông qua giới hạn đột phá, bạn có thể tăng độ bền của cô và đáng kể tăng hiệu quả hồi phục từ Skill/UB. Cô trở thành một tank mạnh mẽ hơn trong Arena.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Thêm hiệu ứng giảm sát thương phép thuật!",
+            "description": "Khi lên 6 sao, không chỉ tăng hiệu quả lá chắn hấp thụ phép thuật của UB, mà còn thêm hiệu ứng giảm 25% sát thương phép thuật lên bản thân. Khả năng kháng phép thuật vốn đã cao nay càng được tăng cường, khiến cô khó bị hạ gục bởi các đòn tấn công phép thuật hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng cường toàn diện các chỉ số phòng thủ",
+            "description": "Khi lên 6 sao, HP/phòng thủ và các chỉ số phòng thủ khác đều tăng. Ngoài ra, với tấn công vật lý cao hơn, lượng hồi phục thực tế từ Skill/UB cũng tăng lên.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Tỏa sáng trong các trận đấu khó",
+            "description": "Với việc tăng đáng kể các chỉ số phòng thủ, cô có thể đóng vai trò tank trong các nhiệm vụ khó như Tháp Luna tốt hơn trước. Với khả năng hiếm có là tank phòng thủ phép thuật + khiêu khích, cô khó bị thay thế.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đối phó với đội hình phép thuật trong Arena",
+            "description": "Khả năng kháng cự đội hình phép thuật trong Arena được cải thiện hơn nữa, khiến cô được sử dụng nhiều hơn như một phần của đội hình phòng thủ. Cô hiệu quả như một đối sách cho các đội hình tập trung vào các nhân vật tấn công phép thuật như Yori hoặc Kyouka.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Được tăng cường thuần túy như một tank phép thuật",
+            "description": "Với việc tăng cường HP/phòng thủ và UB, cô trở thành một tank đối phó phép thuật dễ sử dụng. Khác với các tank 6 sao như Nozomi hoặc Shizuru, cô không hỗ trợ phòng thủ cho đồng đội, vì vậy nên sử dụng cô trong các tình huống có nhiều đòn tấn công phép thuật đơn lẻ mạnh/khi đối mặt với kẻ địch mà khiêu khích có hiệu quả.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ミヤコ",
+        "ノゾミ",
+        "ユカリ",
+        "カオリ",
+        "マホ",
+        "ユイ",
+        "シズル",
+        "水着サレン"
+      ]
+    }
+  }

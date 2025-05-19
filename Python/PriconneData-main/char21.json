@@ -1,0 +1,177 @@
+{
+    "character": {
+      "id": 21,
+      "name": "Akari",
+      "name_jp": "アカリ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92897_main.jpg",
+      "catchphrase": "Hà... hà... Anh trai... em không chịu nổi nữa!\nNếu tiếp tục như thế này... Akari sẽ trở nên kỳ lạ mất~",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Có khả năng giảm phòng thủ phép",
+          "Cấu trúc kỹ năng phù hợp với đội hình phép thuật",
+          "UB có thể hồi máu đồng minh theo cách khá đặc biệt"
+        ],
+        "weaknesses": [
+          "Lượng hồi phục từ UB phụ thuộc vào đòn tấn công tiếp theo"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng giảm phòng thủ vào đòn tấn công đơn mục tiêu",
+          "Tăng sát thương"
+        ],
+        "six_star_upgrade": [
+          "UB được thêm hiệu ứng tăng chí mạng phép và giảm phòng thủ phép toàn thể địch!",
+          "Tăng hiệu quả của buff tấn công phép",
+          "Tăng thêm 10 TP từ set bonus"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S",
+        "arena": "B",
+        "boss_battle": "S",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 魔法攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Quân đội Vương quốc Ma giả (Diabolos)"
+      },
+      "max_stats": {
+        "hp": 15246,
+        "physical_attack": 26,
+        "magic_attack": 4400,
+        "physical_defense": 226,
+        "magic_defense": 364
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Bia Quỷ Ngọt Ngào",
+          "description": "Tăng nhẹ sức tấn công phép cho toàn bộ đồng minh, đồng thời hồi HP thêm dựa trên lượng sát thương của đòn tấn công tiếp theo.",
+          "effects": [
+            "Tăng sức tấn công phép của toàn bộ đồng minh lên 509"
+          ],
+          "six_star_effect": [
+            "Tăng mạnh sức tấn công phép cho toàn bộ đồng minh, tăng cao tỉ lệ chí mạng phép, hồi HP thêm dựa trên lượng sát thương của đòn tấn công tiếp theo. Đồng thời giảm nhẹ phòng thủ phép của toàn bộ kẻ địch. (Tất cả hiệu ứng kéo dài khoảng 18 giây)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_2.png",
+          "name": "Chùm Bóng Bóng Đêm",
+          "description": "Gây sát thương phép trung bình lên 1 kẻ địch ở phía trước",
+          "effects": [
+            "Gây 7540 sát thương phép lên một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương phép lớn lên 1 kẻ địch ở phía trước, đồng thời giảm nhẹ phòng thủ phép (khoảng 12 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_9.png",
+          "name": "Nụ Hôn Tiểu Ác Ma",
+          "description": "Giảm mạnh phòng thủ phép của 1 kẻ địch ở phía trước",
+          "effects": [
+            "Giảm phòng thủ phép của một kẻ địch xuống 113 (khoảng 12 giây)"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_18.png",
+          "name": "Ngọn Lửa Ngọt Ngào",
+          "description": "Tăng vừa sức tấn công phép của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng vừa sức tấn công phép của bản thân khi bắt đầu trận đấu",
+            "Nâng cấp hiệu ứng trên từ tăng vừa thành tăng cao sức tấn công phép."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Kỹ năng giảm phòng thủ phép cực kỳ xuất sắc",
+            "description": "Akari có thể giảm mạnh phòng thủ phép của kẻ địch thông qua kỹ năng \"Nụ Hôn Tiểu Ác Ma\" học được ở RANK 4. Khi xây dựng đội hình tập trung vào sát thương phép, bạn có thể gây sát thương hiệu quả ngay cả với những kẻ địch có phòng thủ phép cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Union Burst có hiệu ứng hồi HP",
+            "description": "Akari có thể áp dụng hiệu ứng \"hồi HP dựa trên lượng sát thương của đòn tấn công tiếp theo\" cho toàn đội thông qua Union Burst. Vì vậy, cô ấy có tương tính tốt với những nhân vật có khả năng gây sát thương lớn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Khó hồi máu ổn định khi chơi tự động",
+            "description": "Lượng hồi phục từ Union Burst của Akari phụ thuộc vào sát thương của hành động tiếp theo. Nếu hành động tiếp theo là tấn công thường hoặc các hành động gây sát thương thấp, lượng hồi phục sẽ gần như không đáng kể.",
+            "sub_point": "Việc các nhân vật tank thường xuyên nhận sát thương khó được hồi phục cũng là một điểm trừ nhỏ. Trong Arena, hãy coi khả năng hồi phục này chỉ là phụ trợ."
+          },
+          {
+            "main_point": "Chỉ mình Akari có thể không đủ để duy trì debuff",
+            "description": "Mặc dù Akari có kỹ năng debuff xuất sắc, nhưng chu kỳ sử dụng kỹ năng khá dài, nên chỉ một mình Akari có thể không đủ để đảm nhận vai trò debuff. Trong Clan Battle, để tối đa hóa sát thương, bạn cần duy trì trạng thái giảm phòng thủ liên tục, nên cần thêm nhân vật có khả năng giảm phòng thủ phép ngoài Akari.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò debuff trong đội hình phép thuật",
+            "description": "Akari là nhân vật có khả năng giảm phòng thủ phép quý giá. Cô ấy thường cần thiết khi vận hành đội hình phép thuật và tỏa sáng trong Arena cũng như các trận đấu với boss.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đôi khi cũng đảm nhận vai trò hồi phục",
+            "description": "Akari có thể áp dụng hiệu ứng hồi phục đặc biệt cho toàn đội thông qua UB. Bằng cách sử dụng UB của các nhân vật tấn công đơn mục tiêu đúng thời điểm, cô ấy có thể hồi HP cho các nhân vật tấn công, đảm nhận vai trò tương tự như một healer.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Thêm debuff vào kỹ năng tấn công đơn mục tiêu",
+            "description": "Nhờ trang bị chuyên dụng, kỹ năng tấn công đơn mục tiêu được thêm hiệu ứng giảm phòng thủ phép, mặc dù hiệu quả không cao. Tần suất debuff tăng đáng kể, giúp liên tục giảm phòng thủ phép của đối thủ là một điểm cộng lớn.",
+            "sub_point": "Mức độ hiệu quả ở cấp 118 chỉ là 24, khá khiêm tốn, nhưng khả năng giảm phòng thủ phép của kẻ địch với tần suất cao theo chu kỳ kỹ năng là vô cùng mạnh mẽ."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Thêm tăng chí mạng phép + Có thể áp dụng giảm phòng thủ phép!",
+            "description": "UB được bổ sung thêm hiệu ứng tăng tỉ lệ chí mạng phép, đồng thời có thể áp dụng giảm phòng thủ phép lên toàn bộ kẻ địch. Khả năng hỗ trợ sát thương được cải thiện đáng kể, giúp cô ấy trở thành nhân vật hỗ trợ dễ sử dụng trong đội hình phép thuật ở nhiều chế độ khác nhau.",
+            "sub_point": "Cả buff và debuff đều có thời gian hiệu lực khoảng 18 giây."
+          },
+          {
+            "main_point": "Set bonus tăng thêm 10 TP!",
+            "description": "Akari vốn có tốc độ tăng TP thấp, nên số lần sử dụng UB khá hạn chế. Nhờ set bonus tăng thêm 10 TP, cô ấy có thể sử dụng UB đã được cải thiện thường xuyên hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Trở nên xuất sắc hơn trong đội hình Nyaru",
+            "description": "Với việc UB được thêm hiệu ứng giảm phòng thủ phép, Akari trở nên dễ sử dụng hơn trong các đội hình sử dụng Kyaru Năm Mới trong Clan Battle. Việc bổ sung tăng tỉ lệ chí mạng phép cũng rất quan trọng, giúp nhắm đến sát thương cao và ổn định hơn, khiến cô trở thành một nhân vật hỗ trợ xuất sắc.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hỗ trợ mạnh mẽ cho đội hình phép thuật thông thường",
+            "description": "Akari cũng trở thành một nhân vật hỗ trợ cực kỳ xuất sắc trong các đội hình phép thuật thông thường không sử dụng Kyaru Năm Mới. Trước đây, cô chủ yếu được sử dụng với vai trò debuff, nhưng giờ đây có thể đóng góp vào việc tăng sát thương của đội thông qua cả buff và debuff.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ユイ(プリンセス)",
+        "ネネカ",
+        "正月キャル",
+        "ハツネ",
+        "ヨリ",
+        "水着マホ"
+      ]
+    }
+  }

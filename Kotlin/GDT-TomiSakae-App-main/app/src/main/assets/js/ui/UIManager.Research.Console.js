@@ -1,0 +1,3 @@
+(function () {
+    Research.consoleItems = []
+})();

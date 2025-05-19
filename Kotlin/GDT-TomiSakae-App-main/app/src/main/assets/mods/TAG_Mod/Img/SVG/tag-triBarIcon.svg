@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg489"
+   version="1.1"
+   viewBox="0 0 16.404167 16.404167"
+   height="16.404167mm"
+   width="16.404167mm">
+  <defs
+     id="defs483" />
+  <metadata
+     id="metadata486">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-92.291259,-149.81777)"
+     id="layer1">
+    <g
+       id="g112"
+       transform="matrix(0.26458333,0,0,0.26458333,24.293343,132.61985)">
+      <g
+         id="layer8_6_">
+        <path
+           d="m 319,96 c 0,17.121 -13.879,31 -31,31 -17.12,0 -31,-13.879 -31,-31 0,-17.121 13.88,-31 31,-31 17.121,0 31,13.879 31,31 z"
+           id="path125302_6_"
+           style="fill:#8a9398" />
+      </g>
+      <g
+         id="g110">
+        <path
+           id="path104"
+           d="m 303.447,80 h -30.895 c -0.305,0 -0.553,0.245 -0.553,0.547 v 6.372 c 0,0.302 0.248,0.547 0.553,0.547 h 30.895 c 0.305,0 0.553,-0.245 0.553,-0.547 V 80.547 C 304,80.245 303.752,80 303.447,80 Z"
+           style="fill:#ffffff" />
+        <path
+           id="path106"
+           d="m 303.447,92.267 h -30.895 c -0.305,0 -0.553,0.245 -0.553,0.547 v 6.372 c 0,0.302 0.248,0.547 0.553,0.547 h 30.895 c 0.305,0 0.553,-0.245 0.553,-0.547 v -6.372 c 0,-0.302 -0.248,-0.547 -0.553,-0.547 z"
+           style="fill:#ffffff" />
+        <path
+           id="path108"
+           d="m 303.447,104.533 h -30.895 c -0.305,0 -0.553,0.245 -0.553,0.547 v 6.372 c 0,0.302 0.248,0.547 0.553,0.547 h 30.895 c 0.305,0 0.553,-0.245 0.553,-0.547 v -6.372 c 0,-0.302 -0.248,-0.547 -0.553,-0.547 z"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+</svg>

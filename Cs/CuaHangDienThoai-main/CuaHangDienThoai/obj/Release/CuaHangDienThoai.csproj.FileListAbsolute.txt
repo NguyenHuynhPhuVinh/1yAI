@@ -1,0 +1,16 @@
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.csproj.AssemblyReference.cache
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\bin\Release\CuaHangDienThoai.exe.config
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\bin\Release\CuaHangDienThoai.exe
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\bin\Release\CuaHangDienThoai.pdb
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.Form1.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmQLSanPham.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmQLTaiKhoan.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmQuanTri.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmTCTaiKhoan.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmThanhToanHoaDon.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.frmThongKe.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.Properties.Resources.resources
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.csproj.GenerateResource.cache
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.csproj.CoreCompileInputs.cache
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.exe
+C:\Users\kotor\Documents\CuaHangDienThoai\CuaHangDienThoai\obj\Release\CuaHangDienThoai.pdb

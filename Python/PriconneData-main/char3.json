@@ -1,0 +1,172 @@
+{
+    "character": {
+        "id": 3,
+        "name": "Makoto",
+        "name_jp": "マコト",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92872_main.jpg",
+      "catchphrase": "Nếu bạn là ân nhân của bạn thân tôi, thì cũng giống như ân nhân của tôi vậy.\nHãy cùng nhau làm bạn nhé!",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Là nhân vật debuff xuất sắc trong Clan Battle",
+          "Nhân vật chuyên về tấn công vật lý",
+          "Hiệu quả đối với kẻ địch đơn lẻ như boss",
+          "Có thể hoạt động tốt trong Arena tùy theo đội hình",
+          "Có thể đối phó với kẻ địch có phòng thủ vật lý cao"
+        ],
+        "weaknesses": [
+          "Phòng thủ phép thấp",
+          "Là nhân vật gần hàng đầu nên dễ bị tấn công"
+        ],
+        "exclusive_equipment": [
+          "Kỹ năng tấn công đơn lẻ được thêm hiệu ứng tự buff",
+          "Sát thương kỹ năng cũng tăng lên"
+        ],
+        "six_star_upgrade": [
+          "Tăng sát thương UB/lượng debuff",
+          "Tự gán cho bản thân trạng thái 【Tiếng Gầm Của Nanh Sói】 làm tăng giá trị hiệu quả/thời gian của tất cả kỹ năng"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "B",
+        "boss_battle": "SS",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Thú nhân tộc",
+        "guild": "Đội tự vệ (Kaon)"
+      },
+      "max_stats": {
+        "hp": 17746,
+        "physical_attack": 6739,
+        "magic_attack": 0,
+        "physical_defense": 178,
+        "magic_defense": 123
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Nanh Sói Cắn",
+          "description": "Gây sát thương vật lý lớn cho 1 kẻ địch ở phía trước, đồng thời giảm phòng thủ vật lý trung bình.",
+          "effects": [
+            "Gây 22185 sát thương vật lý cho kẻ địch đơn lẻ",
+            "Giảm phòng thủ vật lý của kẻ địch đơn lẻ xuống 102 (khoảng 18 giây)"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, giảm phòng thủ vật lý cực mạnh. Đồng thời gán cho bản thân trạng thái 【Tiếng Gầm Của Nanh Sói】. Trong thời gian có trạng thái 【Tiếng Gầm Của Nanh Sói】, giá trị hiệu quả của tất cả kỹ năng sẽ tăng lên."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Mạnh",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước.",
+          "effects": [
+            "Gây 9860 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch ở phía trước, đồng thời tăng nhẹ tấn công vật lý cho bản thân. (khoảng 12 giây) ※Trong thời gian có trạng thái 【Tiếng Gầm Của Nanh Sói】, lượng buff tăng khoảng 8 lần/thời gian hiệu quả khoảng 18 giây"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_9.png",
+          "name": "Tiếng Gầm Dũng Cảm",
+          "description": "Giảm phòng thủ vật lý trung bình của 1 kẻ địch ở phía trước.",
+          "effects": [
+            "Giảm phòng thủ vật lý của kẻ địch đơn lẻ xuống 91 (khoảng 12 giây) ※Trong thời gian có trạng thái 【Tiếng Gầm Của Nanh Sói】, lượng debuff tăng khoảng 1.25 lần/thời gian hiệu quả khoảng 18 giây"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Đòn Tấn Công Nanh Sói",
+          "description": "Khi bắt đầu trận đấu, tăng tấn công vật lý trung bình cho bản thân.",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng tấn công vật lý trung bình cho bản thân. Hiệu ứng tăng tấn công vật lý trung bình nói trên được nâng cấp thành tăng tấn công vật lý lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Nhân vật tấn công vật lý chuyên về đòn đánh đơn lẻ",
+            "description": "Makoto có chỉ số tấn công vật lý thuộc hàng top nhờ vào chỉ số gốc và kỹ năng EX. Vì vậy, cô có thể gây sát thương cao cho kẻ địch đơn lẻ thông qua Union Burst và các kỹ năng khác.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng giảm phòng thủ vật lý của kẻ địch rất xuất sắc",
+            "description": "Makoto là nhân vật giỏi trong việc giảm phòng thủ vật lý của kẻ địch đơn lẻ. Kết hợp với Union Burst có sức mạnh cao, cô có thể phát huy hiệu quả tốt đối với các boss trong Hard Quest hoặc Dungeon.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Khả năng chống chịu thấp cần sự hỗ trợ từ đồng đội",
+            "description": "Makoto có phòng thủ thấp nên khá yếu đuối. Là nhân vật tiền tuyến nên thường bị cuốn vào các đòn tấn công diện rộng, khi đưa vào đội hình nên bổ sung thêm nhân vật hồi phục để tăng khả năng sống sót.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Có thể sử dụng trong Clan Battle và các trận đấu với boss",
+            "description": "Makoto sở hữu nhiều đòn tấn công đơn lẻ, và có thể giảm phòng thủ vật lý của kẻ địch thông qua kỹ năng/Union Burst. Cô phù hợp với các nơi xuất hiện kẻ địch đơn lẻ như Clan Battle hoặc boss sự kiện.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Có thể tăng thêm sức mạnh tấn công của bản thân",
+            "description": "Kỹ năng được bổ sung thêm hiệu ứng tăng tấn công vật lý. Sát thương của kỹ năng cũng tăng lên, giúp nâng cao khả năng gây sát thương. Mức độ phù hợp trong các trận đấu với boss rất cao nên nên ưu tiên trang bị.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Nên hoàn thành Talent Bloom trước khi chế tạo trang bị!",
+            "description": "Vai trò chính của Makoto vẫn là debuff phòng thủ. Để duy trì debuff lâu dài, khả năng chống chịu rất quan trọng. Mặc dù trang bị chuyên dụng giúp tăng sức mạnh tấn công, nhưng trước tiên nên nâng lên 5 sao thông qua Talent Bloom để tăng khả năng chống chịu.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tăng sát thương UB/lượng debuff phòng thủ",
+            "description": "Khi nâng lên 6 sao, sát thương UB tăng hơn 2 lần, debuff phòng thủ tăng khoảng 140. Đặc biệt, debuff phòng thủ khi triển khai 6 sao là khoảng 394, rất cao, giúp cô trở thành nhân vật debuff cực kỳ mạnh mẽ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng giá trị hiệu quả của kỹ năng với trạng thái 【Tiếng Gầm Của Nanh Sói】",
+            "description": "UB gán cho bản thân buff đặc biệt 【Tiếng Gầm Của Nanh Sói】. Trong thời gian có trạng thái 【Tiếng Gầm Của Nanh Sói】, giá trị hiệu quả của tất cả kỹ năng sẽ tăng lên.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Trở thành nhân vật debuff mạnh mẽ cho các trận đấu với boss",
+            "description": "UB có lượng debuff phòng thủ khoảng 400 (khi triển khai 6 sao) rất cao, kết hợp với kỹ năng 2 có thể tạo ra debuff với giá trị hiệu quả rất cao cho kẻ địch. Ngoài ra, sau khi kích hoạt UB, lượng tự buff của kỹ năng 1 tăng mạnh, giúp bản thân cũng có thể gây sát thương tốt hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vẫn còn lo ngại về khả năng chống chịu",
+            "description": "Mặc dù chỉ số chống chịu đã tăng khi lên 6 sao, nhưng khả năng chống chịu vẫn thấp so với các nhân vật tiền tuyến khác. Đặc biệt, phòng thủ phép thấp nên khó có thể chống chịu trước các boss phép thuật có đòn tấn công diện rộng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ラビリスタ",
+        "クリスティーナ",
+        "水着レイ",
+        "水着シノブ"
+      ]
+    }
+  }

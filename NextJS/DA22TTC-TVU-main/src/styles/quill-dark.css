@@ -1,0 +1,110 @@
+/* Dark mode styles cho ReactQuill */
+.dark .ql-toolbar.ql-snow {
+    border-color: #4B5563 !important;
+    background-color: #374151 !important;
+}
+
+.dark .ql-container.ql-snow {
+    border-color: #4B5563 !important;
+}
+
+.dark .ql-editor {
+    background-color: #1F2937 !important;
+    color: #E5E7EB !important;
+}
+
+.dark .ql-toolbar button svg {
+    filter: invert(1);
+}
+
+.dark .ql-toolbar .ql-stroke {
+    stroke: #E5E7EB !important;
+}
+
+.dark .ql-toolbar .ql-fill {
+    fill: #E5E7EB !important;
+}
+
+.dark .ql-toolbar .ql-picker {
+    color: #E5E7EB !important;
+}
+
+.dark .ql-toolbar .ql-picker-options {
+    background-color: #374151 !important;
+    border-color: #4B5563 !important;
+}
+
+.dark .ql-snow.ql-toolbar button:hover,
+.dark .ql-snow .ql-toolbar button:hover,
+.dark .ql-snow.ql-toolbar button.ql-active,
+.dark .ql-snow .ql-toolbar button.ql-active,
+.dark .ql-snow.ql-toolbar .ql-picker-label:hover,
+.dark .ql-snow .ql-toolbar .ql-picker-label:hover,
+.dark .ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.dark .ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.dark .ql-snow.ql-toolbar .ql-picker-item:hover,
+.dark .ql-snow .ql-toolbar .ql-picker-item:hover,
+.dark .ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.dark .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+    color: #60A5FA !important;
+}
+
+.dark .ql-snow.ql-toolbar button:hover .ql-stroke,
+.dark .ql-snow .ql-toolbar button:hover .ql-stroke,
+.dark .ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.dark .ql-snow .ql-toolbar button.ql-active .ql-stroke {
+    stroke: #60A5FA !important;
+}
+
+.dark .ql-snow.ql-toolbar button:hover .ql-fill,
+.dark .ql-snow .ql-toolbar button:hover .ql-fill,
+.dark .ql-snow.ql-toolbar button.ql-active .ql-fill,
+.dark .ql-snow .ql-toolbar button.ql-active .ql-fill {
+    fill: #60A5FA !important;
+}
+
+/* Hover effects cho toolbar buttons - bỏ background-color */
+.dark .ql-toolbar.ql-snow button:hover,
+.dark .ql-toolbar.ql-snow .ql-picker-label:hover {
+    color: #60A5FA !important;
+}
+
+/* Hover cho dropdown options */
+.dark .ql-toolbar .ql-picker-options .ql-picker-item:hover {
+    color: #60A5FA !important;
+    background-color: transparent !important;
+}
+
+/* Active states - bỏ background-color */
+.dark .ql-toolbar.ql-snow .ql-formats button.ql-active,
+.dark .ql-toolbar.ql-snow .ql-formats .ql-picker-label.ql-active {
+    color: #60A5FA !important;
+}
+
+/* Hover cho icons trong buttons */
+.dark .ql-toolbar.ql-snow button:hover .ql-stroke,
+.dark .ql-toolbar.ql-snow button.ql-active .ql-stroke {
+    stroke: #60A5FA !important;
+}
+
+.dark .ql-toolbar.ql-snow button:hover .ql-fill,
+.dark .ql-toolbar.ql-snow button.ql-active .ql-fill {
+    fill: #60A5FA !important;
+}
+
+/* Hover cho text trong dropdowns */
+.dark .ql-toolbar.ql-snow .ql-picker-label:hover,
+.dark .ql-toolbar.ql-snow .ql-picker-label.ql-active {
+    color: #60A5FA !important;
+}
+
+/* Dropdown arrow color on hover */
+.dark .ql-toolbar.ql-snow .ql-picker-label:hover .ql-stroke {
+    stroke: #60A5FA !important;
+}
+
+/* Selected item in dropdowns */
+.dark .ql-toolbar .ql-picker-options .ql-picker-item.ql-selected {
+    color: #60A5FA !important;
+    background-color: transparent !important;
+}

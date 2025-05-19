@@ -1,0 +1,189 @@
+{
+    "character": {
+      "id": 10,
+      "name": "Tamaki",
+      "name_jp": "タマキ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92885_main.jpg",
+      "catchphrase": "Nếu là chuyện kiếm tiền, nhất định phải mang đến cho tớ nya! \nDù chỉ là 1 Rupi cũng không bỏ qua, \nđó là phương châm của tớ nya~♪",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Có kỹ năng hút TP, hoạt động hiệu quả trong nhiệm vụ/đấu trường",
+          "Có thể tấn công nhắm vào kẻ địch chuyên về tấn công phép",
+          "Cực kỳ xuất sắc trong việc đối phó với đối thủ phép thuật"
+        ],
+        "weaknesses": [
+          "Khó phát huy hết tiềm năng khi không có kẻ địch tấn công phép"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng choáng xuất sắc",
+          "Thêm hiệu ứng giảm tấn công phép"
+        ],
+        "six_star_upgrade": [
+          "Tăng chỉ số giúp nâng cao sức tấn công và khả năng sống sót",
+          "Sức mạnh UB tăng gấp đôi khi đối đầu với kẻ địch phép thuật",
+          "Có khả năng giảm phòng thủ vật lý cực mạnh nhưng có điều kiện",
+          "Tính linh hoạt trong vai trò debuff khá thấp"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S",
+        "arena": "S",
+        "boss_battle": "S+",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Thú nhân tộc",
+        "guild": "Tập đoàn Mercurius"
+      },
+      "max_stats": {
+        "hp": 14078,
+        "physical_attack": 5344,
+        "magic_attack": 0,
+        "physical_defense": 171,
+        "magic_defense": 150
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Phá Cuối Cùng Của Mèo",
+          "description": "Gây sát thương vật lý cực lớn lên 1 kẻ địch có tấn công phép cao nhất.",
+          "effects": [
+            "Gây 24405 sát thương vật lý lên một kẻ địch"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn lên 1 kẻ địch có tấn công phép cao nhất. Nếu mục tiêu là kẻ địch sử dụng tấn công phép, sát thương sẽ tăng và làm giảm phòng thủ vật lý cực lớn (khoảng 18 giây)."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Ném Kiểu Mèo",
+          "description": "Gây sát thương vật lý trung bình lên 1 kẻ địch có tấn công phép cao nhất trong số tất cả kẻ địch, đồng thời giảm nhẹ tấn công phép của chúng",
+          "effects": [
+            "Gây 6101 sát thương vật lý lên một kẻ địch",
+            "Giảm 311 tấn công phép của kẻ địch đó"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình lên 1 kẻ địch có tấn công phép cao nhất trong số tất cả kẻ địch, đồng thời giảm tấn công phép ở mức trung bình và gây choáng."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_6.png",
+          "name": "Tính Khí Thất Thường Của Mèo",
+          "description": "Giảm nhẹ TP của 1 kẻ địch có tấn công phép cao nhất trong số tất cả kẻ địch, đồng thời hồi nhẹ TP cho bản thân",
+          "effects": [
+            "Làm mất 180 TP của một kẻ địch",
+            "Hồi 180 TP cho bản thân",
+            "Tăng nhẹ tấn công vật lý của bản thân"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Mèo Tuyệt Vời",
+          "description": "Tăng tấn công vật lý ở mức trung bình cho bản thân khi bắt đầu trận đấu.",
+          "effects": [
+            "Tăng tấn công vật lý ở mức trung bình cho bản thân khi bắt đầu trận đấu.",
+            "Nâng cấp hiệu ứng tăng tấn công vật lý từ mức trung bình lên mức lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Có thể nhanh chóng hạ gục kẻ địch tấn công phép",
+            "description": "Tamaki ưu tiên tấn công đối thủ có tấn công phép cao thông qua các kỹ năng và Union Burst. Vì vậy, cô có thể hoạt động hiệu quả trong đấu trường nơi thường xuyên xuất hiện các nhân vật tấn công phép.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kỹ năng hút TP giúp tấn công nhanh và cản trở đối thủ",
+            "description": "Tamaki có kỹ năng giảm TP của đối thủ và hồi TP cho bản thân. Vừa cản trở đối phương vừa có thể nhanh chóng sử dụng Union Burst của mình, nên rất hiệu quả trong cả nhiệm vụ và đấu trường nếu đối phương có nhân vật phép thuật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Có thể bị phản đòn nếu chưa được phát triển đầy đủ",
+            "description": "Tamaki có thể bỏ qua tank để tấn công với các kỹ năng/UB của mình, nhưng nếu sức tấn công chưa đủ mạnh, có thể khiến đối phương tích lũy TP và bị phản công. Khi sử dụng, nên kết hợp với các nhân vật có tương tính tốt để tránh tình trạng không hạ gục được đối thủ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật đối phó với phép thuật trong đấu trường",
+            "description": "Hoạt động cực kỳ hiệu quả trong đấu trường nơi thường xuyên xuất hiện các nhân vật tấn công phép. Ngoài ra, khi kết hợp với các nhân vật hỗ trợ có kỹ năng tăng tốc độ hành động hoặc hồi TP, cô có thể phát huy tối đa thế mạnh của mình.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Cũng hoạt động hiệu quả trong các trận đấu với boss",
+            "description": "Tamaki có thể làm chậm UB mạnh mẽ của boss thông qua kỹ năng hút TP. Ngoài ra, với các kỹ năng/UB tấn công đơn mục tiêu, cô còn đóng góp vào sát thương, nên có khả năng thích ứng cao trong các trận đấu với boss.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Thêm hiệu ứng choáng vào kỹ năng",
+            "description": "Kỹ năng nhắm vào nhân vật có tấn công phép cao được bổ sung thêm hiệu ứng choáng, tăng khả năng cản trở. Kết hợp với khả năng hút TP, việc tăng cường khả năng đối phó với các nhân vật tấn công phép của đối phương là rất xuất sắc.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Sức mạnh tấn công nhân vật phép thuật tăng đáng kể",
+            "description": "Chỉ số tăng giúp sát thương cơ bản của UB được nâng cao. Ngoài ra, sức mạnh tấn công nhân vật sử dụng phép thuật tăng khoảng 2 lần. Khả năng đột phá đối với nhân vật phép thuật trở nên cực kỳ cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Thêm hiệu ứng giảm phòng thủ nhưng có điều kiện",
+            "description": "Giới hạn cho kẻ địch sử dụng tấn công phép, UB được bổ sung thêm hiệu ứng giảm phòng thủ vật lý. Lượng debuff ở cấp độ 160 là 218 (khoảng 18 giây), rất nhiều. Với khả năng hút TP và tốc độ sử dụng UB tốt, cô có thể đảm nhận vai trò debuff nếu đối mặt với kẻ địch phép thuật.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng cường cho Tamaki phiên bản mùa hè thông qua điểm thân thiết",
+            "description": "Điểm thân thiết có lợi cho cả phiên bản thường và phiên bản khác. Tamaki cũng có thể nhận được bonus chỉ số bằng cách hoàn thành các tập từ mức thân thiết 9~12. Tăng chỉ số tấn công vật lý và chí mạng vật lý, gián tiếp tăng cường cho Tamaki phiên bản mùa hè.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Lý tưởng để đột phá nhân vật phép thuật trong đấu trường",
+            "description": "Nhờ việc tăng cường UB và nâng cao chỉ số từ 6 sao, khả năng đột phá đối với nhân vật tấn công phép được nâng cao. Cực kỳ hiệu quả ngay cả với Maho 6 sao hay Yui 6 sao có phòng thủ vật lý cao, nên rất mạnh mẽ trong đấu trường.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sát thương đối với nhân vật vật lý ở mức vừa phải",
+            "description": "Mặc dù cực kỳ mạnh đối với phép thuật, nhưng sát thương gây ra cho nhân vật vật lý chỉ ở mức khá. Trong một số tình huống, sát thương có thể không đủ, nên tốt nhất là chuẩn bị thêm một nhân vật tấn công có thể đột phá tank hoặc hỗ trợ vật lý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể làm nhân vật debuff đối với kẻ địch phép thuật",
+            "description": "Mặc dù chỉ giới hạn cho kẻ địch tấn công phép, debuff phòng thủ vật lý được thêm vào có hiệu quả cao và thời gian kéo dài. Với khả năng hút TP, tần suất sử dụng cao, nên rất xuất sắc trong vai trò debuff. Có thể hoạt động hiệu quả trong Clan Battle và các sự kiện boss.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Điều kiện áp dụng debuff khá khắt khe",
+            "description": "Đối tượng nhận debuff phòng thủ vật lý không phải lúc nào cũng là kẻ địch sử dụng tấn công phép. Điều này không được ghi rõ, nhưng có vẻ như có điều kiện như được mô tả là [Phép thuật] trong thông tin boss, hoặc tấn công thường là phép thuật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "サレン",
+        "モニカ",
+        "ノゾミ",
+        "ユキ"
+      ]
+    }
+  }

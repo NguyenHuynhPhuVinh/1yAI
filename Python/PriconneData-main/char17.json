@@ -1,0 +1,183 @@
+{
+    "character": {
+      "id": 17,
+      "name": "Anna",
+      "name_jp": "アンナ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92894_main.jpg",
+      "catchphrase": "Ta đã nghe thấy rõ ràng, tiếng gọi ta!\nTa chính là \"Minh Cơ Tật Phong\"!",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Sức tấn công phép thuật hàng đầu",
+          "Gây sát thương lớn cho nhiều kẻ địch với kỹ năng tự hủy",
+          "Tấn công phép thuật toàn bộ kẻ địch với Union Burst",
+          "Có thể tấn công phép thuật đơn mục tiêu với kỹ năng"
+        ],
+        "weaknesses": [
+          "Khả năng phòng thủ giảm sau khi dùng Union Burst",
+          "Kỹ năng tự hủy bắt buộc kích hoạt khi HP dưới 10%",
+          "HP thực tế thấp hơn giá trị tối đa"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng debuff cho đòn tấn công đơn mục tiêu",
+          "Có thể liên tục giảm phòng thủ phép thuật của đối phương với chu kỳ kỹ năng"
+        ],
+        "six_star_upgrade": [
+          "Sát thương UB tăng hơn 4 lần",
+          "Thêm hiệu ứng tự buff trong thời gian ngắn",
+          "Thay đổi cơ chế giảm phòng thủ sau UB thành giảm 100% giá trị phòng thủ cơ bản"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "S",
+        "arena": "SS+",
+        "boss_battle": "S",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "中衛 / 魔法攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Ma tộc",
+        "guild": "Đoàn lữ hành Hoàng hôn"
+      },
+      "max_stats": {
+        "hp": 14354,
+        "physical_attack": 0,
+        "magic_attack": 6670,
+        "physical_defense": 120,
+        "magic_defense": 195
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_2.png",
+          "name": "La Sát Niết Bàn - Cực Quang Chung Thiên Minh Hoại Phá",
+          "description": "Gây sát thương phép thuật trung bình cho toàn bộ kẻ địch, nhưng sau khi sử dụng, khả năng phòng thủ vật lý và phòng thủ phép thuật của Anna sẽ giảm cực mạnh.",
+          "effects": [
+            "Gây 8894 sát thương phép thuật cho toàn bộ kẻ địch",
+            "Giảm phòng thủ vật lý của bản thân xuống 0",
+            "Giảm phòng thủ phép thuật của bản thân xuống 0"
+          ],
+          "six_star_effect": [
+            "Tăng cực mạnh sức tấn công phép thuật của bản thân trong thời gian ngắn, gây sát thương phép thuật cực lớn cho toàn bộ kẻ địch, nhưng sau khi sử dụng, khả năng phòng thủ vật lý và phòng thủ phép thuật của Anna sẽ giảm cực mạnh."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_2.png",
+          "name": "La Sát Niết Bàn - Vô Thức",
+          "description": "Gây sát thương phép thuật trung bình cho 1 kẻ địch phía trước.",
+          "effects": [
+            "Gây 7976 sát thương phép thuật cho một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương phép thuật trung bình cho 1 kẻ địch phía trước, đồng thời giảm nhẹ khả năng phòng thủ phép thuật của chúng. (khoảng 12 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_3.png",
+          "name": "Minh Không Thiên Thăng",
+          "description": "[Tự hủy] Kích hoạt khi HP của Anna giảm xuống dưới 10% HP tối đa, gây sát thương phép thuật lớn cho tất cả kẻ địch xung quanh, nhưng bản thân sẽ bị hạ gục.",
+          "effects": [
+            "Gây 12353 sát thương phép thuật cho kẻ địch trong phạm vi"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_18.png",
+          "name": "Bá Xoa Minh Diệt Ngục Viêm Chú",
+          "description": "Tăng sức tấn công phép thuật của bản thân ở mức trung bình khi bắt đầu trận đấu.",
+          "effects": [
+            "Tăng sức tấn công phép thuật của bản thân ở mức trung bình"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Khả năng tấn công phép thuật hàng đầu",
+            "description": "Anna là nhân vật có kỹ năng tấn công đơn mục tiêu mạnh mẽ. Chu kỳ kỹ năng đặc biệt tốt giúp cô có thể tấn công đơn mục tiêu với tần suất cao. Khả năng tấn công kẻ địch phía trước rất mạnh.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kỹ năng tự hủy gây sát thương lớn cho tất cả kẻ địch xung quanh",
+            "description": "Cô sở hữu kỹ năng tự hủy gây sát thương lớn và diện rộng cho kẻ địch khi HP giảm xuống dưới 10%. Mặc dù ít có cơ hội sử dụng trong các nhiệm vụ thông thường, nhưng có thể phát huy tác dụng trong đấu trường nơi dễ nhận sát thương.",
+            "sub_point": "Kỹ năng tự hủy rất mạnh, nhưng khi nhận đòn tấn công mạnh như Union Burst, có thể bị hạ gục trước khi kích hoạt kỹ năng. Lưu ý rằng không phải lúc nào cũng có thể phát huy hiệu quả."
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Phòng thủ giảm xuống 0 sau khi dùng Union Burst",
+            "description": "Anna có thể phóng Union Burst mạnh mẽ vào toàn bộ kẻ địch, nhưng sau đó chỉ số phòng thủ của cô sẽ giảm xuống 0. Do đó, cô có nguy cơ bị hạ gục nếu nhận đòn tấn công mạnh từ kẻ địch.",
+            "sub_point": "Anna là nhân vật trung vệ nên dễ bị cuốn vào các đòn tấn công diện rộng của Union Burst, đây cũng là điểm cần lưu ý."
+          },
+          {
+            "main_point": "Kỹ năng tự hủy khó sử dụng hiệu quả",
+            "description": "Kỹ năng tự hủy sẽ giảm HP của bản thân xuống 0 để gây sát thương cho kẻ địch. Anna có sát thương liên tục cao từ các kỹ năng nên lợi ích từ kỹ năng tự hủy không nhiều. Hơn nữa, vì kỹ năng tự hủy kích hoạt khi HP dưới 10%, nên HP thực tế của cô bị giảm đi 10% so với tối đa, khiến cô dễ bị hạ gục.",
+            "sub_point": "Kỹ năng tự hủy có thể bị hủy bỏ bằng UB. Tuy nhiên, sau UB phòng thủ vĩnh viễn giảm xuống 0, nên khó để duy trì chiến đấu lâu dài."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Tấn công đơn mục tiêu tần suất cao hiệu quả với tanker vật lý",
+            "description": "Anna giỏi trong việc tấn công kẻ địch phía trước và là một pháp sư tấn công xuất sắc. Trong đấu trường, cô có thể được đưa vào đội hình để đối phó với các tanker có khả năng phòng thủ phép thuật thấp.",
+            "sub_point": "Tuy nhiên, Anna rất yếu trước các đòn tấn công diện rộng, nên trong môi trường phòng thủ có nhiều nhân vật tấn công diện rộng mạnh như Halloween Shinobu, khả năng hoạt động hiệu quả của cô sẽ khó khăn."
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Luôn có thể giảm phòng thủ phép thuật của đối thủ",
+            "description": "Với trang bị chuyên dụng, đòn tấn công đơn mục tiêu được bổ sung hiệu ứng giảm phòng thủ phép thuật. Vì Anna luân phiên giữa tấn công thường và kỹ năng tấn công đơn mục tiêu, cô có thể liên tục giảm phòng thủ phép thuật của đối thủ. Giá trị debuff ở cấp độ 118 là 72, rất xuất sắc. Cô trở thành nhân vật cực kỳ mạnh trong Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khó vận hành trong một số tình huống do vị trí đội hình",
+            "description": "Mặc dù trở thành nhân vật debuff mạnh mẽ, nhưng trong đội hình toàn pháp sư, cô dễ đứng ở vị trí đầu tiên và dễ bị cuốn vào các đòn tấn công diện rộng. Vì Anna sẽ kích hoạt kỹ năng tự hủy khi HP dưới 10%, nên tùy thuộc vào đối thủ, có thể không đưa cô vào đội hình được.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Sát thương UB tăng đáng kể",
+            "description": "Khi lên 6 sao, sát thương UB tăng hơn 4 lần. Thêm vào đó, cô được bổ sung hiệu ứng tự tăng sức tấn công phép thuật trong thời gian ngắn, giúp khả năng tấn công được cải thiện đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Thay đổi cơ chế giảm phòng thủ",
+            "description": "Trước đây, điểm yếu là giá trị phòng thủ giảm xuống 0 sau UB, nhưng giờ đã thay đổi thành giảm 100% giá trị phòng thủ cơ bản. Với sự thay đổi này, phần phòng thủ từ các buff vẫn còn sau khi dùng UB.",
+            "sub_point": "Tuy nhiên, mức độ giảm phòng thủ vẫn rất lớn, nên vẫn khó đưa vào đội hình trong các trận đấu khó với cường độ tấn công cao."
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Trở thành pháp sư tấn công mạnh mẽ khi có thể liên tục dùng UB",
+            "description": "UB tấn công diện rộng ở 6 sao cực kỳ mạnh, thường có thể hạ gục ngay lập tức các nhân vật hỗ trợ phòng thủ xuất sắc như Ames hay Karin. Nếu có thể liên tục sử dụng UB, cô có thể tiêu diệt toàn bộ đội hình địch. Chiến lược chính là kết hợp với Yukari và một nhân vật hỗ trợ TP khác để có thể sử dụng UB sớm và liên tục sau khi trận đấu bắt đầu.",
+            "sub_point": "Các ứng viên hỗ trợ TP bao gồm Saren, Summer Saren, Io (Noir), Yuki, v.v."
+          },
+          {
+            "main_point": "Vẫn còn điểm yếu là phòng thủ giảm sau UB",
+            "description": "Mặc dù cơ chế giảm phòng thủ sau UB đã thay đổi, nhưng vẫn còn điểm yếu là phòng thủ giảm mạnh. Sau khi dùng UB, nếu nhận đòn tấn công diện rộng từ kẻ địch, cô thường sẽ bị hạ gục, cần lưu ý điểm này.",
+            "sub_point": "Vị trí ở giữa hàng trung vệ cùng với khả năng phòng thủ không cao khiến cô dễ bị ảnh hưởng bởi các nhân vật gây cản trở của đối phương. Điểm yếu là cô thường bị hạ gục bởi UB phản công từ Ayumi 6 sao, nhân vật có khả năng phòng thủ/cản trở đặc biệt cao."
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "水着ミソギ",
+        "イノリ",
+        "ユカリ",
+        "サレン",
+        "水着サレン",
+        "イオ(ノワール)",
+        "ユキ",
+        "水着ハツネ"
+      ]
+    }
+  }

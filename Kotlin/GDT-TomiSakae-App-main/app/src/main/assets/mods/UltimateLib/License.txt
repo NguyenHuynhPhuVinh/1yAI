@@ -1,0 +1,30 @@
+Last Updated on August 05th, 2014
+
+Ultimate Library (UltimateLib) for GameDevTycoon
+The UltimateLib is a Javascript based library that is loaded as an expansion pack and 
+provides a set of features to easily develop and create Game Dev Tycoon modules. 
+This library has been built around the official mod API.
+
+Note:
+Extensions created with the UltimateLib must have a dependency to the package "UltimateLib".
+ 
+
+Ultimate Library (UltimateLib) License Agreement
+
+This software is licensed under the GDT Modding Agreement.
+There also may be 3rd party libraries included used in and distributed with this software with 
+their own (non-conflicting) respective licences i.e. the "Attribution-NonCommercial 4.0 International".
+
+In short:
+- Do not distribute this software with your own software (in particular with your own GDT addin module).
+- You are not allowed to copy, modify, merge, publish, distribute, sublicense, and/or distribute copies of this software without the permission of the project founders.
+- All attributions to 3rd-parties have to be implemented.
+
+Developer Notes:
+UltimateLib has been developed by Francesco Abbattista and Chad Keating. It is now part of the official release of Game Dev Tycoon.
+
+© 2012 - 2014 Greenheart Games Pty. Ltd.
+
+
+
+

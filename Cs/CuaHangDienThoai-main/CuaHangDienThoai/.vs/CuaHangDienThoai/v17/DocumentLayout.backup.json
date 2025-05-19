@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|c:\\users\\kotor\\documents\\cuahangdienthoai\\cuahangdienthoai\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthanhtoanhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthanhtoanhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthanhtoanhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthanhtoanhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmquantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmquantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmquantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmquantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthanhtoanhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthanhtoanhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmbaobieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmbaobieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmbaobieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmbaobieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmbaobieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmbaobieu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmnhapsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmnhapsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmlaphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmlaphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmthongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmthongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtinhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtinhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtinhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmquantri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmquantri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtctaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtcnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtcnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtcsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtcsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmtcsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmtcsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlhangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlhangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmqlsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:frmqlsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\customrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:customrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\chdtdataset.xss||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:chdtdataset.xss||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9790465D-864E-4F4A-B5E1-CC61FA96CF38}|CuaHangDienThoai.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:59:22.536Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmThanhToanHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.cs",
+              "RelativeDocumentMoniker": "frmThanhToanHoaDon.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.cs",
+              "RelativeToolTip": "frmThanhToanHoaDon.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T12:38:12.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTinhToan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.cs",
+              "RelativeDocumentMoniker": "frmTinhToan.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.cs [Design]",
+              "RelativeToolTip": "frmTinhToan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:17:03.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmThanhToanHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.cs",
+              "RelativeDocumentMoniker": "frmThanhToanHoaDon.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.cs [Design]",
+              "RelativeToolTip": "frmThanhToanHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T03:35:07.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:40:07.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmThanhToanHoaDon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.Designer.cs",
+              "RelativeDocumentMoniker": "frmThanhToanHoaDon.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThanhToanHoaDon.Designer.cs",
+              "RelativeToolTip": "frmThanhToanHoaDon.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T03:40:09.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmQuanTri.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.cs",
+              "RelativeDocumentMoniker": "frmQuanTri.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.cs",
+              "RelativeToolTip": "frmQuanTri.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T06:22:33.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmQuanTri.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.cs",
+              "RelativeDocumentMoniker": "frmQuanTri.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.cs [Design]",
+              "RelativeToolTip": "frmQuanTri.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T05:22:58.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmBaoBieu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.Designer.cs",
+              "RelativeDocumentMoniker": "frmBaoBieu.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.Designer.cs",
+              "RelativeToolTip": "frmBaoBieu.Designer.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAYwFAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:01:39.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAADwv6cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:44:03.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmBaoBieu.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.cs",
+              "RelativeDocumentMoniker": "frmBaoBieu.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.cs",
+              "RelativeToolTip": "frmBaoBieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:01:58.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmThongKe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.cs",
+              "RelativeDocumentMoniker": "frmThongKe.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.cs [Design]",
+              "RelativeToolTip": "frmThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:21:03.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmThongKe.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.cs",
+              "RelativeDocumentMoniker": "frmThongKe.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.cs",
+              "RelativeToolTip": "frmThongKe.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:26:41.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmBaoBieu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.cs",
+              "RelativeDocumentMoniker": "frmBaoBieu.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmBaoBieu.cs [Design]",
+              "RelativeToolTip": "frmBaoBieu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T14:53:11.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmNhapSanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmNhapSanPham.cs",
+              "RelativeDocumentMoniker": "frmNhapSanPham.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmNhapSanPham.cs [Design]",
+              "RelativeToolTip": "frmNhapSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:48:34.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmLapHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmLapHoaDon.cs",
+              "RelativeDocumentMoniker": "frmLapHoaDon.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmLapHoaDon.cs [Design]",
+              "RelativeToolTip": "frmLapHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:10:56.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmThongKe.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.Designer.cs",
+              "RelativeDocumentMoniker": "frmThongKe.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmThongKe.Designer.cs",
+              "RelativeToolTip": "frmThongKe.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:55:19.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmTinhToan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.Designer.cs",
+              "RelativeDocumentMoniker": "frmTinhToan.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.Designer.cs",
+              "RelativeToolTip": "frmTinhToan.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:19:10.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmTinhToan.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.cs",
+              "RelativeDocumentMoniker": "frmTinhToan.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTinhToan.cs",
+              "RelativeToolTip": "frmTinhToan.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAnwJwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:19:17.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmQuanTri.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.Designer.cs",
+              "RelativeDocumentMoniker": "frmQuanTri.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQuanTri.Designer.cs",
+              "RelativeToolTip": "frmQuanTri.Designer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBkBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T05:56:52.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmTCNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCNhanVien.cs",
+              "RelativeDocumentMoniker": "frmTCNhanVien.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCNhanVien.cs [Design]",
+              "RelativeToolTip": "frmTCNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:41:46.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmQLTaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLTaiKhoan.cs",
+              "RelativeDocumentMoniker": "frmQLTaiKhoan.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLTaiKhoan.cs [Design]",
+              "RelativeToolTip": "frmQLTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:20:59.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmTCTaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCTaiKhoan.cs",
+              "RelativeDocumentMoniker": "frmTCTaiKhoan.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCTaiKhoan.cs",
+              "RelativeToolTip": "frmTCTaiKhoan.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowJ8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T11:00:05.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmTCKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCKhachHang.cs",
+              "RelativeDocumentMoniker": "frmTCKhachHang.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCKhachHang.cs [Design]",
+              "RelativeToolTip": "frmTCKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:47:21.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmTCTaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCTaiKhoan.cs",
+              "RelativeDocumentMoniker": "frmTCTaiKhoan.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCTaiKhoan.cs [Design]",
+              "RelativeToolTip": "frmTCTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:53:11.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmQLNhaCungCap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLNhaCungCap.cs",
+              "RelativeDocumentMoniker": "frmQLNhaCungCap.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLNhaCungCap.cs [Design]",
+              "RelativeToolTip": "frmQLNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:32:01.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmQLKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLKhachHang.cs",
+              "RelativeDocumentMoniker": "frmQLKhachHang.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLKhachHang.cs [Design]",
+              "RelativeToolTip": "frmQLKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:57:28.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmQLNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLNhanVien.cs",
+              "RelativeDocumentMoniker": "frmQLNhanVien.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLNhanVien.cs [Design]",
+              "RelativeToolTip": "frmQLNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:49:34.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmTCSanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCSanPham.cs",
+              "RelativeDocumentMoniker": "frmTCSanPham.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCSanPham.cs [Design]",
+              "RelativeToolTip": "frmTCSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:36:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmTCSanPham.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCSanPham.Designer.cs",
+              "RelativeDocumentMoniker": "frmTCSanPham.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmTCSanPham.Designer.cs",
+              "RelativeToolTip": "frmTCSanPham.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIA4wAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:45:46.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:46:11.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmQLSanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.cs",
+              "RelativeDocumentMoniker": "frmQLSanPham.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.cs [Design]",
+              "RelativeToolTip": "frmQLSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T07:52:57.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmQLSanPham.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.Designer.cs",
+              "RelativeDocumentMoniker": "frmQLSanPham.Designer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.Designer.cs",
+              "RelativeToolTip": "frmQLSanPham.Designer.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAADwv/4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T07:59:47.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmQLSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.cs",
+              "RelativeDocumentMoniker": "frmQLSanPham.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLSanPham.cs",
+              "RelativeToolTip": "frmQLSanPham.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAADwv3EBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:45:24.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmQLHangSanXuat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLHangSanXuat.cs",
+              "RelativeDocumentMoniker": "frmQLHangSanXuat.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\frmQLHangSanXuat.cs [Design]",
+              "RelativeToolTip": "frmQLHangSanXuat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:58:51.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\CustomRenderer.cs",
+              "RelativeDocumentMoniker": "CustomRenderer.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\CustomRenderer.cs",
+              "RelativeToolTip": "CustomRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T06:27:15.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CHDTDataSet.xss",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\CHDTDataSet.xss",
+              "RelativeDocumentMoniker": "CHDTDataSet.xss",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\CHDTDataSet.xss",
+              "RelativeToolTip": "CHDTDataSet.xss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVDhPhZRPSytnFMafyUwqDQnEqMSKmXpjx7RIQhO4WhRisd1F10VcGcldtCIY0H4BQbsRP4Gu3DQKVtzUTcCQYFSqjVjQufHepBFM7sTgzCRjJzOZLoppJqn2B\u002B/iPec5z3l5/wH/w\u002BTkJF0ul78vl8sxURRLoijWmsZ7URQ3Y7FYAJqmEc0GjYRCodHZ2dnvLBbLRDqd7jg\u002BPv64UChQjRq32/2X2\u002B0Wurq63nIc9/OzhqFQ6KOpqakfent7566url91dXYhn89DLIs6XbfdDoIgoKhKZXR09FrXrZFAIGD0eDy92Wz2VaFQgM/rg8vlapYBAP64vETmbdYE4EtDc/KJXC5XK5VKtWpVQbHIIZ8voFQqged53eA4Dh\u002B4D\u002BB5HgDw7AoXFxclnuerQ0NDiEajYK9ZuFyfw9pu1enev3uHdDpdj\u002Bv2cHx8/NtwOPzj09zpdPZbrda\u002BVCqFjY0NqKoKijI2lkCSKpAkCU6nE2tra/oVdnd3f\u002BLz\u002Bb7Z39\u002BHoijIZrOgaRoejwe1Wg339/eN8v\u002BkZQ8FQcDu7i4ikQgikQgSiUSz5EVaDA0GA2w2GyiKgslkgtlsbpa8SIuh3W7HysoKBgYGEAgEEAwGmyUvQgHA8vLyT/39/Z85HA6aJEnYbDYYjUaYTCZYLBbIsoz5\u002BXnIsoxEIoFoNKozIUkSRuM/h0UBgN/v/5ogiNcsy4JlWQBAPp9HKpWCpmn1wpGREdA0XZ8DQHt7O2iahtfrLQO4JADg8PAweXJy8joej7cUAEC1WgXLslhaWoIsyzg4OKjnenp6HgcHB\u002B9pmr7KZDIRymw2WwwGgwEAvF4vwuEwAKBSqVRIkiTb2traisViPT42Nga/369omiZJkqTVarUcgMPz8/NfJiYmfqVisVjS4XB8mkwm610BYGFhYW54ePirYDD4RpcAoGnabw8PD3MzMzPlTCYjA6g8Pj7yAEC5XK4vtra2tLOzM6iqis3NTUxPTyOXy/3JMMwAy7LY3t6GIAjY29uDoijo6OgQV1dXfz86OqoKgqBrZgCA09NT3N7e4u7uDslkEqqq1gUcxyEej0OWZVxcXODm5gaFQkHb2dlpMcOTocPhAMMwYBgGfX19IIh/n7jZbK7nGIZBZ2dnY30LFACEw\u002BFnP1qPx0Osr6/rYs33sJG/AYSnjqm2fnOXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-12-28T04:40:13.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\CuaHangDienThoai\\CuaHangDienThoai\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-12-27T06:36:50.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

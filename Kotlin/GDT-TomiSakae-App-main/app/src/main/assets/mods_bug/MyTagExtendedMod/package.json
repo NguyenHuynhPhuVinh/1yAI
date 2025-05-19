@@ -1,0 +1,13 @@
+{
+    "id": "TagModExtendedMod",
+    "name": "TAG Extended Mod",
+    "description": "Mods Required: TAG Mod Adds a new topic (Espionage) New genres(Sandbox, Moba, Battle Royal, Racing) Optional time-speed controls. Changes starting year to 1980.",
+    "author": "Venomized Star",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "enabled": true,
+    "image": "TAGExpansionmod-Thumbnail.png"
+}

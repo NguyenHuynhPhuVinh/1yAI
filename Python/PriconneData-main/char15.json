@@ -1,0 +1,185 @@
+{
+    "character": {
+      "id": 15,
+      "name": "Hiyori",
+      "name_jp": "ヒヨリ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92891_main.jpg",
+      "catchphrase": "Khi gặp khó khăn, chúng ta phải giúp đỡ lẫn nhau! Nếu có chuyện gì, hãy nói với tôi nhé! Chắc chắn sẽ có cách giải quyết!",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Các kỹ năng chuyên về tấn công vật lý",
+          "Có khả năng tự buff, xuất sắc trong vai trò tấn công"
+        ],
+        "weaknesses": [
+          "Cần hỗ trợ để bù đắp khả năng phòng thủ"
+        ],
+        "exclusive_equipment": [
+          "Trở nên mạnh mẽ như một nhân vật tấn công khi được nâng cấp tối đa",
+          "Tuy nhiên chi phí phát triển khá cao",
+          "Kỹ năng được bổ sung hiệu ứng tấn công diện rộng"
+        ],
+        "six_star_upgrade": [
+          "Chỉ số chí mạng thuộc hàng cao nhất",
+          "UB được tăng cường đáng kể về phạm vi/sát thương"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "A",
+        "arena": "S+",
+        "boss_battle": "A",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Thú nhân tộc",
+        "guild": "Twinkle Wish"
+      },
+      "max_stats": {
+        "hp": 10522,
+        "physical_attack": 5234,
+        "magic_attack": 0,
+        "physical_defense": 163,
+        "magic_defense": 116
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Tấn Công Hiyori",
+          "description": "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước, đồng thời gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi xung quanh bản thân.",
+          "effects": [
+            "Gây 12109 sát thương vật lý cho một kẻ địch",
+            "Gây 5449 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch phía trước, đồng thời gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi xung quanh bản thân."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Đánh Mèo",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước",
+          "effects": [
+            "Gây 8072 sát thương vật lý cho một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước, đồng thời gây sát thương vật lý nhỏ cho tất cả kẻ địch trong phạm vi xung quanh bản thân."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Combo Mèo",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch phía trước, đồng thời tăng sức tấn công vật lý của bản thân ở mức trung bình",
+          "effects": [
+            "Gây 3083 sát thương vật lý cho một kẻ địch",
+            "Tăng sức tấn công vật lý của bản thân lên 1243"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Sức Mạnh Bàn Chân Mèo!",
+          "description": "Khi bắt đầu trận đấu, tăng sức tấn công vật lý của bản thân ở mức trung bình",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân ở mức trung bình"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Nhân vật tấn công 1 sao xuất sắc",
+            "description": "Kỹ năng \"Combo Mèo\" học được ở RANK4 rất xuất sắc vì vừa gây sát thương cho kẻ địch vừa tăng sức tấn công cho bản thân. Điều này rất phù hợp với cấu trúc kỹ năng chuyên về tấn công của Hiyori.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Union Burst có khả năng tấn công diện rộng",
+            "description": "Union Burst của Hiyori có thể gây sát thương lớn cho 1 kẻ địch phía trước. Ngoài ra, phần cuối của UB còn có thể gây sát thương cho kẻ địch xung quanh, là nhân vật có thể thực hiện cả tấn công đơn lẻ và tấn công diện rộng trong một lần.",
+            "sub_point": "Phạm vi tương đối hẹp nên cơ bản có thể sử dụng như một đòn tấn công đơn lẻ."
+          },
+          {
+            "main_point": "Dễ dàng được bố trí sau các nhân vật tank",
+            "description": "Hiyori thường được bố trí sau các nhân vật tank. Vì vậy, ngưỡng đội hình thấp và dễ sử dụng như một nhân vật tấn công vật lý.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sát thương UB thấp hơn so với các nhân vật tấn công đơn lẻ khác",
+            "description": "UB của Hiyori có thể tấn công kẻ địch xung quanh nên sát thương thấp hơn so với các nhân vật tấn công đơn lẻ khác. Cần lưu ý rằng tổng sát thương có thể thấp hơn so với các nhân vật tấn công đơn lẻ khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật tấn công hiệu quả trong Clan Battle",
+            "description": "Hiyori có thể gây sát thương cao cho kẻ địch thông qua Union Burst và các kỹ năng. Ngoài ra, cô còn có thể tăng sức tấn công vật lý của bản thân thông qua kỹ năng, mang lại khả năng gây sát thương liên tục cao, nên rất hiệu quả trong các trận Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Xuất sắc trong Arena",
+            "description": "UB có khả năng gây sát thương từ vị trí đầu đến giữa rất xuất sắc. Có thể sử dụng để đột phá các nhân vật tank và nhân vật ở giữa yếu với sát thương vật lý, mặc dù đôi khi khó sử dụng do vị trí và phạm vi tấn công, nhưng khả năng đột phá đơn thuần rất cao.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng tấn công được cải thiện hơn nữa",
+            "description": "Nhờ trang bị chuyên dụng, chỉ số tấn công/chí mạng tăng đáng kể và kỹ năng gây sát thương cũng được tăng cường. Nếu nâng cấp trang bị tối đa, cô có thể hoạt động hiệu quả hơn nữa như một nhân vật tấn công trong Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Ứng cử viên cho đội hình đa mục tiêu",
+            "description": "Nhờ trang bị chuyên dụng, cô có thể gây sát thương diện rộng bằng kỹ năng. Trong các trận đấu đa mục tiêu, nơi tấn công diện rộng có lợi thế, cô trở thành ứng cử viên cho đội hình. Tuy nhiên, vì Hiyori chủ yếu là tấn công đơn lẻ nên sát thương có thể thấp hơn so với các nhân vật chuyên về tấn công diện rộng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Chi phí phát triển cao",
+            "description": "Để nâng cấp trang bị chuyên dụng tối đa cần tiêu tốn rất nhiều Memory Piece và Mana. Ngoài ra, bản thân Hiyori là nhân vật 1 sao nên cần nhiều mảnh để mở Talent Bloom. Đây là nhân vật hơi khó để phát triển đến giai đoạn có thể tận dụng tối đa hiệu suất.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Chỉ số chí mạng đáng kinh ngạc",
+            "description": "Có thể tăng đáng kể chỉ số chí mạng thông qua Set Bonus, Bond Bonus và Talent Bloom. Khi được nâng cấp tối đa, chỉ số chí mạng thậm chí còn cao hơn so với khi Eriko chuyên dụng đang trong trạng thái Obsession.",
+            "sub_point": "Tỷ lệ chí mạng tăng thêm khi có chênh lệch cấp độ, vì vậy đối với boss giai đoạn 1, sẽ gần như chắc chắn gây chí mạng."
+          },
+          {
+            "main_point": "Sát thương UB tăng đáng kể",
+            "description": "Nhờ việc tăng chỉ số và tăng cường UB, sát thương tăng đáng kể. Với sát thương cơ bản cao, có thể mong đợi sát thương ổn định không phụ thuộc vào chí mạng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Vị trí tấn công trong Clan Battle",
+            "description": "Nhân vật tấn công thuần túy với khả năng phòng thủ cao và hiệu suất tấn công mạnh mẽ. Hiệu quả trong các trận đa mục tiêu nhờ hiệu suất kỹ năng và UB. Không có khả năng hỗ trợ đồng đội như buff/debuff, nhưng đổi lại là một nhân vật tấn công với hỏa lực cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Xuất sắc trong Arena",
+            "description": "UB có khả năng gây sát thương từ vị trí đầu đến giữa rất xuất sắc. Có thể sử dụng để đột phá các nhân vật tank và nhân vật ở giữa yếu với sát thương vật lý, mặc dù đôi khi khó sử dụng do vị trí và phạm vi tấn công, nhưng khả năng đột phá đơn thuần rất cao.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "リマ",
+        "ユニ",
+        "正月コッコロ",
+        "コッコロ(プリンセス)"
+      ]
+    }
+  }

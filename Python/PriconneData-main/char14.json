@@ -1,0 +1,165 @@
+{
+    "character": {
+     "id": 14,
+      "name": "Rei",
+      "name_jp": "レイ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92890_main.jpg",
+      "catchphrase": "Cùng với cậu, tôi cảm thấy chúng ta có thể mạnh lên cùng nhau. Hãy cùng nhau cố gắng nhé.",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Cấu trúc kỹ năng chuyên về tấn công vật lý",
+          "Sức tấn công cao vào một kẻ địch",
+          "Sở hữu kỹ năng phản đòn quý giá",
+          "Độ bền cao đối với một nhân vật tấn công hàng trước"
+        ],
+        "weaknesses": [
+          "Thời gian đơ của kỹ năng phản đòn khá dài",
+          "Có nhiều đối thủ cạnh tranh xuất sắc, nên độ ưu tiên phát triển thấp"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng giảm phòng thủ cho kỹ năng"
+        ],
+        "six_star_upgrade": [
+          "Sát thương UB tăng mạnh",
+          "Thêm buff Lưỡi Gió",
+          "Khi có trạng thái Lưỡi Gió, hiệu quả kỹ năng tăng gấp đôi"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "A",
+        "arena": "B",
+        "boss_battle": "S",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Twinkle Wish"
+      },
+      "max_stats": {
+        "hp": 13989,
+        "physical_attack": 5009,
+        "magic_attack": 0,
+        "physical_defense": 185,
+        "magic_defense": 131
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Bão Cắt",
+          "description": "Gây sát thương vật lý cực lớn lên 1 kẻ địch phía trước.",
+          "effects": [
+            "Gây 23335 sát thương vật lý lên một kẻ địch"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn lên 1 kẻ địch phía trước, đồng thời tạo trạng thái \"Lưỡi Gió\" cho bản thân."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đâm Gió",
+          "description": "Gây sát thương vật lý trung bình lên 1 kẻ địch phía trước",
+          "effects": [
+            "Gây 7778 sát thương vật lý lên một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình lên 1 kẻ địch phía trước, đồng thời giảm nhẹ phòng thủ vật lý của chúng. (khoảng 12 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Phản Đòn",
+          "description": "Gây sát thương vật lý trung bình lên 1 kẻ địch phía trước. Sát thương gây ra sẽ tăng dựa trên lượng sát thương Rei nhận được trong lúc chuẩn bị tấn công",
+          "effects": [
+            "Gây 7778 sát thương vật lý lên một kẻ địch"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Kiếm Sĩ Nhanh Nhẹn",
+          "description": "Tăng vừa sức tấn công vật lý của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng vừa sức tấn công vật lý của bản thân khi bắt đầu trận đấu",
+            "Tăng nhẹ HP"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Xuất sắc trong vai trò tấn công đơn mục tiêu",
+            "description": "Rei có thể gây sát thương lên một kẻ địch thông qua Union Burst và kỹ năng. Vì vậy, cô có thể đóng góp sức mạnh tấn công khi đối đầu với boss đơn lẻ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Độ bền cao trong số các nhân vật tấn công đơn mục tiêu",
+            "description": "So với các nhân vật tấn công đơn mục tiêu khác, Rei có chỉ số HP và phòng thủ vật lý cao hơn. Ngoài ra, khi nâng lên 5 sao, EX Skill được cường hóa với hiệu ứng tăng nhẹ HP. Trong số các nhân vật tấn công vật lý đơn mục tiêu, cô có khả năng chống chịu cao.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Hoạt ảnh phản đòn kéo dài",
+            "description": "Do kỹ năng phản đòn khiến nhân vật dừng hành động trong một khoảng thời gian nhất định, nên UB thường chậm hơn so với các nhân vật khác. Hơn nữa, trong Princess Connect, người chơi thường xếp nhân vật tank trong đội hình, nên kỹ năng phản đòn khó được kích hoạt hiệu quả.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Hoạt động hiệu quả như một nhân vật tấn công vật lý",
+            "description": "Rei chuyên về gây sát thương lên một mục tiêu thông qua kỹ năng/UB. Nếu được phát triển đầy đủ, cô có thể hoạt động hiệu quả trong các nhiệm vụ và trận chiến clan.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Thêm hiệu ứng giảm phòng thủ cho kỹ năng!",
+            "description": "Nhờ trang bị chuyên dụng, kỹ năng tấn công đơn mục tiêu được bổ sung thêm hiệu ứng giảm phòng thủ. Giá trị giảm khá cao, khoảng 68 ở cấp độ 112, khá tốt. Mặc dù không phải là hiệu suất hàng đầu, nhưng tùy thuộc vào đối thủ, cô có thể trở thành một nhân vật vừa giảm phòng thủ vừa tấn công hiệu quả.",
+            "sub_point": "Sự chậm trễ của kỹ năng phản đòn vẫn đáng lo ngại, nhưng việc có thêm lựa chọn nhân vật giảm phòng thủ vẫn rất đáng hoan nghênh."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tăng sát thương + cường hóa với buff Lưỡi Gió",
+            "description": "UB tấn công đơn mục tiêu được cường hóa. Không chỉ tăng đơn thuần về lượng sát thương, mà còn thêm buff \"Lưỡi Gió\". Ngoài ra, chỉ số tăng TP cũng được nâng cao, giúp rút ngắn thời gian đến UB.",
+            "sub_point": "Lượng sát thương đủ mạnh khi được sử dụng với giảm phòng thủ tối đa."
+          },
+          {
+            "main_point": "Hiệu quả kỹ năng tăng gấp đôi với Lưỡi Gió",
+            "description": "Khi có buff Lưỡi Gió, hiệu quả kỹ năng tăng gấp đôi. Không chỉ lượng hiệu ứng giảm phòng thủ và thời gian hiệu lực, mà cả sát thương cũng tăng gấp đôi, rất mạnh mẽ.",
+            "sub_point": "Ở cấp độ 154, lượng hiệu ứng là 93. Khi có Lưỡi Gió, cả thời gian hiệu lực và lượng hiệu ứng đều tăng gấp đôi, đạt 186 (24 giây), trở thành kỹ năng giảm phòng thủ cực kỳ mạnh."
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Cực kỳ mạnh mẽ khi duy trì được Lưỡi Gió",
+            "description": "Khi có buff Lưỡi Gió, cô trở thành một trong những nhân vật giảm phòng thủ/tấn công hàng đầu. Có thể hoạt động hiệu quả trong các trận chiến boss mạnh như Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khó phát huy sức mạnh khi nhận ít sát thương",
+            "description": "Buff từ UB rất quan trọng, nhưng do đặc tính của kỹ năng phản đòn, TP tích lũy khá chậm. Hãy bố trí vị trí để nhận sát thương hoặc bổ sung hỗ trợ TP để tạo môi trường thuận lợi cho việc sử dụng UB.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "マコト",
+        "ジュン",
+        "ノゾミ"
+      ]
+    }
+  }

@@ -1,0 +1,4 @@
+Greensock libraries
+Copyright (c) 2008-2018, GreenSock. All rights reserved.
+
+Licensed to Greenheart Games Pty. Ltd. for GDT - not for re-use.

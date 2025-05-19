@@ -1,0 +1,204 @@
+{
+    "character": {
+      "id": 12,
+      "name": "Lima",
+      "name_jp": "リマ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92888_main.jpg",
+      "catchphrase": "Cứ giao cho tôi! Tôi sẽ dùng hết sức mình!",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Kỹ năng gây choáng rất xuất sắc",
+          "Union Burst tăng phòng thủ vật lý đáng kể",
+          "Dễ dàng mở khóa tiềm năng"
+        ],
+        "weaknesses": [
+          "Khi bắt đầu trận đấu, nhân vật đứng ở phía sau do kỹ năng đặc biệt"
+        ],
+        "exclusive_equipment": [
+          "Tăng hiệu quả của buff vật lý",
+          "Có thể tạo lá chắn vô hiệu hóa sát thương vật lý cho toàn đội"
+        ],
+        "six_star_upgrade": [
+          "Tăng cường sát thương và hiệu quả buff từ UB",
+          "UB bổ sung lá chắn vật lý cho toàn đội"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "A",
+        "arena": "S+",
+        "boss_battle": "C",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Thú nhân tộc",
+        "guild": "Trang trại (Elizabeth Park)"
+      },
+      "max_stats": {
+        "hp": 18516,
+        "physical_attack": 2734,
+        "magic_attack": 20,
+        "physical_defense": 416,
+        "magic_defense": 319
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Tấn Công Xù Lông",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước, đồng thời tăng mạnh phòng thủ vật lý của bản thân.",
+          "effects": [
+            "Gây 3629 sát thương vật lý cho kẻ địch trong phạm vi",
+            "Tăng phòng thủ vật lý của bản thân lên 272"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước và đẩy lùi chúng một chút, đồng thời tăng mạnh phòng thủ vật lý của bản thân, và tạo lá chắn vô hiệu hóa sát thương vật lý cho toàn đội."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đột Kích Xù Lông",
+          "description": "Sau một thời gian ngắn khi bắt đầu trận đấu, lao về phía kẻ địch ở vị trí đầu tiên, gây sát thương vật lý trung bình và tăng phòng thủ vật lý của bản thân ở mức trung bình",
+          "effects": [
+            "Gây 5376 sát thương vật lý cho một kẻ địch",
+            "Tăng phòng thủ vật lý của bản thân lên 91"
+          ],
+          "exclusive_equipment_effect": [
+            "Sau một thời gian ngắn khi bắt đầu trận đấu, lao về phía kẻ địch ở vị trí đầu tiên, gây sát thương vật lý trung bình và tăng phòng thủ vật lý của bản thân ở mức trung bình. Ngoài ra còn tạo lá chắn vô hiệu hóa sát thương vật lý cho toàn đội."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Húc Đầu Xù Lông",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch phía trước, đồng thời gây choáng",
+          "effects": [
+            "Gây 2688 sát thương vật lý cho một kẻ địch",
+            "Làm kẻ địch không thể hành động trong một khoảng thời gian nhất định"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_19.png",
+          "name": "Lông Bảo Vệ",
+          "description": "Tăng phòng thủ vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng phòng thủ vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Nhân vật tank luôn di chuyển lên hàng đầu",
+            "description": "Lima có kỹ năng chạy từ ngoài màn hình vào và di chuyển lên hàng đầu để tấn công kẻ địch. Nhờ kỹ năng này, cô ấy có thể di chuyển lên vị trí đầu tiên bất kể vị trí ban đầu của các nhân vật.",
+            "sub_point": "Là nhân vật tank rất dễ sử dụng vì gần như chắc chắn sẽ lên hàng đầu. Cô ấy cũng có thể giảm sát thương nhận vào nhờ kỹ năng gây choáng."
+          },
+          {
+            "main_point": "Có thể đối phó với tấn công vật lý",
+            "description": "Lima có thể tăng phòng thủ vật lý của bản thân thông qua Union Burst và các kỹ năng. Mặc dù chỉ là nhân vật 1 sao nên không nên quá tin tưởng, nhưng cô ấy vẫn có thể đảm nhận vai trò tank một cách đầy đủ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kết hợp mạnh mẽ với nhân vật tấn công diện rộng",
+            "description": "Do Lima bắt đầu ở phía sau và di chuyển lên phía trước nhờ kỹ năng lao tới, khoảng cách với kẻ địch thường gần hơn so với việc sử dụng các nhân vật tank thông thường. Khi sử dụng các tank như Nozomi hay Jun, một số đòn tấn công có thể không tới được kẻ địch, nhưng với Lima thì có thể, nên cô ấy rất tương thích với các nhân vật tấn công diện rộng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Tấn công diện rộng của kẻ địch cũng dễ tới hơn",
+            "description": "Vì Lima được đặt ở phía sau khi bắt đầu trận đấu, nếu không có tank khác trong đội hình, khoảng cách với kẻ địch sẽ gần hơn. Mặc dù có lợi thế lớn là các đòn tấn công diện rộng của đồng đội có thể tới được xa hơn, nhưng các đòn tấn công diện rộng của kẻ địch cũng dễ tới hơn, nên cần chú ý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng sống sót thấp hơn so với các tank khác",
+            "description": "Lima có phòng thủ vật lý cao nhưng không có khả năng tự hồi phục như các nhân vật tank khác. Nếu đối mặt với kẻ địch có nhân vật tấn công phép thuật, cô ấy dễ bị đánh bại hơn so với các tank khác.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Nhân vật ở vị trí thứ hai dễ nhận sát thương trong giai đoạn đầu",
+            "description": "Vì Lima được đặt ở phía sau khi bắt đầu trận đấu, nhân vật ở vị trí thứ hai thường sẽ nhận sát thương trong giai đoạn đầu. Tùy thuộc vào đội hình của kẻ địch, nhân vật này có thể bị tập trung tấn công, nên hãy cẩn thận.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật tank chuyên về phòng thủ vật lý",
+            "description": "Có phòng thủ vật lý cao và có thể hoạt động tốt trong các nhiệm vụ và đấu trường. Tuy nhiên, do không có khả năng khiêu khích hay tự hồi phục, nên trong giai đoạn đầu, ưu tiên phát triển các nhân vật tank khác sẽ cao hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kết hợp mạnh mẽ với nhân vật tấn công diện rộng",
+            "description": "Do Lima bắt đầu ở phía sau và di chuyển lên phía trước nhờ kỹ năng lao tới, khoảng cách với kẻ địch thường gần hơn so với việc sử dụng các nhân vật tank thông thường. Khi sử dụng các tank như Nozomi hay Jun, một số đòn tấn công có thể không tới được kẻ địch, nhưng với Lima thì có thể, nên cô ấy rất tương thích với các nhân vật tấn công diện rộng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng tạo lá chắn vật lý cho toàn đội rất mạnh",
+            "description": "Khi trang bị trang bị độc quyền, cô ấy có thể tạo lá chắn vô hiệu hóa sát thương vật lý cho toàn đội. Sự kết hợp giữa Lima và các nhân vật tấn công diện rộng trở nên ổn định hơn, đồng thời có thể đối phó với các nhân vật meta như Tsumugi, nên đây là khả năng rất xuất sắc trong đấu trường.",
+            "sub_point": "Ở cấp độ 121, có thể tạo lá chắn khoảng 4300 điểm."
+          },
+          {
+            "main_point": "Khả năng sống sót của bản thân Lima không thay đổi nhiều",
+            "description": "Mặc dù chỉ số và hiệu quả buff được tăng cường, Lima không có kỹ năng tự hồi phục. Trong các trận đấu kéo dài, khả năng sống sót của cô ấy có thể kém hơn so với các tank có khả năng hồi phục.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tóm tắt các điểm cải tiến/thay đổi của UB",
+            "description": null,
+            "sub_point": "Tạo lá chắn vật lý cho toàn đội"
+          },
+          {
+            "main_point": "UB được cải thiện đáng kể!",
+            "description": "UB của Lima trước đây chủ yếu là buff cho bản thân, với sát thương chỉ là phụ. Tuy nhiên, ở sao 6, với việc bổ sung lá chắn vật lý và hiệu ứng đẩy lùi, UB đã trở nên hữu ích hơn rất nhiều.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hủy hành động của kẻ địch trong phạm vi nhờ hiệu ứng đẩy lùi",
+            "description": "Giờ đây không chỉ có kỹ năng mà cả UB cũng có thể cản trở hành động của kẻ địch. Cơ hội hủy bỏ các kỹ năng phiền phức như của Pecorine đã tăng lên, nên khả năng cản trở cũng được nâng cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sát thương và hiệu quả buff của UB cũng tăng",
+            "description": "Sát thương của UB tăng khoảng 2 lần, hiệu quả buff phòng thủ cũng tăng hơn 100 điểm. Giờ đây có thể gây sát thương đáng kể cho các đối thủ có phòng thủ thấp.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Chỉ số tăng đáng kể",
+            "description": "Nhờ mở khóa tiềm năng, chỉ số cơ bản được tăng lên, cùng với đó là bonus từ khả năng liên kết giúp tăng phòng thủ vật lý thêm 102 điểm. Ở cấp độ 145, HP cũng tăng lên gần 49,000, khiến cô ấy trở thành một tank vật lý rất vững chắc.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Hiệu suất vốn đã cao trong đấu trường càng được cải thiện",
+            "description": "Lima đã là một nhân vật mạnh trong đấu trường khi có trang bị độc quyền, và giờ đây với việc tăng cường chỉ số/UB, cô ấy đã trở thành một tank vật lý hoàn hảo hơn. Là một nhân vật xuất sắc cả trong tấn công lẫn phòng thủ, nên rất đáng đầu tư nếu bạn chú trọng vào đấu trường.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ニノン",
+        "リノ",
+        "ミツキ",
+        "シノブ(ハロウィン)",
+        "イリヤ",
+        "ミフユ(水着)",
+        "ネネカ"
+      ]
+    }
+  }

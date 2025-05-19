@@ -1,0 +1,730 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal {
+    position: fixed;
+    z-index: 50;
+    /* Các thuộc tính CSS khác */
+}
+
+.box-live {
+    border: 2px solid transparent;
+    background:
+        linear-gradient(#1F2937, #1F2937) padding-box,
+        linear-gradient(var(--angle), transparent 50%, #10B981 50%, transparent) border-box;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes moveLeft {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@layer components {
+    .nav-button {
+        @apply flex items-center bg-indigo-700 text-white px-4 py-2 rounded-full hover:bg-indigo-600 transition-all duration-300 shadow-md hover:shadow-lg;
+    }
+
+    .dropdown-item {
+        @apply flex items-center w-full text-left py-2 px-3 text-white hover:bg-white hover:bg-opacity-20 rounded transition-all duration-300;
+    }
+}
+
+/* Thêm hiệu ứng glow cho các nút */
+.nav-button:hover {
+    box-shadow: 0 0 15px rgba(129, 140, 248, 0.6);
+}
+
+/* Hiệu ứng cho dropdown */
+.dropdown-item:hover {
+    transform: translateX(5px);
+}
+
+.markdown-body.dark {
+    /* Loại bỏ background và set màu text cơ bản */
+    background-color: transparent !important;
+    color: #e5e7eb !important;
+}
+
+/* Links */
+.markdown-body.dark a {
+    color: #60a5fa !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease !important;
+}
+
+.markdown-body.dark a:hover {
+    color: #93c5fd !important;
+    text-decoration: underline !important;
+}
+
+/* Inline code */
+.markdown-body.dark code {
+    background-color: #1f2937 !important;
+    color: #e5e7eb !important;
+    padding: 0.2em 0.4em !important;
+    border-radius: 6px !important;
+    font-size: 0.9em !important;
+    border: 1px solid #374151 !important;
+}
+
+/* Code blocks */
+.markdown-body.dark pre {
+    background-color: #1f2937 !important;
+    border: 1px solid #374151 !important;
+    border-radius: 12px !important;
+    padding: 1em !important;
+    margin: 1em 0 !important;
+}
+
+.markdown-body.dark pre code {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Blockquotes */
+.markdown-body.dark blockquote {
+    border-left: 4px solid #3b82f6 !important;
+    color: #9ca3af !important;
+    padding: 0.5em 1em !important;
+    background-color: #1f2937 !important;
+    border-radius: 0 8px 8px 0 !important;
+    margin: 1em 0 !important;
+}
+
+/* Tables */
+.markdown-body.dark table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    margin: 1em 0 !important;
+}
+
+.markdown-body.dark table tr {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+.markdown-body.dark table tr:nth-child(2n) {
+    background-color: #111827 !important;
+}
+
+.markdown-body.dark table th,
+.markdown-body.dark table td {
+    padding: 0.75em 1em !important;
+    border: 1px solid #374151 !important;
+}
+
+.markdown-body.dark table th {
+    background-color: #111827 !important;
+    font-weight: 600 !important;
+}
+
+/* Horizontal rule */
+.markdown-body.dark hr {
+    border: none !important;
+    height: 1px !important;
+    background-color: #374151 !important;
+    margin: 1.5em 0 !important;
+}
+
+/* Headings */
+.markdown-body.dark h1,
+.markdown-body.dark h2,
+.markdown-body.dark h3,
+.markdown-body.dark h4,
+.markdown-body.dark h5,
+.markdown-body.dark h6 {
+    color: #f3f4f6 !important;
+    border-bottom: none !important;
+    margin: 1.5em 0 0.5em !important;
+}
+
+/* Lists */
+.markdown-body.dark ul,
+.markdown-body.dark ol {
+    padding-left: 1.5em !important;
+    margin: 1em 0 !important;
+}
+
+.markdown-body.dark li {
+    margin: 0.5em 0 !important;
+}
+
+/* Images */
+.markdown-body.dark img {
+    border-radius: 8px !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* 3D Card Effects */
+.card-3d {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+}
+
+.card-3d:hover {
+    transform: translateZ(20px);
+}
+
+.card-content {
+    backface-visibility: hidden;
+}
+
+.card-shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(105deg,
+            transparent 20%,
+            rgba(255, 255, 255, 0.05) 50%,
+            transparent 80%);
+    pointer-events: none;
+}
+
+.parallax-header {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.parallax-bg {
+    position: absolute;
+    inset: -20% -10%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+}
+
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+/* Thêm vào globals.css */
+.preserve-3d {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+.no-preserve-3d {
+    transform-style: flat;
+    transform: none !important;
+}
+
+/* Thêm transition cho smooth loading */
+.transition-3d {
+    transition: transform-style 0.3s ease-out;
+}
+
+.markdown-content {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.markdown-content ul {
+    list-style-type: disc;
+}
+
+.markdown-content li>ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.markdown-content p+ul,
+.markdown-content ul+p {
+    margin-top: 1.5rem;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.markdown-content code {
+    color: #e2e8f0;
+}
+
+.markdown-content pre code {
+    color: #f8fafc;
+}
+
+.ai-hoverable {
+    cursor: pointer;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.tech-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-reverse-slow {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 20s linear infinite;
+}
+
+.animate-spin-reverse-slow {
+    animation: spin-reverse-slow 25s linear infinite;
+}
+
+@keyframes electric-flow-1 {
+    0% {
+        background: repeating-linear-gradient(to right,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateX(-100%);
+    }
+
+    100% {
+        background: repeating-linear-gradient(to right,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateX(500%);
+    }
+}
+
+@keyframes electric-flow-2 {
+
+    0%,
+    40% {
+        background: repeating-linear-gradient(to bottom,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateY(500%);
+    }
+
+    100% {
+        background: repeating-linear-gradient(to bottom,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes electric-flow-3 {
+
+    0%,
+    80% {
+        background: repeating-linear-gradient(to right,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateX(-100%);
+    }
+
+    100% {
+        background: repeating-linear-gradient(to right,
+                transparent 0%,
+                #60A5FA 2%,
+                #3B82F6 4%,
+                #2563EB 6%,
+                transparent 8%,
+                transparent 15%,
+                #60A5FA 17%,
+                #3B82F6 19%,
+                #2563EB 21%,
+                transparent 23%);
+        filter: drop-shadow(0 0 2px #60A5FA);
+        transform: translateX(500%);
+    }
+}
+
+@keyframes electric-glow {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.animate-electric-flow-1 {
+    animation: electric-flow-1 1s linear infinite, electric-glow 0.1s ease-in-out infinite;
+}
+
+.animate-electric-flow-2 {
+    animation: electric-flow-2 1s linear infinite, electric-glow 0.1s ease-in-out infinite;
+}
+
+.animate-electric-flow-3 {
+    animation: electric-flow-3 1s linear infinite, electric-glow 0.1s ease-in-out infinite;
+}
+
+@keyframes noise-effect {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+@keyframes slight-shake {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    25% {
+        transform: translateX(-51%) translateY(-0.5px);
+    }
+
+    75% {
+        transform: translateX(-49%) translateY(0.5px);
+    }
+}
+
+.animate-noise-effect {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    animation: noise-effect 0.5s infinite linear;
+}
+
+.animate-slight-shake {
+    animation: slight-shake 1s ease-in-out infinite;
+}
+
+@keyframes power-line {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.animate-power-line {
+    animation: power-line 2s ease-in-out;
+}
+
+@keyframes ping-slow {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+.animate-ping-slow {
+    animation: ping-slow 3s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-pulse-slow {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes circuit-flow {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes grid-flow {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes icon-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes feature-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes button-pulse {
+    0% {
+        box-shadow: 0 0 0 0 currentColor;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px transparent;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+
+@keyframes arrow-pulse {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(4px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.animate-circuit-flow {
+    animation: circuit-flow 20s linear infinite;
+}
+
+.animate-grid-flow {
+    animation: grid-flow 15s linear infinite;
+}
+
+.animate-icon-pulse {
+    animation: icon-pulse 2s ease-in-out infinite;
+}
+
+.animate-feature-pulse {
+    animation: feature-pulse 1.5s ease-in-out infinite;
+}
+
+.animate-button-pulse {
+    animation: button-pulse 2s infinite;
+}
+
+.animate-arrow-pulse {
+    animation: arrow-pulse 1s ease-in-out infinite;
+}
+
+.animate-blink {
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes feature-glow {
+    0% {
+        border-color: rgba(62, 82, 232, 0.3);
+    }
+
+    50% {
+        border-color: rgba(62, 82, 232, 0.6);
+    }
+
+    100% {
+        border-color: rgba(62, 82, 232, 0.3);
+    }
+}
+
+.hover\:feature-glow:hover {
+    animation: feature-glow 2s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-slow-reverse {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 20s linear infinite;
+}
+
+.animate-spin-slow-reverse {
+    animation: spin-slow-reverse 20s linear infinite;
+}
+
+@keyframes ping-slow {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    75%,
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes spin-slow {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

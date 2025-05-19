@@ -1,0 +1,65 @@
+name: Create Anime Video
+
+on:
+  #schedule:
+  #  - cron: '0 2,6,10,14,18,22 * * *'  # Chạy 6 lần một ngày: 00:00, 04:00, 08:00, 12:00, 16:00, và 20:00 UTC
+  workflow_dispatch:      # Cho phép chạy thủ công
+
+jobs:
+  create-video:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          # Cài đặt Microsoft fonts (bao gồm Arial)
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get install -y ttf-mscorefonts-installer
+          # Cập nhật cache font
+          sudo fc-cache -f -v
+          
+      - name: Configure ImageMagick policy
+        run: |
+          sudo cp /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.bak
+          sudo sed -i 's/<policy domain="path" rights="none" pattern="@\*"/<policy domain="path" rights="read|write" pattern="@*"/g' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="resource" name="width" value="16KP"/<policy domain="resource" name="width" value="64KP"/g' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="resource" name="height" value="16KP"/<policy domain="resource" name="height" value="64KP"/g' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="resource" name="memory" value="256MiB"/<policy domain="resource" name="memory" value="8GiB"/g' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="resource" name="disk" value="1GiB"/<policy domain="resource" name="disk" value="8GiB"/g' /etc/ImageMagick-6/policy.xml
+          
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google.generativeai
+          pip install -r requirements.txt
+
+      - name: Create config file
+        run: |
+          echo "GEMINI_API_KEY = '${{ secrets.GEMINI_API_KEY }}'" > config.py
+
+      - name: Create service account and client secrets files
+        run: |
+          echo '${{ secrets.SERVICE_ACCOUNT_KEY }}' > serviceAccountKey.json
+          echo '${{ secrets.CLIENT_SECRETS }}' > client_secrets.json
+          echo '${{ secrets.OAUTH_TOKEN }}' > oauth_token.json
+
+      - name: Create video and upload
+        env:
+          OAUTH_TOKEN: ${{ secrets.OAUTH_TOKEN }}
+        run: python main.py --upload
+  
+      - name: Upload video artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: anime-video
+          path: 'videos/*.mp4'

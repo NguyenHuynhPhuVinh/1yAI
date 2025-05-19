@@ -1,0 +1,189 @@
+{
+    "character": {
+      "id": 16,
+      "name": "Misogi",
+      "name_jp": "ミソギ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92892_main.jpg",
+      "catchphrase": "Được rồi, đã cài đặt xong trò đùa! Giờ chỉ cần bắt anh vào bẫy... Ơ... có phải bạn đã thấy tôi không?",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Gây hiệu ứng mù làm giảm đáng kể tỷ lệ trúng đòn của tấn công vật lý",
+          "Có khả năng giảm tấn công vật lý",
+          "Thời gian hiệu lực của hiệu ứng giảm tấn công rất dài",
+          "UB tấn công diện rộng tập trung vào kẻ địch thứ hai"
+        ],
+        "weaknesses": [
+          "Sát thương thấp nên nên sử dụng như một nhân vật hỗ trợ"
+        ],
+        "exclusive_equipment": [
+          "Bổ sung khả năng giảm tấn công vật lý diện rộng",
+          "Luôn có thể giảm sức tấn công vật lý của kẻ địch"
+        ],
+        "six_star_upgrade": [
+          "Có ba loại debuff: giảm tấn công vật lý, giảm tỷ lệ chí mạng vật lý và giảm sát thương chí mạng vật lý",
+          "Khả năng khắc chế tấn công vật lý được tăng cường thêm"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "B",
+        "arena": "A",
+        "boss_battle": "C",
+        "elemental_evaluation": "B"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Nhân loại",
+        "guild": "Little Lyrical"
+      },
+      "max_stats": {
+        "hp": 13062,
+        "physical_attack": 3994,
+        "magic_attack": 20,
+        "physical_defense": 278,
+        "magic_defense": 212
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đặt Bom Bẫy",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi xung quanh kẻ địch thứ hai gần nhất với bản thân.",
+          "effects": [
+            "Gây 6596 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch, đồng thời giảm mạnh tấn công vật lý và tỷ lệ chí mạng vật lý. Ngoài ra còn giảm sát thương chí mạng vật lý ở mức trung bình. (Tất cả hiệu ứng kéo dài khoảng 18 giây)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_14.png",
+          "name": "Bắn Mực",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch thứ hai gần nhất với bản thân, đồng thời gây hiệu ứng mù",
+          "effects": [
+            "Gây 2493 sát thương vật lý cho một kẻ địch",
+            "Gây hiệu ứng mù"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình cho 1 kẻ địch thứ hai gần nhất với bản thân, đồng thời gây hiệu ứng mù. Ngoài ra còn giảm nhẹ tấn công vật lý của tất cả kẻ địch trong phạm vi."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_9.png",
+          "name": "Bóng Nước",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch có tấn công vật lý cao nhất, giảm nhẹ tấn công vật lý của kẻ địch đó, đồng thời tăng nhẹ tấn công vật lý của bản thân",
+          "effects": [
+            "Gây 3249 sát thương vật lý cho một kẻ địch",
+            "Giảm tấn công vật lý của kẻ địch đó đi 424",
+            "Tăng tấn công vật lý của bản thân lên 622"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_19.png",
+          "name": "Chuyên Gia Bẫy",
+          "description": "Tăng phòng thủ vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng phòng thủ vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+            "Tăng nhẹ tấn công vật lý"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Có thể tấn công bỏ qua thứ tự xếp hàng của kẻ địch",
+            "description": "Union Burst của Misogi tấn công diện rộng tập trung vào kẻ địch thứ hai gần nhất với bản thân. Tùy thuộc vào đội hình đối phương, có thể bỏ qua tank và gây sát thương cho các nhân vật hỗ trợ hoặc hậu tuyến.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sở hữu kỹ năng gây mù quý giá",
+            "description": "Misogi có kỹ năng gây sát thương cho kẻ địch đơn lẻ và gây hiệu ứng mù. Điểm đặc biệt xuất sắc là khả năng làm cho các đòn tấn công vật lý của kẻ địch dễ bị trượt.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Thời gian hiệu lực của hiệu ứng giảm tấn công rất dài",
+            "description": "Misogi sử dụng kỹ năng giảm tấn công chỉ một lần khi bắt đầu trận đấu. Hiệu ứng giảm tấn công này có thời gian hiệu lực rất dài, với thời gian chiến đấu hiện tại (1:30), hiệu ứng sẽ không hết hạn. Điều này có thể rất hiệu quả đối với các boss mà hiệu ứng giảm tấn công có tác dụng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sức tấn công thấp hơn so với các nhân vật tấn công chính",
+            "description": "Misogi có nhiều phương tiện gây sát thương và có thể đảm nhận vai trò làm suy yếu và cản trở kẻ địch. Tuy nhiên, vì kỹ năng EX của cô ấy tăng phòng thủ vật lý của bản thân, nên sức tấn công của cô ấy kém hơn so với các nhân vật tấn công thuần túy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật mạnh đối đầu với tấn công vật lý",
+            "description": "Misogi có các kỹ năng như gây mù và giảm tấn công vật lý, rất hiệu quả đối với các nhân vật tấn công vật lý. Khi đối đầu với kẻ địch chủ yếu sử dụng tấn công vật lý, cô ấy là một lựa chọn tốt cho đội hình.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Là tank phụ để khắc chế tấn công vật lý",
+            "description": "Với trang bị độc quyền, sát thương kỹ năng được tăng lên và bổ sung khả năng giảm tấn công vật lý diện rộng. Nhờ chu kỳ kỹ năng, cô ấy có thể liên tục giảm sức tấn công vật lý của kẻ địch trong phạm vi. Với khả năng sống sót cao, cô ấy nên được sử dụng như một tank phụ đối phó với kẻ địch sử dụng tấn công vật lý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kỹ năng được tăng cường cũng có khả năng gây debuff vĩnh viễn",
+            "description": "Tương tự như debuff vĩnh viễn khi bắt đầu trận đấu, kỹ năng được tăng cường bởi trang bị độc quyền cũng có khả năng gây hiệu ứng debuff vĩnh viễn. Càng chiến đấu lâu, càng có thể giảm sức tấn công vật lý của đối phương, tạo nên hiệu quả mạnh mẽ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể giảm khả năng hồi phục của tank",
+            "description": "Trong đấu trường, việc giảm sức tấn công của Miyako hoặc Kuuka có thể liên tục làm giảm khả năng hồi phục của họ. Mặc dù việc đưa Misogi vào đội hình sẽ làm giảm sức tấn công tổng thể, nhưng điểm mạnh là có thể giảm khả năng sống sót của tank đối phương.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Thông tin UB/Chỉ số",
+            "description": null,
+            "sub_point": null
+          },
+          {
+            "main_point": "UB trở thành công cụ khắc chế tấn công vật lý mạnh mẽ!",
+            "description": "Với nâng cấp 6 sao, hiệu suất UB được tăng cường, trở thành tấn công toàn thể. Ngoài ra, không chỉ giảm tấn công vật lý mà còn bổ sung debuff đối với tỷ lệ chí mạng vật lý và sát thương chí mạng vật lý. Cô ấy trở thành một nhân vật cản trở cực kỳ mạnh mẽ đối với tấn công vật lý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Chỉ số được tăng cường đáng kể",
+            "description": "Khi nâng lên 6 sao, chỉ số về khả năng sống sót được tăng cường đáng kể. Với các hiệu ứng giảm tấn công vật lý của bản thân, cô ấy trở nên rất mạnh đối với tấn công vật lý. Ngoài ra, điểm hấp dẫn là tăng 10 điểm TP từ bộ trang bị.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Xuất sắc trong đội hình phòng thủ đấu trường đối phó với đội tấn công vật lý",
+            "description": "Với khả năng sống sót cao và khả năng gây debuff tấn công vật lý thông qua kỹ năng và UB, cô ấy rất mạnh đối với đội hình chủ yếu sử dụng tấn công vật lý. Cô ấy có thể phát huy khả năng phòng thủ cao đối với đội hình tấn công có Ninon hoặc Hiyori làm nhân vật chính.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Là tank phụ trong các nhiệm vụ có tấn công vật lý mạnh",
+            "description": "Trong các nhiệm vụ có kẻ địch tấn công vật lý mạnh, debuff tấn công vật lý từ UB có thể hiệu quả. Cô ấy có thể hoạt động như một tank phụ kiêm vai trò debuff trong các nhiệm vụ khó như nhiệm vụ chính hoặc Tháp Luna.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "リマ",
+        "ニノン",
+        "水着サレン",
+        "ヨリ",
+        "ユキ"
+      ]
+    }
+  }

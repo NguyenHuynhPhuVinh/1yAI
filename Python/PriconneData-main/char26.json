@@ -1,0 +1,174 @@
+{
+    "character": {
+      "id": 26,
+      "name": "Mitsuki",
+      "name_jp": "ミツキ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92902_main.jpg",
+      "catchphrase": "Hihihi... Có nhiều đối tượng thí nghiệm quá...\nTôi vừa mới chế tạo thuốc mới nên thật là may mắn. Lâu rồi\ntôi chưa giải phóng \"Con mắt độc\" của mình... Có lẽ nào tôi nên giải phóng nó?",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Gây sát thương liên tục thông qua trạng thái nguyền rủa",
+          "Tạo ra trường làm giảm mạnh phòng thủ vật lý của kẻ địch",
+          "Union Burst vừa tấn công vừa có thể hồi máu cho bản thân"
+        ],
+        "weaknesses": [
+          "Sức mạnh tấn công thấp nên cần đi cùng với các nhân vật tấn công",
+          "Khả năng hồi máu từ Union Burst không thực sự hiệu quả trong Arena"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng giảm tốc độ hành động",
+          "Tăng sát thương từ nguyền rủa"
+        ],
+        "six_star_upgrade": [
+          "Union Burst thêm hiệu ứng giảm phòng thủ vật lý diện rộng",
+          "Sát thương Union Burst tăng gấp đôi",
+          "Hiệu ứng Union Burst tác động lên toàn bộ kẻ địch",
+          "Chỉ số liên quan đến TP tăng mạnh"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S+",
+        "arena": "S+",
+        "boss_battle": "A",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Người",
+        "guild": "Đoàn Caravan Hoàng Hôn"
+      },
+      "max_stats": {
+        "hp": 18814,
+        "physical_attack": 5047,
+        "magic_attack": 10,
+        "physical_defense": 249,
+        "magic_defense": 176
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Hoa Hồng Máu",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước. Hồi HP cho bản thân tương ứng với số lượng kẻ địch bị hạ gục bởi kỹ năng này.",
+          "effects": [
+            "Gây 7894 sát thương vật lý cho kẻ địch trong phạm vi",
+            "Hồi 20% HP cho mỗi kẻ địch bị hạ gục"
+          ],
+          "six_star_effect": [
+            "Giảm mạnh phòng thủ vật lý của tất cả kẻ địch phía trước và gây sát thương vật lý lớn. Hồi HP cho bản thân tương ứng với số lượng kẻ địch bị hạ gục bởi kỹ năng này."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_15.png",
+          "name": "Nở Rộ Lời Nguyền",
+          "description": "Khiến tất cả kẻ địch trong phạm vi phía trước rơi vào trạng thái nguyền rủa",
+          "effects": [
+            "Gây trạng thái nguyền rủa với 271 sát thương"
+          ],
+          "exclusive_equipment_effect": [
+            "Khiến tất cả kẻ địch trong phạm vi phía trước rơi vào trạng thái nguyền rủa, đồng thời giảm nhẹ tốc độ hành động."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_10.png",
+          "name": "Trường Hoa Hồng",
+          "description": "Triển khai một trường trong phạm vi nhất định phía trước bản thân, làm giảm mạnh phòng thủ vật lý",
+          "effects": [
+            "Giảm 136 phòng thủ vật lý của kẻ địch trong trường (khoảng 8 giây)"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Ác Quỷ Độc Nhãn",
+          "description": "Khi bắt đầu trận đấu, tăng vừa phải sức tấn công vật lý của bản thân",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng vừa phải sức tấn công vật lý của bản thân"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Kỹ năng giảm phòng thủ vật lý cực mạnh",
+            "description": "Mitsuki có khả năng giảm mạnh phòng thủ vật lý của nhiều kẻ địch trong phạm vi rộng, đây là điểm mạnh nổi bật. Bản thân Mitsuki không có khả năng tấn công quá cao, nên cần kết hợp với các nhân vật tấn công vật lý để phát huy tối đa hiệu quả.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể tự hồi máu thông qua Union Burst",
+            "description": "Mitsuki có thể hồi HP cho bản thân khi hạ gục kẻ địch bằng Union Burst. Trong các nhiệm vụ thông thường khi kẻ địch không có quá nhiều HP, khả năng tự hồi máu này giúp cô ấy chiến đấu bền bỉ hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Thời gian hiệu lực của kỹ năng giảm phòng thủ khá ngắn",
+            "description": "Mặc dù Mitsuki có kỹ năng giảm phòng thủ mạnh với phạm vi rộng, nhưng thời gian hiệu lực lại khá ngắn so với các kỹ năng giảm phòng thủ khác. Cần phối hợp thời điểm sử dụng Union Burst của đồng đội để tận dụng tối đa hiệu quả kỹ năng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hiệu ứng debuff không tác động lên hàng đầu của đối phương",
+            "description": "Trường debuff của Mitsuki có khoảng cách cố định, vì vậy vị trí đặt trường không phụ thuộc vào số lượng kẻ địch còn lại. Trong Arena, hiệu ứng debuff thường không tác động được lên nhân vật ở hàng đầu của đối phương.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Hỗ trợ xuất sắc cho các nhân vật tấn công diện rộng",
+            "description": "Với khả năng debuff diện rộng, Mitsuki có thể tăng cường sát thương cho các nhân vật tấn công diện rộng mạnh như Halloween Shinobu hay Ninon. Trong Arena, cô ấy có thể kết hợp với các nhân vật tấn công diện rộng để khắc chế những nhân vật cụ thể, mang lại nhiều khả năng chiến đấu đa dạng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể sử dụng trong Clan Battle",
+            "description": "Mặc dù thời gian hiệu lực ngắn nhưng với khả năng giảm phòng thủ mạnh, Mitsuki có thể kết hợp với các nhân vật tấn công vật lý để gây sát thương lớn. Sức mạnh tấn công của bản thân không cao nên tần suất sử dụng thấp hơn so với các nhân vật debuff thông dụng khác, nhưng vẫn có thể sử dụng khi thiếu nhân vật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Thêm khả năng giảm tốc độ hành động",
+            "description": "Khi trang bị vũ khí chuyên dụng, kỹ năng nguyền rủa của Mitsuki sẽ thêm hiệu ứng giảm tốc độ hành động. Mặc dù hiệu quả không lớn, nhưng dần dần sẽ làm chậm hành động của kẻ địch, mang lại lợi thế trong nhiều tình huống. Ngoài ra, việc tăng sát thương từ nguyền rủa cũng là một điểm cộng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Thêm hiệu ứng giảm phòng thủ vật lý diện rộng",
+            "description": "Khi nâng lên 6 sao, Union Burst sẽ thêm hiệu ứng giảm phòng thủ vật lý diện rộng, kết hợp với Kỹ năng 2 giúp Mitsuki sở hữu hai loại debuff giảm phòng thủ vật lý diện rộng. Thêm vào đó, sát thương từ Union Burst tăng gấp đôi, nâng cao khả năng tấn công.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Union Burst tác động lên toàn bộ kẻ địch",
+            "description": "Phạm vi tấn công được nâng cấp từ diện rộng lên toàn bộ kẻ địch. Trong Arena hay Tháp Luna, Union Burst có thể gây sát thương cho tất cả kẻ địch bất kể vị trí.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Mạnh mẽ đối đầu với đội hình phòng thủ thiên về tấn công",
+            "description": "Với khả năng debuff diện rộng ngay từ đầu trận và tấn công toàn thể gây sát thương lớn, Mitsuki trở nên mạnh mẽ. Bản thân cô ấy có khả năng sống sót cao, trở thành lựa chọn hiệu quả để đối phó với đội hình phòng thủ thiên về tấn công. Về mặt vị trí, Mitsuki dễ dàng nhận được hỗ trợ từ Yukari, nên thường được sử dụng làm nhân vật trung tâm trong đội hình kiểu Yukari.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ユカリ",
+        "カイザーインサイト",
+        "ユニ",
+        "ミツキ(オーエド)",
+        "イノリ",
+        "モニカ"
+      ]
+    }
+  }

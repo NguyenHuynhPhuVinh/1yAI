@@ -1,0 +1,185 @@
+{
+    "character": {
+      "id": 22,
+      "name": "Mimi",
+      "name_jp": "ミミ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92898_main.jpg",
+      "catchphrase": "Thỏ ngọc~ ♪ Mèo con ♪ Cún con ♪\nTất cả, tất cả, đều là bạn bè của tôi~ ♪",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Tăng cường sức tấn công vật lý cho toàn đội",
+          "Union Burst tấn công nhân vật ở hàng thứ 2",
+          "Hoạt động hiệu quả ngay cả với kẻ địch đơn lẻ"
+        ],
+        "weaknesses": [
+          "Khả năng chống chịu thấp"
+        ],
+        "exclusive_equipment": [
+          "Nâng cấp thành tấn công diện rộng có thể chạm tới một số nhân vật hậu tuyến",
+          "Sức mạnh kỹ năng cao"
+        ],
+        "six_star_upgrade": [
+          "Cả đòn tấn công đầu và thứ hai đều trở thành tấn công diện rộng",
+          "Phạm vi tấn công đầu tiên cũng khá rộng",
+          "Sát thương UB tăng"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "A",
+        "arena": "S",
+        "boss_battle": "A",
+        "elemental_evaluation": "A"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Thú nhân",
+        "guild": "Little Lyrical"
+      },
+      "max_stats": {
+        "hp": 15898,
+        "physical_attack": 5420,
+        "magic_attack": 0,
+        "physical_defense": 200,
+        "magic_defense": 146
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Kiểu Thỏ Ngọc",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước và sát thương vật lý lớn cho kẻ địch gần thứ 2.",
+          "effects": [
+            "Gây 9431 sát thương vật lý cho kẻ địch đơn lẻ phía trước",
+            "Gây 18523 sát thương vật lý cho kẻ địch đơn lẻ gần thứ 2"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước, và gây sát thương vật lý đặc biệt lớn cho tất cả kẻ địch trong phạm vi xung quanh kẻ địch gần thứ 2."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Tấn Công Nhảy Nhót",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước",
+          "effects": [
+            "Gây 8232 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Cổ Vũ Kiểu Thỏ Ngọc",
+          "description": "Tăng nhẹ sức tấn công vật lý cho toàn đội",
+          "effects": [
+            "Tăng sức tấn công vật lý của toàn đội thêm 339"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Sức Mạnh Thỏ Ngọc",
+          "description": "Tăng sức tấn công vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Chém Kiểu Thỏ Ngọc là đặc điểm nổi bật nhất",
+            "description": "Union Burst \"Chém Kiểu Thỏ Ngọc\" của Mimi có khả năng gây sát thương trung bình cho kẻ địch gần nhất và sát thương lớn cho kẻ địch gần thứ hai. Điểm mạnh là có thể tấn công xuyên qua tank của đối phương.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng sức tấn công vật lý cho cả đội",
+            "description": "Mimi có thể tăng sức tấn công vật lý cho toàn đội. Mặc dù hiệu quả không quá cao do áp dụng cho toàn đội, nhưng tùy vào đội hình, cô có thể nâng cao sức mạnh tổng thể của cả đội.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể trở về vị trí ban đầu với Tấn Công Nhảy Nhót",
+            "description": "Ngay cả khi Mimi bị di chuyển bởi kỹ năng kéo của Tsumugi, cô vẫn có thể sử dụng \"Tấn Công Nhảy Nhót\" để lùi lại và trở về vị trí ban đầu. Điều này có thể được sử dụng như một biện pháp đối phó với Tsumugi.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Đặc biệt cẩn thận với tấn công phép thuật",
+            "description": "Mimi là nhân vật được đặt ở vị trí phía trước trong hàng giữa. Do khả năng phòng thủ phép thuật thấp và thường bị cuốn vào các đòn tấn công diện rộng, cần phải cẩn thận với các đòn tấn công của kẻ địch.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Khi cần tấn công kẻ địch ở vị trí thứ hai",
+            "description": "Mimi là nhân vật hiệu quả khi cần tiêu diệt kẻ địch hỗ trợ đứng sau boss, như Luna Pod trong Luna Tower. Kết hợp UB của Mimi với debuff diện rộng của Mitsuki có thể gây sát thương hiệu quả.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vai trò tấn công trong Clan Battle",
+            "description": "Mặc dù không phải là lựa chọn tối ưu nhất, Mimi vẫn có thể được sử dụng như một nhân vật tấn công trong Clan Battle nhờ khả năng gây sát thương từ UB và kỹ năng. Kỹ năng \"Cổ Vũ Kiểu Thỏ Ngọc\" giúp tăng sức tấn công vật lý cho cả đội, khiến cô đặc biệt hiệu quả trong đội hình vật lý.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Đề xuất nếu cần nhân vật tấn công diện rộng",
+            "description": "Với trang bị chuyên dụng, Mimi sở hữu khả năng tấn công diện rộng rất mạnh, đặc biệt hữu ích nếu bạn không có nhân vật tấn công diện rộng như Halloween Shinobu. Kết hợp với Mitsuki, cô có thể hoạt động hiệu quả trong Arena và cũng là ứng cử viên cho các đội hình chiến đấu với nhiều mục tiêu.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Phạm vi tấn công cực kỳ rộng",
+            "description": "Với trang bị chuyên dụng, đòn tấn công đơn lẻ của Mimi chuyển thành tấn công diện rộng. Tùy thuộc vào đội hình, phạm vi tấn công có thể chạm tới một số nhân vật ở hậu tuyến. Cô có thể được sử dụng như một nhân vật đối phó với các đơn vị tấn công ở vị trí giữa và sau.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Điểm mạnh của UB/Nâng cấp chỉ số",
+            "description": null,
+            "sub_point": null
+          },
+          {
+            "main_point": "Được tăng cường như một nhân vật tấn công diện rộng",
+            "description": "UB ban đầu là tấn công đơn lẻ vào mục tiêu thứ nhất và thứ hai, nhưng ở 6 sao, cả hai đòn tấn công đều chuyển thành tấn công diện rộng. Không chỉ trở nên mạnh mẽ hơn như một nhân vật tấn công diện rộng, khả năng tấn công khu vực xung quanh mục tiêu thứ hai cũng khiến cô phù hợp hơn trong Arena.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Phạm vi tấn công rộng",
+            "description": "Phạm vi tấn công của UB, đặc biệt là phần tấn công diện rộng phía trước, được thiết lập khá rộng. Tùy thuộc vào đội hình, có thể chạm tới Saren và một số nhân vật hậu tuyến. UB có khả năng gây sát thương lớn cho nhiều kẻ địch.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật tấn công diện rộng mạnh mẽ trong Arena",
+            "description": "Sức mạnh tấn công diện rộng của UB cực kỳ cao, có tiềm năng xử lý nhanh chóng ngay cả những nhân vật có khả năng chống chịu cao như Saren 6 sao. Kết hợp với nhân vật hỗ trợ buff hoặc hồi TP để tăng số lượng nhân vật có thể đột phá.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Ứng cử viên tấn công cho trận đấu nhiều mục tiêu",
+            "description": "Với khả năng tấn công diện rộng mạnh mẽ, Mimi có thể được sử dụng như một nhân vật tấn công trong các trận đấu boss nhiều mục tiêu. Tuy nhiên, do hiệu suất kỹ năng và vòng lặp hơi yếu, những nhân vật như Luka Mùa Hè với kỹ năng xuất sắc hoặc Halloween Mimi có thể buff đồng đội sẽ đóng góp nhiều sát thương hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ノゾミ",
+        "ジュン",
+        "ミソギ",
+        "ミツキ"
+      ]
+    }
+  }

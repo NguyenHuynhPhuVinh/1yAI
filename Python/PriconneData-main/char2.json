@@ -1,0 +1,177 @@
+{
+    "character": {
+      "id": 2,
+      "name": "Akino",
+      "name_jp": "アキノ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92871_main.jpg",
+      "catchphrase": "Này bạn kia, bạn sẽ trả bao nhiêu để trở thành hiệp sĩ của tôi?",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Chỉ số tấn công vật lý/HP cao",
+          "Tăng tấn công vật lý cho bản thân bằng kỹ năng",
+          "Gây sát thương lớn cho kẻ địch bằng Union Burst",
+          "Kỹ năng có hiệu ứng phản đòn",
+          "Có kỹ năng hồi phục liên tục cho nhân vật trong phạm vi",
+          "Có thể hỗ trợ HP cho đồng đội dù đứng ở hàng trước",
+          "Tổng lượng hồi phục lớn"
+        ],
+        "weaknesses": [
+          "Phòng thủ không cao nên cần có tanker",
+          "Không thể hành động khi đang trong hiệu ứng phản đòn",
+          "Kỹ năng hồi phục không thể hồi ngay lập tức"
+        ],
+        "exclusive_equipment": [
+          "Kỹ năng phản đòn được tăng cường đáng kể",
+          "Tuy nhiên phản đòn vẫn còn khó sử dụng"
+        ],
+        "six_star_upgrade": [
+          "Sức mạnh UB tăng đáng kể",
+          "Tạo trường sát thương mạnh mẽ",
+          "Thêm hiệu ứng tăng tấn công cho bản thân",
+          "Có thêm lá chắn hấp thụ sát thương vật lý/phép giúp tăng khả năng sống sót"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "A",
+        "arena": "A",
+        "boss_battle": "SS",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Nhân loại",
+        "guild": "Tập đoàn Mercurius"
+      },
+      "max_stats": {
+        "hp": 20922,
+        "physical_attack": 5845,
+        "magic_attack": 0,
+        "physical_defense": 225,
+        "magic_defense": 173
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Tấn Công Cao Quý",
+          "description": "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước.",
+          "effects": [
+            "Gây 26421 sát thương vật lý cho một kẻ địch"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, tạo trường sát thương vật lý (15 lần) xung quanh kẻ địch đó, tăng tấn công vật lý của bản thân lên cực đại (khoảng 18 giây), đồng thời tạo lá chắn hấp thụ sát thương vật lý/phép."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Máu",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước, tăng nhẹ tấn công vật lý cho bản thân. Sau đó, khi đang cười mà bị tấn công, sẽ phản đòn kẻ địch trong phạm vi phía trước.",
+          "effects": [
+            "Gây 6605 sát thương vật lý cho một kẻ địch",
+            "Gây 4403 sát thương vật lý cho kẻ địch trong phạm vi",
+            "Tăng tấn công vật lý của bản thân lên 622"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước, tăng tấn công vật lý trung bình, tăng nhẹ TP và khiêu khích kẻ địch. Sau đó, khi đang cười mà bị tấn công, sẽ phản đòn kẻ địch trong phạm vi phía trước (sức mạnh phản đòn tăng)."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+          "name": "Ngọc Hồi Phục",
+          "description": "Tạo trường hồi phục nhẹ cho tất cả đồng đội trong phạm vi xung quanh bản thân.",
+          "effects": [
+            "Tạo trường hồi phục 261 HP mỗi giây."
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Linh Hồn Lửa",
+          "description": "Khi bắt đầu trận đấu, tăng trung bình tấn công vật lý cho bản thân.",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng trung bình tấn công vật lý cho bản thân.",
+            "Tăng nhẹ phòng thủ vật lý"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Có kỹ năng/UB tấn công đơn mục tiêu",
+            "description": "Akino có kỹ năng/UB tấn công đơn mục tiêu. Khi kết hợp với nhân vật có kỹ năng giảm phòng thủ, cô ấy có thể trở thành một đấu sĩ gây sát thương cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng khả năng sống sót cho đội hình bằng trường hồi phục",
+            "description": "Với kỹ năng của mình, cô ấy có thể tạo trường hồi phục xung quanh trong một khoảng thời gian. Điều này giúp tăng khả năng sống sót cho bản thân và các nhân vật hàng trước khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Thời gian hồi kỹ năng dài",
+            "description": "Kỹ năng phản đòn của Akino có thời gian hoạt ảnh dài, khiến cô mất nhiều thời gian để chuyển sang hành động tiếp theo. Vì vậy, cô thường bắn Union Burst chậm hơn so với các nhân vật khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Hoạt động hiệu quả trong các trận đấu với boss",
+            "description": "Akino đặc biệt hiệu quả trong các trận đấu với boss khi đóng vai trò duy trì HP cho các đấu sĩ yếu về phòng thủ như Makoto. Khả năng hỗ trợ HP cho đồng đội đồng thời đóng góp sát thương thông qua kỹ năng/UB tấn công là vai trò độc đáo mà chỉ Akino có thể đảm nhận.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Kỹ năng phản đòn được tăng cường đáng kể",
+            "description": "Khi trang bị vũ khí chuyên dụng, nhược điểm của kỹ năng phản đòn được khắc phục phần nào. Đặc biệt, việc tăng đáng kể lượng sát thương phản đòn là một điểm cộng lớn. Điều này giúp cô ấy dễ sử dụng hơn trong các trận đấu với boss như Clan Battle.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB được tăng cường mạnh mẽ",
+            "description": "Với nâng cấp 6 sao, Union Burst của Akino được tăng cường đáng kể! Sát thương cơ bản tăng hơn 2 lần, cùng với việc bổ sung trường sát thương, buff tấn công cho bản thân, và lá chắn hấp thụ sát thương vật lý/phép.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sát thương cơ bản của UB cực cao",
+            "description": "UB được tăng cường với sát thương cơ bản tăng đáng kể. Mặc dù chỉ số chí mạng của cô ấy hơi thấp, nhưng sát thương gây ra vẫn đủ để bù đắp. Với trường sát thương 15 hit, UB có thể gây ra lượng sát thương cực kỳ cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng sống sót tăng lên",
+            "description": "Nhờ vào việc nâng cấp tài năng 6 sao, chỉ số cơ bản được tăng lên. UB tạo ra lá chắn hấp thụ sát thương vật lý/phép hiệu quả cao. Cô ấy có thể tự hồi phục HP bị mất do khiêu khích.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vị trí tanker+đấu sĩ trong Arena",
+            "description": "UB có sát thương đơn mục tiêu cao và trường sát thương mạnh mẽ. Với khả năng khiêu khích và độ bền cao, cô có thể hoạt động như một tanker khiêu khích miễn là không phải nhận đòn tấn công đơn mục tiêu từ đấu sĩ thuần túy. Đây là một bộ kỹ năng xuất sắc cho Arena.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hữu ích khi cần khiêu khích trong trận đấu với boss",
+            "description": "UB là nguồn sát thương hiệu quả. Với khả năng khiêu khích và độ bền cao, cô có thể là giải pháp đối phó với các đòn tấn công đơn mục tiêu mạnh. Mặc dù không có debuff nên không phải là nhân vật đa năng, nhưng cô có thể được sử dụng để đối phó với các cơ chế đặc biệt trong Clan Battle.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": []
+      },
+      "recommended_pairings_name": [
+        "マコト",
+        "ノゾミ",
+        "ジュン"
+      ]
+    }
+  }

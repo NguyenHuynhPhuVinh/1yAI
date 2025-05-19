@@ -1,0 +1,13 @@
+{
+    "id": "UltimateLib",
+    "name": "UltimateLib",
+    "version": "1.4.0",
+    "author": "Francesco Abbattista and Chad Keating",
+    "url": "http://forum.greenheartgames.com/t/wip-tools-ultimatesuite-ultimatelib-1-2-0-and-ume-0-2-4-24/9855/",
+    "description": "The core library of the UltimateSuite, a set of tools to make development of mods an easy task. \nYou will need this library if other mods depends on it. \n\nFor more information, please visit our official forum page[forum.greenheartgames.com] \n\nYou might also want to take a look at the Official UltimateLib API documentation[gdt-ultimatesuite.abesco.de] \n\nBy downloading, installing and using the Software you also agree to comply with the Greenheart Games Modding Agreement[www.greenheartgames.com]. \n\n----------------------------------------------------------------------------------------------------------------------------- \nAlso featuring the UltimateModEditor. \n----------------------------------------------------------------------------------------------------------------------------- \nCreate mods easily without coding knowdledge with our Windows compatible editor. Read more by visiting our official forum page[forum.greenheartgames.com]. \n----------------------------------------------------------------------------------------------------------------------------- \n\nUltimateLib Version 1.4.0 \nUltimateModEditor Version 0.4.5 \n\nWritten and developed by \nFrancesco Abbattista (alphabit) \nChad Keating (Sir Everard)",
+    "main": "./UltimateLib.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "debug": false
+}

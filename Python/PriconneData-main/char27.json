@@ -1,0 +1,181 @@
+{
+    "character": {
+      "id": 27,
+      "name": "Kokkoro",
+      "name_jp": "コッコロ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92903_main.jpg",
+      "catchphrase": "Tôi đã được giao nhiệm vụ làm người hướng dẫn cho chủ nhân.\nTôi sẽ hết lòng phục vụ để chủ nhân được hài lòng.",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Có thể hỗ trợ đồng đội đồng thời tự hồi phục",
+          "Sở hữu kỹ năng tăng tốc độ hành động quý giá"
+        ],
+        "weaknesses": [
+          "Cần đạt Rank 4 trở lên để sử dụng hiệu quả như nhân vật hỗ trợ",
+          "Sức tấn công khá khiêm tốn"
+        ],
+        "exclusive_equipment": [
+          "Tăng chỉ số giúp cải thiện khả năng sống sót",
+          "Kỹ năng được cường hóa giúp tăng TP cho bản thân",
+          "Khả năng hỗ trợ không thay đổi"
+        ],
+        "six_star_upgrade": [
+          "UB được bổ sung hiệu ứng hồi phục toàn đội",
+          "Tăng hiệu quả của buff tấn công",
+          "Thêm buff tăng TP",
+          "Mở rộng phạm vi hoạt động với vai trò hỗ trợ"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "S",
+        "boss_battle": "S+",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Elf",
+        "guild": "Hội Mỹ Thực"
+      },
+      "max_stats": {
+        "hp": 25758,
+        "physical_attack": 5044,
+        "magic_attack": 20,
+        "physical_defense": 456,
+        "magic_defense": 336
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+          "name": "Ánh Sáng Cực Quang",
+          "description": "Tăng nhẹ sức tấn công vật lý và sức tấn công phép thuật cho toàn đội, đồng thời hồi phục HP trung bình cho bản thân.",
+          "effects": [
+            "Tăng sức tấn công vật lý của toàn đội thêm 509",
+            "Tăng sức tấn công phép thuật của toàn đội thêm 509",
+            "Hồi phục 5413 HP cho bản thân"
+          ],
+          "six_star_effect": [
+            "Hồi phục HP lớn cho bản thân.",
+            "Hồi phục HP trung bình cho toàn đội, tăng vừa sức tấn công vật lý và phép thuật, đồng thời tăng nhẹ tốc độ hồi TP. (Các hiệu ứng buff kéo dài khoảng 18 giây)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Tam Liên Chém",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước",
+          "effects": [
+            "Gây 8751 sát thương vật lý cho một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước, đồng thời tăng vừa sức tấn công vật lý và tăng nhẹ tốc độ hồi TP cho bản thân. (Các hiệu ứng buff kéo dài khoảng 12 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Tăng Tốc",
+          "description": "Tăng nhẹ tốc độ hành động cho toàn đội, đồng thời tăng nhẹ sức tấn công vật lý",
+          "effects": [
+            "Tăng tốc độ hành động cho toàn đội",
+            "Tăng nhẹ sức tấn công vật lý cho toàn đội"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Khải Thị Tinh Linh",
+          "description": "Tăng vừa sức tấn công vật lý cho bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng vừa sức tấn công vật lý cho bản thân khi bắt đầu trận đấu",
+            "Tăng nhẹ phòng thủ phép thuật"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Một trong số ít nhân vật có kỹ năng tăng tốc độ hành động",
+            "description": "Kokkoro là một trong số ít nhân vật trong Princess Connect Re:Dive có kỹ năng tăng tốc độ hành động. Việc tăng tốc độ hành động giúp toàn đội thực hiện tấn công thường và kỹ năng nhanh hơn, từ đó tích lũy TP dễ dàng hơn, đây là điểm cực kỳ mạnh.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Union Burst vừa tự hồi phục vừa hỗ trợ đồng đội",
+            "description": "Kokkoro có thể tăng sức tấn công vật lý/phép thuật cho toàn đội thông qua Union Burst. Ngoài ra, kỹ năng này còn có hiệu ứng hồi phục HP cho bản thân, giúp cô trở thành một nhân vật trung vệ có khả năng chiến đấu bền bỉ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vượt lên trước tiền vệ khi sử dụng kỹ năng tấn công",
+            "description": "Khi sử dụng kỹ năng tấn công, Kokkoro sẽ vượt lên trước tiền vệ trong thoáng chốc. Nếu đúng lúc đó có đòn tấn công từ địch, Kokkoro có thể thay thế tiền vệ nhận sát thương.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sức tấn công khiêm tốn",
+            "description": "Kokkoro sở hữu nhiều kỹ năng hỗ trợ nên có ít phương thức gây sát thương cho kẻ địch. Mặc dù có thể tăng sức tấn công vật lý cho bản thân thông qua kỹ năng EX, nhưng việc tận dụng điều này khá khó khăn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Hoạt động hiệu quả trong cả trận đấu ngắn và dài",
+            "description": "Khác với Monica chỉ có thể tăng tốc độ hành động 1 lần mỗi đợt, Kokkoro có thể liên tục sử dụng kỹ năng tăng tốc độ, nên phù hợp cho cả trận đấu dài. Union Burst vừa tự hồi phục vừa hỗ trợ đồng đội cũng rất xuất sắc, giúp cô hoạt động hiệu quả trong cả nhiệm vụ thông thường và đấu trường.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Tăng khả năng sống sót",
+            "description": "Trang bị chuyên dụng giúp tăng phòng thủ, lượng hồi phục và các chỉ số khác, từ đó cải thiện khả năng sống sót. Cường hóa kỹ năng bổ sung hiệu ứng tự buff tăng sức tấn công vật lý và TP, giúp sử dụng Union Burst tự hồi phục nhanh hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Có khả năng hồi phục toàn đội xuất sắc",
+            "description": "Khi nâng lên 6 sao, Union Burst được cường hóa, có thể hồi phục cho toàn đội. Trước đây Kokkoro chỉ đóng vai trò phụ tank kiêm buffer, nhưng giờ đây có thể được sử dụng như một healer, mở rộng đáng kể phạm vi hoạt động.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng buffer cũng được tăng cường",
+            "description": "Hiệu quả buff tấn công từ Union Burst được tăng cường. Ngoài ra, còn được bổ sung buff tăng TP, nâng cao khả năng hỗ trợ. Kết hợp với buff tăng tốc độ hành động, cô có thể tăng tốc độ sử dụng Union Burst và sức tấn công cho cả đội, rất hữu ích trong các trận Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hiệu suất phụ tank cũng được nâng cấp!",
+            "description": "Khả năng chống chịu vật lý tăng mạnh, giúp cô không dễ bị hạ gục khi nhận sát thương vật lý diện rộng mạnh. Ngay cả khi nhận sát thương, hiệu ứng tăng tốc độ hồi TP từ kỹ năng và Union Burst giúp tăng tần suất sử dụng UB, tạo vòng lặp sống sót mạnh mẽ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Healer kiêm buffer hoạt động hiệu quả trong nhiều tình huống",
+            "description": "Nhờ Union Burst được cường hóa, Kokkoro trở thành nhân vật dễ sử dụng trong các nội dung cần hồi phục toàn đội. Có thể đảm nhận cả vai trò healer và hỗ trợ tấn công cùng lúc, nên có cơ hội hoạt động trong các trận boss Clan Battle giai đoạn 2-3.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng hồi phục toàn đội ở vị trí trung vệ rất quý giá",
+            "description": "Tại thời điểm ra mắt, chỉ có Rin là nhân vật trung vệ có khả năng hồi phục toàn đội. Kokkoro có lượng hồi phục đơn thuần cao hơn Rin và hiệu ứng buff mạnh mẽ hơn. Việc phát triển Kokkoro sẽ giúp bạn có thêm lựa chọn healer cho các nhiệm vụ và trận đấu boss.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "シオリ",
+        "ワカナ",
+        "コッコロ(プリンセス)",
+        "アネモネ"
+      ]
+    }
+  }

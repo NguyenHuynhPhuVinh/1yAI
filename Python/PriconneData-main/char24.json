@@ -1,0 +1,177 @@
+{
+    "character": {
+      "id": 24,
+      "name": "Mahiru",
+      "name_jp": "マヒル",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92900_main.jpg",
+      "catchphrase": "Này anh, nếu anh quan tâm đến hài kịch thì có muốn làm cộng sự của tôi không?\nTôi đang tìm một người cộng sự đấy.\nỪm, hãy suy nghĩ về điều đó nhé~?",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Union Burst có hiệu ứng làm choáng",
+          "Sở hữu kỹ năng đẩy lùi kẻ địch quý giá",
+          "Có thể phá vỡ đội hình địch và đẩy chúng vào tầm tấn công diện rộng của đồng đội"
+        ],
+        "weaknesses": [
+          "Độ bền thân thấp nên cần đi cùng với Tanker"
+        ],
+        "exclusive_equipment": [
+          "Tăng đáng kể khoảng cách đẩy lùi + thêm hiệu ứng gây hoảng loạn",
+          "Trang bị có chỉ số tăng TP"
+        ],
+        "six_star_upgrade": [
+          "Tăng thời gian choáng của UB + thêm hiệu ứng đẩy lùi",
+          "Thêm sát thương vật lý diện rộng + hiệu ứng gây hoảng loạn",
+          "Độ bền cao đối với nhân vật trung vệ",
+          "Chủ yếu đảm nhận vai trò cản trở trong Arena"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "S",
+        "arena": "SS+",
+        "boss_battle": "B",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Người",
+        "guild": "Trang trại (Elizabeth Park)"
+      },
+      "max_stats": {
+        "hp": 15229,
+        "physical_attack": 5095,
+        "magic_attack": 0,
+        "physical_defense": 269,
+        "magic_defense": 174
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92900_ub.jpg",
+          "name": "Elizabeth",
+          "description": "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, đồng thời làm choáng chúng.",
+          "effects": [
+            "Gây 19718 sát thương vật lý cho một kẻ địch",
+            "Làm cho một kẻ địch không thể hành động trong một khoảng thời gian nhất định"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn (tăng sát thương cơ bản) cho 1 kẻ địch ở phía trước, làm choáng trong thời gian dài (khoảng 5 giây) và đẩy lùi mạnh, đồng thời gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi xung quanh mục tiêu đó và gây hoảng loạn (khoảng 4 giây)."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Tấn Công Bình Sữa",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch ở phía trước, đồng thời đẩy lùi chúng một chút",
+          "effects": [
+            "Gây 3943 sát thương vật lý cho một kẻ địch"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch ở phía trước, gây trạng thái hoảng loạn và đẩy lùi mạnh"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Bằng Xiên",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước, đồng thời tăng nhẹ sức tấn công vật lý của bản thân",
+          "effects": [
+            "Gây 5915 sát thương vật lý cho một kẻ địch",
+            "Tăng sức tấn công vật lý của bản thân lên 622"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Trò Đùa Bắt Chuyện",
+          "description": "Tăng sức tấn công vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân ở mức trung bình khi bắt đầu trận đấu",
+            "Tăng nhẹ phòng thủ vật lý"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ chuyên về tấn công vật lý",
+            "description": "Mahiru sở hữu Union Burst mạnh mẽ có thể gây sát thương lớn cho một kẻ địch đồng thời làm choáng chúng. Ngoài ra, cô còn có thể tăng sức tấn công vật lý của bản thân thông qua kỹ năng, điều này rất tương thích với Union Burst của mình.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sở hữu kỹ năng đẩy lùi quý giá",
+            "description": "Mahiru có thể gây sát thương và đẩy lùi một kẻ địch thông qua kỹ năng của mình. Tùy thuộc vào đội hình đối phương, cô có thể đẩy nhân vật ở hàng đầu ra sau, đưa chúng vào tầm tấn công diện rộng của đồng đội.",
+            "sub_point": "Khả năng phá vỡ đội hình bằng cách đẩy lùi cũng rất xuất sắc. Tùy thuộc vào đội hình đối phương, nếu thực hiện tốt, cô có thể đẩy tanker ra sau và tiêu diệt những nhân vật mà tanker đang bảo vệ."
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sát thương bị phân tán do hiệu ứng đẩy lùi",
+            "description": "Do Mahiru có khả năng đẩy lùi, kẻ địch ở phía trước sẽ bị đẩy lùi về vị trí phía sau. Điều này có thể khiến kẻ địch đang bị debuff hoặc bị tấn công đơn lẻ bị đẩy ra sau, dẫn đến việc sát thương bị phân tán.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nên xếp đội cùng với nhân vật có tấn công diện rộng",
+            "description": "Mahiru sở hữu kỹ năng đẩy lùi xuất sắc, vì vậy nên xếp đội cùng với những nhân vật có khả năng tấn công diện rộng tương thích. Trong các nhiệm vụ kéo dài, việc tận dụng khả năng đẩy lùi để tấn công nhiều kẻ địch cùng lúc rất hiệu quả.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò làm choáng đơn lẻ trong Arena",
+            "description": "Kỹ năng 2 có thể sử dụng ngay từ đầu được bổ sung hiệu ứng làm choáng, có thể khóa kỹ năng đầu tiên của nhân vật đầu tiên đối phương như Yukari hoặc Kasumi. Về tốc độ làm choáng, cô đứng thứ hai sau Mifuyu.",
+            "sub_point": "So với Mifuyu, điểm mạnh của Mifuyu là có thể kết hợp với Saren (Mùa Hè) để thực hiện UB làm choáng toàn thể. Ngược lại, ưu điểm của Mahiru là tất cả UB/kỹ năng đều có hiệu ứng cản trở, giúp cô có thể hoạt động hiệu quả trong cả tấn công và phòng thủ trong các trận đấu kéo dài."
+          },
+          {
+            "main_point": "Khả năng gây sát thương được tăng cường",
+            "description": "Chỉ số tấn công vật lý/chí mạng được tăng thông qua trang bị chuyên dụng, kỹ năng được bổ sung hiệu ứng tăng sức tấn công vật lý cho bản thân. Có thể di chuyển đội hình đối phương để tiêu diệt các đấu sĩ hoặc kết hợp với các đấu sĩ khác để tấn công mạnh mẽ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Lựa chọn mới cho vai trò làm choáng",
+            "description": "Đặc biệt hiệu quả khi đối phương có các nhân vật đầu tiên như Inori/Yukari/Kasumi trong đội hình. So với Mifuyu, thời điểm làm choáng và độ bền không khác biệt nhiều, vì vậy có thể đơn giản thay thế Mifuyu trong các đội hình hiện tại.",
+            "sub_point": "Cần lưu ý rằng đối với Inori phòng thủ, sẽ xảy ra tình huống cả hai cùng làm choáng nhau, khiến Mahiru không thể bảo vệ các nhân vật phía sau khỏi bị choáng."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB làm choáng đơn lẻ được cải thiện đáng kể!",
+            "description": "Ở 6 sao, đối với mục tiêu đơn lẻ, thời gian làm choáng được tăng + thêm hiệu ứng đẩy lùi mạnh. Ngoài ra, còn được bổ sung hiệu ứng gây sát thương vật lý diện rộng + gây hoảng loạn, khiến cô trở thành nhân vật cản trở xuất sắc trong các chế độ như Arena.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Trở thành đấu sĩ phụ với độ bền cao!",
+            "description": "Nhờ việc tăng cường chỉ số, cô đạt được độ bền khá cao so với các nhân vật 6 sao. Cô ít khi bị hạ gục dễ dàng bởi các đòn tấn công diện rộng hoặc toàn thể. Khả năng thực hiện vai trò cản trở một cách ổn định cũng là một trong những điểm mạnh của cô.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật cản trở kiêm đấu sĩ cho Arena",
+            "description": "Có thể ngăn chặn hành động của kẻ địch thông qua hiệu ứng hoảng loạn + đẩy lùi, hữu ích trong cả tấn công và phòng thủ. Sát thương đơn lẻ đủ mạnh nhưng sát thương diện rộng chủ yếu để gây hoảng loạn. So với các đấu sĩ 6 sao khác, cô kém hơn về mặt sát thương khi làm đấu sĩ chính, nên tốt nhất nên sử dụng như một đấu sĩ phụ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Cần kết hợp với hỗ trợ TP hoặc phản đòn để sử dụng UB",
+            "description": "Không có cách tự tăng TP và do độ bền cao nên khó tích TP thông qua việc nhận sát thương. Nên kết hợp với các nhân vật hỗ trợ TP đồng đội hoặc tận dụng độ bền cao để phản đòn UB của đối phương.",
+            "sub_point": "Ngay cả trong đội hình phòng thủ có sát thương cao, nếu thiên về độ bền, độ bền cao của Mahiru sẽ giúp đội hình hoạt động ổn định hơn."
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "水着サレン",
+        "リマ",
+        "水着ハツネ"
+      ]
+    }
+  }

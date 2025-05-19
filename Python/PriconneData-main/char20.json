@@ -1,0 +1,180 @@
+{
+    "character": {
+      "id": 20,
+      "name": "Monica",
+      "name_jp": "モニカ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92896_main.jpg",
+      "catchphrase": "Tôi là Monica Weiswind!\nMột quân nhân xuất sắc thuộc tổ chức Weissflügel đáng tự hào!",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Một trong số ít nhân vật có kỹ năng tăng tốc độ hành động",
+          "Có thể tăng sức tấn công vật lý/phép thuật cho đồng đội",
+          "Có kỹ năng gây choáng, có khả năng cản trở đối thủ",
+          "Có thể gây sát thương diện rộng",
+          "Đặc biệt xuất sắc trong các trận đấu ngắn"
+        ],
+        "weaknesses": [
+          "Kỹ năng hỗ trợ đồng đội chỉ có thể kích hoạt một lần trong mỗi đợt chiến đấu"
+        ],
+        "exclusive_equipment": [
+          "Tăng hiệu quả của buff tốc độ",
+          "Tăng đáng kể lượng buff tấn công"
+        ],
+        "six_star_upgrade": [
+          "Tăng sức mạnh UB + thêm hiệu ứng gây choáng",
+          "Thêm buff tấn công vật lý/phép thuật + tăng mạnh tốc độ hành động cho toàn đội",
+          "Tăng TP thông qua set bonus +10"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "SS",
+        "boss_battle": "S",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Người",
+        "guild": "Chi nhánh Landosol của Weissflügel"
+      },
+      "max_stats": {
+        "hp": 22033,
+        "physical_attack": 4893,
+        "magic_attack": 10,
+        "physical_defense": 286,
+        "magic_defense": 222
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Tia Sét Tím",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch ở phía trước.",
+          "effects": [
+            "Gây 7150 sát thương vật lý trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch ở phía trước và làm choáng chúng (khoảng 3 giây). Đồng thời, tăng mạnh sức tấn công vật lý và phép thuật, cũng như tăng mạnh tốc độ hành động cho toàn đội (mỗi hiệu ứng kéo dài khoảng 30 giây)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Tiếng Hò Weissflügel",
+          "description": "Tăng nhẹ sức tấn công vật lý và phép thuật, đồng thời tăng mạnh tốc độ hành động cho toàn đội.",
+          "effects": [
+            "Tăng sức tấn công vật lý của toàn đội thêm 170",
+            "Tăng sức tấn công phép thuật của toàn đội thêm 170",
+            "Tăng tốc độ hành động của toàn đội"
+          ],
+          "exclusive_equipment_effect": [
+            "Tăng mạnh sức tấn công vật lý và phép thuật, đồng thời tăng mạnh tốc độ hành động cho toàn đội."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Phát Súng Musket",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch ở phía trước và làm choáng chúng.",
+          "effects": [
+            "Gây 3972 sát thương vật lý cho một kẻ địch",
+            "Làm kẻ địch không thể hành động trong một khoảng thời gian nhất định (khoảng 1,5 giây)"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Phù Hộ Cánh Trắng",
+          "description": "Tăng vừa sức tấn công vật lý của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng vừa sức tấn công vật lý của bản thân khi bắt đầu trận đấu",
+            "Tăng nhẹ phòng thủ vật lý"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Kỹ năng hỗ trợ mạnh mẽ",
+            "description": "Kỹ năng hỗ trợ của Monica có thể tăng sức tấn công vật lý/phép thuật và tốc độ hành động cho toàn đội. Nhờ đó, cô có thể nâng cao hiệu suất tấn công của cả đội hình.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tấn công đơn lẻ kèm hiệu ứng choáng",
+            "description": "Monica có thể gây sát thương cho một kẻ địch và đồng thời gây choáng. Hiệu ứng choáng rất mạnh vì có thể khiến kẻ địch không thể hành động trong một khoảng thời gian nhất định.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "\"Tiếng Hò Weissflügel\" chỉ kích hoạt được một lần",
+            "description": "Kỹ năng hỗ trợ \"Tiếng Hò Weissflügel\" của Monica rất mạnh nhưng chỉ có thể kích hoạt một lần trong mỗi đợt chiến đấu. Nếu trận đấu kéo dài, cô sẽ phải chiến đấu với chỉ một kỹ năng, nên không giỏi trong các trận đấu dài.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng ra đòn trước phù hợp với Arena",
+            "description": "Về cơ bản, trong Arena, việc hạ gục càng nhiều kẻ địch càng sớm sẽ dẫn đến chiến thắng, vì vậy kỹ năng tăng tốc độ hành động cho đồng đội đặc biệt hữu ích. Khi được nâng cấp, cô cũng có thể gây được lượng sát thương khá tốt, nên có độ phù hợp cao với Arena.",
+            "sub_point": "Khả năng gây choáng cũng là một trong những điểm mạnh giúp cô hoạt động hiệu quả trong Arena. Cô cũng có thể hoạt động tốt trong các Dungeon thường có các trận đấu ngắn, điều này rất đáng hoan nghênh."
+          },
+          {
+            "main_point": "Linh hoạt nhưng ít khi là lựa chọn tối ưu",
+            "description": "Với kỹ năng gây choáng và buff mạnh mẽ, cô có thể hỗ trợ bất kỳ nhân vật nào trong đội hình, đây là một trong những điểm mạnh. Tuy nhiên, so với các nhân vật chuyên hỗ trợ đội hình vật lý hoặc phép thuật, hiệu quả buff của cô thấp hơn, nên ít khi là lựa chọn tối ưu.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Dễ sử dụng hơn trong Arena và các nhiệm vụ",
+            "description": "Cả buff tốc độ và buff tấn công đều được tăng cường, nên cô dễ sử dụng hơn so với khi không có trang bị. Đặc biệt, buff trong Arena rất mạnh mẽ, khi kết hợp với các tay đánh mạnh như Ilya hoặc Tomo, sẽ dễ dàng đột phá hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB thêm hiệu ứng choáng, tăng khả năng cản trở!",
+            "description": "Khi lên 6 sao, UB được thêm hiệu ứng gây choáng. Có thể gây choáng cho đối tượng bị tấn công trong khoảng 3 giây. Giờ đây có thể gây choáng không chỉ bằng kỹ năng thường, khả năng cản trở trong Arena được tăng cường.",
+            "sub_point": "Nếu sát thương bị giảm về 0 bởi lá chắn vật lý, hiệu ứng choáng sẽ không kích hoạt. Phạm vi tấn công đủ để chạm tới một số nhân vật ở vị trí trung tuyến. (Thông tin từ video chính thức)"
+          },
+          {
+            "main_point": "Thêm buff tấn công + buff tốc độ hành động",
+            "description": "UB giờ đây có thể buff sức tấn công vật lý/phép thuật và tốc độ hành động cho toàn đội. Lượng buff tấn công tương đương với kỹ năng \"Tiếng Hò Weissflügel\". Có thể hiểu là giờ đây có thể áp dụng lại buff từ kỹ năng chỉ kích hoạt một lần thông qua UB. Thời gian hiệu lực kéo dài khoảng 30 giây.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò hỗ trợ sát thương kiêm cản trở trong Arena",
+            "description": "Vốn đã có \"Tiếng Hò Weissflügel\" với khả năng buff nhanh, tùy thuộc vào đội hình, cô có thể hỗ trợ sát thương sớm hơn các nhân vật gây choáng như Inori. Giờ đây có thể liên tục áp dụng buff thông qua UB và cũng có thể gây choáng, vai trò hỗ trợ của cô đã được tăng cường.",
+            "sub_point": "Mặc dù có thể sử dụng trong các đòn tấn công nhanh tận dụng buff ban đầu, nhưng cô phù hợp hơn với các đội hình tấn công thiên về trụ như Io, Aoi, hoặc Kyouka. Chiến thuật chịu đựng đòn tấn công của đối phương, đồng thời tận dụng buff dài hạn và hiệu ứng choáng từ UB để giành lợi thế rất mạnh mẽ."
+          },
+          {
+            "main_point": "Không thể đảm nhận vai trò tấn công chính",
+            "description": "Mặc dù sức mạnh UB đã tăng, nhưng xét như một đòn tấn công diện rộng, sát thương vẫn khá khiêm tốn. Khó có thể tiêu diệt kẻ địch chỉ với Monica. Cần phải đưa cô vào đội hình với mục đích hỗ trợ các tay đánh khác thông qua buff tấn công và tốc độ.",
+            "sub_point": "Khả năng chịu đòn cũng tăng lên, có thể chịu được UB của các nhân vật như Yori. Tuy nhiên, nếu bị dồn nhiều sát thương khác, cô vẫn có thể bị hạ gục, nên tốt hơn là kết hợp với các nhân vật có buff phòng thủ. Hãy tập trung vào việc duy trì khả năng hỗ trợ buff trong thời gian dài."
+          },
+          {
+            "main_point": "Phù hợp với các trận boss cần buff tốc độ",
+            "description": "Có thể sử dụng buff tốc độ hành động từ UB để ghi đè lên các hiệu ứng giảm tốc độ từ boss. Trong đội hình vật lý, cô phải cạnh tranh với các nhân vật có buff tốc độ hành động như Makoto (Cinderella) hoặc Ninon (Halloween), nên khá khó khăn, nhưng có thể được sử dụng trong đội hình phép thuật.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ジュン",
+        "マコト",
+        "アリサ",
+        "シオリ"
+      ]
+    }
+  }

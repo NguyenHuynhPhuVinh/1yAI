@@ -1,0 +1,14 @@
+{
+    "id": "Story_Expansion_Mod_2_TheOnlyGaming",
+    "name": "Story Expansion Mod 2",
+    "version": "27.6.24",
+    "author": "TheOnlyGaming",
+    "url": "",
+    "description": "The Sequel to my Story Expansion Mod, featuring new dialogues and Platforms! This version is completely recoded from scratch and has none of the bugs of the original mod This mod is about expanding the story of Game Dev Tycoon, through many new dialogues a",
+    "main": "./main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x",
+        "UltimateLib": "1.x.x"
+    },
+    "image": "Story_Expansion_Mod_2_Logo_2-Thumbnail.png"
+}

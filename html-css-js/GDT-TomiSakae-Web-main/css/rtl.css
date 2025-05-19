@@ -1,0 +1,253 @@
+﻿h2,
+input[type=text],
+label,
+.applicantContainer,
+.conferenceBoothPickerText,
+.conferenceBoothVariationContainer,
+.consoleMainCard,
+.consoleVariationContainer,
+.contractSlider,
+.descr.achievement,
+.dialogNextButton,
+.featureDurationPreviewTitle,
+.featureSelectionContainer,
+.featureSelectionPanel,
+.focusSliderHint,
+.focusSliderTitle,
+.gameHistorySliderContainer,
+.gameName,
+.gameSalesCard,
+.notificationText,
+.rtl,
+.platformButton,
+.projectStatusCard,
+.projectTitle,
+.selectorButton,
+.selectableGameFeatureItem,
+.staffTemplate .statusBar,
+.statusBarItem,
+.statusBarRight,
+.title.achievement,
+.topicGenre,
+.useKnowledgeFromPreviousGameMessage,
+.windowCostLabel,
+.windowTitle,
+#cancelProjectDialog,
+#cashLogContainer,
+#createEngineMenu,
+#contextMenu,
+#gameDefinitionContentTemplate,
+#gameEndTrialDialog,
+#gameTrialDialog,
+#helpPanel,
+#highScorePanel,
+#purchasePlatformDialog,
+#releaseGameDialog,
+#researchMenu,
+#reviewAnimationContainer,
+#settingsPanel,
+#takeOffMarketDialog,
+#transitionOverlay,
+#trashGameConfirmationDialog,
+#loadView,
+#windowTitle {
+	direction: rtl;
+}
+
+#gameErrorOverlay,
+#gamePausedOverlay,
+#gameSavedOverlay {
+	left: 200px;
+	right: auto;
+	direction: rtl;
+}
+
+.slot {
+	right: 8px;
+	left: initial;
+}
+
+.saveGameLocation {
+	right: 80px;
+	left: initial;
+}
+
+.saveTime {
+	left: 10px;
+	right: initial;
+	width: initial;
+}
+
+
+.week {
+	right: 266px;
+	width: 185px;
+	left: initial;
+}
+
+.cash {
+	right: 15px;
+	left: initial;
+}
+
+.name {
+	left: 8px;
+	right: initial;
+}
+
+.fans {
+	right: 96px;
+	left: initial;
+}
+
+.platformButton .audienceHints,
+.platformButton .cost,
+.platformButton .genreHints,
+.platformButton .licenseCost,
+.platformButton .marketShare,
+.platformButton .platformTitle {
+	right: 230px;
+	left: auto;
+}
+
+.featuresContainer {
+	margin: 10px 80px 10px 10px;
+}
+
+.trashGameButton {
+	left: auto;
+	right: 10px;
+}
+
+.gameDetailsTitleLabel {
+	left: auto;
+	right: 10px;
+}
+
+.gameAverageScoreOverview,
+.gameDetailsImage,
+.gameDetailsTopicGenre,
+.name.contract,
+.projectIcon {
+	left: auto;
+	right: 20px;
+}
+
+.gameDetailsPiracyImage {
+	left: 5px;
+	right: auto;
+}
+
+.gameDetailsAudience,
+.gameDetailsPlatform {
+	left: auto;
+	right: 15.83px;
+}
+
+.gameDetailsColumn1 {
+	left: auto;
+	right: 250px;
+}
+
+.gameDetailsColumn2 {
+	left: 20px;
+	right: auto;
+}
+
+.platformRelaseNewsImage {
+	left: auto;
+	right: 15px;
+}
+
+.platformReleaseTextArea {
+	left: auto;
+	right: 210px;
+}
+
+.reviewItem .reviewer {
+	text-align: left;
+}
+
+.reviewItem .stars {
+	left: 0px;
+	right: 70px;
+}
+
+.reviewItem .awards {
+	right: -40px;
+	left: 0px;
+}
+
+.reviewItem .starsEmpty {
+	left: 0px;
+	right: 70px;
+}
+
+.projectBudgetValue {
+	text-align: left;
+	left: 5px;
+}
+
+.projectStatusCard .projectTitle {
+	left: auto;
+	right: 120px;
+}
+
+.projectPointCost,
+.projectTitleLabel {
+	left: auto;
+	right: 240px;
+}
+
+.projectDescription {
+	left: auto;
+	right: 20px;
+	direction: rtl;
+}
+
+.projectPointsRemaining,
+.projectProgressContainer {
+	right: 120px;
+	left: auto;
+}
+
+.rsThumbsContainer {
+	left: auto;
+	right: 24px;
+}
+
+
+
+#modsPanel {
+	direction: rtl;
+}
+
+.selectionPip {
+	left: 0px;
+	right: initial;
+}
+
+.browseForButtonWrapper {
+	left: 24px;
+	right: initial;
+}
+
+	.browseForButtonWrapper .browseForButton {
+		padding: 0px;
+	}
+
+.float-left {
+	float: right;
+}
+
+#newsletterSignup {
+	direction: rtl;
+}
+
+	#newsletterSignup input {
+		direction: ltr;
+	}
+
+.loadSaveButton.load .saveSlotOptions {
+	left:-70px;
+}

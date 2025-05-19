@@ -1,0 +1,1 @@
+$(function(){tagMod.patch(UI,"showCreateEngineMenu",function(){function n(){var n=$("#createEngineMenu .windowCostLabel"),e=n.text().trim().substr("Cost: {0}".localize().format("").length);n.html("Cost: {0}".localize().format('<span class="tm-cr">'+e+"</span>"))}tagMod.convertSelectList($("#createEngineMenu .enginePartsContainer")),$("#createEngineMenu").on("click",n),n()})});

@@ -1,0 +1,34 @@
+name: Hourly Scraper
+
+on:
+  schedule:
+    - cron: '0 * * * *'    # Chạy vào phút 0 của mỗi giờ
+  workflow_dispatch:        # Cho phép chạy thủ công qua UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run main scraper
+        env:
+          AGENTQL_API_KEY: ${{ secrets.AGENTQL_API_KEY }}
+        run: python main.py
+
+      - name: Run rust scraper
+        env:
+          AGENTQL_API_KEY: ${{ secrets.AGENTQL_API_KEY }}
+        run: python rust.py

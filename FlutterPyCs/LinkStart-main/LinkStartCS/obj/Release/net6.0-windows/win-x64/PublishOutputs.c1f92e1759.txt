@@ -1,0 +1,1 @@
+C:\Users\kotor\Documents\LinkStart\LinkStartCS\bin\Release\net6.0-windows\win-x64\publish\LinkStart.exe

@@ -1,0 +1,182 @@
+{
+    "character": {
+      "id": 13,
+      "name": "Kurumi",
+      "name_jp": "クルミ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92889_main.jpg",
+      "catchphrase": "Ừm, à... Tôi là Ku-Kurumi...\nHự, hiiiii... Làm-làm sao đây...\nXấu-xấu hổ quá... Xin-xin lỗi!",
+      "element": "風属性",
+      "quick_summary": {
+        "strengths": [
+          "Union Burst gây choáng thời gian dài rất mạnh",
+          "Có kỹ năng gây choáng quý giá rất xuất sắc"
+        ],
+        "weaknesses": [
+          "Sát thương bản thân khá thấp nên cần thêm nhân vật tấn công"
+        ],
+        "exclusive_equipment": [
+          "Tăng hiệu quả buff phòng thủ + đối tượng là toàn đội",
+          "Có thêm hiệu ứng hồi TP dù ít"
+        ],
+        "six_star_upgrade": [
+          "Tấn công choáng trở thành đánh diện rộng",
+          "Thêm hiệu ứng buff phòng thủ vật lý/phép thuật cho toàn đội",
+          "Thêm hồi HP liên tục cho đồng minh xung quanh",
+          "Tăng khả năng hỗ trợ về độ bền không chỉ cản trở",
+          "Bộ bonus tăng TP +10"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S",
+        "arena": "S+",
+        "boss_battle": "B",
+        "elemental_evaluation": "S"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Nhân loại",
+        "guild": "Viện cứu trợ Sarendia"
+      },
+      "max_stats": {
+        "hp": 15480,
+        "physical_attack": 3895,
+        "magic_attack": 20,
+        "physical_defense": 288,
+        "magic_defense": 255
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_13.png",
+          "name": "Chuông Rung Sợ Hãi",
+          "description": "Gây sát thương vật lý lớn lên 1 kẻ địch phía trước, đồng thời làm choáng trong thời gian dài.",
+          "effects": [
+            "Gây 9870 sát thương vật lý lên một kẻ địch",
+            "Làm kẻ địch không thể hành động trong một khoảng thời gian"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn lên tất cả kẻ địch trong phạm vi phía trước, làm choáng trong thời gian dài. Đồng thời, tăng mạnh phòng thủ vật lý và phòng thủ phép thuật cho toàn đội, và tạo trạng thái hồi HP liên tục cho tất cả đồng minh trong phạm vi xung quanh bản thân.\n・Choáng: 5 giây\n・Buff phòng thủ: 18 giây\n・Hồi HP: 18 lần, đến hàng giữa và sau (không đến được vị trí của Saren mùa hè)"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Chuông Dũng Cảm",
+          "description": "Tăng nhẹ phòng thủ vật lý và phòng thủ phép thuật cho toàn đội",
+          "effects": [
+            "Tăng phòng thủ vật lý của toàn đội lên 43",
+            "Tăng phòng thủ phép thuật của toàn đội lên 43"
+          ],
+          "exclusive_equipment_effect": [
+            "Tăng vừa phòng thủ vật lý và phòng thủ phép thuật cho toàn đội",
+            "Hồi 50 TP cho toàn đội"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_13.png",
+          "name": "Chuông Rung Chuyển",
+          "description": "Gây sát thương vật lý nhỏ lên 1 kẻ địch phía trước, đồng thời làm choáng",
+          "effects": [
+            "Gây 3290 sát thương vật lý lên một kẻ địch",
+            "Làm kẻ địch không thể hành động trong một khoảng thời gian"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_21.png",
+          "name": "Hành Động Rực Rỡ",
+          "description": "Tăng vừa HP tối đa của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng vừa HP tối đa của bản thân khi bắt đầu trận đấu",
+            "Hiệu ứng tăng HP vừa nói trên được nâng cấp thành tăng HP lớn + tăng nhẹ phòng thủ phép thuật."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Vai trò hỗ trợ xuất sắc với khả năng gây choáng",
+            "description": "Kurumi có thể gây choáng bằng Union Burst và kỹ năng, giúp cản trở hành động của kẻ địch. Đặc biệt, thời gian choáng của Union Burst rất dài và cực kỳ hiệu quả.",
+            "sub_point": "Nhờ EX Skill giúp tăng HP cao hơn các nhân vật khác, cô ấy có thể sử dụng Union Burst ổn định, đây cũng là một điểm mạnh."
+          },
+          {
+            "main_point": "Có thể tăng phòng thủ cho đồng minh xung quanh",
+            "description": "Kurumi có kỹ năng tăng phòng thủ vật lý/phép thuật cho đồng minh xung quanh. Cả hai đều có hiệu quả khá tốt, và điểm xuất sắc là có thể hỗ trợ mà không phụ thuộc vào các nhân vật trong đội.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tỏa sáng trong các nhiệm vụ khó",
+            "description": "Kurumi có 2 loại tấn công gây choáng, nên rất hiệu quả trong các nhiệm vụ cuối game khi kẻ địch có đòn tấn công mạnh. Vị trí của cô ở phía sau trong hàng tiền vệ, giúp các kỹ năng hỗ trợ phát huy hiệu quả, là một nhân vật hỗ trợ xuất sắc.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": []
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Tỏa sáng trong các nhiệm vụ khó",
+            "description": "Kurumi có 2 loại tấn công gây choáng, nên rất hiệu quả trong các nhiệm vụ cuối game khi kẻ địch có đòn tấn công mạnh. Vị trí của cô ở phía sau trong hàng tiền vệ, giúp các kỹ năng hỗ trợ phát huy hiệu quả, là một nhân vật hỗ trợ xuất sắc.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Kỹ năng buff được nâng cấp mạnh mẽ!",
+            "description": "Điểm nổi bật từ trang bị chuyên dụng là sự nâng cấp của 'Chuông Dũng Cảm'! Vừa tăng cả phòng thủ vật lý và phép thuật cho toàn đội, vừa có thêm hiệu ứng hồi TP. Nên ưu tiên trang bị chuyên dụng này ngay cả khi phải trì hoãn việc khai mở tài năng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hiệu quả đối phó với tấn công diện rộng trong đấu trường",
+            "description": "Buff phòng thủ toàn đội cực kỳ xuất sắc, giúp giảm sát thương từ các đòn tấn công mạnh của đối thủ. Với 2 loại tấn công gây choáng, cô có thể ngăn chặn kỹ năng của địch, hỗ trợ đột phá hàng tank. Đây là nhân vật có khả năng thích ứng cao trong đấu trường.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB gây choáng đơn mục tiêu trở thành diện rộng",
+            "description": "Đối tượng tấn công gây choáng được nâng cấp từ 1 mục tiêu lên phạm vi phía trước. Thời gian hiệu lực khoảng 5 giây khá dài nhưng phạm vi tương đối hẹp. Cần lưu ý rằng nếu đặt nhân vật khác phía trước Kurumi, số lượng kẻ địch bị choáng sẽ giảm đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Lima + Kurumi hoặc Kurumi đứng đầu dễ gây choáng hơn",
+            "description": "Kurumi gây choáng cho kẻ địch trong khoảng cách nhất định từ vị trí của cô. Vì vậy, nên đặt Kurumi ở vị trí đầu tiên hoặc kết hợp với Lima để tăng số lượng mục tiêu bị choáng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hỗ trợ độ bền cho đồng đội với buff phòng thủ và hồi HP",
+            "description": "Không chỉ mở rộng phạm vi gây choáng, còn thêm buff phòng thủ vật lý/phép thuật cho toàn đội và hồi HP liên tục cho đồng minh xung quanh. Kết hợp với buff phòng thủ từ kỹ năng, khả năng hỗ trợ về mặt độ bền đã được nâng cao đáng kể.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò hỗ trợ độ bền trong đấu trường",
+            "description": "Bản thân Kurumi có HP và phòng thủ cơ bản cao, kèm khả năng hỗ trợ cản trở và tăng độ bền. Đặc biệt buff phòng thủ có giá trị hiệu quả cao, rất mạnh trong các trận đấu kéo dài. Nên sử dụng để đối phó với đội hình tấn công nhanh hoặc trong đội hình phòng thủ của bạn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Nhân vật buff phòng thủ cho Tháp Luna",
+            "description": "Hiệu quả trong các tầng của Tháp Luna khi boss có UB mạnh và cần buff phòng thủ. Khả năng về mặt sát thương và hỗ trợ hồi phục thấp, nên cần bổ sung bằng các nhân vật khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "リマ",
+        "ユカリ",
+        "ヨリ",
+        "マホ",
+        "ノゾミ",
+        "レム",
+        "サレン"
+      ]
+    }
+  }

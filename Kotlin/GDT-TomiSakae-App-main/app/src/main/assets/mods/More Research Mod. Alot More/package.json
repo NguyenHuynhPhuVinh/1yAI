@@ -1,0 +1,10 @@
+{
+    "id": "Half-Dragon",
+    "name": "More Research Mod. A lot More.",
+    "version": "0.1.0",
+    "author": "Half Dragon",
+    "url": "https://discord.gg/dd4fMpY",
+    "description": "The Official Half Dragon Mod. v0.1.0\nThis mod add a lot of research options.\n\n\nEngine:\n\n>8bit Support\n>16bit Support\n>32bit Support\n>64bit Support\n>720p Resolution\n>1080p Resolution\n>2K Resolution\n>4k Resolution\n>Turn-Based\n>Adjustable Fov\n>Pause Menu\n>Split Screen Support\n>Class Selection\n>Race Selection\n>Custom Input\n>Basic Ragdoll\n>Advanced Ragdoll\n>Co-op\n>Automatic Save\n>Occlusion Culling\n>Baked Lighting\n>Skybox\n>Post Processing\n>Particle System\n>Lens Flare\n>PBR Shader\n>Console\n>LOD Group\n>Cloth Physic\n>Basic Baked Ray Tracing\n>Advanced Baked Ray Tracing\n>Ambient Occlusion\n\nGameplay:\n\n>Inventory\n>Competence Tree\n>Dodge Mechanic\n>Wave Mechanic\n>Army Management\n>City Management\n>Block Mechanic\n>Interactive Tutorial\n\nDialogues:\n\n>Roleplay Dialogues\n>Personality Dialogues\n>Funny Dialogues\n\nAi:\n\n>Basic PathFinding\n>Advanced PathFinding\n>AI Soft-Learning\n>AI Mass Control\n>AI Co-op\n\nWorld Design:\n\n>Destructible World\n>Collectable Objects\n>Lifeful World\n>Multiple World\n>Procedural World\n\nSounds:\n\n>Sound Effects\n>Audio Mixer",
+    "main": "./modAPI.js",
+    "image": "icon-full-Thumbnail.png"
+}

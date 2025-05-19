@@ -1,0 +1,4192 @@
+﻿/*custom css - (c) 2013-2017 Greenheart Games Pty. Ltd.*/
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans Semibold';
+	font-style: normal;
+	src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	src: url('../fonts/OpenSans-Light.ttf');
+}
+
+/*disable selection on elements except for input*/
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+}
+
+html {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+input,
+textarea {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	user-select: text;
+}
+
+input {
+	width: 256px;
+}
+
+select {
+	font-size: 20px;
+}
+
+/*custom game UI css*/
+
+.ui-slider-handle {
+	outline: none;
+}
+
+/*disable selection outline on links and UI tabs*/
+a {
+	outline: none;
+}
+
+h1 {
+	font-family: "Segoe UI Light", "Open Sans Light";
+	font-size: 42pt;
+	line-height: 48pt;
+	margin: 0px;
+}
+
+h2 {
+	font-family: "Segoe UI Light", "Open Sans Light";
+	font-size: 20pt;
+	line-height: 24pt;
+	margin: 0px;
+}
+
+h3 {
+	font-family: "Segoe UI", "Open Sans Light";
+	font-size: 11pt;
+	line-height: 15pt;
+	margin: 0px;
+}
+
+h4 {
+	font-family: "Segoe UI Semibold", "Open Sans Semibold";
+	font-size: 11pt;
+	line-height: 15pt;
+	margin: 0px;
+}
+
+h5 {
+	font-family: "Segoe UI", "Open Sans";
+	font-size: 9pt;
+	line-height: 15pt;
+	margin: 0px;
+}
+
+h6 {
+	font-family: "Segoe UI Semibold", "Open Sans Semibold";
+	font-size: 9pt;
+	line-height: 15pt;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Segoe UI', 'Open Sans';
+	margin: 0px;
+	overflow: hidden;
+}
+
+#mainBackground {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.mainBackgroundOverlay {
+	/*#marron from top: background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #630000 0%, #5E0000 50%, #300000 100%);*/
+	/*orangish from top: background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #FFE18D 0%, #FFE9BD 50%, #FFF5D9 100%);*/
+	background-image: -ms-radial-gradient(center, ellipse closest-side, #FFE18D 0%, #FFE9BD 50%, #FFF5D9 100%);
+	background-image: -webkit-radial-gradient(center, ellipse closest-side, #FFE18D 0%, #FFE9BD 50%, #FFF5D9 100%);
+}
+
+.statusBarItem {
+	display: inline-block;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.statusBar {
+	font-size: 14pt;
+	color: black;
+	padding: 5px;
+	border: 2px solid #A4A4A4;
+	border-radius: 5px;
+	background-color: white;
+	cursor: default;
+}
+
+.rightBar {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	width: 215px;
+	max-height: 80%;
+	word-spacing: -2em;
+}
+
+.leftBar {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	width: 215px;
+	height: 40%;
+	word-spacing: -2em;
+	pointer-events: none;
+}
+
+.statusBarRight {
+	position: relative;
+	top: 5px;
+	width: 100%;
+	display: inline-block;
+	word-spacing: 0em;
+}
+
+.gameNameLabel {
+	margin: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.gameSalesLabelContainer {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	font-size: 10pt;
+	word-spacing: -2em;
+}
+
+.gameSalesUnitsLabel {
+	width: 70%;
+	word-spacing: 0em;
+	display: inline-block;
+}
+
+.gameSalesRankLabel {
+	width: 30%;
+	word-spacing: 0em;
+	display: inline-block;
+	text-align: right;
+}
+
+.gameSalesCardCanvas {
+	position: relative;
+	left: 1px;
+	margin-bottom: -5px;
+}
+
+.gameSalesCard {
+	width: 225px;
+	margin-top: 10px;
+	position: relative;
+	font-family: 'Segoe UI', 'Open Sans';
+	border: 2px solid #A4A4A4;
+	border-radius: 5px 5px 0px 0px;
+	background-color: white;
+	word-spacing: 0em;
+}
+
+#trendContainer {
+	position: relative;
+	font-size: 12pt;
+	color: black;
+	width: 100%;
+	display: inline-block;
+	word-spacing: 0em;
+}
+
+#trendContainer.statusBar {
+	margin-top: 10px;
+}
+
+#gameSalesContainer {
+	position: relative;
+	font-size: 14pt;
+	color: black;
+	width: 100%;
+	display: inline-block;
+	cursor: default;
+}
+
+#cashLogContainer {
+	position: relative;
+	margin: 5px;
+	font-size: 12pt;
+	color: black;
+	width: 100%;
+	display: inline-block;
+	word-spacing: 0em;
+	background-color: rgba(255, 255, 255, 0.80);
+	cursor: default;
+}
+
+.cashLogItem {
+	position: relative;
+	overflow: hidden;
+	margin-left: 2px;
+}
+
+.cashLogAmount {
+	width: 31%;
+	display: inline-block;
+	/*text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;*/
+}
+
+.cashLogLabel {
+	width: 69%;
+	display: inline-block;
+	/*text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;*/
+}
+
+.notificationButtonWrapper {
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+}
+
+.okButton {
+	margin: 5px;
+	padding: 5px;
+}
+
+.baseButton {
+	width: 180px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 16pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	text-align: center;
+	font-style: italic;
+}
+
+.selectorButton {
+	width: 180px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 16pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	text-align: center;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.selectorButton:not(.no-click).active {
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.selectorButtonInactive {
+	width: 180px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 16pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	text-align: center;
+	opacity: 0.7;
+}
+
+.whiteButton {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	background-image: -ms-linear-gradient(top left, #fff 0%, #ededed 100%);
+	background-image: -webkit-linear-gradient(top left, #fff 0%, #ededed 100%);
+}
+
+.whiteButton:not(.no-hover):hover {
+	background: #ededed;
+	background-image: -ms-linear-gradient(top left, #fff 0%, #dcdcdc 100%);
+	background-image: -webkit-linear-gradient(top left, #fff 0%, #dcdcdc 100%);
+}
+
+.whiteButton:not(.no-click):active {
+	color: #999;
+	background-image: -ms-linear-gradient(top left, #ededed 0%, #fff 100%);
+	background-image: -webkit-linear-gradient(top left, #ededed 0%, #fff 100%);
+}
+
+
+.greenButton {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background-image: radial-gradient(at center, #54E23F, #2FAF1B 64.3%, rgb(34, 151, 16));
+	/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #54E23F 0%, #2FAF1B 64%, #229710 100%);
+	/* Opera */
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #54E23F 0%, #2FAF1B 64%, #229710 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 591, color-stop(0, #54E23F), color-stop(0.64, #2FAF1B), color-stop(1, #229710));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #54E23F 0%, #2FAF1B 64%, #229710 100%);
+}
+
+.greenButton:hover {
+	background-image: radial-gradient(at center, #61EC4A, #2FAF1B 64.3%, rgb(34, 151, 16));
+	/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #61EC4A 0%, #2FAF1B 64%, #229710 100%);
+	/* Opera */
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #61EC4A 0%, #2FAF1B 64%, #229710 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 591, color-stop(0, #61EC4A), color-stop(0.64, #2FAF1B), color-stop(1, #229710));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #61EC4A 0%, #2FAF1B 64%, #229710 100%);
+}
+
+.greenButton:active {
+	background-image: radial-gradient(at center, #6EFB56, #47CF32 64.3%, rgb(34, 151, 16));
+	/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #6EFB56 0%, #47CF32 64%, #229710 100%);
+	/* Opera */
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #6EFB56 0%, #47CF32 64%, #229710 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 591, color-stop(0, #6EFB56), color-stop(0.64, #47CF32), color-stop(1, #229710));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #6EFB56 0%, #47CF32 64%, #229710 100%);
+}
+
+.disabledButton {
+	background: lightgray;
+	background-image: none;
+	cursor: default;
+}
+
+.buttonSelected {
+	background: #ff6a00;
+}
+
+.buttonSelected:hover {
+	background: #ff6a00;
+}
+
+#researchButtonContainer {
+	height: 470px;
+	margin: 20px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.staffInfoPanel {
+	left: -200px;
+	top: 215px;
+	width: 200px;
+	height: 260px;
+	position: absolute;
+	color: #212121;
+	background-color: #FFF9EF;
+	border: 5px solid #FFD17B;
+	z-index: -1;
+}
+
+.staffInfoPanel.hidden {
+	left: 0px;
+	-ms-transition-duration: 0.2s;
+}
+
+.staffInfoPanel.showState {
+	left: -200px;
+	-ms-transition-duration: 0.2s;
+}
+
+.listContainer {
+	height: 92%;
+	/*hack to counteract small windowTitle*/
+	width: 100%;
+	position: relative;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.selectionOverlayContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 5px;
+	background: #FFF9EF;
+}
+
+.removePlatformButton {
+	width: 578px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 16pt;
+	text-align: center;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	vertical-align: middle;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	position: relative;
+}
+
+.platformButton {
+	width: 578px;
+	height: 250px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 16pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	position: relative;
+}
+
+.platformButton .platformTitle {
+	font-size: 18pt;
+	position: absolute;
+	left: 230px;
+	color: black;
+	top: 10px;
+	display: block;
+}
+
+.platformButton img {
+	width: 200px;
+}
+
+.platformButton .cost {
+	font-size: 12pt;
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+
+.platformButton .marketShare {
+	font-size: 12pt;
+	position: absolute;
+	top: 50px;
+	left: 230px;
+}
+
+.platformButton .audienceHints {
+	font-size: 12pt;
+	position: absolute;
+	top: 100px;
+	left: 230px;
+}
+
+.platformButton .genreHints {
+	font-size: 12pt;
+	position: absolute;
+	top: 150px;
+	left: 230px;
+	max-width: 330px;
+}
+
+.platformButton .licenseCost {
+	font-size: 12pt;
+	position: absolute;
+	top: 70px;
+	left: 230px;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.collapsed {
+	visibility: collapse;
+}
+
+.windowStyleStartState {
+	opacity: 0.2;
+	-ms-backface-visibility: visible;
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: perspective(500px) scale(0.85) rotateX(10deg);
+	-webkit-backface-visibility: visible;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: perspective(500px) scale(0.85) rotateX(10deg);
+}
+
+.windowStyleShowState {
+	opacity: 1;
+	-ms-backface-visibility: visible;
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: perspective(500px) scale(1) rotateX(0deg);
+	-ms-transition: 0.2s ease-out;
+	-webkit-backface-visibility: visible;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: perspective(500px) scale(1) rotateX(0deg);
+	-webkit-transition: 0.2s ease-out;
+}
+
+.windowStyleHideState {
+	opacity: 0.2;
+	-ms-backface-visibility: visible;
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: perspective(500px) scale(0.85) rotateX(10deg);
+	-ms-transition: 0.1s ease-out;
+	-webkit-backface-visibility: visible;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: perspective(500px) scale(0.85) rotateX(10deg);
+	-webkit-transition: 0.1s ease-out;
+}
+
+.windowBorder {
+	width: 100%;
+	height: 100%;
+	color: #212121;
+	cursor: default;
+	background-color: #FFF9EF;
+	border: 5px solid #FFD17B;
+}
+
+.smallWindow {
+	width: 530px;
+	height: 350px;
+}
+
+.notificationTwoOptions {
+	width: 530px;
+	height: 420px;
+}
+
+.notificationThreeOptions {
+	width: 530px;
+	height: 490px;
+}
+
+.tallWindow {
+	width: 600px;
+	height: 650px;
+}
+
+.wideWindow {
+	width: 800px;
+	height: 650px;
+}
+
+.windowTitle {
+	color: #252525;
+	line-height: 1.36;
+	font-family: 'Segoe UI', 'Open Sans', sans-serif;
+	font-size: 34pt;
+	font-weight: bolder;
+	letter-spacing: 0.02em;
+	cursor: default;
+	text-align: center;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #004E8D;
+	position: relative;
+	margin: 5px 50px;
+	text-overflow: ellipsis;
+	max-height: 50pt;
+}
+
+.smallerWindowTitle {
+	font-size: 22pt;
+	margin: 5px 10px;
+	max-height: 33pt;
+}
+
+.centeredButtonWrapper {
+	text-align: center;
+}
+
+.engineButtonContainer {
+	width: 100%;
+}
+
+.engineButton {
+	display: inline-block;
+	width: 250px;
+}
+
+.windowSmallOkButton,
+.windowLargeOkButton {
+	display: inline-block;
+	width: 300px;
+}
+
+.mainMenuButton {
+	margin: 5px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18pt;
+	width: 450px;
+}
+
+.mainMenuButton.disabled {
+	font-style: italic;
+	color: gray;
+	background: lightgray;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.mainMenuButton.disabled:hover {
+	background: lightgray;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.mainMenuButton.disabled:active {
+	background: lightgray;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.mainMenuButtonSmall {
+	margin: 5px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18pt;
+	width: 216px;
+}
+
+#mainMenu hr {
+	margin: 5px;
+	height: 0px;
+	border: none;
+}
+
+#mainMenu .version {
+	position: absolute;
+	font-size: 12pt;
+	right: 5px;
+	bottom: 5px;
+}
+
+.notificationTextArea {
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.notificationText {
+	font-size: 14pt;
+	font-family: 'Segoe UI';
+	padding: 10px 20px;
+	height: 175px;
+}
+
+.notificationText.fallback {
+	font-size: 13.5pt;
+	font-family: 'Open Sans';
+}
+
+.windowMainActionButton {
+	font-size: 22pt;
+}
+
+.orangeButton {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	background-image: -ms-linear-gradient(top, #FAA51A 0%, #F47A20 100%);
+	background-image: -webkit-linear-gradient(top, #FAA51A 0%, #F47A20 100%);
+}
+
+.orangeButton:not(.disabled):hover {
+	background-image: -ms-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+}
+
+.orangeButton:not(.disabled):active {
+	background-image: -ms-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+}
+
+.deleteButton {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	background-image: -ms-linear-gradient(top, #FA6464 0%, #F42727 100%);
+	background-image: -webkit-linear-gradient(top, #FA6464 0%, #F42727 100%);
+}
+
+.deleteButton:hover {
+	background-image: -ms-linear-gradient(top, #FA7D7D 0%, #F42727 100%);
+	background-image: -webkit-linear-gradient(top, #FA7D7D 0%, #F42727 100%);
+}
+
+.deleteButton:active {
+	background-image: -ms-linear-gradient(top, #FAB4B4 0%, #F42727 100%);
+	background-image: -webkit-linear-gradient(top, #FAB4B4 0%, #F42727 100%);
+}
+
+.trashGameButton {
+	position: relative;
+	left: 10px;
+	top: -75px;
+}
+
+.windowStepActionButton {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	width: 250px;
+	background-image: -ms-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+}
+
+.windowStepActionButton:hover {
+	background-image: -ms-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+}
+
+.windowStepActionButton:active {
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #A3E7FF 100%);
+}
+
+.windowStepActionButtonDisabled {
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	width: 250px;
+	background-image: -ms-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+}
+
+#gameDefinitionContentTemplate {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.dialogScreen1ContentContainer {
+	text-align: center;
+	margin-top: 10px;
+	width: 600px;
+}
+
+.dialogScreen1 {
+	width: 600px;
+}
+
+.createEngineContainer {
+	margin-top: 20px;
+}
+
+.enginePartsContainer {
+	margin: 10px 20px 10px 20px;
+	height: 400px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.focusSlider {
+	width: 40px;
+	height: 180px;
+	margin: 20px;
+	position: relative;
+	left: 55px;
+	top: 0px;
+}
+
+.focusSlider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 50px;
+	height: 20px;
+	cursor: default;
+	left: -0.4em;
+}
+
+.feature1 .ui-slider-range {
+	background: #F66;
+}
+
+.feature2 .ui-slider-range {
+	background: #6F6;
+}
+
+.feature3 .ui-slider-range {
+	background: #66F;
+}
+
+
+.focusSliderWrapper {
+	position: absolute;
+	width: 195px;
+	height: 320px;
+	text-align: center;
+}
+
+.focusSliderWrapper.feature1 {
+	left: 5px;
+}
+
+.focusSliderWrapper.feature2 {
+	left: 200px;
+}
+
+.focusSliderWrapper.feature3 {
+	left: 395px;
+}
+
+@keyframes border-pulsate {
+	0% {
+		border-color: rgba(255, 0, 0, 1);
+	}
+
+	50% {
+		border-color: rgba(255, 0, 0, 0);
+	}
+
+	100% {
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+
+@-webkit-keyframes border-pulsate {
+	0% {
+		border-color: rgba(255, 0, 0, 1);
+	}
+
+	50% {
+		border-color: rgba(255, 0, 0, 0);
+	}
+
+	100% {
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+
+.focusSliderWrapper.dragHover {
+	margin-left: -2px;
+	margin-top: -2px;
+	border: 2px solid red;
+	animation: border-pulsate 1.5s infinite;
+	-webkit-animation: border-pulsate 1.5s infinite;
+}
+
+.focusSliderTitle {
+	font-size: 16pt;
+	height: 60px;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.focusSliderHint {
+	font-size: 14pt;
+	font-weight: bold;
+	height: 40px;
+	width: 100%;
+}
+
+.focusSliderHint.unsure {
+	opacity: 0.5;
+}
+
+.focusSliderStaffName {
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 195px;
+}
+
+.featureDurationPreviewWrapper {
+	/*word spacing to counteract inline-block margin issue: http://stackoverflow.com/questions/1833734/display-inline-block-extra-margin*/
+	word-spacing: -1em;
+	text-align: center;
+}
+
+.featureDurationPreview {
+	height: 40px;
+	display: inline-block;
+}
+
+.featurePreview1 {
+	background-color: #F66;
+}
+
+.featurePreview2 {
+	background-color: #6F6;
+}
+
+.featurePreview3 {
+	background-color: #66F;
+}
+
+.featureDurationPreviewContainer {
+	margin: 10px 20px;
+}
+
+.featureDurationPreviewTitle {
+	font-size: 14pt;
+}
+
+.focusSliderContainer {
+	margin-top: 10px;
+	position: relative;
+	width: 100%;
+	height: 330px;
+}
+
+.gameName {
+	font-size: 20pt;
+	text-align: center;
+}
+
+.topicGenre {
+	font-size: 18pt;
+	text-align: center;
+}
+
+.releaseGameDialogContentContainer {
+	margin: 5px 10px 10px;
+}
+
+.releaseGameNameDisplay {
+	color: #252525;
+	font-family: 'Segoe UI', 'Open Sans', sans-serif;
+	font-size: 22pt;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+	cursor: default;
+	text-align: center;
+	position: relative;
+	margin: 5px 10px 0px 10px;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+
+.gameNameEditButton {
+	font-size: 22pt;
+	display: inline-block;
+}
+
+.gameNameEditButton.subtle {
+	transform: scale(0.5);
+}
+
+.featuresContainer {
+	margin: 10px 10px 10px 100px;
+	height: 280px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.featureName {
+	width: 30%;
+	display: inline-block;
+}
+
+.featureLevel {
+	width: 9%;
+	display: inline-block;
+}
+
+.featureProgressContainer {
+	width: 29%;
+	height: 20px;
+	display: inline-block;
+	padding: 1px;
+	letter-spacing: -0.3em;
+	line-height: 0;
+	background: #E6E6E6;
+	vertical-align: middle;
+	border: 1px solid #AEAEAE;
+}
+
+.featureGainCaption {
+	width: 50px;
+	display: inline-block;
+}
+
+.featureLevelUp {
+	width: 20%;
+	display: inline-block;
+	float: right;
+}
+
+.releaseGameFeatureTemplate {
+	margin-top: 5px;
+	width: 100%;
+	font-size: 14pt;
+}
+
+.featureProgress {
+	display: inline-block;
+	background-color: orange;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.featureProgressGain {
+	display: inline-block;
+	background-color: #FFC456;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.xpGainedTitleContainer {
+	font-size: 22pt;
+}
+
+.xpBonusModifier {
+	font-size: 14pt;
+	width: 100%;
+}
+
+.xpGainedTitle {
+	display: inline-block;
+}
+
+.confirmActionButton {
+	width: 100px;
+	display: inline-block;
+}
+
+.cancelActionButton {
+	width: 100px;
+	display: inline-block;
+}
+
+.confirmUseTopicsFromPreviousGameButton {
+	width: 100px;
+	display: inline-block;
+}
+
+.cancelUseTopicsFromPreviousGameButton {
+	width: 100px;
+	display: inline-block;
+}
+
+.pointDisplayContainer {
+	text-align: center;
+	height: 90px;
+}
+
+.designPoints {
+	background-color: orange;
+}
+
+.technologyPoints {
+	background-color: deepskyblue;
+}
+
+.pointsDisplay {
+	border-radius: 50%;
+	height: 80px;
+	display: inline-block;
+	width: 80px;
+	border: 2px solid black;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16pt;
+	font-weight: bold;
+	margin: 0px 50px;
+}
+
+.pointsDisplay h2 {
+	font-size: 12pt;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.pointsNewRecord {
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.designPointsNewRecord {
+	position: absolute;
+	right: 422px;
+	left: 235px;
+	top: 185px;
+}
+
+.technologyPointsNewRecord {
+	position: absolute;
+	right: 238px;
+	left: 424px;
+	top: 185px;
+}
+
+#gameErrorOverlay {
+	position: absolute;
+	z-index: 5800;
+	display: none;
+	color: darkred;
+	margin: 20px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#gamePausedOverlay {
+	position: absolute;
+	z-index: 5800;
+	display: none;
+}
+
+#gamePausedOverlay h1 {
+	position: absolute;
+	margin: 20px;
+	color: black;
+}
+
+#gameSavedOverlay {
+	position: absolute;
+	z-index: 5800;
+	display: none;
+}
+
+#gameSavedOverlay h1 {
+	position: absolute;
+	margin: 20px;
+	color: black;
+}
+
+.loadSaveButton {
+	position: relative;
+	width: 560px;
+	min-height: 66px;
+	height: auto;
+	margin: 19px;
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	background-image: -ms-linear-gradient(top left, #fff 0%, #ededed 100%);
+	background-image: -webkit-linear-gradient(top left, #fff 0%, #ededed 100%);
+}
+
+.loadSaveButton:not(.disabled):hover {
+	background: #ededed;
+	background-image: -ms-linear-gradient(top left, #fff 0%, #dcdcdc 100%);
+	background-image: -webkit-linear-gradient(top left, #fff 0%, #dcdcdc 100%);
+}
+
+.loadSaveButton:not(.disabled):active {
+	color: #999;
+	background-image: -ms-linear-gradient(top left, #ededed 0%, #fff 100%);
+	background-image: -webkit-linear-gradient(top left, #ededed 0%, #fff 100%);
+}
+
+.loadSaveButton:not(.disabled) .active {
+	background: #8CE2FF;
+	background-image: -ms-linear-gradient(top left, #fff 0%, #8CE2FF 100%);
+	background-image: -webkit-linear-gradient(top left, #fff 0%, #8CE2FF 100%);
+}
+
+.loadSaveButton .pirateModeImage {
+	position: absolute;
+	left: 64px;
+	width: 64px;
+	opacity: 0.15;
+}
+
+.loadSaveButton.load .saveSlotOptions {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 560px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 32px;
+	top: 35%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.name {
+	position: absolute;
+	right: 8px;
+	top: 2px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.slot {
+	position: absolute;
+	display: inline-block;
+	left: 8px;
+	top: 2px;
+	font-size: 15pt;
+	font-weight: bolder;
+	color: menutext;
+}
+
+.fans {
+	position: absolute;
+	left: 97px;
+	top: 30px;
+	width: 184px;
+	height: 28px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.cash {
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	width: 196px;
+	font-size: 15pt;
+	height: 30px;
+}
+
+.week {
+	position: absolute;
+	left: 240px;
+	bottom: 57px;
+	top: 30px;
+	font-size: 15pt;
+	text-align: right;
+	width: 130px;
+	height: 28px;
+}
+
+.saveTime {
+	position: absolute;
+	left: 373px;
+	top: 36px;
+	font-size: 12pt;
+	font-weight: bolder;
+	width: 182px;
+	height: 33px;
+	text-align: right;
+}
+
+.saveGameLocation {
+	position: absolute;
+	left: 80px;
+	top: 6px;
+	font-size: 12pt;
+	font-weight: bolder;
+	width: 182px;
+	height: 33px;
+	text-align: center;
+}
+
+.mods {
+	margin-left: 15px;
+	margin-bottom: 2px;
+	font-size: 11pt;
+	width: 95%;
+	height: auto;
+	margin-top: 60px;
+}
+
+.mods .listTitle {
+	font-weight: 700;
+}
+
+
+
+#loadView {
+	max-height: 628px;
+}
+
+.dialogScreenContainer {
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.dialogScreen1Title {
+	width: 500px;
+}
+
+.dialogScreen2Title {
+	width: 500px;
+}
+
+.dialogScreen2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.dialogScreen2 {
+	margin-left: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.featureSelectionContainer {
+	margin: 40px 20px 20px 20px;
+	padding-right: 20px;
+	height: 430px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.dialogNextButton {
+	position: relative;
+	left: 395px;
+	top: 0px;
+}
+
+.gameDefinitionWarningText {
+	position: absolute;
+	font-size: 16pt;
+	margin: 20px;
+	color: red;
+	width: 385px;
+}
+
+.fontCharacterButton {
+	color: gray;
+	font-family: FontAwesome;
+}
+
+.fontCharacterButton:hover {
+	color: black;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.fontCharacterButton:active {
+	-ms-transform: scale(0.95);
+	-ms-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+}
+
+.metroCharacterButton {
+	font-family: 'Segoe UI Symbol';
+	color: gray;
+}
+
+.metroCharacterButton:hover {
+	color: black;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.metroCharacterButton:active {
+	-ms-transform: scale(0.95);
+	-ms-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+}
+
+.dialogBackButton {
+	font-size: 32pt;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 100;
+}
+
+.configButton {
+	font-size: 24pt;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+.closeDialogButtonWin8 {
+	font-size: 30pt;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	z-index: 3200;
+	width: 40pt;
+	height: 40pt;
+	background: #FFF9EF;
+	border-radius: 50%;
+	text-align: center;
+	border: 5px solid #FFD17B;
+	letter-spacing: 0em;
+}
+
+.closeDialogButton {
+	font-size: 38pt;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	z-index: 3200;
+	width: 40pt;
+	height: 40pt;
+	background: #FFF9EF;
+	border-radius: 50%;
+	text-align: center;
+	border: 5px solid #FFD17B;
+	letter-spacing: 0em;
+}
+
+.featureSelectionItem {
+	width: 100%;
+	font-size: 22pt;
+	vertical-align: middle;
+	color: black;
+	margin-top: 5px;
+}
+
+.featureSelectionItem input {
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+}
+
+.featureSelectionCategoryHeading {
+	font-size: 20pt;
+	background-color: #FFC456;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.selectableGameFeatureItem {
+	position: relative;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 10px 20px 10px 20px;
+	cursor: pointer;
+	font-size: 18pt;
+}
+
+.selectableGameFeatureItem:not(.disabled):active {
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.selectableGameFeatureItem:not(.disabled).active {
+	/*custom active state to enable proper animation with complex contents: http://stackoverflow.com/questions/10827534/make-a-whole-div-clickable-with-working-active-css-rule-in-ie10 */
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.selectableGameFeatureItem.selectedFeature {
+	background-color: #8CE2FF;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.selectableGameFeatureItem.selectedFeature .featureContent {
+	margin-right: 30px;
+	/*leave space for selection pip*/
+	-ms-transition-duration: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+.selectionPip {
+	height: 100%;
+	width: 0%;
+	background: transparent;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.selectableGameFeatureItem.selectedFeature .selectionPip {
+	width: 15px;
+	background: #4E7E8E;
+	-ms-transition-duration: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+.selectableGameFeatureItem.disabled {
+	font-style: italic;
+	background: rgba(0, 0, 0, .2);
+}
+
+.trainingItemSmall {
+	font-size: 12pt;
+}
+
+.featureContent {
+	position: relative;
+}
+
+.levelLabel {
+	position: absolute;
+	right: 5px;
+}
+
+.gameFeatureProgressBackground {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	background: #bbbbbb;
+	opacity: 0.5;
+}
+
+#snappedScreen {
+	z-index: 8000;
+	background-color: orange;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.ui-dialog {
+	position: absolute;
+	padding: .2em;
+	width: 300px;
+	overflow: visible;
+}
+
+.gameHistorySliderContainer {
+	width: 600px;
+	height: 420px;
+	padding: 20px;
+}
+
+.gameDetails {
+	position: relative;
+	margin: 20px;
+	height: 270px;
+	width: 560px;
+}
+
+.gameDetailsTitleLabel {
+	position: relative;
+	font-size: 22pt;
+	font-weight: bolder;
+	left: 10px;
+	top: 5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.gameDetailsColumn1 {
+	left: 250px;
+	width: 180px;
+	font-size: 15pt;
+	font-weight: bolder;
+	overflow: visible;
+	white-space: pre;
+}
+
+.gameDetailsColumn2 {
+	width: 150px;
+	font-size: 13pt;
+	right: 20px;
+	text-align: right;
+}
+
+.gameDetailsTopicGenre {
+	position: relative;
+	left: 20px;
+	top: 15px;
+	width: 200px;
+	font-size: 11pt;
+	font-weight: bolder;
+}
+
+.gameDetailsAudience {
+	position: relative;
+	left: 15.83px;
+	top: 225px;
+	text-align: center;
+	width: 200px;
+}
+
+.gameDetailsPlatform {
+	position: relative;
+	left: 15.83px;
+	top: 225px;
+	text-align: center;
+	width: 200px;
+}
+
+.gameDetailsAmountEarned {
+	position: absolute;
+	top: 115px;
+}
+
+.gameDetailsReleaseWeek {
+	position: absolute;
+	top: 175px;
+}
+
+.gameDetailsFansChange {
+	position: absolute;
+	top: 235px;
+}
+
+.gameDetailsTopSalesRank {
+	position: absolute;
+	top: 265px;
+}
+
+.gameAverageScoreOverview {
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	text-align: center;
+	font-size: 50pt;
+	opacity: 0.5;
+	color: black;
+	width: 200px;
+}
+
+.gameDetailsAvgReview {
+	position: absolute;
+	top: 205px;
+}
+
+.gameDetailsUnitsSoldLabel {
+	position: absolute;
+	top: 52px;
+}
+
+.gameDetailsCostsLabel {
+	position: absolute;
+	top: 82px;
+}
+
+.gameDetailsUnitsSold {
+	position: absolute;
+	top: 55px;
+}
+
+.gameDetailsCosts {
+	position: absolute;
+	top: 85px;
+}
+
+.gameDetailsAmountEarnedLabel {
+	position: absolute;
+	top: 112px;
+}
+
+.gameDetailsReleaseWeekLabel {
+	position: absolute;
+	top: 172px;
+}
+
+.gameDetailsAvgReviewLabel {
+	position: absolute;
+	top: 202px;
+}
+
+.gameDetailsTotalLabel {
+	position: absolute;
+	top: 142px;
+}
+
+.gameDetailsFansChangeLabel {
+	position: absolute;
+	top: 232px;
+}
+
+.gameDetailsTotal {
+	position: absolute;
+	top: 145px;
+}
+
+.platformButtonImage {
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+.gameDetailsImage {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.gameDetailsPiracyImage {
+	position: absolute;
+	width: 32px;
+	opacity: 0.15;
+	right: 10px;
+	top: 25px;
+	cursor: none;
+}
+
+.gameDetailsPiracyRate {
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	font-size: 15pt;
+	text-align: center;
+	width: 32px;
+	opacity: 0.8;
+}
+
+.gameDetailsTopSalesRankLabel {
+	position: absolute;
+	top: 262px;
+}
+
+.gameDetailsListContainer {
+	top: 85px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 435px;
+}
+
+.snappedViewInstruction {
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 75%;
+}
+
+.snappedViewSplash {
+	left: 50%;
+	margin-left: -300px;
+	position: absolute;
+	top: 45%;
+}
+
+#gamePreviewLabel {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 15pt;
+	width: 180px;
+	background-color: orange;
+	padding: 5px;
+	z-index: 5810;
+	cursor: pointer;
+}
+
+#aboutBadge {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 10000;
+	text-align: center;
+}
+
+/*keep visited color of links in badge the same*/
+#aboutBadge .a,
+#aboutBadge a:visited {
+	color: blue;
+}
+
+.badgeLogo {
+	width: 100px;
+}
+
+.tomisakaeLogo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.badgeLogo.openState {
+	width: 150px;
+	transition: linear 0.4s;
+	-webkit-transition: linear 0.4s;
+}
+
+.platformRelaseNewsImage {
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	width: 200px;
+	height: 200px;
+}
+
+.platformReleaseTextArea {
+	position: absolute;
+	left: 210px;
+	width: 280px;
+	height: 205px;
+}
+
+.platformReleaseOkButton {
+	position: absolute;
+	left: 90px;
+	top: 280px;
+}
+
+.windowCostLabel {
+	position: absolute;
+	right: 10px;
+	top: 75px;
+	font-size: 20pt;
+	width: 140px;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+#splashScreen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 6000;
+}
+
+#splashStaticBackdrop {
+	background-color: #ff8800;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#animatedSplashBackdrop {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#animatedSplashBackdrop:before {
+	content: "";
+	position: absolute;
+	width: 2990px;
+	/*set in code behind diagonal size of 2560x1440 screen: 2938 + 60~ for off-center display*/
+	height: 2990px;
+	background: url("../images/sunrays.png") 50% 50% no-repeat;
+	animation-name: rotate;
+	animation-duration: 120s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation: rotate 120s infinite linear;
+}
+
+.gameEndDialogContent {
+	margin: 20px;
+}
+
+#gameEndDialog .animationItemsContainer {
+	position: relative;
+	width: 780px;
+	margin: 10px;
+	height: 330px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#gameEndDialog .buttonContainer {
+	text-align: center;
+}
+
+#gameEndDialog .buttonContainer .selectorButton {
+	width: 40%;
+	display: inline-block;
+}
+
+#gameEndDialog .companyName {
+	position: absolute;
+	top: 10px;
+	font-size: 40pt;
+	font-family: 'Segoe UI', 'Open Sans';
+	width: 100%;
+	text-align: center;
+}
+
+#gameEndDialog .dialogNextButton {
+	left: 600px;
+}
+
+#gameEndDialog .screen2 {
+	margin-left: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.gameEndAnimationItem {
+	display: inline-block;
+	font-size: 16pt;
+}
+
+.gameEndAnimationItem .value {
+	text-align: center;
+}
+
+.gameEndStatisticItem {
+	margin-top: 5px;
+	width: 100%;
+	font-size: 14pt;
+}
+
+.gameEndStatisticsContainer {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: visible;
+	height: 170px;
+}
+
+.endDialogAnimationContainer {
+	height: 350px;
+	margin: 20px;
+}
+
+.notificationImageContainer {
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	top: 65px;
+	left: -220px;
+	color: #212121;
+	background-color: #FFF9EF;
+	border: 5px solid #FFD17B;
+	z-index: -1;
+}
+
+.notificationImage {
+	width: 200px;
+	margin: 10px;
+}
+
+.budgetSlider {
+	height: 40px;
+	margin: 20px;
+}
+
+.budgetSlider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 20px;
+	height: 50px;
+	cursor: default;
+}
+
+/* Staff template
+	*/
+.staffTemplate {
+	font-size: 24pt;
+	margin: 10px;
+	padding: 10px;
+}
+
+.staffName {
+	font-size: 30pt;
+}
+
+.staffLeftColumn {
+	width: 40%;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.staffRightColumn {
+	width: 55%;
+	display: inline-block;
+}
+
+.staffDLabel {}
+
+.staffDTContainer {
+	font-size: 12pt;
+	text-align: center;
+}
+
+.staffDContainer {
+	width: 20%;
+	display: inline-block;
+}
+
+.staffTContainer {
+	display: inline-block;
+	width: 20%;
+}
+
+.staffDTBarContainer {
+	display: inline-block;
+	width: 58%;
+	height: 40px;
+	letter-spacing: -2em;
+}
+
+.staffDBar {
+	background-color: #FFBD43;
+	height: 100%;
+	display: inline-block;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+}
+
+.staffTBar {
+	height: 100%;
+	display: inline-block;
+	background-color: #00BFFF;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+}
+
+.staffBarDivider {
+	display: inline-block;
+	width: 1px;
+	color: transparent;
+}
+
+.applicantContainer {
+	width: 780px;
+	height: 450px;
+	padding: 20px;
+}
+
+.consoleVariationContainer {
+	width: 560px;
+	height: 250px;
+	padding: 20px;
+}
+
+.staffHireFireButton {
+	width: 200px;
+	height: 50px;
+}
+
+.sliderTabCaption {
+	font-size: 12pt;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.sliderTabCaption.rsTmb {
+	margin-top: 10px;
+	/*hack: center align text*/
+}
+
+/*change default size of royal-slider thumbnails*/
+.rsDefaultInv .rsThumb {
+	width: 180px;
+	height: 40px;
+}
+
+.rsDefaultInv .rsThumbsHor {
+	height: 40px;
+}
+
+.rsDefaultInv .rsThumbsVer {
+	width: 180px;
+}
+
+.hireStaffButtonBase {
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px;
+	border-radius: 5px;
+	color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.hireStaffButton {
+	opacity: 0.3;
+}
+
+.hireStaffButton:hover {
+	opacity: 0.6;
+}
+
+.hireStaffButton.active {
+	opacity: 1;
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.hireStaffProgress {
+	position: absolute;
+	display: inline-block;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	background-color: #00BFFF;
+	z-index: -1;
+}
+
+.boostHost {
+	opacity: 0.8;
+}
+
+.boostButton {
+	font-family: 'Open Sans, Arial';
+	font-weight: bold;
+	font-size: 32pt;
+	position: absolute;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	transform: scale(0.4, 0.4);
+	-webkit-transform: scale(0.4, 0.4);
+	background-color: white;
+	border-radius: 50%;
+	cursor: default;
+}
+
+.boostButton.enabled {
+	transform: scale(0.65, 0.65);
+	-webkit-transform: scale(0.65, 0.65);
+	background-color: deepskyblue;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-out;
+	-webkit-transition: 0.4s ease-out;
+	cursor: pointer;
+}
+
+.boostButton.enabled:hover {
+	transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	color: white;
+}
+
+.boostMultiplier {
+	position: absolute;
+	left: 50px;
+	top: 20px;
+	font-size: 14pt;
+	color: black;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 deepskyblue, 1px -1px 0 deepskyblue, -1px 1px 0 deepskyblue, 1px 1px 0 deepskyblue;
+}
+
+#gameSizeGroup {
+	margin-top: 10px;
+	position: relative;
+}
+
+.gameSizeButton {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	font-size: 18pt;
+	line-height: 50px;
+	text-align: center;
+	border: solid 1px #b7b7b7;
+	margin-right: 15px;
+	background-image: -ms-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+}
+
+.gameSizeButton:hover {
+	background-image: -ms-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+}
+
+.gameSizeButton.selected {
+	background-image: -ms-linear-gradient(top, #FFCC00 0%, #FFA500 100%);
+	background-image: -webkit-linear-gradient(top, #FFCC00 0%, #FFA500 100%);
+}
+
+.gameSizeSmall {
+	font-size: 16pt;
+}
+
+.gameSizeMedium {
+	font-size: 18pt;
+}
+
+.gameSizeLarge {
+	font-size: 20pt;
+}
+
+.gameSizeAAA {
+	position: absolute;
+	font-size: 24pt;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.gameGenreMMO {
+	position: absolute;
+	font-size: 24pt;
+	font-weight: bold;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+#targetRating {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.rating {
+	display: inline-block;
+	font-size: 22pt;
+	line-height: 60px;
+	text-align: center;
+	max-width: 200px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	color: black;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.ratingLabel {
+	font-size: 14pt;
+	position: absolute;
+	display: inline-block;
+	top: 90px;
+	height: 60px;
+	right: 20px;
+}
+
+.ratingY {
+	background-color: limegreen;
+}
+
+.ratingE {
+	background-color: yellow;
+}
+
+.ratingM {
+	background-color: firebrick;
+}
+
+.gameDefSelection:hover {
+	border-color: orange;
+	transition-duration: 0.2s;
+}
+
+.gameDefSelection.selected {
+	border-color: orange;
+	transition-duration: 0.2s;
+	transform: scale(1.105);
+}
+
+.trainingOverlayTemplate {
+	position: absolute;
+	font-size: 15pt;
+	font-family: Arial;
+	width: 270px;
+	word-spacing: -0.3em;
+}
+
+.trainingContent {
+	padding: 5px;
+}
+
+.trainingColumnLeft {
+	width: 60%;
+	display: inline-block;
+}
+
+.trainingColumnRight {
+	width: 20%;
+	display: inline-block;
+}
+
+.trainingInnerBorder {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	top: 0px;
+	height: 0px;
+	width: 78.5%;
+	height: 100%;
+	z-index: -1;
+}
+
+.trainingD {
+	color: #CC7A00;
+}
+
+.trainingT {
+	color: #0081FF;
+}
+
+.trainingR {
+	color: #006AFF;
+}
+
+.trainingS {
+	color: firebrick;
+}
+
+.trainingGain {
+	display: inline-block;
+	width: 18%;
+	background: white;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid black;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	perspective: 250px;
+	transform-origin: 0% 50%;
+	transform: rotateY(90deg);
+	/*hidden by default*/
+	-webkit-transform-origin: 0% 50%;
+	-webkit-transform-perspective: 250px;
+	-webkit-transform: rotateY(90deg);
+}
+
+
+.textEffect3D {
+	color: rgba(255, 255, 0, .7);
+	font-weight: bold;
+	text-shadow: 1px 1px rgba(255, 128, 0, .7), 2px 2px rgba(255, 128, 0, .7), 3px 3px rgba(255, 128, 0, .7), 4px 4px rgba(255, 128, 0, .7), 5px 5px rgba(255, 128, 0, .7);
+}
+
+.projectSlider {
+	width: 560px;
+	margin: 20px;
+	height: 450px;
+}
+
+.projectTitleLabel {
+	font-size: 24pt;
+	position: absolute;
+	left: 240px;
+	top: 20px;
+}
+
+.projectIcon {
+	width: 200px;
+	position: absolute;
+	left: 20px;
+}
+
+.projectDescription {
+	font-size: 14pt;
+	position: absolute;
+	left: 20px;
+	top: 220px;
+}
+
+/*.projectCashCost {
+	font-size: 16pt;
+	position:absolute;
+	left: 240px;
+	top: 110px;
+}*/
+
+.projectPointCost {
+	font-size: 16pt;
+	position: absolute;
+	left: 240px;
+	top: 150px;
+}
+
+.projectStatusCard {
+	border-radius: 5px;
+	padding: 6px;
+	width: 300px;
+	position: absolute;
+	font-family: 'Segoe UI', 'Open Sans';
+	border: 1px solid #181818;
+	background-color: rgba(255, 255, 255, 0.498);
+	cursor: pointer;
+}
+
+.projectStatusCard.small {
+	-ms-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	transition-duration: 0.2s;
+}
+
+.projectCardLeft {
+	position: relative;
+	left: 40px;
+	top: 20px;
+	word-spacing: 0em;
+	pointer-events: all;
+}
+
+.projectCardLeft.small {
+	top: 10px;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+}
+
+.menuButtonLeftBottom {
+	padding: 20px;
+	left: 10px;
+	bottom: 10px;
+	position: absolute;
+	color: gray;
+	font-family: FontAwesome;
+	font-size: 24pt;
+	z-index: 22000;
+}
+
+.menuButtonLeftBottom:hover {
+	color: dimgray;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.menuButtonLeftBottom:active {
+	-ms-transform: scale(0.95);
+	-ms-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+}
+
+.projectCardRight {
+	right: 40px;
+	bottom: 40px;
+}
+
+.projectCardRight.small {
+	-ms-transform-origin: 100% 100%;
+	-webkit-transform-origin: 100% 100%;
+}
+
+.projectBudgetSlider {
+	height: 30px;
+	margin: 20px;
+}
+
+.projectBudgetSlider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 20px;
+	height: 40px;
+	cursor: default;
+}
+
+.rndCard .ui-slider-range {
+	background: orange;
+}
+
+.hwCard .ui-slider-range {
+	background: deepskyblue;
+}
+
+.projectStatusCard .projectTitle {
+	font-size: 18pt;
+	position: relative;
+	left: 110px;
+	width: 180px;
+	white-space: nowrap;
+}
+
+.projectStatusCard .projectIcon {
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.projectProgressContainer {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	width: 160px;
+	height: 40px;
+}
+
+.projectProgress {
+	height: 100%;
+	position: relative;
+}
+
+.rndCard .projectProgress {
+	background: orange;
+}
+
+.hwCard .projectProgress {
+	background: deepskyblue;
+}
+
+.projectPointsRemaining {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14pt;
+}
+
+.projectBudgetSliderContainer {
+	position: relative;
+	width: 300px;
+}
+
+.projectBudgetLabel {
+	font-size: 14pt;
+}
+
+.projectBudgetValue {
+	font-size: 14pt;
+	text-align: right;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+.projectStatusContainer {
+	position: relative;
+	height: 100px;
+}
+
+
+.projectCardLabel {
+	font-size: 16pt;
+}
+
+.conventionImageBg {
+	position: absolute;
+	top: 98px;
+	left: 25px;
+	width: 760px;
+	height: 450px;
+}
+
+.conventionImageFg {
+	position: absolute;
+	top: 98px;
+	left: 25px;
+	width: 760px;
+	height: 450px;
+}
+
+.conventionImageFloor {
+	margin: 20px;
+	width: 760px;
+	height: 450px;
+}
+
+.conventionAnimationCanvas {
+	position: absolute;
+	top: 98px;
+	left: 25px;
+	width: 760px;
+	height: 450px;
+}
+
+.gameConferenceCanvas {
+	position: relative;
+	margin: 20px;
+	height: 450px;
+	width: auto;
+}
+
+.conferenceBoothVariationContainer {
+	width: 560px;
+	height: 300px;
+	padding: 20px;
+}
+
+.conferenceBoothPickerText {
+	font-size: 20pt;
+	margin: 30px;
+}
+
+.boothTitleLabel {
+	font-size: 24pt;
+}
+
+.boothDescription {
+	font-size: 14pt;
+}
+
+.boothCashCost {
+	font-size: 16pt;
+}
+
+.marketingVariationContainer {
+	width: 560px;
+	height: 300px;
+	padding: 20px;
+}
+
+.marketingPickerText {
+	font-size: 20pt;
+	margin: 30px;
+}
+
+.marketingTitleLabel {
+	font-size: 24pt;
+}
+
+.marketingDescription {
+	font-size: 14pt;
+}
+
+.marketingCashCost {
+	font-size: 16pt;
+}
+
+.splashImage {
+	width: 620px;
+	pointer-events: none;
+}
+
+.characterPreviewContainer {
+	position: relative;
+	width: 100%;
+	height: 220px;
+	margin-top: 20px;
+	-webkit-backface-visibility: hidden;
+}
+
+.characterPreviewCanvas {
+	position: absolute;
+	left: 88px;
+	top: -22px;
+}
+
+.characterPreviewArrowButton {
+	font-size: 30pt;
+	position: absolute;
+	width: 40pt;
+	height: 40pt;
+	background: #FFF9EF;
+	border-radius: 50%;
+	text-align: center;
+	border: 5px solid #FFD17B;
+	letter-spacing: 0em;
+	font-style: normal;
+	line-height: 42pt;
+	/*slightly higher so that the arrow is centered correctly. not sure why it was slightly off center otherwise*/
+	vertical-align: middle;
+}
+
+.characterHeadLeftArrow {
+	top: 10px;
+	left: 20px;
+}
+
+.characterHeadRightArrow {
+	top: 10px;
+	right: 20px;
+}
+
+.characterBodyLeftArrow {
+	top: 80px;
+	left: 20px;
+}
+
+.characterBodyRightArrow {
+	top: 80px;
+	right: 20px;
+}
+
+.characterSexSelectionButton {
+	font-family: 'Segoe UI Symbol', 'Open Sans';
+	z-index: 10000;
+	/*quick hack to make sure those buttons overlay the preview canvas*/
+	display: inline-block;
+	font-size: 32pt;
+	line-height: 60px;
+	text-align: center;
+	width: 60px;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 4px;
+	border-style: solid;
+	color: black;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-image: -ms-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #CCF5FF 0%, #A3E7FF 100%);
+}
+
+.characterSexSelectionButton:hover {
+	background-image: -ms-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+	background-image: -webkit-linear-gradient(top, #E0F7FF 0%, #A3E7FF 100%);
+}
+
+.characterSexSelectionButton.selected {
+	background-image: -ms-linear-gradient(top, #FFCC00 0%, #FFA500 100%);
+	background-image: -webkit-linear-gradient(top, #FFCC00 0%, #FFA500 100%);
+}
+
+.randomSexButton {
+	height: 60px;
+	margin-bottom: -14px;
+}
+
+.contractSlider {
+	width: 540px;
+	height: 400px;
+	padding: 20px;
+}
+
+
+.contractItem {
+	width: 560px;
+}
+
+.contract {
+	position: absolute;
+}
+
+.contract.name {
+	top: 20px;
+	left: 20px;
+	width: 500px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.contract.topicNotResearched {
+	top: 50px;
+	color: red;
+	left: 20px;
+	width: 500px;
+	text-align: center;
+}
+
+.contract.description {
+	top: 70px;
+	left: 60px;
+	width: 420px;
+	text-align: center;
+}
+
+.contract.reqLabel {
+	top: 240px;
+	left: 20px;
+	font-size: 15pt;
+}
+
+.contract.req {
+	top: 280px;
+	left: 60px;
+	right: 20px;
+	font-style: italic;
+}
+
+.contract.pointsDisplay {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.contract.pointsDisplay.medium {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	transform: translateY(-5px);
+}
+
+.contract.pointsDisplay.large {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	transform: translateY(-10px);
+}
+
+.contract.designPoints {
+	top: 130px;
+	left: 130px;
+}
+
+.contract.technologyPoints {
+	top: 130px;
+	left: 250px;
+}
+
+.contract.platform {
+	width: 200px;
+	top: 120px;
+	left: 20px;
+}
+
+.contract.platformLabel {
+	top: 310px;
+	left: 20px;
+	width: 200px;
+	text-align: center;
+}
+
+.contract.duration {
+	top: 200px;
+	left: 20px;
+	width: 500px;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.contract.payment {
+	top: 280px;
+	left: 80px;
+	font-size: 17pt;
+}
+
+.contract.penalty {
+	top: 280px;
+	left: 330px;
+	font-size: 17pt;
+	color: red;
+}
+
+.contract.payment.game {
+	top: 280px;
+	left: 260px;
+	font-size: 15pt;
+}
+
+.contract.penalty.game {
+	top: 310px;
+	left: 260px;
+	font-size: 15pt;
+	color: red;
+}
+
+.contract.royaltyRate {
+	top: 250px;
+	left: 260px;
+	font-size: 15pt;
+}
+
+.contract.reqs {
+	top: 120px;
+	left: 260px;
+	font-size: 15pt;
+}
+
+.consoleMainContainer {
+	top: 30px;
+	left: 40px;
+	position: relative;
+	cursor: pointer;
+}
+
+.consoleMainCard {
+	height: 130px;
+	width: 180px;
+	font-family: 'Segoe UI', 'Open Sans';
+	border: 2px solid #A4A4A4;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(255, 255, 255, 0.498);
+	word-spacing: 0em;
+}
+
+.consoleMainCardGroup.title {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 14pt;
+	font-weight: 300;
+}
+
+.consoleMainCardGroupCanvas {
+	position: relative;
+	left: 1px;
+	margin-bottom: -5px;
+}
+
+.consoleMainCardGroup.points {
+	position: absolute;
+	margin: 5px;
+	font-size: 14pt;
+	font-weight: 300;
+	top: 100px;
+	left: 10px;
+}
+
+.consoleMainCardGroup.happySmiley {
+	left: 35px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+.consoleMainCardGroup.sadSmiley {
+	left: 35px;
+	top: 82px;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+#releaseButton {
+	position: absolute;
+	top: 130px;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px;
+}
+
+
+.featureSelectionPanel {
+	left: 100%;
+	margin-left: -10px;
+	top: 80px;
+	width: 300px;
+	height: 520px;
+	position: absolute;
+	color: #212121;
+	background-color: #FFF9EF;
+	border: 5px solid #FFD17B;
+	z-index: -1;
+	overflow: auto;
+}
+
+.featureSelectionPanelHiddenState {
+	margin-left: -310px;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.featureSelectionShowState {
+	margin-left: -5px;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.featureSelectionPanel .featureSelectionContainer {
+	margin: 20px 10px 10px 10px;
+	padding-right: 10px;
+	height: 410px;
+}
+
+.featureSelectionPanel .featureSelectionCategoryHeading {
+	font-size: 16pt;
+	margin: 5px;
+	padding: 5px;
+}
+
+.featureSelectionPanel .selectableGameFeatureItem {
+	font-size: 14pt;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+}
+
+
+.featureSelectionPanel .cost {
+	text-align: right;
+	margin-right: 10px;
+	font-size: 14pt;
+}
+
+.featureStaffAsignPanel {
+	left: -300px;
+	top: 80px;
+	width: 300px;
+	height: 520px;
+	position: absolute;
+	color: #212121;
+	background-color: #FFF9EF;
+	border: 5px solid #FFD17B;
+	z-index: -1;
+}
+
+.featureStaffAsignPanel.hidden {
+	left: 0px;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.featureStaffAsignPanel.showState {
+	left: -300px;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+
+.staffListContainer {}
+
+.staffListItem {
+	position: relative;
+	width: 260px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.staffListItem .workload {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	background: green;
+	line-height: 100%;
+}
+
+.staffListItem .staffName {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+	width: 145px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.staffListItem .specialization {
+	position: absolute;
+	top: 5px;
+	left: 150px;
+	width: 80px;
+	font-size: 10pt;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.staffListItem .responsibility {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 30px;
+	text-align: right;
+}
+
+.staffListItem .pointsDisplayContainer {
+	width: 100%;
+	word-spacing: -2em;
+}
+
+/*hack to get good result on webkit - source: http://stackoverflow.com/a/1832578/10779*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.staffListItem .pointsDisplayContainer {
+		word-spacing: -0.2em;
+	}
+}
+
+.staffListItem .design {
+	display: inline-block;
+	width: 50%;
+	word-spacing: 2em;
+	color: #ec9900;
+	font-weight: bold;
+}
+
+.staffListItem .technology {
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+	word-spacing: 2em;
+	color: #0090c1;
+	font-weight: bold;
+}
+
+.staffItemBorder {
+	border: 1px solid black;
+	background-color: rgba(232, 232, 232, 0.82);
+}
+
+.staffInfo.tall {
+	font-size: 14pt;
+}
+
+.staffInfo.tall .name {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 195px;
+	text-align: center;
+}
+
+.staffInfo.tall .expert {
+	width: 195px;
+	text-align: center;
+	font-size: 12pt;
+}
+
+.staffInfo.tall .row {
+	word-spacing: -0.2em;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.staffInfo.tall .leftColumn {
+	display: inline-block;
+	width: 68%;
+	word-spacing: 2em;
+}
+
+.staffInfo.tall .rightColumn {
+	display: inline-block;
+	width: 28%;
+	word-spacing: 2em;
+}
+
+.staffInfo.tall .skillContainer {
+	margin-top: 20px;
+}
+
+.staffInfo.tall .trainingLvl {
+	font-weight: bold;
+}
+
+#reviewAnimationContainer {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	height: 500px;
+	position: relative;
+}
+
+.reviewItem {
+	position: absolute;
+}
+
+.reviewItem .scoreContainer {
+	display: inline-block;
+	position: relative;
+}
+
+.reviewItem .score {
+	font-size: 48pt;
+	display: inline-block;
+	width: 48pt;
+	text-align: center;
+}
+
+.reviewItem .text {
+	font-size: 18pt;
+	display: inline-block;
+	margin-left: 20px;
+	max-width: 500px;
+}
+
+.reviewItem .reviewer {
+	font-size: 16pt;
+	text-align: right;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.reviewItem .award {
+	position: absolute;
+	width: 128px;
+	left: -40px;
+	top: 0px;
+}
+
+.reviewItem .stars {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 70px;
+}
+
+.reviewItem .stars .star {
+	width: 36px;
+}
+
+.reviewItem .starsEmpty {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 70px;
+}
+
+.reviewItem .starEmpty {
+	width: 36px;
+}
+
+.reviewItem .reviewContainer {
+	position: relative;
+}
+
+.contextMenuItem {
+	position: relative;
+	left: 0px;
+	font-size: 18pt;
+	min-width: 250px;
+	max-width: 350px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.contextMenuItem.hideState {
+	opacity: 0.2;
+	-ms-transform-origin: 0% 50%;
+	-ms-transform: perspective(700px) scale(0.85) rotateY(90deg);
+	-ms-transition: 0.3s;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-origin: 0% 50%;
+	-webkit-transform: perspective(700px) scale(0.85) rotateY(90deg);
+	-webkit-transition: 0.3s;
+}
+
+.contextMenuItem.showState {
+	opacity: 1;
+	-ms-transform-origin: 0% 50%;
+	-ms-transform: perspective(700px) scale(1) rotateY(0deg);
+	-ms-transition: 0.3s;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-origin: 0% 50%;
+	-webkit-transform: perspective(700px) scale(1) rotateY(0deg);
+	-webkit-transition: 0.3s;
+}
+
+.contextMenuItem:hover {
+	-ms-transform-origin: 0% 50%;
+	-ms-transform: perspective(700px) scale(1) rotateY(0deg);
+	-ms-transition: 0.2s;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-origin: 0% 50%;
+	-webkit-transform: perspective(700px) scale(1) rotateY(0deg);
+	-webkit-transition: 0.2s;
+	left: 15px;
+}
+
+.contextMenuButton {
+	color: black;
+	border: solid 1px black;
+	background: #F9F1E3;
+}
+
+.contextMenuButton:hover {
+	background-image: -ms-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+}
+
+.contextMenuButton:active {
+	background-image: -ms-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+}
+
+
+#transitionOverlay {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: black;
+	opacity: 0;
+	z-index: 6500;
+	/*above splashscreen*/
+}
+
+.supporterOptionsContainer {
+	width: 760px;
+	margin-left: 40px;
+	height: 560px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.supporterOption {
+	width: 700px;
+	font-family: 'Segoe UI', 'Open Sans';
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.supporterOption .title {
+	text-align: center;
+	width: 100%;
+	font-size: 20pt;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #004E8D;
+}
+
+.supporterOption .description {
+	width: 100%;
+	font-size: 14pt;
+	margin-top: 10px;
+}
+
+.supporterOption .actionButton {
+	width: 400px;
+	display: inline-block;
+}
+
+.smallScreenPopup {
+	transform: scale(0.8);
+	transform-origin: 50% 50%;
+}
+
+.volumeSlider .ui-slider-range {
+	background: orange;
+}
+
+#weekProgression {}
+
+.weekProgress {
+	border-radius: 50%;
+	width: 3px;
+	height: 3px;
+	background: black;
+	margin-top: 1px;
+}
+
+#gameHistoryDialog {
+	overflow: hidden;
+}
+
+#findContractWorkWindow {
+	overflow: hidden;
+}
+
+
+#greenheartGamesPanel {
+	z-index: 7500;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#greenheartGamesPanel.teaser {
+	transform: scale(0.5);
+}
+
+#greenheartGamesPanel.full {
+	transform: scale(1);
+	transition: 0.4s ease-out;
+}
+
+#greenheartGamesPanel .greenheartLogo {
+	cursor: pointer;
+}
+
+
+.ui-widget {
+	font-family: 'Segoe UI', 'Open Sans';
+}
+
+.eulaContainer {
+	margin: 5px 10px 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 450px;
+}
+
+#eulaWindow {
+	overflow: hidden;
+}
+
+#eulaWindow .deleteButton {
+	position: relative;
+	left: 10px;
+	top: -75px;
+}
+
+.gameDefinitionContent .comboHint {
+	float: right;
+	font-size: 14pt;
+	margin-top: -85px;
+	text-align: left;
+	width: 140px;
+	font-style: italic;
+	opacity: 0.7;
+}
+
+.pickTopicButtonAudienceHintVisible {
+	line-height: 14pt;
+}
+
+.modsSelectionButton {
+	position: relative;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 10px 15px 10px 15px;
+	cursor: pointer;
+	font-size: 12pt;
+}
+
+.modsSelectionButton:not(.disabled):active {
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.modsSelectionButton:not(.disabled).active {
+	/*custom active state to enable proper animation with complex contents: http://stackoverflow.com/questions/10827534/make-a-whole-div-clickable-with-working-active-css-rule-in-ie10 */
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+}
+
+.modsSelectionButton.activeMod {
+	background-color: #8CE2FF;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.modsSelectionButton.disabled {
+	font-style: italic;
+	background: rgba(0, 0, 0, .2);
+}
+
+.modsSelectionButton.dependencyWrong {
+	background-color: #FF836B;
+	-ms-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+.modsSelectionButton .modName {
+	font-size: 14pt;
+	font-family: "Segoe UI Semibold", "Open Sans Semibold";
+	display: inline-block;
+	width: 60%;
+}
+
+.modsSelectionButton .modVersion {
+	font-size: 14pt;
+	font-family: "Segoe UI Semibold", "Open Sans Semibold";
+	display: inline-block;
+}
+
+.modsSelectionButton .modImage {
+	font-size: 14pt;
+	font-family: "Segoe UI Semibold", "Open Sans Semibold";
+	display: inline-block;
+	border: 1px solid #333333;
+	width: 120px;
+	height: 120px;
+	background-image: url('../images/mod-image.png');
+	background-repeat: no-repeat;
+}
+
+.modsSelectionButton .website {
+	display: inline-block;
+}
+
+.modsSelectionButton .author {
+	display: inline-block;
+	/*width: 38%;*/
+	text-align: right;
+}
+
+.modsSelectionButton.activeMod .selectionPip {
+	width: 15px;
+	background: #4E7E8E;
+	-ms-transition-duration: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+.modsPanelContainer {
+	height: 430px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.modsWarning {
+	font-size: 14pt;
+	font-family: 'Segoe UI', 'Open Sans';
+	margin-left: 30px;
+	margin-right: 30px;
+	color: red;
+}
+
+.modsDisclaimer {
+	font-size: 10pt;
+	font-family: 'Segoe UI', 'Open Sans';
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 5px;
+}
+
+.modDescription {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 560px;
+	height: 100px;
+}
+
+.soundSettings {
+	display: inline-block;
+	width: 45%;
+}
+
+.musicSettings {
+	display: inline-block;
+	width: 45%;
+}
+
+.animationSettings {
+	display: inline-block;
+	width: 45%;
+}
+
+.tutorialSettings {
+	display: inline-block;
+	width: 45%;
+}
+
+.tutorialSelection {
+	width: 100%;
+}
+
+.localizationDiscussion {
+	position: absolute;
+	right: 25px;
+	top: 95px;
+}
+
+.errorMessage.button.url {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 10px;
+	right: 38px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+.errorMessage.button.close {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 9px;
+	right: 16px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+.errorMessage.window {
+	width: 720px;
+	height: auto;
+	border-width: 8px;
+	border-style: solid;
+	opacity: 1;
+	text-align: center;
+	position: absolute;
+	top: 30px;
+	z-index: 50000;
+	box-shadow: 3px 3px 5px #000;
+	background-color: #eeeeee;
+	padding: 8px;
+	font-size: small;
+}
+
+.errorMessage-header {
+	font-family: "Segoe UI", "Open Sans";
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+p.errorMessage {
+	-webkit-user-select: text;
+	user-select: text;
+	word-wrap: break-word;
+}
+
+p.errorMessage.left {
+	font-weight: 700;
+	text-align: left;
+}
+
+p.errorMessage .span {
+	font-weight: 700;
+}
+
+.errorMessage>* {
+	-webkit-user-select: text;
+	user-select: text;
+	word-wrap: break-word;
+}
+
+.errorMessage ul>* {
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+.errorMessage.msg-error {
+	border-color: #c24242;
+}
+
+.errorMessage.msg-success {
+	border-color: #0aa01f;
+}
+
+.errorMessage.msg-hint {
+	border-color: #3c59ad;
+}
+
+.errorMessage.msg-warning {
+	border-color: #edda72;
+}
+
+.errorMessage.msg-info {
+	border-color: #ffffff;
+}
+
+.errorMessage.msg-response {
+	border-color: #ffffff;
+}
+
+.errorMessage.msg-tutorial {
+	border-color: #8164a5;
+}
+
+.errorMessage.msg-default {
+	border-color: #c24242;
+}
+
+.namegenerator-button {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.settingsPanel select.tutorialSelection {
+	width: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ffd17b;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ffa401;
+}
+
+#newsletterSignup {
+	opacity: 0;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 25000;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	color: gray;
+	transition: all 0.3s;
+}
+
+#newsletterSignup input {
+	font-size: 14pt;
+}
+
+#newsletterSignup:hover {
+	color: black;
+}
+
+#newsletterSignup .newsletterIcon {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 32pt;
+	line-height: 32pt;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	margin-left: 3px;
+	/*minor position correction*/
+}
+
+#newsletterSignup .newsletterIconText {
+	position: relative;
+	top: 15px;
+	width: 0px;
+	width: 0px;
+	font-family: 'Segoe UI', 'Open Sans';
+	font-size: 15pt;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: width 0.4s;
+}
+
+#newsletterSignup .newsletterContentExpanded {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+
+#newsletterSignup.active .newsletterContentExpanded {
+	width: 280px;
+	height: 220px;
+	overflow: hidden;
+	padding: 0px 20px 20px 20px;
+}
+
+#newsletterSignup.active .newsletterIconText {
+	width: 250px;
+}
+
+#newsletterSignup .orangeButton {
+	display: inline-block;
+	width: 80%;
+}
+
+#newsletterSignup .hint {
+	width: 280px;
+	display: inline-block;
+}
+
+.hideNewsletterWidgetButton {
+	width: 80%;
+	font-size: 12pt;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+
+.modMismatchModItem {
+	font-weight: 700;
+}
+
+#modMismatchDialog {
+	width: 600px !important;
+	max-height: 625px;
+}
+
+#modMismatchTextProceed {
+	font-weight: 700;
+}
+
+#modMismatchContent {
+	overflow-y: auto;
+	margin-left: 63px;
+	max-height: 475px;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.table {
+	display: table;
+}
+
+.table-row {
+	display: table-row;
+	vertical-align: top;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.mod_agreement {
+	font-size: 12pt;
+	font-family: 'Segoe UI', 'Open Sans';
+}
+
+#skipSyncButton.hidden {
+	visibility: hidden;
+}
+
+#skipSyncButton.showState {
+	visibility: visible;
+}
+
+.pickTopicListButton {
+	height: 140px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+
+.topicIcon {
+	width: 100px;
+}
+
+.topicButtonText {
+	display: block;
+	margin-top: -30px;
+}
+
+.pickTopicListButton.hintsEnabled .topicButtonText {
+	margin-top: -35px;
+}
+
+.pickTopicListButton .hints {
+	margin-top: -30px;
+	font-size: 12pt;
+}
+
+.genreIconSmall {
+	width: 32px !important;
+	-ms-interpolation-mode: bicubic;
+}
+
+#contextMenu {
+	z-index: 20000;
+}
+
+.contextMenuItem .iconContainer {
+	display: inline;
+}
+
+.contextMenuItem .icon {
+	width: 24px;
+	height: 24px;
+}
+
+.contextMenuItem .icon path {
+	fill: black !important;
+}
+
+.contextMenuItem .icon.research rect {
+	fill: black !important;
+}
+
+.contextMenuItem .icon.research circle {
+	stroke: black !important;
+}
+
+#notificationSidebar {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	max-height: 70%;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.sidebarNotificationItem {
+	cursor: pointer;
+	position: relative;
+	width: 300px;
+	border: 2px solid #FFD17B;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: rgba(255, 255, 255, 0.498);
+}
+
+.sidebarNotificationItem .icon {
+	width: 100px;
+	display: inline-block;
+}
+
+.sidebarNotificationItem .title {
+	position: absolute;
+	width: 200px;
+	height: 35px;
+	font-size: 18pt;
+	text-align: center;
+	display: inline-block;
+}
+
+.sidebarNotificationItem .previewText {
+	position: absolute;
+	top: 50px;
+	left: 130px;
+	right: 15px;
+	width: 170px;
+	height: 50px;
+	overflow-x: hidden;
+}
+
+.ui-tabs.ui-widget-content {
+	background: none;
+	border: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	cursor: pointer;
+}
+
+#settingsPanel2 {
+	height: 480px;
+}
+
+.messagesGrid {
+	position: relative;
+	border: 2px solid #fcb540;
+}
+
+.messagesGrid .cell {
+	cursor: pointer;
+}
+
+.messagesGrid .cell.odd {
+	background: #F9CE89;
+	border: 1px solid #F9CE89;
+}
+
+.messagesGrid .cell.even {
+	background: #F9E5C5;
+	border: 1px solid #F9E5C5;
+}
+
+.messagesConfigButton {
+	width: 257px;
+	height: 44px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.messagesConfig .header {
+	height: 42px;
+	line-height: 42px;
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.externalLink {
+	color: blue !important;
+	cursor: pointer;
+}
+
+.externalLink:hover {
+	text-decoration: underline;
+	color: darkblue;
+}
+
+#createShareCodeWindow {
+	max-width: 620px;
+	min-width: 620px;
+}
+
+#createShareCodeWindow .description {
+	font-size: 16pt;
+	margin: 20px;
+}
+
+#createShareCodeWindow .checkbox {
+	font-size: 24pt;
+	line-height: 24pt;
+	vertical-align: middle;
+}
+
+#createShareCodeWindow .label {
+	font-size: 14pt;
+	line-height: 24pt;
+	vertical-align: middle;
+}
+
+#createShareCodeWindow .topPart {
+	height: 160px;
+}
+
+#createShareCodeWindow .page {
+	height: 100px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 12pt;
+}
+
+#createShareCodeWindow .page3 {
+	font-size: 24pt;
+}
+
+#createShareCodeWindow .copiedNotice {
+	font-size: 12pt;
+}
+
+#createShareCodeWindow .uploadToCloudButton {
+	padding: 5px 20px 5px 20px;
+	width: auto;
+}
+
+#createShareCodeWindow .saveReplaceLabel {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#createShareCodeWindow .uploadToCloudButton.disabled {
+	background: lightgray;
+	color: gray;
+}
+
+@keyframes rotate360 {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner:before {
+	content: '';
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin-top: -25px;
+	margin-left: -25px;
+	border-radius: 50%;
+	border: 4px solid transparent;
+	border-top-color: #FF6A00;
+	border-bottom-color: #FF6A00;
+	-webkit-animation: rotate .7s ease-in-out infinite;
+	animation: rotate360 .7s ease-in-out infinite;
+}
+
+.sharecodeInput {
+	font-size: 22pt;
+	font-family: "Segoe UI", "Open Sans";
+	-webkit-user-select: text !important;
+	-moz-user-select: text !important;
+	user-select: text !important;
+	-ms-user-select: text !important;
+}
+
+#cancelProjectDialog {
+	overflow-x: hidden;
+}
+
+/* Mod Search Styles */
+.modsSearchContainer {
+	padding: 5px 10px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#modsSearchInput {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 8px;
+	font-size: 14px;
+	transition: all 0.3s ease;
+}
+
+#modsSearchInput:focus {
+	border-color: #8CE2FF;
+	box-shadow: 0 0 5px rgba(140, 226, 255, 0.5);
+	outline: none;
+}
+
+#modsSearchButton,
+#modsResetButton {
+	background-color: #4E7E8E;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 15px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#modsSearchButton:hover,
+#modsResetButton:hover {
+	background-color: #8CE2FF;
+}
+
+#modsResetButton {
+	background-color: #999;
+}
+
+#modsResetButton:hover {
+	background-color: #777;
+}
+
+.mod-highlight {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+/* Mod Stats Styles */
+.modStats {
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	padding: 8px 12px;
+	display: inline-block;
+	font-size: 14px;
+	color: #333;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.modStats span {
+	color: #4E7E8E;
+	font-weight: bold;
+	margin: 0 2px;
+}

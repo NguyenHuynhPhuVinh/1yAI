@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://SG-ShowAI-10861-mysql-master.servers.mongodirector.com:3306/showai_db?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+      - SPRING_DATASOURCE_USERNAME=sgroot
+      - SPRING_DATASOURCE_PASSWORD=3qy0-Bi4vcRZPjeX

@@ -1,0 +1,54 @@
+# Thư mục build và file biên dịch
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Các file tạm thời
+[Tt]emp/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity specific
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Aa]ssets/AssetStoreTools*
+.vs/
+
+# Các file mod tự tạo
+*.dll
+!ModsEN/**/*.dll
+!ModsVI/**/*.dll
+!PvzDependencies/**/*.dll
+*.pdb
+*.cache
+*.resources
+*.exe
+*.config
+/pvzEN
+/pvzVI
+
+# Các file khác
+*.log
+*.bak
+*.backup
+*.swp
+*~.nib
+local.properties

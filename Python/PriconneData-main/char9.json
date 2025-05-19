@@ -1,0 +1,181 @@
+{
+    "character": {
+      "id": 9,
+      "name": "Eriko",
+      "name_jp": "エリコ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92884_main.jpg",
+      "catchphrase": "Ah... người định mệnh của tôi...\nGiờ đang ở đâu và làm gì nhỉ?\nTôi muốn gặp bạn sớm... hehe.",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Sở hữu sức tấn công vật lý hàng đầu trong số các nhân vật",
+          "Union Burst gây sát thương cao cho mục tiêu đơn lẻ",
+          "Có thể gây sát thương cho kẻ địch có phòng thủ vật lý cao nhờ kỹ năng độc"
+        ],
+        "weaknesses": [
+          "Khả năng chống chịu của bản thân thấp"
+        ],
+        "exclusive_equipment": [
+          "Kỹ năng buff được tăng cường đáng kể",
+          "Sức mạnh UB trong lúc được buff cực kỳ cao",
+          "Buff chí mạng cực kỳ mạnh mẽ"
+        ],
+        "six_star_upgrade": [
+          "Tăng sát thương UB và tấn công 2 lần vượt qua giới hạn sát thương",
+          "Thêm buff tấn công vĩnh viễn",
+          "Thêm debuff tăng sát thương chí mạng",
+          "Thêm buff tăng 40% sát thương chí mạng cho bản thân nếu không hạ gục được kẻ địch bằng UB"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "A",
+        "arena": "A",
+        "boss_battle": "SS",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Đoàn lữ hành Hoàng hôn"
+      },
+      "max_stats": {
+        "hp": 12310,
+        "physical_attack": 6800,
+        "magic_attack": 13,
+        "physical_defense": 138,
+        "magic_defense": 100
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Trừng Phạt Chết Chóc",
+          "description": "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước, và nếu hạ gục kẻ địch bằng kỹ năng này, tăng mạnh sức tấn công vật lý của bản thân.",
+          "effects": [
+            "Gây 28618 sát thương vật lý cho một kẻ địch",
+            "Khi hạ gục kẻ địch, tăng sức tấn công vật lý của bản thân thêm 2543"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn 2 lần cho 1 kẻ địch phía trước, tăng nhẹ sát thương khi bị chí mạng, và tăng mạnh sức tấn công vật lý của bản thân.",
+            "Nếu không hạ gục được kẻ địch bằng kỹ năng này, tăng mạnh sát thương chí mạng vật lý của bản thân."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Ám Ảnh",
+          "description": "Tăng nhẹ sức tấn công vật lý của bản thân.",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân thêm 848"
+          ],
+          "exclusive_equipment_effect": [
+            "Tăng mạnh sức tấn công vật lý (khoảng 12 giây) và tăng cực mạnh sức tấn công vật lý và tỷ lệ chí mạng vật lý trong thời gian ngắn (khoảng 7.5 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_11.png",
+          "name": "Đòn Độc",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước và khiến chúng bị trúng độc.",
+          "effects": [
+            "Gây 7518 sát thương vật lý cho một kẻ địch",
+            "Gây trạng thái trúng độc với 226 sát thương"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Sức Mạnh Cuồng Si",
+          "description": "Khi bắt đầu trận đấu, tăng vừa sức tấn công vật lý của bản thân.",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng vừa sức tấn công vật lý của bản thân.",
+            "Nâng cấp hiệu ứng tăng vừa sức tấn công vật lý thành tăng mạnh sức tấn công vật lý."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Sức tấn công hàng đầu trong tất cả nhân vật",
+            "description": "Eriko sở hữu sức tấn công hàng đầu trong số tất cả nhân vật. Cô là một đấu sĩ tiền tuyến xuất sắc với khả năng tấn công đơn mục tiêu.",
+            "sub_point": "Khi hạ gục kẻ địch bằng Union Burst, sức tấn công vật lý sẽ tăng thêm. Mặc dù có giới hạn, nhưng rất mạnh trong các nhiệm vụ dễ hạ gục kẻ địch."
+          },
+          {
+            "main_point": "Kỹ năng tấn công đơn lẻ + gây độc xuất sắc",
+            "description": "Eriko có thể gây sát thương cho kẻ địch đơn lẻ và khiến chúng bị trúng độc. Với sức tấn công vật lý cao, cô có thể gây sát thương lớn cho đối thủ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Khả năng chống chịu thấp",
+            "description": "Eriko là nhân vật được bố trí ở tiền tuyến nên dễ bị cuốn vào các đòn tấn công diện rộng. Khả năng phòng thủ của cô cũng thấp nên cần chú ý khi đưa vào đội hình.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Là đấu sĩ trong Clan Battle",
+            "description": "Eriko sở hữu kỹ năng/UB tấn công đơn lẻ, là đấu sĩ mạnh mẽ đối với kẻ địch đơn lẻ. Kết hợp với nhân vật debuff như Makoto hoặc Jun có thể tạo ra sát thương lớn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Trang bị độc quyền tăng cường đáng kể kỹ năng buff",
+            "description": "Nhờ trang bị độc quyền tăng cường kỹ năng, Eriko có thể tăng đáng kể sức tấn công/tỷ lệ chí mạng của mình trong thời gian ngắn. Kích hoạt UB tấn công đơn lẻ trong lúc được buff có thể gây sát thương cực lớn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động hiệu quả trong Arena",
+            "description": "Khả năng tự buff mạnh mẽ ngay từ đầu giúp cô tạo ra sát thương sớm, điều này hữu ích trong Arena. Tuy nhiên, chỉ hiệu quả đối với các tanker có khả năng chống chịu vật lý thấp.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Cần chú ý điểm yếu dễ bị đánh bại",
+            "description": "So với các đấu sĩ tiền tuyến khác như Kaori hay Hiyori năm mới, chỉ số phòng thủ của cô hơi thấp. Mặc dù là đấu sĩ hàng đầu, nhưng cần chú ý đến các đòn tấn công diện rộng của kẻ địch.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tăng sức mạnh UB & tấn công 2 lần",
+            "description": "Khi lên 6 sao, sát thương UB tăng gấp hơn 2 lần so với ban đầu. Ngoài ra, đòn tấn công được chia thành 2 lần, giúp vượt qua giới hạn sát thương trong các trận Clan Battle, trở thành đấu sĩ có hỏa lực cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sở hữu buff tấn công vĩnh viễn và tăng sát thương chí mạng",
+            "description": "UB không chỉ tấn công đơn lẻ mà còn thêm buff tấn công vĩnh viễn. Hơn nữa, nếu không hạ gục được kẻ địch bằng UB, cô sẽ nhận thêm hiệu ứng tăng 40% sát thương chí mạng, giúp tăng đáng kể lượng sát thương khi chí mạng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Xuất sắc như một đấu sĩ trong Clan Battle",
+            "description": "Sở hữu UB mạnh mẽ có thể vượt qua giới hạn sát thương và buff tăng 40% sát thương chí mạng cho bản thân. Vì điều kiện của buff là \"khi không hạ gục được kẻ địch bằng UB\", nên cô phát huy hết khả năng chủ yếu trong các trận đấu với boss đơn lẻ như Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sát thương chí mạng không ổn định",
+            "description": "So với các đấu sĩ cao cấp khác, chỉ số chí mạng cơ bản thấp, cùng với hiệu ứng tăng 40% sát thương chí mạng khiến sát thương không ổn định. Khó đạt được 200 vạn sát thương ổn định nếu không có đủ buff, và trong tình huống thiếu buff, cần điều chỉnh kết hợp với Ám Ảnh (Kỹ năng 1).",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ジータ",
+        "チエル(聖学祭)",
+        "アオイ(作業服)",
+        "シノブ(パイレーツ)",
+        "水着コッコロ"
+      ]
+    }
+  }

@@ -1,0 +1,204 @@
+{
+    "character": {
+      "id": 23,
+      "name": "Shinobu",
+      "name_jp": "シノブ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92899_main.jpg",
+      "catchphrase": "Vận may hôm nay của tôi thật tệ.\nÀ, đừng để ý đến nó.\nNhân tiện... lời tiên đoán của tôi thường rất chính xác.",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Có thể giảm phòng thủ vật lý của kẻ địch",
+          "Có thể triệu hồi Đầu Lâu tham gia chiến đấu"
+        ],
+        "weaknesses": [
+          "Đối phương dễ tích lũy TP"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng buff phạm vi rộng khi triệu hồi",
+          "Giá trị buff cao",
+          "Tăng TP giúp sử dụng UB thường xuyên hơn",
+          "Hoạt động hiệu quả hơn trong đội hình vật lý"
+        ],
+        "six_star_upgrade": [
+          "Tăng sát thương/lượng debuff của UB",
+          "Thêm hiệu ứng giảm tốc độ hành động & gây trạng thái hoảng loạn",
+          "Khi kích hoạt UB sẽ giải phóng [Linh Lực], tăng chỉ số của Đầu Lâu",
+          "Tăng chỉ số phòng thủ"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "S",
+        "boss_battle": "S",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Quân Đội Vương Quốc Ma Quỷ (Diabolos)"
+      },
+      "max_stats": {
+        "hp": 15232,
+        "physical_attack": 5325,
+        "magic_attack": 0,
+        "physical_defense": 207,
+        "magic_defense": 156
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Kể Chuyện Ma",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước, đồng thời giảm nhẹ phòng thủ vật lý.",
+          "effects": [
+            "Gây 8265 sát thương vật lý cho kẻ địch trong phạm vi",
+            "Giảm 49 phòng thủ vật lý của kẻ địch trong phạm vi (khoảng 18 giây)"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước, giảm trung bình phòng thủ vật lý và tốc độ hành động, đồng thời gây trạng thái hoảng loạn.",
+            "Ngoài ra, giải phóng [Linh Lực].",
+            "Trong trạng thái giải phóng [Linh Lực], các chỉ số của Đầu Lâu được triệu hồi sẽ tăng lên.",
+            "※Hiệu ứng giảm phòng thủ vật lý kéo dài khoảng 18 giây",
+            "※Hiệu ứng giảm tốc độ hành động/hoảng loạn kéo dài khoảng 12 giây",
+            "※Giải phóng Linh Lực là hiệu ứng vĩnh viễn"
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_3.png",
+          "name": "Triệu Hồi Bóng Ma",
+          "description": "[Triệu hồi] Triệu hồi Đầu Lâu phía trước bản thân để tấn công 1 kẻ địch ở phía trước",
+          "effects": [
+            "Triệu hồi Đầu Lâu"
+          ],
+          "exclusive_equipment_effect": [
+            "[Triệu hồi] Triệu hồi Đầu Lâu phía trước bản thân để tấn công 1 kẻ địch ở phía trước, đồng thời tăng trung bình tấn công vật lý và chí mạng vật lý cho đồng minh trong phạm vi xung quanh bản thân (khoảng 12 giây)"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_9.png",
+          "name": "Suy Yếu Linh Hồn",
+          "description": "Giảm nhẹ phòng thủ vật lý của tất cả kẻ địch",
+          "effects": [
+            "Giảm 17 phòng thủ vật lý của tất cả kẻ địch (khoảng 12 giây)"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Bài Thánh Ca Hoàng Hôn",
+          "description": "Tăng trung bình tấn công vật lý của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng trung bình tấn công vật lý của bản thân khi bắt đầu trận đấu",
+            "Nâng cấp hiệu ứng tăng trung bình tấn công vật lý thành tăng lớn tấn công vật lý."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Triệu hồi Đầu Lâu để chiến đấu cùng",
+            "description": "Shinobu có thể triệu hồi Đầu Lâu thông qua kỹ năng. Đầu Lâu không chỉ tấn công kẻ địch mà còn có thể thay thế nhận sát thương từ các đòn tấn công mạnh của kẻ địch, tăng số lượng đòn tấn công là điểm mạnh.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hỗ trợ đồng đội bằng kỹ năng giảm phòng thủ vật lý",
+            "description": "Shinobu có thể giảm phòng thủ vật lý của nhiều kẻ địch thông qua Union Burst và kỹ năng. Điều này giúp tăng sát thương vật lý của bản thân và đồng đội.",
+            "sub_point": "Đặc biệt, hiệu ứng giảm phòng thủ vật lý của Union Burst có giá trị cao trong các đòn tấn công diện rộng, rất hiệu quả. Kết hợp với các nhân vật tấn công diện rộng khác để gây sát thương lớn."
+          },
+          {
+            "main_point": "Rất tiện dụng trong các trận đánh thường của nhiệm vụ",
+            "description": "Là nhân vật có thể gây sát thương dễ dàng với tấn công diện rộng kèm debuff. Việc triệu hồi Đầu Lâu giúp giảm sát thương cho tanker đồng minh. Trong các trận đánh quái thường của nhiệm vụ, đối thủ không kích hoạt UB nên việc tăng TP của địch do Đầu Lâu không còn là vấn đề.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động hiệu quả trong Clan Battle",
+            "description": "Có những tình huống trong Clan Battle mà kỹ năng triệu hồi có thể làm lệch thời điểm UB của kẻ địch, hoặc để Đầu Lâu nhận sát thương thay. Ngoài ra, có thể sử dụng debuff từ UB và kỹ năng, nên nên phát triển nhân vật này khi thiếu slot debuff.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Kẻ địch dễ tích lũy TP",
+            "description": "Trong hệ thống chiến đấu của Princess Connect, khi đánh bại một đối tượng, kẻ địch sẽ tích lũy một lượng TP nhất định. Đầu Lâu được triệu hồi bởi kỹ năng của Shinobu khi bị đánh bại cũng sẽ giúp kẻ địch tích lũy TP. Cần chú ý điểm này trong Arena hoặc trận đấu với Boss vì có thể khiến kẻ địch sử dụng UB sớm hơn.",
+            "sub_point": "Mặc dù đôi khi việc kẻ địch sử dụng UB sớm có thể là lợi thế, nhưng về cơ bản nó làm tăng sát thương nhận vào nên được coi là bất lợi."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Sử dụng cùng các nhân vật tấn công vật lý",
+            "description": "Là nhân vật chuyên giảm phòng thủ vật lý của toàn bộ kẻ địch. Khi kết hợp với Monica hoặc Ninon - những nhân vật có thể tấn công vật lý diện rộng, có thể gây sát thương hiệu quả.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động hiệu quả trong Clan Battle",
+            "description": "Có những tình huống trong Clan Battle mà kỹ năng triệu hồi có thể làm lệch thời điểm UB của kẻ địch, hoặc để Đầu Lâu nhận sát thương thay. Ngoài ra, có thể sử dụng debuff từ UB và kỹ năng, nên nên phát triển nhân vật này khi thiếu slot debuff.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhận được buff có phạm vi rộng",
+            "description": "Shinobu đã được bổ sung hiệu ứng buff tăng tấn công vật lý/chí mạng vật lý trong phạm vi cho kỹ năng \"Triệu Hồi Bóng Ma\". Mặc dù phạm vi hiệu quả được xác định dựa trên nhân vật ở vị trí đầu tiên, nhưng phạm vi hiệu quả khá rộng, biến cô ấy thành một nhân vật buff rất tốt.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hoạt động hiệu quả trong một số trận đấu với Boss",
+            "description": "Do đặc tính của kỹ năng triệu hồi, hiệu quả sẽ khác nhau tùy thuộc vào Boss. Nên sử dụng trong tình huống muốn mồi chài nhận các đòn tấn công mạnh hoặc debuff từ Boss. Bản thân Shinobu cũng có thể hỗ trợ với buff/debuff.",
+            "sub_point": "Tuy nhiên, nếu chỉ số của Đầu Lâu quá thấp, nó sẽ không thể hoạt động như mồi chài và chỉ làm tăng TP của đối phương, vì vậy cần nâng cao chỉ số của Đầu Lâu thông qua Khai Mở Tài Năng."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Kích hoạt UB tăng chỉ số cho Đầu Lâu",
+            "description": "Khi nâng lên 6 sao, UB được bổ sung hiệu ứng giải phóng [Linh Lực] giúp tăng các chỉ số của Đầu Lâu. Trong trạng thái giải phóng [Linh Lực], chỉ số phòng thủ và các chỉ số khác của Đầu Lâu sẽ tăng lên, giúp hấp thụ đòn tấn công của kẻ địch hiệu quả hơn.",
+            "sub_point": "Giải phóng [Linh Lực] là hiệu ứng vĩnh viễn, vì vậy sau khi kích hoạt UB một lần, tất cả Đầu Lâu được triệu hồi sau đó sẽ ở trạng thái được tăng cường."
+          },
+          {
+            "main_point": "Thêm hiệu ứng giảm lớn tốc độ hành động & gây hoảng loạn",
+            "description": "UB được bổ sung hiệu ứng giảm tốc độ hành động & gây trạng thái hoảng loạn, tăng cường khả năng gây cản trở. Sát thương UB/lượng debuff phòng thủ vật lý cũng tăng lên, nâng cao khả năng tấn công thuần túy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Chỉ số của Đầu Lâu được tăng cường",
+            "description": "Khi kích hoạt UB sẽ vào trạng thái giải phóng [Linh Lực], giúp tăng đáng kể chỉ số tấn công/phòng thủ của Đầu Lâu được triệu hồi sau UB. Giải phóng [Linh Lực] là hiệu ứng vĩnh viễn, vì vậy sau khi kích hoạt UB một lần, tất cả Đầu Lâu được triệu hồi sau đó sẽ ở trạng thái được tăng cường.",
+            "sub_point": "Việc tăng cường các chỉ số chỉ áp dụng cho Đầu Lâu được triệu hồi sau khi kích hoạt UB. Đầu Lâu đã có mặt trên sân khi kích hoạt UB sẽ không được tăng cường, cần lưu ý điểm này."
+          },
+          {
+            "main_point": "Nhân vật tấn công diện rộng phù hợp cho Arena",
+            "description": "Sức mạnh tấn công diện rộng của UB được tăng cường, trở thành nhân vật tấn công diện rộng mạnh mẽ trong Arena. Tốc độ tăng TP cao nên có thể sử dụng UB ngay sau khi nhận hỗ trợ TP từ Saren (Mùa Hè), đây là điểm mạnh. Tuy nhiên, khả năng đột phá không mạnh như Ninon 6 sao khi đơn lẻ, nên khi đối đầu với đội hình phòng thủ thiên về trụ, nên kết hợp với các nhân vật tấn công khác.",
+            "sub_point": "Shinobu đứng khá gần phía trước trong nhóm trung vệ nên dễ bị cản trở từ kẻ địch, và việc đứng trước các nhân vật trung vệ mạnh như Yukari hay Mifuyu khiến việc kết hợp trở nên khó khăn, đây là điểm yếu."
+          },
+          {
+            "main_point": "Khó phát huy sức mạnh trong trận đấu với Boss",
+            "description": "Mặc dù sức mạnh UB/giá trị debuff phòng thủ đã tăng, nhưng trong trận đấu với Boss, khó có thể phát huy sức mạnh nên ít được sử dụng. Tuy nhiên, vẫn có khả năng được đưa vào đội hình khi đối đầu với Boss gây sát thương lớn cho vị trí đầu tiên hoặc Boss làm choáng nhiều nhân vật trong thời gian dài, nơi khả năng mồi chài của Đầu Lâu phát huy tác dụng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "リマ",
+        "正月ムイミ",
+        "クレジッタ",
+        "ミツキ(オーエド)",
+        "水着サレン",
+        "イノリ",
+        "ユニ",
+        "キャル(オーバーロード)",
+        "星6リノ",
+        "星6ニノン"
+      ]
+    }
+  }

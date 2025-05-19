@@ -1,0 +1,191 @@
+{
+    "character": {
+      "id": 29,
+      "name": "Yori",
+      "name_jp": "ヨリ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92905_main.jpg",
+      "catchphrase": "Này, này. Tôi có điều muốn nói với anh...\nKhông, không có gì đâu!",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Hy sinh HP của bản thân để tăng sức tấn công phép thuật",
+          "Có thể sử dụng như một đấu sĩ từ Rank 4 trở lên",
+          "Tấn công phép thuật diện rộng bằng Union Burst"
+        ],
+        "weaknesses": [
+          "Khả năng sống sót khá thấp nên cần có tanker trong đội hình"
+        ],
+        "exclusive_equipment": [
+          "Thêm hồi phục TP vào kỹ năng buff"
+        ],
+        "six_star_upgrade": [
+          "Tăng sát thương cơ bản của UB",
+          "Sát thương càng mạnh khi HP của Yori càng thấp",
+          "Phạm vi hiệu quả của UB được mở rộng đáng kể",
+          "Tăng 10 điểm TP từ set bonus!"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "A",
+        "arena": "S",
+        "boss_battle": "A",
+        "elemental_evaluation": "A"
+      },
+      "basic_information": {
+        "type": "中衛 / 魔法攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Quân đội Vương quốc Ma giả (Diabolos)"
+      },
+      "max_stats": {
+        "hp": 9242,
+        "physical_attack": 0,
+        "magic_attack": 5786,
+        "physical_defense": 65,
+        "magic_defense": 151
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_2.png",
+          "name": "Giáo Sét",
+          "description": "Gây sát thương phép thuật trung bình cho tất cả kẻ địch ở phía trước.",
+          "effects": [
+            "Gây 7919 sát thương phép thuật cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương phép thuật lớn cho tất cả kẻ địch trong phạm vi phía trước. Sát thương càng cao khi HP của Yori càng thấp."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Quá Tải",
+          "description": "Tiêu hao HP để tăng mạnh sức tấn công phép thuật của bản thân",
+          "effects": [
+            "Tiêu hao 2452 HP của bản thân",
+            "Tăng 2260 sức tấn công phép thuật của bản thân"
+          ],
+          "exclusive_equipment_effect": [
+            "Tiêu hao HP để tăng cực mạnh sức tấn công phép thuật của bản thân, đồng thời hồi phục lượng TP trung bình",
+            "Tăng lượng sức tấn công phép thuật được cộng thêm"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_2.png",
+          "name": "Bùng Nổ Bóng Tối",
+          "description": "Gây sát thương phép thuật nhỏ cho tất cả kẻ địch trong phạm vi phía trước.",
+          "effects": [
+            "Gây 3959 sát thương phép thuật cho kẻ địch trong phạm vi"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_18.png",
+          "name": "Tăng Cường Sét",
+          "description": "Tăng sức tấn công phép thuật của bản thân khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng sức tấn công phép thuật của bản thân ở mức trung bình khi bắt đầu trận đấu",
+            "Nâng cấp hiệu ứng trên từ tăng sức tấn công phép thuật trung bình lên tăng sức tấn công phép thuật lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Sức tấn công phép thuật hàng đầu",
+            "description": "Mặc dù là nhân vật hiếm thấp, Yori có sức tấn công phép thuật cao. Cô có thể tăng thêm sức tấn công phép thuật thông qua kỹ năng của mình, và trong thời gian hiệu lực của kỹ năng, cô có sức tấn công thuộc hàng đầu trong số các nhân vật phép thuật.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể tấn công phép thuật diện rộng",
+            "description": "Có thể tấn công phép thuật diện rộng bằng Union Burst và kỹ năng. Là một đấu sĩ phép thuật cực kỳ mạnh mẽ, tận dụng được sức tấn công phép thuật cao của bản thân.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đứng sau trong số các nhân vật trung tuyến",
+            "description": "Yori là nhân vật đứng sau trong số các nhân vật trung tuyến. Điểm mạnh là cô ít bị cuốn vào các đòn tấn công diện rộng hơn so với các nhân vật trung tuyến khác.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Nhận sát thương từ kỹ năng của bản thân",
+            "description": "Kỹ năng \"Quá Tải\" của Yori là kỹ năng mạnh mẽ giúp tăng đáng kể sức tấn công phép thuật, nhưng khi kích hoạt sẽ tiêu hao HP của bản thân. Với HP và khả năng phòng thủ thấp, cô rất dễ bị hạ gục, cần chú ý điểm này.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ phép thuật hiệu quả trong đấu trường",
+            "description": "Là đấu sĩ phép thuật tương đối dễ có được vì chỉ là 1 sao. Nếu được phát triển tài năng, cô có thể gây ra sát thương đáng kể. Union Burst tấn công diện rộng đặc biệt mạnh trong đấu trường.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể sử dụng trong các trận đấu đa mục tiêu",
+            "description": "Yori có nhiều đòn tấn công diện rộng, nên có thể hoạt động hiệu quả trong các trận đấu với boss có nhiều điểm tấn công. Sau khi có trang bị độc quyền, cô có thể tăng tốc độ sử dụng UB tấn công diện rộng, nên nên phát triển cô cho các trận đấu đa mục tiêu.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Tăng tốc độ sử dụng UB nhờ hồi phục TP",
+            "description": "Khi trang bị vũ khí độc quyền, kỹ năng tăng sức tấn công phép thuật sẽ được thêm hiệu ứng hồi phục TP. Tốc độ ban đầu và tần suất sử dụng UB tăng lên, giúp cô dễ sử dụng hơn trong đấu trường và clan battle. Khả năng tăng TP mà không cần nhân vật hỗ trợ TP như Yukari là một điểm mạnh.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB càng mạnh khi HP càng thấp",
+            "description": "Khi nâng Yori lên 6 sao, không chỉ sát thương cơ bản của UB tăng lên, mà còn có cơ chế sát thương càng mạnh khi HP của Yori càng thấp. Vì Yori có kỹ năng tự gây sát thương, cô có thể giảm HP mà không cần bị tấn công từ kẻ địch. Đây là UB phù hợp với đặc tính của Yori.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Phạm vi hiệu quả của UB được mở rộng",
+            "description": "Không chỉ sức mạnh mà phạm vi tấn công của UB cũng được mở rộng đáng kể. Trong đấu trường, tùy thuộc vào đội hình của cả hai bên, khi kết hợp với Lima, cô có thể tấn công cả các nhân vật hậu tuyến.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng 10 điểm TP từ set bonus",
+            "description": "Khi nâng Yori lên 6 sao, cô nhận được 10 điểm tăng TP từ set bonus. Với kỹ năng tự gây sát thương kèm hồi phục TP, vốn đã có tốc độ sử dụng UB cao, giờ đây cô càng dễ dàng kích hoạt UB hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ tấn công nhanh xuất sắc trong đấu trường",
+            "description": "Nhờ UB được tăng cường, cô có thể hạ gục nhiều đối thủ chỉ với một đòn, bao gồm cả các đấu sĩ vật lý. Cô có tương tác tốt với các nhân vật hỗ trợ TP hoặc nhân vật có thể giảm phòng thủ phép thuật như Nanaka mùa hè, giúp giảm số lượng đối thủ ngay từ đầu trận.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sát thương liên tục cao nếu sống sót được",
+            "description": "Vì có thể tự hồi phục TP, cô có thể gây sát thương liên tục ngay cả khi không thể quyết định trận đấu ngay từ đầu. Mặc dù là đấu sĩ phép thuật trung tuyến nên có lo ngại về khả năng sống sót, nhưng cô có thể áp đảo bằng sức mạnh của UB khi HP thấp.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Là đấu sĩ trong các trận đấu boss đa mục tiêu",
+            "description": "Phạm vi tấn công của UB được mở rộng, có thể tấn công vào 3 vị trí của Rồng Lửa. Sức mạnh của UB khi HP thấp rất cao, nếu có thể kích hoạt UB khi HP thấp một cách hiệu quả, cô có thể đóng góp như một nguồn sát thương trong các hoạt động như clan battle.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "アカリ",
+        "水着ナナカ",
+        "水着サレン",
+        "正月ネネカ",
+        "リマ",
+        "ユカリ",
+        "ユキ",
+        "マホ"
+      ]
+    }
+  }

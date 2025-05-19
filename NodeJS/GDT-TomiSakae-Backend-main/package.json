@@ -1,0 +1,27 @@
+{
+  "name": "gdt-tomisakae",
+  "version": "1.0.0",
+  "description": "Backend API cho dự án GDT-TomiSakae",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "TomiSakae",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jszip": "^3.10.1",
+    "mongoose": "^8.14.2",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

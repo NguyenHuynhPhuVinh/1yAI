@@ -1,0 +1,425 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\CayTuyChinh\CayTuyChinh.csproj" />
+	  <ProjectReference Include="..\GiaoDienTuyChinh\GiaoDienTuyChinh.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <EmbeddedResource Include="hoahaidaubang" />
+  </ItemGroup>
+	
+  <ItemGroup>
+  <Reference Include="0Harmony">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\0Harmony.dll</HintPath>
+  </Reference>
+  <Reference Include="AsmResolver">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AsmResolver.dll</HintPath>
+  </Reference>
+  <Reference Include="AsmResolver.DotNet">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AsmResolver.DotNet.dll</HintPath>
+  </Reference>
+  <Reference Include="AsmResolver.PE">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AsmResolver.PE.dll</HintPath>
+  </Reference>
+  <Reference Include="AsmResolver.PE.File">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AsmResolver.PE.File.dll</HintPath>
+  </Reference>
+  <Reference Include="Assembly-CSharp">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+  </Reference>
+  <Reference Include="AssetRipper.VersionUtilities">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AssetRipper.VersionUtilities.dll</HintPath>
+  </Reference>
+  <Reference Include="AssetsTools.NET">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\AssetsTools.NET.dll</HintPath>
+  </Reference>
+  <Reference Include="bHapticsLib">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\bHapticsLib.dll</HintPath>
+  </Reference>
+  <Reference Include="Iced">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Iced.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppInterop.Common">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Il2CppInterop.Common.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppInterop.Generator">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Il2CppInterop.Generator.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppInterop.HarmonySupport">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Il2CppInterop.HarmonySupport.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppInterop.Runtime">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppMono.Security">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2Cppmscorlib">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppSystem">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppSystem.Configuration">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppSystem.Core">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2CppSystem.Xml">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll</HintPath>
+  </Reference>
+  <Reference Include="Il2Cpp__Generated">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll</HintPath>
+  </Reference>
+  <Reference Include="IndexRange">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\IndexRange.dll</HintPath>
+  </Reference>
+  <Reference Include="MelonLoader">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MelonLoader.dll</HintPath>
+  </Reference>
+  <Reference Include="MelonLoader.NativeHost">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MelonLoader.NativeHost.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Diagnostics.NETCore.Client">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Diagnostics.NETCore.Client.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Diagnostics.Runtime">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Diagnostics.Runtime.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Configuration">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Configuration.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Configuration.Binder">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Logging">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Logging.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Options">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Options.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Extensions.Primitives">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Extensions.Primitives.dll</HintPath>
+  </Reference>
+  <Reference Include="Microsoft.Win32.SystemEvents">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Microsoft.Win32.SystemEvents.dll</HintPath>
+  </Reference>
+  <Reference Include="Mono.Cecil">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Mono.Cecil.dll</HintPath>
+  </Reference>
+  <Reference Include="Mono.Cecil.Mdb">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Mono.Cecil.Mdb.dll</HintPath>
+  </Reference>
+  <Reference Include="Mono.Cecil.Pdb">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Mono.Cecil.Pdb.dll</HintPath>
+  </Reference>
+  <Reference Include="Mono.Cecil.Rocks">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Mono.Cecil.Rocks.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoMod">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MonoMod.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoMod.Backports">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MonoMod.Backports.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoMod.ILHelpers">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MonoMod.ILHelpers.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoMod.RuntimeDetour">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MonoMod.RuntimeDetour.dll</HintPath>
+  </Reference>
+  <Reference Include="MonoMod.Utils">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\MonoMod.Utils.dll</HintPath>
+  </Reference>
+  <Reference Include="Newtonsoft.Json">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Newtonsoft.Json.dll</HintPath>
+  </Reference>
+  <Reference Include="System.Configuration.ConfigurationManager">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\System.Configuration.ConfigurationManager.dll</HintPath>
+  </Reference>
+  <Reference Include="System.Drawing.Common">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\System.Drawing.Common.dll</HintPath>
+  </Reference>
+  <Reference Include="System.Security.Cryptography.ProtectedData">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\System.Security.Cryptography.ProtectedData.dll</HintPath>
+  </Reference>
+  <Reference Include="System.Security.Permissions">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\System.Security.Permissions.dll</HintPath>
+  </Reference>
+  <Reference Include="System.Windows.Extensions">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\System.Windows.Extensions.dll</HintPath>
+  </Reference>
+  <Reference Include="Tomlet">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\Tomlet.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.2D.Animation.Runtime">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.2D.Tilemap.Extras">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.Burst">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.Burst.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.Burst.Unsafe">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.Burst.Unsafe.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.Collections">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.Collections.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.Collections.LowLevel.ILSupport">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.InternalAPIEngineBridge.001">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.Mathematics">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.RenderPipelines.Core.Runtime">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.TextMeshPro">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
+  </Reference>
+  <Reference Include="Unity.VisualScripting.Core">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AccessibilityModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AccessibilityModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AIModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AIModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AndroidJNIModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AndroidJNIModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AnimationModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ARModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AssetBundleModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.AudioModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ClothModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ClothModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ContentLoadModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ContentLoadModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.CoreModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.CrashReportingModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.CrashReportingModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.DirectorModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.DirectorModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.DSPGraphModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.DSPGraphModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.GameCenterModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.GameCenterModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.GIModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.GIModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.GridModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.GridModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.HotReloadModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.HotReloadModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.Il2CppAssetBundleManager">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\UnityEngine.Il2CppAssetBundleManager.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.Il2CppImageConversionManager">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\UnityEngine.Il2CppImageConversionManager.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ImageConversionModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.IMGUIModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.InputLegacyModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.InputModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.InputModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.JSONSerializeModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.LocalizationModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.LocalizationModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ParticleSystemModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.PerformanceReportingModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.Physics2DModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.PhysicsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ProfilerModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ProfilerModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.PropertiesModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.PropertiesModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.ScreenCaptureModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.SharedInternalsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.SharedInternalsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.SpriteMaskModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteMaskModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.SpriteShapeModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.SpriteShapeModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.StreamingModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.StreamingModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.SubstanceModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.SubstanceModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.SubsystemsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TerrainModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TerrainPhysicsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TextCoreFontEngineModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TextCoreTextEngineModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TextRenderingModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TilemapModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TilemapModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.TLSModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.TLSModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UI">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UIElementsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UIModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UmbraModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UmbraModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityAnalyticsModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityConnectModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityConnectModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityCurlModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityCurlModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityTestProtocolModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.VehiclesModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.VehiclesModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.VFXModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.VFXModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.VideoModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.VRModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.VRModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.WindModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.WindModule.dll</HintPath>
+  </Reference>
+  <Reference Include="UnityEngine.XRModule">
+    <HintPath>..\..\..\pvzVI\MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll</HintPath>
+  </Reference>
+  <Reference Include="WebSocketDotNet">
+    <HintPath>..\..\..\pvzVI\MelonLoader\net6\WebSocketDotNet.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;C:\Users\kotor\Documents\pvzRhTomiSakaeMods\pvzVI\Mods&quot;" />
+	</Target>
+
+</Project>

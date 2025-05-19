@@ -1,0 +1,1 @@
+process.StartInfo.Arguments = pythonPath + "login_automation.py admin"; // hoặc "login_automation.py user"

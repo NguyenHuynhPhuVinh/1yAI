@@ -1,0 +1,21 @@
+{
+    "id": "TAGMod",
+    "name": "TAG Mod",
+    "version": "1.2.7",
+    "author": "Bellwood Studios",
+    "url": "https://www.bellwoodstudios.com/",
+    "description": "TAG MOD CURRENT VERSION: V1.2.5\n\nExperience GDT like never before with this full overhaul of the UI. TAG Mod also adds additional features and insights to give you a more complete picture of your company's operation.\n\n**********\n\nBUGS: Input field text color not changing to the correct one in Dark Mode, Will be fixed soon.\n\nPATCH NOTES Version 1.2.5 - July 21, 2023\n\n- DARK MODE NOW AVAILIBLE! Go to Settings and the Tag Mod tab and turn on Dark Mode.\n\n*********\n\n----------------- Join our Discord Community: https://discord.gg/tNUWqyk ---------------------\n\n\nFEATURES:\n\n- UI GRAPHICS: Complete overhaul\n- PERCENTAGER: Percentages on all dev stages\n- GAME REPORT: Now on game card and game history window\n- LAST GENRE: Last used genre show on genre select window\n- STAFF BTN: Now Staff has separate button to access all staff\n- COMPANY FINANCE INFO: window will show company basic financial info graph\n- TRAINING TABS: All staff trainings are now under their own tabs\n- STAFF ENERGY: Staff show energy bar on hover\n- TAG INSTA MOD: Ability turn on Instant Type writer, Convention and Game Score Results\n\n\nUI SCALING:\nCurrently there is no In Game way to do this but, you can do it, by going to your Windows display settings and under Scale and Layout, increasing the % of the \"Change the size of text, apps and other items\" to a larger value, this will increase the UI and text size in GDT as well.\n\nERROR REPORTING:\n\nIf you encounter any issues/errors, the Best way to report errors is through our Discord (link above), use the tag-mod channel. If you don't use Discord, use the comments section here, try to be as specific as possible of when, how, and what error appears.\n\nKNOWN ISSUES:\n\n- Game UI sometimes shift to right on Level 2 office when hiring.\n- High refresh rate monitors having a flicker, this may be a vanilla issue, but setting you monitor to 60Hz should solve this. We will also see if we can set a FPS cap in the mod).\n- Text undefined error when generating game report in some cases\n- FPS Drops on some systems, if you can provide details how and when it happens, please do.\n\n\nOTHER MOD COMPATIBALITY:\n\nWe can't ensure that all mods will work with TAG Mod. Most non UI mods should work fine, but your mileage may vary. We have had very mixed results from people and compatibility, so you'll have to try and see what works.\n\nNOTE: Mod does not work with Pirated Copies. If you like the game, support the devs.\n\nIMPOSTANT! TAG V1.2.3 and up Does NOT require Modding branch to work, you can now switch GDT back to normal version V1.7.6!",
+    "main": "./Main.js",
+    "dependencies": {
+        "gdt-modAPI": "greenheartgames/gdt-modAPI#81ed61f97743afcd5f6f929e3d41c4af4e947da6"
+    },
+    "image": "TM-Square-Logo-DM-Thumbnail.png",
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-uglify": "^3.0.1",
+        "gulp-uglifycss": "^1.1.0",
+        "gulp-zip": "^4.2.0",
+        "minimist": "1.2.6",
+        "pump": "^3.0.0"
+    }
+}

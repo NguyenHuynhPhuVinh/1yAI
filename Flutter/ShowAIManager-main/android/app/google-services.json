@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031619693187",
+    "project_id": "showai-tomi",
+    "storage_bucket": "showai-tomi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031619693187:android:3b63230f52a9082f1ba9b6",
+        "android_client_info": {
+          "package_name": "com.tomi.show_ai_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNka5y1ZrPDhHlHmr1GgUNbf3V5BhdnqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

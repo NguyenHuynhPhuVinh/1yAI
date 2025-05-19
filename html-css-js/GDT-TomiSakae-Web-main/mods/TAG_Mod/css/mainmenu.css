@@ -1,0 +1,241 @@
+#animatedSplashBackdrop {
+    background: url("../Img/background.png") 50% 50% no-repeat;
+    background-size: cover
+}
+
+#animatedSplashBackdrop:before {
+    background: url("../Img/background-sunrays.png") 50% 50% no-repeat
+}
+
+.splashImage {
+    width: 300px !important;
+    margin-left: -150px !important;
+    margin-top: -350px !important
+}
+
+.mainMenuButton {
+    width: calc(100% - 20px);
+    margin: 4px 0 4px 20px;
+    color: #2e343a;
+    font-weight: 600
+}
+
+.mainMenuButtonSmall {
+    width: calc(50% - 22px)
+}
+
+#mainMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -186px;
+    width: 300px
+}
+
+#mainMenu hr {
+    display: none
+}
+
+#mainMenu .version {
+    top: -35px;
+    right: 50px;
+    color: #eceff1;
+    font-size: .65em;
+    bottom: auto
+}
+
+#mainMenu:after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-size: 100% 100%;
+    width: 150px;
+    height: 69px;
+    bottom: -100px;
+    left: 50%;
+    margin-left: -170px
+}
+
+.messagesGrid {
+    position: relative;
+    border: 2px solid #fcb540
+}
+
+.messagesGrid .cell.odd {
+    background: #fff;
+    border: 1px solid #fff
+}
+
+.messagesGrid .cell.even {
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2
+}
+
+.dark-mode .messagesGrid {
+    position: relative;
+    border: 2px solid #363940
+}
+
+.dark-mode .messagesGrid .cell.odd {
+    background: #474b53;
+    border: 1px solid #474b53
+}
+
+.dark-mode .messagesGrid .cell.even {
+    background: #363940;
+    border: 1px solid #363940
+}
+
+.modsSelectionButton,
+.modsPanelWorkshopButton {
+    background: linear-gradient(#fff, #f2f2f2);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    margin: 10px;
+    color: #4c5660
+}
+
+:-webkit-any(.modsSelectionButton, .modsPanelWorkshopButton, .orangeButton):not(.disabled):hover {
+    background: linear-gradient(to bottom, #cff1ff 0, #bdecff 100%)
+}
+
+.dark-mode :-webkit-any(.modsSelectionButton, .modsPanelWorkshopButton, .orangeButton):not(.disabled):hover {
+    background: linear-gradient(#50545c, #40434a)
+}
+
+.modsPanelWorkshopButtonSubmit {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    color: #4c5660
+}
+
+.modsSelectionButton .modImage {
+    background-size: 100% 100%
+}
+
+#tagModVersion {
+    left: 70px;
+    bottom: 31px;
+    position: absolute;
+    color: #eceff1;
+    font-size: .6em;
+    z-index: 22001
+}
+
+#tagModVersion .tm-version-muted {
+    opacity: .6
+}
+
+#tagModVersion .tm-version-link {
+    font-weight: bold;
+    color: #eceff1;
+    text-decoration: none
+}
+
+#mainMenuButton {
+    color: #eceff1;
+    font-size: 1em
+}
+
+#splashScreenTM {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6000
+}
+
+.btn-tm-discord {
+    display: none;
+    position: absolute;
+    bottom: -95px;
+    left: 50%;
+    margin-left: 10px
+}
+
+.btn-tm-discord img {
+    display: none;
+    width: 160px
+}
+
+#aboutBadge {
+    color: #eceff1;
+    font-size: .6em;
+    text-transform: uppercase
+}
+
+#aboutBadge img {
+    -webkit-filter: saturate(3)
+}
+
+#aboutBadge>div>div {
+    opacity: .6
+}
+
+#aboutBadge a {
+    font-weight: bold;
+    color: #eceff1;
+    text-decoration: none
+}
+
+.splash-screen-closed #aboutBadge,
+.splash-screen-closed .tm-version-link {
+    display: none !important
+}
+
+.splash-screen-closed #mainMenuButton {
+    color: #889195
+}
+
+.splash-screen-closed .tm-version-muted {
+    color: #889195;
+    opacity: 1
+}
+
+.splash-screen-closed #tagModVersion {
+    bottom: 70px;
+    left: 30px
+}
+
+#newsletterSignup {
+    border-radius: 5px;
+    color: #4c5660
+}
+
+#newsletterSignup:hover {
+    color: #4c5660
+}
+
+#newsletterSignup .newsletterIcon {
+    font-size: 2rem;
+    line-height: 2rem
+}
+
+#newsletterSignup .newsletterIconText {
+    top: 6px;
+    font-size: 1rem
+}
+
+#newsletterSignup.active .newsletterContentExpanded {
+    padding: 10px;
+    height: 140px
+}
+
+#newsletterSignup .orangeButton {
+    width: 80px;
+    margin: 10px 16px 0 0
+}
+
+#newsletterSignup .hideNewsletterWidgetButton {
+    width: 80px;
+    margin: 10px 0 0 16px
+}
+
+#settingsPanel select {
+    position: relative;
+    z-index: 1000000
+}

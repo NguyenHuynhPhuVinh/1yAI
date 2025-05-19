@@ -1,0 +1,345 @@
+.tm-staff-item {
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(#fff, #f2f2f2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+    font-size: .8rem
+}
+
+.tm-staff-item.tm-staff-item-selected,
+.tm-staff-item:hover {
+    background: linear-gradient(#cff0ff, #bdecff)
+}
+
+.tm-staff-item-unavailable {
+    opacity: .4
+}
+
+.tm-staff-item-top {
+    display: flex;
+    align-items: center
+}
+
+.tm-staff-item-middle {
+    display: flex;
+    margin: 4px 0
+}
+
+.tm-staff-item-bottom {
+    display: flex
+}
+
+.tm-staff-item-name {
+    font-weight: bold;
+    flex: 1
+}
+
+.tm-staff-item-design {
+    color: #c22e5e
+}
+
+.tm-staff-item-level {
+    color: #8a939b;
+    flex: 1;
+    text-align: center
+}
+
+.tm-staff-item-tech {
+    color: #1998a7;
+    text-align: right
+}
+
+.tm-staff-item-bar {
+    height: 20px;
+    background: #8a9398;
+    flex: 1;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    position: relative
+}
+
+.tm-staff-item-bar-inner {
+    height: 100%;
+    align-items: center;
+    padding: 0 4px;
+    box-sizing: border-box;
+    color: white;
+    white-space: nowrap;
+    display: flex
+}
+
+.tm-staff-item-bar-design {
+    background: linear-gradient(#f64646, #951a74) !important
+}
+
+.tm-staff-item-bar-tech {
+    background: linear-gradient(#00bfa5, #2979ff) !important
+}
+
+.tm-staff-item-bar-energy-good {
+    background: linear-gradient(#57d78d, #18a386) !important
+}
+
+.tm-staff-item-bar-energy-warn {
+    background: linear-gradient(#fef89a, #f89722) !important
+}
+
+.tm-staff-item-bar-energy-bad {
+    background: linear-gradient(#f36621, #ed1e24) !important
+}
+
+.specialization.specialization-none {
+    color: #8a939b
+}
+
+.staffListContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 455px;
+    margin: 0 10px
+}
+
+#tagStaffModule {
+    width: 300px;
+    height: 650px
+}
+
+.tagStaffModuleList {
+    width: 300px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #f2f2f2 0, #e5eef3 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: #4c5660
+}
+
+.tagStaffStaffList .staffListItem:active {
+    background: radial-gradient(ellipse at center, #f2f2f2, #e5eef3);
+    -ms-transition-duration: .1s;
+    -ms-transform: scale(0.95);
+    -webkit-transition-duration: .1s;
+    -webkit-transform: scale(0.95)
+}
+
+.tagStaffWindowTitle {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600
+}
+
+.tagStaffModuleIcon {
+    width: 25px;
+    background: #bec3c7;
+    padding: 7px 5px 7px 5px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 5px
+}
+
+.tagStaffStaffList {
+    height: 555px;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.tagStaffStaffList .staffItemEnergy {
+    position: absolute;
+    top: -50px;
+    left: -89px;
+    right: 10px;
+    width: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 8pt;
+    z-index: 3
+}
+
+.tagStaffModuleInfo {
+    width: 280px;
+    margin-top: 25px;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    height: 600px;
+    background: linear-gradient(to bottom, #f2f2f2 0, #e5eef3 100%);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -280px;
+    color: #4c5660
+}
+
+.tagStaffModuleInfoTitle {
+    font-size: 1.2rem;
+    padding: 9px 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.tagStaffModuleInfoSkillItem {
+    padding: 0 20px;
+    font-size: .9rem
+}
+
+.tagStaffModuleInfoSkillItem:nth-child(odd) {
+    background: #d3e9f4
+}
+
+.dark-mode .tagStaffModuleInfoSkillItem:nth-child(odd) {
+    background: rgba(211, 233, 244, 0.1)
+}
+
+.tagStaffModuleInfoSkillItemStat {
+    height: 60px;
+    display: flex;
+    align-items: center
+}
+
+.tagStaffModuleInfoSkillItemStat.tagDesign {
+    color: #c22f5e
+}
+
+.tagStaffModuleInfoSkillItemStat.tagTech {
+    color: #1c97a7
+}
+
+.tagStaffModuleInfoSkillItemStat.tagSpeed {
+    color: #f26522
+}
+
+.tagStaffModuleInfoSkillItemStat.tagResearch {
+    color: #00aeef
+}
+
+.dark-mode :-webkit-any(.tm-staff-item-design, .tm-d, .tagDesign),
+.dark-mode .tagStaffModuleInfoSkillItemStat.tagDesign {
+    color: #e84279
+}
+
+.tagStaffModuleInfoSkillItemHeader {
+    width: 100px
+}
+
+.tagStaffModuleInfoSkillItemNum {
+    width: 70px
+}
+
+.tagStaffModuleInfoSkillItemHint {
+    flex: 1
+}
+
+.tagStaffModuleInfoSpec {
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center
+}
+
+.tagStaffModuleInfoSpecLeft {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8a939b;
+    flex: 1
+}
+
+.tagStaffModuleInfoSpecIcon {
+    float: left;
+    margin-right: 8px
+}
+
+.tagStaffModuleInfoSpecButt {
+    background: linear-gradient(#f2f2f2, #e5eef3);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    transition-duration: .2s
+}
+
+.tagStaffModuleInfoSpecButtInner {
+    width: 60%;
+    height: 60%;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.35);
+    margin: 10%;
+    cursor: pointer
+}
+
+.tagStaffModuleInfoPayBox {
+    font-size: 1.2rem;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    padding: 0 20px
+}
+
+.tagStaffModuleInfoPayTitle {
+    flex: 1
+}
+
+.tagStaffModuleInfoPayNum {
+    color: #b83227
+}
+
+.tagStaffModuleInfoPayNum:after {
+    content: ' Cr.';
+    font-size: 10pt !important;
+    color: #4c5660 !important
+}
+
+.tagStaffModuleInfoActions {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.tagStaffModuleInfoActions .btn-tm-action {
+    width: 100%
+}
+
+.tagStaffModuleInfoActions .tagStaffModuleInfoSpecButt {
+    margin: 4px 7px
+}
+
+.tagStaffStaffList .workload:before {
+    content: 'Energy';
+    color: #fff;
+    font-size: 9pt;
+    padding-left: 5px
+}
+
+.tagArrowLoop {
+    background: linear-gradient(#a4ce02, #418500)
+}
+
+.tagRndBottle {
+    background: linear-gradient(#02affc, #004b7c)
+}
+
+.tagBeachBall {
+    background: linear-gradient(#f2c40e, #e77f20)
+}
+
+.tagFlame {
+    background: linear-gradient(#f46523, #ec1d23)
+}
+
+.findStaffFilters .selectableGameFeatureItem {
+    padding: 30px 10px 30px 60px !important
+}

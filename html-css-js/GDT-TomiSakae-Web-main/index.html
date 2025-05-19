@@ -1,0 +1,2205 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <!--viewport setting for chrome/android to prevent zooming-->
+    <meta name="viewport"
+        content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+    <title>Game Dev Tycoon - Phát triển công ty game của bạn</title>
+    <meta name="description"
+        content="Game Dev Tycoon - Trò chơi mô phỏng phát triển và điều hành công ty game. Xây dựng đội ngũ, phát triển trò chơi và trở thành ông trùm trong ngành công nghiệp game.">
+    <meta name="keywords"
+        content="game dev tycoon, trò chơi mô phỏng, quản lý công ty game, phát triển game, tycoon game, mô phỏng kinh doanh">
+    <meta name="author" content="Greenheart Games x TomiSakae">
+    <meta property="og:title" content="Game Dev Tycoon - Phát triển công ty game của bạn">
+    <meta property="og:description"
+        content="Trò chơi mô phỏng phát triển và điều hành công ty game. Xây dựng đội ngũ, phát triển trò chơi và trở thành ông trùm trong ngành công nghiệp game.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gdt-tomisakae.vercel.app/">
+    <meta property="og:image" content="./images/splashscreen.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Game Dev Tycoon - Phát triển công ty game của bạn">
+    <meta name="twitter:description"
+        content="Trò chơi mô phỏng phát triển và điều hành công ty game. Xây dựng đội ngũ, phát triển trò chơi và trở thành ông trùm trong ngành công nghiệp game.">
+    <meta name="twitter:image" content="./images/splashscreen.png">
+    <link rel="canonical" href="https://gdt-tomisakae.vercel.app/">
+    <link rel="icon" href="./icon-full.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon-full.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./icon-full.ico">
+    <link href="./css/font-awesome.css" rel="stylesheet" />
+    <!--NuGet References-->
+    <script src="./Scripts/jquery-1.7.2.js"></script>
+    <script src="./Scripts/jquery-ui-1.8.19.js"></script>
+    <link href="./Content/themes/base/jquery.ui.all.css" rel="stylesheet" />
+    <link href="./Content/themes/gameDevCustomTheme/jquery-ui.css" rel="stylesheet" />
+    <!--3rd party libs-->
+    <script src="./libs/html5Preloader.js"></script>
+    <script src="./libs/jquery.simplemodal.1.4.2.js"></script>
+    <link rel="stylesheet" href="./css/simplemodal.css" />
+    <script src="./libs/jquery.wipetouch.js"></script>
+    <script src="./libs/jquery.transit.js"></script>
+    <script src="./libs/jquery.timeago.js"></script>
+    <script src="./libs/jquery.arctext.js"></script>
+    <script src="./libs/jquery.touch-punch.js"></script>
+    <script src="./libs/easeljs-0.5.0.js"></script>
+    <script src="./libs/tweenjs-0.3.0.js"></script>
+    <script src="./libs/soundjs.js"></script>
+    <script src="./libs/preloadjs-0.3.0.js"></script>
+    <script src="./libs/mersenne-twister.js"></script>
+    <!--load greensock before requirejs to prevent "Mismatched anonymous define() module" error. source: https://stackoverflow.com/a/23467090/10779-->
+    <script src="./libs/greensock/TweenMax.js"></script>
+    <script src="./libs/greensock/jquery.gsap.js"></script>
+    <script src="./libs/greensock/utils/Draggable.js"></script>
+    <script src="./libs/greensock/utils/CustomEase.js"></script>
+    <script src="./libs/greensock/plugins/ThrowPropsPlugin.js"></script>
+    <script src="./libs/jszip.js"></script>
+    <script src="./libs/requirejs-2.1.8.js"></script>
+    <script src="./libs/mkdirp.js"></script>
+    <!--royal slider-->
+    <link rel="stylesheet" href="./libs/royalslider/royalslider.css">
+    <link rel="stylesheet" href="./libs/royalslider/default-inverted/rs-default-inverted.css">
+    <script src="./libs/royalslider/jquery.royalslider-9.0.js"></script>
+    <!-- MetroGameDev references -->
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/achievements.css" />
+    <link rel="stylesheet" href="./css/popoutDialog.css" />
+    <link rel="stylesheet" href="./css/greenworks.css" />
+    <link href="./tailwindcss/output.css" rel="stylesheet">
+
+    <!-- Hỗ trợ font tiếng Việt -->
+    <style>
+        body,
+        input,
+        button,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p,
+        div {
+            font-family: 'Open Sans', 'Segoe UI', sans-serif;
+        }
+
+        .vietnamese-text {
+            font-family: 'Open Sans', 'Segoe UI', sans-serif;
+        }
+
+        /* Cải thiện SEO với các thẻ semantic */
+        main,
+        section,
+        article,
+        header,
+        footer,
+        nav {
+            display: block;
+        }
+    </style>
+
+    <!-- Schema.org markup cho SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Game Dev Tycoon",
+      "description": "Trò chơi mô phỏng phát triển và điều hành công ty game. Xây dựng đội ngũ, phát triển trò chơi và trở thành ông trùm trong ngành công nghiệp game.",
+      "image": "./images/splashscreen.png",
+      "url": "https://gdt-tomisakae.vercel.app/",
+      "genre": "Mô phỏng, Chiến thuật, Quản lý",
+      "applicationCategory": "Game",
+      "operatingSystem": "Windows",
+      "author": {
+        "@type": "Organization",
+        "name": "Greenheart Games X TomiSakae",
+        "url": "https://github.com/NguyenHuynhPhuVinh-TomiSakae"
+      },
+      "inLanguage": "vi"
+    }
+    </script>
+
+    <!-- Liên kết đến sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+    <!-- Script xử lý chế độ toàn màn hình -->
+    <script>
+        function toggleFullscreen() {
+            if (!document.fullscreenElement &&
+                !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement &&
+                !document.msFullscreenElement) {
+                // Vào chế độ toàn màn hình
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else if (document.documentElement.msRequestFullscreen) {
+                    document.documentElement.msRequestFullscreen();
+                } else if (document.documentElement.mozRequestFullScreen) {
+                    document.documentElement.mozRequestFullScreen();
+                } else if (document.documentElement.webkitRequestFullscreen) {
+                    document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+                document.querySelector('#fullscreenButton span').className = 'icon-resize-small';
+            } else {
+                // Thoát chế độ toàn màn hình
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+                document.querySelector('#fullscreenButton span').className = 'icon-resize-full';
+            }
+        }
+
+        // Thêm sự kiện lắng nghe thay đổi trạng thái toàn màn hình
+        document.addEventListener('fullscreenchange', updateFullscreenButtonIcon);
+        document.addEventListener('webkitfullscreenchange', updateFullscreenButtonIcon);
+        document.addEventListener('mozfullscreenchange', updateFullscreenButtonIcon);
+        document.addEventListener('MSFullscreenChange', updateFullscreenButtonIcon);
+
+        function updateFullscreenButtonIcon() {
+            const iconElement = document.querySelector('#fullscreenButton span');
+            if (document.fullscreenElement ||
+                document.webkitFullscreenElement ||
+                document.mozFullScreenElement ||
+                document.msFullscreenElement) {
+                iconElement.className = 'icon-resize-small';
+            } else {
+                iconElement.className = 'icon-resize-full';
+            }
+        }
+
+        // Thêm phím tắt F11 để chuyển đổi chế độ toàn màn hình
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'F11' || (e.ctrlKey && e.key === 'f')) {
+                e.preventDefault();
+                toggleFullscreen();
+            }
+        });
+
+        // Ẩn nút toàn màn hình nếu trình duyệt không hỗ trợ
+        document.addEventListener('DOMContentLoaded', function () {
+            const fullscreenSupported = document.fullscreenEnabled ||
+                document.webkitFullscreenEnabled ||
+                document.mozFullScreenEnabled ||
+                document.msFullscreenEnabled;
+
+            if (!fullscreenSupported) {
+                const fullscreenButton = document.getElementById('fullscreenButton');
+                if (fullscreenButton) {
+                    fullscreenButton.style.display = 'none';
+                }
+
+                // Cũng ẩn nút trong phần cài đặt
+                const settingsFullscreenButton = document.getElementById('toggleFullscreenButton');
+                if (settingsFullscreenButton) {
+                    settingsFullscreenButton.style.display = 'none';
+                }
+            }
+
+            // Đảm bảo nút toàn màn hình hiển thị khi trang đã tải
+            const fullscreenButton = document.getElementById('fullscreenButton');
+            if (fullscreenButton && fullscreenButton.classList.contains('hideState')) {
+                fullscreenButton.classList.remove('hideState');
+            }
+        });
+    </script>
+
+    <script src="./i18n/languages.js"></script>
+    <!-- Core -->
+    <script src="./js/core/GameFlags.js"></script>
+    <script src="./js/core/CoreExtensions.js"></script>
+    <script src="./js/core/Logger.js"></script>
+    <script src="./js/core/PlatformShim.js"></script>
+
+    <!-- Reporting -->
+    <script src="./js/reporting/ErrorReporting.js"></script>
+
+    <!-- Localization -->
+    <script src="./js/localization/Localization.js"></script>
+
+    <!-- Game Manager Core and States -->
+    <script src="./js/game/GameManagerStates.js"></script> <!-- Định nghĩa 'State' -->
+    <script src="./js/game/GameManager.js"></script> <!-- Sử dụng 'State' -->
+
+    <!-- Platform Specific (SteamAPI cần thiết sớm nếu các module khác dùng) -->
+    <script src="./js/platform/SteamAPI.js"></script>
+
+    <!-- System Utilities (DataStore, LanguageMgr, ResourceKeys cần sớm) -->
+    <script src="./js/system/DataStore.js"></script>
+    <script src="./js/system/LanguageManager.js"></script>
+    <script src="./js/system/ResourceKeys.js"></script>
+
+    <!-- UI Manager and Custom Alert (CustomAlert cần trước Startup) -->
+    <script src="./js/ui/CustomAlert.js"></script>
+
+    <!-- System Utilities (StartupAndSplash, SoundManager cần trước khi game bắt đầu) -->
+    <script src="./js/system/StartupAndSplash.js"></script>
+    <script src="./js/system/SoundManager.js"></script>
+
+    <!-- Visuals and Game Resources (CanvasManager là nền tảng cho visuals) -->
+    <script src="./js/visuals/CanvasManager.js"></script>
+    <script src="./js/visuals/GameResourceManager.js"></script>
+
+    <!-- Game Classes (Các lớp cơ bản của game) -->
+    <script src="./js/game/classes/Booth.js"></script>
+    <script src="./js/game/classes/Company.js"></script>
+    <script src="./js/game/classes/Game.js"></script>
+    <script src="./js/game/classes/GameState.js"></script>
+    <script src="./js/game/classes/GameGenre.js"></script>
+    <script src="./js/game/classes/Genre.js"></script>
+
+    <!-- Game Logic -->
+    <script src="./js/game/logic/GameTrends.js"></script>
+    <script src="./js/game/logic/Notification.js"></script>
+    <script src="./js/game/logic/SaveGameData.js"></script>
+    <script src="./js/game/logic/Character.js"></script>
+    <script src="./js/game/logic/General.js"></script>
+
+    <!-- Game Content Data -->
+    <script src="./js/game/content/Media.js"></script>
+    <script src="./js/game/content/Missions.js"></script>
+    <script src="./js/game/content/Platforms.js"></script>
+    <script src="./js/game/content/Topics.js"></script>
+
+    <!-- Game Mechanics -->
+    <script src="./js/game/mechanics/Reviews.js"></script>
+    <!-- UI Elements (SettingsGameplay được dùng bởi Sales và các phần UI khác) -->
+    <script src="./js/ui/elements/SettingsGameplay.js"></script>
+    <script src="./js/game/mechanics/Sales.js"></script>
+    <script src="./js/game/mechanics/SalesEvents.js"></script>
+    <script src="./js/game/mechanics/DecisionNotifications.js"></script>
+    <script src="./js/game/mechanics/ProjectContracts.js"></script>
+
+    <!-- UI Elements (FlippingCounter, Knowledge) -->
+    <script src="./js/ui/elements/FlippingCounter.js"></script>
+    <script src="./js/ui/elements/Knowledge.js"></script>
+
+    <!-- Visuals and Game Resources (Các thành phần animation và visual) -->
+    <script src="./js/visuals/animations/SpriteSheetX.js"></script>
+    <script src="./js/visuals/animations/AnimationSpriteSheets.js"></script>
+    <script src="./js/visuals/animations/BitmapAnimationFactory.js"></script>
+    <script src="./js/visuals/animations/CharacterNameVisual.js"></script>
+    <script src="./js/visuals/animations/CompositeBitmapAnimation.js"></script>
+    <script src="./js/visuals/animations/GameStatusBar.js"></script>
+    <script src="./js/visuals/animations/LevelOverlay.js"></script>
+    <script src="./js/visuals/animations/PointsDisplayVisual.js"></script>
+    <script src="./js/visuals/animations/ProgressBarVisual.js"></script>
+    <script src="./js/visuals/animations/HypePointsVisual.js"></script>
+    <script src="./js/visuals/animations/CircularProgressVisual.js"></script>
+    <script src="./js/visuals/animations/CharacterOverlay.js"></script>
+    <script src="./js/visuals/ProjectWorkerVisual.js"></script>
+    <script src="./js/visuals/IsometricCompanyNameVisual.js"></script>
+    <script src="./js/visuals/VisualsManager.js"></script>
+
+    <!-- UI Manager - Đã được tách thành các file nhỏ -->
+    <!-- Thứ tự các file UIManager đã tách quan trọng -->
+    <script src="./js/ui/UIManager.Main.js"></script>
+    <script src="./js/ui/UIManager.MainMenu.js"></script>
+    <script src="./js/ui/UIManager.StatusBar.js"></script>
+    <script src="./js/ui/UIManager.Conference.js"></script>
+    <script src="./js/ui/UIManager.DevelopConsole.js"></script>
+    <script src="./js/ui/UIManager.ConsoleMaintenance.js"></script>
+    <script src="./js/ui/UIManager.Modal.js"></script>
+    <script src="./js/ui/UIManager.Notifications.js"></script>
+    <script src="./js/ui/UIManager.SidebarNotifications.js"></script>
+    <script src="./js/ui/UIManager.Pickers.js"></script>
+    <script src="./js/ui/UIManager.GameDefinition.js"></script>
+    <script src="./js/ui/UIManager.FeatureSelection.js"></script>
+    <script src="./js/ui/UIManager.ReleaseGame.js"></script>
+    <script src="./js/ui/UIManager.SaveSlotContextMenu.js"></script>
+    <script src="./js/ui/UIManager.NewGameAndLoadSave.js"></script>
+    <script src="./js/ui/UIManager.SalesCards.js"></script>
+    <script src="./js/ui/UIManager.Marketing.js"></script>
+    <script src="./js/ui/UIManager.CreateEngine.js"></script>
+    <script src="./js/ui/UIManager.ResearchTraining.js"></script> <!-- Research và Training cần file này -->
+    <script src="./js/ui/UIManager.GameHistory.js"></script>
+    <script src="./js/ui/UIManager.GameEnd.js"></script>
+    <script src="./js/ui/UIManager.Staff.js"></script>
+    <script src="./js/ui/UIManager.Boost.js"></script>
+    <script src="./js/ui/UIManager.GenericProject.js"></script>
+    <script src="./js/ui/UIManager.Contracts.js"></script>
+    <script src="./js/ui/UIManager.Achievements.js"></script> <!-- AchievementsData cần file này -->
+    <script src="./js/ui/UIManager.HighScore.js"></script>
+    <script src="./js/ui/UIManager.ReviewWindow.js"></script>
+    <script src="./js/ui/UIManager.ContextMenuDisplay.js"></script>
+    <script src="./js/ui/UIManager.SupportAndNewsletter.js"></script> <!-- Chứa typewrite plugin -->
+    <script src="./js/ui/UIManager.Modding.js"></script>
+    <script src="./js/ui/UIManager.MediaTriggers.js"></script> <!-- Cần Media.js -->
+    <script src="./js/ui/UIManager.WindowsIntegration.js"></script>
+    <script src="./js/ui/UIManager.Tutorial.js"></script> <!-- Cần nhiều thứ từ UI -->
+    <script src="./js/ui/UIManager.Research.js"></script> <!-- Cần Training.js và UI -->
+    <script src="./js/ui/UIManager.Research.Console.js"></script>
+    <script src="./js/ui/UIManager.Research.Lab.js"></script>
+    <script src="./js/ui/UIManager.Training.js"></script> <!-- Cần Research.js và UI -->
+    <script src="./js/ui/UIManager.AchievementsData.js"></script> <!-- Cần UI.Achievements.js -->
+
+    <!-- Game Utilities -->
+    <script src="./js/game/utils/LevelCalculator.js"></script>
+    <script src="./js/system/UpdateNotifications.js"></script> <!-- Phụ thuộc vào UI -->
+    <script src="./js/game/utils/SavegameMigrator.js"></script>
+    <script src="./js/game/utils/SavegameConverter.js"></script>
+
+    <!-- System Utilities (Các tiện ích hệ thống cuối cùng) -->
+    <script src="./js/system/SupportPacks.js"></script>
+    <script src="./js/system/ghg4.js"></script>
+    <script src="./js/system/UpdateChecker.js"></script>
+
+    <!-- Platform Specific (Greenworks phụ thuộc SteamAPI và GameFlags) -->
+    <script src="./js/platform/SteamGreenworks.js"></script>
+
+    <!-- Serializers (Thường là các file cuối cùng) -->
+    <script src="./js/serializers/TopicsSerializer.js"></script>
+    <script src="./js/serializers/EnginePartsSerializer.js"></script>
+    <script src="./js/serializers/EngineSerializer.js"></script>
+    <script src="./js/serializers/FeatureSerializer.js"></script>
+    <script src="./js/serializers/PlatformsSerializer.js"></script>
+    <script src="./js/serializers/CompanyFeatureSerializer.js"></script>
+    <script src="./js/serializers/SpawnedPointsSerializer.js"></script>
+
+    <script src="./js/GDT.js"></script>
+    <script src="./mods/mods_manifest.js"></script> <!-- Tải manifest trước -->
+    <script src="./js/modSupport.js"></script>
+
+    <style type='text/css'>
+        input:active {
+            pointer-events: none;
+        }
+    </style>
+    <style id='splashPositionStyle' type='text/css'>
+        .splashDynamicClass:before {}
+    </style>
+</head>
+
+<body style="background: black; position: absolute; top: 0px;" lang="vi">
+    <header>
+        <div id="mainBackground" class="mainBackgroundOverlay"></div>
+        <div id="commandsAppBar" data-win-control="WinJS.UI.AppBar" style="z-index: 7000;"
+            data-win-options="{disabled:true}">
+        </div>
+    </header>
+
+    <main id="gameContent">
+        <div id="achievementsPanel" class="windowBorder hidden" style="display: none;">
+            <div class="windowTitle">ll:{Achievements}</div>
+            <div class="achievementsContainer"></div>
+        </div>
+        <div id="highScorePanel" class="windowBorder hidden" style="display: none;">
+            <div class="windowTitle">ll:{High Score}</div>
+            <div class="highScoreContainer"></div>
+        </div>
+        <div id="gameContainerWrapper" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;">
+            <div id="gameUIContainer" style="width: 100%; height: 100%">
+                <div id="gamePausedOverlay">
+                    <h1>ll:{Paused}</h1>
+                </div>
+                <div id="gameSavedOverlay">
+                    <h1>ll:{Saving...}</h1>
+                </div>
+                <div id="gameErrorOverlay">
+                </div>
+                <div id="canvasScrollContainer"
+                    style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;"
+                    onclick="UI.containerClick(event);">
+                    <div id="innerCanvasContainer" style="position: absolute; top: 0px; left: 0px;">
+                        <div id="canvasContainer" style="position: absolute; top: 0px; left: 100%;">
+                        </div>
+                        <div id="canvasContainerLeft" style="position: absolute; top: 0px; left: 0%;">
+                        </div>
+                        <div id="canvasContainerRight" style="position: absolute; top: 0px; left: 200%;">
+                        </div>
+                    </div>
+                </div>
+                <div id="bar" class="rightBar">
+                    <div id="statusBar" class="statusBar statusBarRight">
+                        <div id="fps" class="statusBarItem" style="display: none"></div>
+                        <div id="fans" class="statusBarItem">...</div>
+                        <div class="statusBarItem">
+                            <div id="date" class="statusBarItem">...</div>
+                            <div id="weekProgression" class="statusBarItem">
+                                <div class="weekProgress p1"></div>
+                                <div class="weekProgress p2"></div>
+                                <div class="weekProgress p3"></div>
+                                <div class="weekProgress p4"></div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="statusBarItem">
+                            ll:{Cash:}
+                            <div id="money" class="statusBarItem green">...</div>
+                        </div>
+                    </div>
+                    <div id="trendContainer">
+                    </div>
+                    <div id="gameSalesContainer">
+                    </div>
+                    <div id="cashLogContainer">
+                    </div>
+                </div>
+                <div id="notificationSidebar">
+                </div>
+            </div>
+            <div id="barLeft" class="leftBar">
+                <div id="consoleMaintenanceContainer" class="consoleMainContainer">
+                </div>
+            </div>
+        </div>
+
+        <div id="mainMenuButton" class="menuButtonLeftBottom icon-reorder" onclick="UI.toggleMainMenu();">
+        </div>
+        <div id="fullscreenButton"
+            class="fixed bottom-[60px] left-[20px] w-[30px] h-[30px] bg-black/50 text-white rounded-full cursor-pointer flex justify-center items-center z-[999999] shadow-md transition-all duration-300 ease-in-out hover:bg-black/80 hover:scale-110"
+            onclick="toggleFullscreen()" title="Nhấn để chuyển đổi chế độ toàn màn hình (F11)">
+            <span class="icon-resize-full text-[15px]"></span>
+        </div>
+        <div id="gamePreviewLabel" class="selectorButton" onclick="UI.showgameTrialDialog()">
+            (replaced in code behind)
+        </div>
+
+        <div id="transitionOverlay">
+            <div style="position: absolute; top: 70%; display: block; width: 100%; text-align: center;">
+                <progress class="win-ring win-medium withText" style="color: whitesmoke;"></progress>
+            </div>
+        </div>
+        <div id="splashScreen">
+            <div id="animatedSplashBackdrop" class="splashDynamicClass"></div>
+            <div id="splashStaticBackdrop"></div>
+            <img id="splashImage" class="splashImage" src="./images/splashscreen.png"
+                style="margin-top: -150px; margin-left: -310px; position: absolute; top: 50%; left: 50%;" />
+            <div id="splashProgress"
+                style="position: absolute; top: 70%; display: block; width: 100%; text-align: center;">
+                <label style="font-family: 'Segoe UI', 'Open Sans'; font-size: 24pt; color: black;">
+                    <progress class="win-ring win-medium withText" style="color: black;"></progress>
+                    (replaced in code behind)
+                </label>
+            </div>
+            <label id="gameReadyLabel"
+                style="position: absolute; top: 70%; display: block; width: 100%; text-align: center; font-family: 'Segoe UI', 'Open Sans'; font-size: 24pt; color: black; font-weight: bold;">
+                (replaced in code behind)
+            </label>
+            <div id="isAGameTycoonLabel" class="textEffect3D"
+                style="position: absolute; top: 20%; display: block; width: 100%; text-align: center; font-family: 'Segoe UI', 'Open Sans'; font-size: 42pt; color: black; font-weight: bold; display: none">
+            </div>
+        </div>
+        <div id="snappedScreen" class="collapsed">
+            <img class="snappedViewSplash" src="./images/splashScreen.png" />
+            <h2 class="snappedViewInstruction rtl">ll:{Game Dev Tycoon is best enjoyed in full screen :) - But it will
+                also
+                run with a minimum resolution of 1024x768.}</h2>
+        </div>
+        <div id="resources" style="display: none" data-win-design-hidden="true">
+            <div id="consoleMainCardTemplate" class="consoleMainCard">
+                <div class="consoleMainCardGroup title"></div>
+                <img src="./images/misc/happySmiley.png" class="consoleMainCardGroup happySmiley" />
+                <img src="./images/misc/sadSmiley.png" class="consoleMainCardGroup sadSmiley" />
+                <canvas class="consoleMainCardGroupCanvas"></canvas>
+                <div id="transitionOverlay">
+                    <div style="position: absolute; top: 70%; display: block; width: 100%; text-align: center;">
+                        <progress class="win-ring win-medium withText" style="color: whitesmoke;"></progress>
+                    </div>
+                </div>
+                <div id="splashScreen">
+                    <div id="animatedSplashBackdrop" class="splashDynamicClass"></div>
+                    <div id="splashStaticBackdrop"></div>
+                    <img id="splashImage" class="splashImage" src="./images/splashscreen.png"
+                        style="margin-top: -150px; margin-left: -310px; position: absolute; top: 50%; left: 50%;" />
+                    <div id="splashProgress"
+                        style="position: absolute; top: 70%; display: block; width: 100%; text-align: center;">
+                        <label style="font-family: 'Segoe UI', 'Open Sans'; font-size: 24pt; color: black;">
+                            <progress class="win-ring win-medium withText" style="color: black;"></progress>
+                            (replaced in code behind)
+                        </label>
+                    </div>
+                    <label id="gameReadyLabel"
+                        style="position: absolute; top: 70%; display: block; width: 100%; text-align: center; font-family: 'Segoe UI', 'Open Sans'; font-size: 24pt; color: black; font-weight: bold;">
+                        (replaced in code behind)
+                    </label>
+                    <div id="isAGameTycoonLabel" class="textEffect3D"
+                        style="position: absolute; top: 20%; display: block; width: 100%; text-align: center; font-family: 'Segoe UI', 'Open Sans'; font-size: 42pt; color: black; font-weight: bold; display: none">
+                    </div>
+                </div>
+                <div id="newsletterSignup" class="windowBorder">
+                    <div class="newsletterIcon">
+                        <span class="icon-envelope"></span>
+                    </div>
+                    <div class="newsletterIconText"></div>
+                    <div class="newsletterContentExpanded">
+                        <small class="hint">ll:{Like this game? Stay informed about new games coming from us by signing
+                            up
+                            to
+                            our
+                            newsletter.}</small>
+                        <br />
+                        <br />
+                        <div class="centeredButtonWrapper">
+                            <input value="ll:{email address}"
+                                onfocus="if (this.value == 'email address'.localize()) this.value = '';" />
+                            <div class="selectorButton orangeButton">ll:{Sign up}</div>
+                            <div class="selectorButton deleteButton hideNewsletterWidgetButton">ll:{No, thanks}</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="snappedScreen" class="collapsed">
+                    <img class="snappedViewSplash" src="./images/splashScreen.png" />
+                    <h2 class="snappedViewInstruction rtl">ll:{Game Dev Tycoon is best enjoyed in full screen :) - But
+                        it
+                        will
+                        also
+                        run with a minimum resolution of 1024x768.}</h2>
+                </div>
+
+                <div id="consoleMainCardTemplate" class="consoleMainCard">
+                    <div class="consoleMainCardGroup title"></div>
+                    <img src="./images/misc/happySmiley.png" class="consoleMainCardGroup happySmiley" />
+                    <img src="./images/misc/sadSmiley.png" class="consoleMainCardGroup sadSmiley" />
+                    <canvas class="consoleMainCardGroupCanvas"></canvas>
+                    <div class="consoleMainCardGroup points"></div>
+                </div>
+                <div id="gameSalesCardTemplate" class="gameSalesCard">
+                    <div class="gameNameLabel"></div>
+                    <div class="gameSalesLabelContainer">
+                        <div class="gameSalesUnitsLabel"></div>
+                        <div class="gameSalesRankLabel"></div>
+                    </div>
+                    <canvas class="gameSalesCardCanvas"></canvas>
+                </div>
+                <div id="projectStatusCardTemplate" class="projectStatusCard">
+                    <div class="projectCardLabel"></div>
+                    <div class="projectStatusContainer">
+                        <div class="projectTitle"></div>
+                        <img class="projectIcon" src="./images/projectIcons/superb/grid.png" />
+                        <div class="projectProgressContainer">
+                            <div class="projectProgress"></div>
+                        </div>
+                        <div class="projectPointsRemaining"></div>
+                    </div>
+                    <div class="projectBudgetSliderContainer">
+                        <div class="projectBudgetLabel">ll:{Budget}</div>
+                        <div class="projectBudgetSlider"></div>
+                        <div class="projectBudgetValue"></div>
+                    </div>
+                </div>
+                <div id="buttonTemplate" class="simpleButton">
+                    <h3>{{name}}</h3>
+                </div>
+                <div id="buttonIconTemplate">
+                    <h3>{{name}}</h3>
+                    <img src="./images/logo.png" />
+                </div>
+                <div id="genericMarketingTemplate" class="genericMarketingTemplate">
+                    <div class="marketingTitle marketingTitleLabel"></div>
+                    <div class="marketingShortTitle sliderTabCaption rsTmb"></div>
+                    <div class="marketingDescription"></div>
+                    <div class="marketingCashCost"></div>
+                </div>
+                <div id="marketingPicker" class="windowBorder tallWindow">
+                    <div class="windowTitle">ll:{Marketing}</div>
+                    <div class="marketingPickerText"></div>
+                    <div class="dialogScreen1ContentContainer">
+                        <div class="marketingSliderContainer"></div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Choose}
+                        </div>
+                    </div>
+                    <div class="selectionOverlayContainer">
+                        <div class="overlayTitle windowTitle smallerWindowTitle"></div>
+                        <div class="listContainer"></div>
+                    </div>
+                </div>
+                <div id="gameConferenceAnimationDialog" class="windowBorder wideWindow">
+                    <div class="windowTitle">ll:{Game is finished!}</div>
+                    <div id="content">
+                        <img class="conventionImageFloor" src="./images/superb/boothSmallBg.png" />
+                        <img class="conventionImageBg" src="./images/superb/boothSmallBg.png" />
+                        <canvas id="animationLayer" class="conventionAnimationCanvas"></canvas>
+                        <img class="conventionImageFg" src="./images/superb/boothSmallBg.png" />
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton ">
+                            ll:{Close}
+                        </div>
+                    </div>
+                </div>
+                <div id="conferenceBoothPicker" class="windowBorder tallWindow">
+                    <div class="windowTitle">ll:{Game Convention}</div>
+                    <div class="conferenceBoothPickerText"></div>
+                    <div class="dialogScreen1ContentContainer">
+                        <div class="conferenceBoothSliderContainer"></div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Choose}
+                        </div>
+                    </div>
+                    <div class="selectionOverlayContainer">
+                        <div class="overlayTitle windowTitle smallerWindowTitle"></div>
+                        <div class="listContainer"></div>
+                    </div>
+                </div>
+                <div id="genericBoothTemplate" class="genericBoothTemplate">
+                    <div class="boothTitle boothTitleLabel"></div>
+                    <div class="boothTitle sliderTabCaption rsTmb"></div>
+                    <div class="boothDescription"></div>
+                    <div class="boothCashCost"></div>
+                </div>
+                <div id="platformReleaseNewsTemplate">
+                    <div class="windowStyle smallWindow">
+                        <div class="windowBorder">
+                            <div class="windowTitle"></div>
+                            <img class="platformRelaseNewsImage" />
+                            <div class="platformReleaseTextArea">
+                                <div class="notificationText"></div>
+                            </div>
+                            <div class="centeredButtonWrapper">
+                                <div
+                                    class="windowSmallOkButton selectorButton windowMainActionButton orangeButton notificationOkButton platformReleaseOkButton">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="platformReleaseNewsContent">
+                </div>
+                <div id="notificationContentTemplate">
+                    <div class="windowStyle smallWindow">
+                        <div class="windowBorder">
+                            <div class="windowTitle"></div>
+                            <div class="notificationTextArea">
+                                <div class="notificationText"></div>
+                            </div>
+                            <div class="centeredButtonWrapper">
+                                <div
+                                    class="windowSmallOkButton selectorButton windowMainActionButton orangeButton notificationButton notificationOption1">
+                                    <span class="notificationButtonContent"></span>
+                                </div>
+                                <div
+                                    class="windowSmallOkButton selectorButton windowMainActionButton orangeButton notificationButton notificationOption2">
+                                    <span class="notificationButtonContent"></span>
+                                </div>
+                                <div
+                                    class="windowSmallOkButton selectorButton windowMainActionButton orangeButton notificationButton notificationOption3">
+                                    <span class="notificationButtonContent"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notificationImageContainer">
+                        <img class="notificationImage" src="./images/logo.png" />
+                    </div>
+                </div>
+                <div id="notificationContent">
+                </div>
+                <div id="gameDefinitionContentTemplate">
+                    <input id="gameTitle" type="text" value="" maxlength="35" style="font-size: 22pt" required />
+                    <div id="gameSizeGroup">
+                        <div class="gameSizeButton gameDefSelection gameSizeSmall selected">ll:{Small},lc:{game size}
+                        </div>
+                        <div class="gameSizeButton gameDefSelection gameSizeMedium">ll:{Medium},lc:{game size}</div>
+                        <div class="gameSizeButton gameDefSelection gameSizeLarge">ll:{Large},lc:{game size}</div>
+                        <div class="gameSizeButton gameDefSelection gameSizeAAA">ll:{AAA},lc:{game size}</div>
+                    </div>
+                    <div id="targetRating">
+                        <div class="rating ratingY gameDefSelection">ll:{Y},lc:{target audience button content, Y as in
+                            young}
+                        </div>
+                        <div class="rating ratingE gameDefSelection selected">ll:{E},lc:{target audience button content,
+                            E
+                            as in
+                            everyone}</div>
+                        <div class="rating ratingM gameDefSelection">ll:{M},lc:{target audience button content, M as in
+                            mature}
+                        </div>
+                        <div class="ratingLabel">ll:{Everyone}</div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="selectorButton windowStepActionButton selectorButtonEmpty pickTopicButton"
+                            style="display: inline-block;">
+                            ll:{Pick Topic}
+                        </div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div id="pickGenreButton" class="selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Genre}
+                        </div>
+                        <div id="pickSecondGenreButton"
+                            class="selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Genre}
+                        </div>
+                        <div class="gameSizeButton gameDefSelection gameGenreMMO">ll:{MMO}</div>
+                    </div>
+                    <div class="comboHint"></div>
+                    <div class="centeredButtonWrapper">
+                        <div id="pickPlatformButton"
+                            class="pickPlatformButton selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Platform}
+                        </div>
+                        <div class="pickPlatformButton platform2 selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Platform}
+                        </div>
+                        <div class="pickPlatformButton platform3 selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Platform}
+                        </div>
+                    </div>
+                    <div class="pickEngineButtonWrapper centeredButtonWrapper">
+                        <div class="pickEngineButton selectorButton windowStepActionButton selectorButtonEmpty"
+                            style="display: inline-block;">
+                            ll:{Pick Game Engine}
+                        </div>
+                    </div>
+                </div>
+                <div id="featureCategoryHeading" class="featureSelectionCategoryHeading">
+                </div>
+                <div id="selectableGameFeatureItem" class="selectableGameFeatureItem selectableFeatureItem">
+                    <div class="gameFeatureProgressBackground"></div>
+                    <div class="levelLabel"></div>
+                    <div class="featureContent"></div>
+                    <div class="selectionPip"></div>
+                </div>
+                <div id="gameDefinition" class="tallWindow windowBorder">
+                    <div class="dialogScreenContainer tallWindow">
+                        <div class="windowCostLabel"></div>
+                        <div class="dialogScreen1">
+                            <div class="dialogScreen1Title windowTitle">ll:{Game Concept}</div>
+                            <div class="gameDefinitionContent"></div>
+                            <div class="gameDefinitionWarningText"></div>
+                            <div class="dialogNextButton baseButton disabledButton">ll:{Next}</div>
+                        </div>
+                        <div class="dialogScreen2">
+                            <div class="dialogBackButton fontCharacterButton icon-arrow-left"></div>
+                            <div class="dialogScreen2Title windowTitle">ll:{Feature Selection}</div>
+                            <div class="featureSelectionContainer"></div>
+                            <div class="centeredButtonWrapper">
+                                <div id="ok" onclick="UI.closeGameDefinition()"
+                                    class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                                    ll:{Start Development}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selectionOverlayContainer">
+                        <div class="overlayTitle windowTitle smallerWindowTitle"></div>
+                        <div class="listContainer"></div>
+                    </div>
+                    <!-- <div class="featureSelectionPanel featureSelectionPanelHiddenState">
+                    <div class="windowTitle smallerWindowTitle">Available Features</div>
+                    <div class="featureSelectionContainer featurePanel"></div>
+                </div>-->
+                </div>
+                <div id="newGameViewTemplate">
+                    <div class="centeredButtonWrapper">
+                        <h2>ll:{Company Name}</h2>
+                        <input id="companyName" type="text" value="" maxlength="20"
+                            style="font-size: 22pt; width: 300px; margin-top: 10px" required />
+                        <h2>ll:{Player Name}</h2>
+                        <input id="playerName" type="text" value="" maxlength="20"
+                            style="font-size: 22pt; width: 300px; margin-top: 10px" required />
+                        <div id="characterSexSelection">
+                            <div class="characterSexSelectionButton gameDefSelection femaleSex"
+                                onclick="UI.selectSexClicked('female')">♀</div>
+                            <div class="characterSexSelectionButton gameDefSelection"
+                                onclick="UI.selectSexClicked('random')">
+                                <img class="randomSexButton" src="./images/misc/dice.png" />
+                            </div>
+                            <div class="characterSexSelectionButton gameDefSelection maleSex selected"
+                                onclick="UI.selectSexClicked('male')">♂</div>
+                        </div>
+                        <div class="characterPreviewContainer">
+                            <div class="baseButton characterPreviewArrowButton characterHeadLeftArrow fontCharacterButton icon-arrow-left"
+                                onclick="UI.prevHead()"></div>
+                            <div class="baseButton characterPreviewArrowButton characterBodyLeftArrow fontCharacterButton icon-arrow-left"
+                                onclick="UI.prevBody()"></div>
+                            <canvas class="characterPreviewCanvas"></canvas>
+                            <div class="baseButton characterPreviewArrowButton characterHeadRightArrow fontCharacterButton icon-arrow-right"
+                                onclick="UI.nextHead()"></div>
+                            <div class="baseButton characterPreviewArrowButton characterBodyRightArrow fontCharacterButton icon-arrow-right"
+                                onclick="UI.nextBody()"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="newGameView" class="tallWindow windowBorder">
+                    <div class="windowTitle smallerWindowTitle">ll:{Company Details}</div>
+                    <div class="configButton fontCharacterButton icon-cog"></div>
+                    <div id="newGameViewContent">
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div id="launchCompany" onclick="UI.closeNewGameView()"
+                            class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Continue}
+                        </div>
+                    </div>
+                    <div class="featureSelectionPanel featureSelectionPanelHiddenState">
+                        <div class="windowTitle smallerWindowTitle">ll:{Advanced Options}</div>
+                        <div class="centeredButtonWrapper">
+                            <br />
+                            <h2>ll:{Game Length}</h2>
+                            <select id="gameLengthSelection" style="max-width: 250px">
+                                <option value="1">ll:{30 years (fast-paced)}</option>
+                                <option value="1.16667" selected="selected">ll:{35 years (recommended)}</option>
+                                <option value="1.4">ll:{42 years}</option>
+                            </select>
+                            <br />
+                        </div>
+                        <div style="margin-left: 20px; margin-right: 10px">
+                            <span>ll:{Lưu ý: Bạn luôn có thể tiếp tục chơi sau khi trò chơi chính kết thúc. Độ dài trò
+                                chơi
+                                chỉ
+                                xác định tốc độ các nền tảng mới ra thị trường và thời điểm tính điểm cao
+                                được tính.}</span>
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <br />
+                            <h2>ll:{Pirate Mode}</h2>
+                            <select id="pirateModeSelection" style="max-width: 250px">
+                                <option value="on">ll:{On}</option>
+                                <option value="off" selected="selected">ll:{Off (recommended)}</option>
+                            </select>
+                            <br />
+                        </div>
+                        <div style="margin-left: 20px; margin-right: 10px">
+                            <span>ll:{Chế độ ăn cắp bản quyền gây ra sự sụt giảm nghiêm trọng doanh số bán hàng của tất
+                                cả các
+                                trò chơi của bạn. Phá sản là
+                                điều rất có thể xảy ra.
+                                Bạn có thể phát triển bảo vệ chống sao chép nhưng việc sử dụng nó sẽ làm người hâm mộ
+                                khó chịu. 'Thư từ người hâm mộ' lấy cảm hứng từ
+                                các sự kiện
+                                thực tế sẽ đến hộp thư đến của bạn theo thời gian.}</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="loadSaveButtonTemplate" class="loadSaveButton">
+                    <div class="slot"></div>
+                    <div class="name"></div>
+                    <img class="pirateModeImage" src="./images/misc/pirate.png" style="display:none;" />
+                    <div class="saveGameLocation"></div>
+                    <div class="cash"></div>
+                    <div class="fans"></div>
+                    <div class="week"></div>
+                    <div class="saveTime"></div>
+                    <div class="saveSlotOptions icon-cog baseButton characterPreviewArrowButton fontCharacterButton">
+                    </div>
+                </div>
+                <div id="loadView" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Load Game}</div>
+                    <div id="loadViewContent">
+                    </div>
+                </div>
+                <div id="modsButtonTemplate" class="modsSelectionButton">
+                    <div class="modsButtonContent">
+                        <div class="table">
+                            <div class="table-row">
+                                <div class="table-cell" style="width:120px">
+                                    <div class="modImage"></div>
+                                </div>
+                                <div class="table-cell">
+                                    <div style="width:10px;">&nbsp;</div>
+                                </div>
+                                <div class="table-cell" style="width:560px">
+                                    <div class="modName"></div>
+                                    <div class="modVersion float-right"></div>
+                                    <div class="description"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell" style="width: 120px">
+                                <div class="website"></div>
+                            </div>
+                            <div class="table-cell">
+                                <div style="width:10px;">&nbsp;</div>
+                            </div>
+                            <div class="table-cell" style="width:400px">
+                                ll:{Author}: <div class="author"></div>
+                            </div>
+                            <div class="table-cell" style="width:160px">
+                                <div class="modopts float-right"></div>
+                            </div>
+                        </div>
+                        <div class="selectionPip"></div>
+                    </div>
+                </div>
+                <div id="modsPanel" class="wideWindow windowBorder">
+                    <div id="modsPanelActions">
+                        <div id="modsPanelButtonMods" class="modsPanelWorkshopButton">
+                            ll:{Mods}
+                        </div>
+                        <div id="modsPanelButtonWorkshop" class="modsPanelWorkshopButton">
+                            ll:{Steam Workshop}
+                        </div>
+                        <div id="modsPanelButtonUpload" class="modsPanelWorkshopButton">
+                            ll:{Publish Mod}
+                        </div>
+                        <div id="modsPanelButtonUpdate" class="modsPanelWorkshopButton">
+                            ll:{Update Mod}
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="modsPanelMods" class="modsPanelItem">
+                        <div class="windowTitle">ll:{Mods}</div>
+                        <div class="modsWarning">
+                            <span>ll:{Enabling and disabling mods requires a restart.}</span>
+                            <div class="modStats" style="margin-top: 8px; font-weight: bold;">
+                                Tổng số mod: <span id="modsTotalCount">0</span> |
+                                Đã kích hoạt: <span id="modsActiveCount">0</span> |
+                                Chưa kích hoạt: <span id="modsInactiveCount">0</span>
+                            </div>
+                        </div>
+                        <div class="modsDisclaimer"><span style="font-weight: bold">ll:{Sử dụng mod với rủi ro của riêng
+                                bạn!}</span>
+                            ll:{Greenheart Games không chịu trách nhiệm về nội dung của các mod. Mod có thể làm hỏng tệp
+                            lưu
+                            của bạn hoặc gây ra các tác hại khác. Sử dụng chúng với rủi ro của riêng bạn! Vì mod có thể
+                            gây ra lỗi nghiêm trọng hoặc làm hỏng dữ liệu,
+                            chúng tôi không thể cung cấp hỗ trợ người dùng khi đang sử dụng mod.}</div>
+                        <div class="modsSearchContainer">
+                            <input type="text" id="modsSearchInput" placeholder="Tìm kiếm mod..."
+                                style="width: 300px; margin: 10px; padding: 5px; font-size: 14px;">
+                            <button id="modsSearchButton"
+                                style="padding: 5px 10px; margin-left: 5px; cursor: pointer;">Tìm</button>
+                            <button id="modsResetButton"
+                                style="padding: 5px 10px; margin-left: 5px; cursor: pointer;">Đặt lại</button>
+                            <div class="modFilterContainer" style="margin-left: 20px;">
+                                <select id="modStatusFilter" style="padding: 5px; font-size: 14px;">
+                                    <option value="all">Tất cả mod</option>
+                                    <option value="active">Đã kích hoạt</option>
+                                    <option value="inactive">Chưa kích hoạt</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="modsPanelContent" class="modsPanelContainer">
+                        </div>
+                    </div>
+                    <div id="modsPanelUpload" class="modsPanelItem">
+                        <div class="windowTitle">ll:{Publish Mod}</div>
+                        <div id="modsPanelUploadContent" class="modsPanelContainerWorkshop">
+                            <br />
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <h3>ll:{Title*}</h3>
+                                        <input id="ugcModTitle" class="ugcModUploadInputFieldR" type="text" value=""
+                                            maxlength="128" style="font-size: 12pt; width: 350px;" required />
+                                        <br />
+                                        <div style="height: 10px;"></div>
+                                        <h3>ll:{Description}</h3>
+                                        <textarea id="ugcModDesc" maxlength="8000"
+                                            style="font-size: 12pt; width: 348px; height: 284px; max-width: 348px; max-height: 284px; margin-top: 2px; "></textarea>
+                                    </div>
+                                    <div class="table-cell">
+                                        <div class="float-left" style="width: 10px">&nbsp;</div>
+                                    </div>
+                                    <div class="table-cell">
+                                        <h3>ll:{Mod Source Folder*}</h3>
+                                        <input id="ugcModFolderName" type="text" value="" title="ll:{Choose Folder}"
+                                            style="font-size: 12pt; width: 340px;" readonly="true" />
+                                        <div class="browseForButtonWrapper">
+                                            <input id="ugcModFolder" class="browseForButton ugcModUploadInputFieldR"
+                                                type="file" value="" style="font-size: 12pt;" nwdirectory required />
+                                            <div id="browseForButtonUpload" class="browseForButton icon-folder-open"
+                                                title="ll:{Choose Folder}" style="margin-top: -1px"></div>
+                                        </div>
+                                        <br />
+                                        <div style="height: 10px;"></div>
+                                        <h3>ll:{Choose Image}</h3>
+                                        <input id="ugcModImageName" type="text" value=""
+                                            style="font-size: 12pt; width: 340px; " readonly="true" />
+                                        <div class="browseForButtonWrapper">
+                                            <input id="ugcModImage" class="browseForButton" type="file" value=""
+                                                style="font-size: 12pt;" />
+                                            <div id="browseForImageButtonUpload" class="browseForImageButton icon-file"
+                                                title="ll:{Choose Image}" style="margin-top: -1px"></div>
+                                        </div>
+                                        <div style="height: 10px;"></div>
+                                        <h3>ll:{Image Preview}</h3>
+                                        <div class="imagePreviewContainer" style="margin-top:2px;"><img
+                                                id="ugcModImagePreview" class="browseForImageFilePreview" src="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell mod_agreement">
+                                        By submitting this item, you agree to our <a href="#"
+                                            class="moddinglegalagreement">Modding Agreement</a> and to the <a href="#"
+                                            class="workshoplegalagreement">workshop terms of service</a>.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modsPanelStatus"><strong>ll:{Status}</strong>:<div class="line" style="width:100%">
+                            </div>
+                            <div id="modsPanelUploadStatus" style="padding-top:2px">ll:{Idle}</div>
+                        </div>
+                        <div id="modsPanelButtonPublishNow"
+                            class="modsPanelWorkshopButton modsPanelWorkshopButtonSubmit">
+                            ll:{Publish}
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="modsPanelUpdate" class="modsPanelItem">
+                        <div class="windowTitle">ll:{Update Mod}</div>
+                        <div id="modsPanelUpdateContent" class="modsPanelContainerWorkshop">
+                            <div class="float-left" style="width:300px;">
+                                <br />
+                                <h3>ll:{Your Mods}</h3>
+                                <ul id="ugcMods" class="listContainerWorkshop ugcModUpdateInputFieldR"
+                                    style="height:341px">
+                                    <li>ll:{Loading data...}</li>
+                                </ul>
+                            </div>
+                            <div class="float-left" style="width:20px">&nbsp;</div>
+                            <div id="modsPanelWorkshopUpdateInputFields" style="opacity: 0;" class="float-left">
+                                <br />
+                                <h3>ll:{Title}</h3>
+                                <input id="ugcModTitleUpd" class="ugcModUpdateInputFieldR" type="text" value=""
+                                    maxlength="128" style="font-size: 12pt; width: 389px; margin-top: 2px" />
+                                <br />
+                                <div style="height: 10px;"></div>
+                                <h3>ll:{Description}</h3>
+                                <textarea id="ugcModDescUpd" class="ugcModUpdateInputFieldR" maxlength="8000"
+                                    style="font-size: 12pt; width: 387px; height: 84px; max-width: 399px; max-height: 84px; margin-top: 2px; "></textarea>
+                                <br />
+                                <div style="height: 10px;"></div>
+                                <h3>ll:{Your Mod Folder}</h3>
+                                <input id="ugcModFolderNameUpd" type="text" value="" title="ll:{Choose Folder}"
+                                    style="font-size: 12pt; width: 389px;" readonly="true" />
+                                <div class="browseForButtonWrapper">
+                                    <input id="ugcModFolderUpd" class="browseForButton ugcModUpdateInputFieldR"
+                                        type="file" value="" style="font-size: 12pt;" nwdirectory />
+                                    <div id="browseForButtonUpdate" class="browseForButton icon-folder-open"
+                                        title="ll:{Choose Folder}" style="margin-top: -1px"></div>
+                                </div>
+                                <br />
+                                <div style="height: 10px;"></div>
+                                <h3>ll:{Image Preview}</h3>
+                                <div style="height:4px;width:10px">&nbsp;</div>
+                                <div class="float-left">
+                                    <img id="ugcModImagePreviewUpd" class="browseForImageFilePreview"
+                                        style="width: 130px; height: 100px; " src="" />
+                                </div>
+                                <div class="float-left" style="width:10px">&nbsp;</div>
+                                <div class="float-left">
+                                    <input id="ugcModImageNameUpd" type="text" value=""
+                                        style="font-size: 12pt; width: 249px; margin:0" readonly="true" />
+                                </div>
+                                <div class="float-left">
+                                    <div class="browseForButtonWrapper">
+                                        <input id="ugcModImageUpd" class="browseForButton ugcModUpdateInputFieldR"
+                                            type="file" value="" style="font-size: 12pt;" required />
+                                        <div id="browseForImageButtonUpdate" class="browseForImageButton icon-file"
+                                            title="ll:{Choose Image}" style="margin-top: -4px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="float-left  mod_agreement" style="position:relative; top:-29px">
+                                By submitting this item, you agree to our <a href="#"
+                                    class="moddinglegalagreement">Modding
+                                    Agreement</a> and to the <a href="#" class="workshoplegalagreement">workshop terms
+                                    of
+                                    service</a>.
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="modsPanelStatus" style="width:310px"><strong>ll:{Status}</strong>:<div class="line"
+                                style="width:100%"></div>
+                            <div id="modsPanelUploadStatusUpd" style="padding-top:2px">ll:{Idle}</div>
+                        </div>
+                        <div id="modsPanelButtonUpdateNow"
+                            class="modsPanelWorkshopButton modsPanelWorkshopButtonSubmit">
+                            ll:{Update}
+                        </div>
+                        <div class="clear"></div>
+
+                    </div>
+                </div>
+                <div id="saveView" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Choose Save Slot}</div>
+                    <div id="saveViewContent">
+                    </div>
+                </div>
+                <div id="platformButtonTemplate" class="platformButton">
+                    <h3 class="platformTitle"></h3>
+                    <img class="platformButtonImage" src="./images/platforms/G64.png" />
+                    <p class="cost"></p>
+                    <p class="licenseCost"></p>
+                    <p class="marketShare"></p>
+                    <p class="audienceHints"></p>
+                    <p class="genreHints"></p>
+                </div>
+                <div id="engineButtonTemplate" class="selectorButton engineButton">
+                </div>
+                <div id="trainingStaffInfo" class="staffInfo tall">
+                    <div class="name center"></div>
+                    <div class="expert"></div>
+                    <div class="skillContainer">
+                        <div class="row trainingLvl">
+                            <span class="leftColumn">ll:{Level:} </span>
+                            <div class="lvl rightColumn"></div>
+                        </div>
+                        <div class="row trainingD">
+                            <span class="leftColumn">ll:{Design:} </span>
+                            <div class="design rightColumn"></div>
+                        </div>
+                        <div class="row trainingT">
+                            <span class="leftColumn">ll:{Technology:} </span>
+                            <div class="technology rightColumn"></div>
+                        </div>
+                        <div class="row trainingS">
+                            <span class="leftColumn">ll:{Speed:} </span>
+                            <div class="speed rightColumn"></div>
+                        </div>
+                        <div class="row trainingR">
+                            <span class="leftColumn">ll:{Research:} </span>
+                            <div class="research rightColumn"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="researchMenu">
+                    <div class="windowBorder tallWindow">
+                        <div class="windowTitle smallerWindowTitle">ll:{What do you want to research?}</div>
+                        <div id="researchButtonContainer">
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <div id="startResearchButton"
+                                class="okButton baseButton disabledButton windowMainActionButton windowLargeOkButton">
+                                ll:{Start
+                                Research}</div>
+                        </div>
+                        <div class="selectionOverlayContainer">
+                            <div class="overlayTitle windowTitle smallerWindowTitle"></div>
+                            <div class="listContainer"></div>
+                        </div>
+                    </div>
+                    <div class="staffInfoPanel hidden"></div>
+                </div>
+                <div id="createEngineMenu" class="windowBorder tallWindow">
+                    <div class="windowTitle">ll:{Create a new Engine}</div>
+                    <div class="createEngineContainer">
+                        <div class="centeredButtonWrapper">
+                            <input type="text" class="engineTitleInput" maxlength="20" style="font-size: 18pt" />
+                        </div>
+                        <div class="engineCost windowCostLabel"></div>
+                        <div class="enginePartsContainer"></div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div id="createEngineButton"
+                            class="okButton baseButton disabledButton windowMainActionButton windowLargeOkButton">
+                            ll:{Tạo
+                            Engine}</div>
+                    </div>
+                    <div class="selectionOverlayContainer">
+                        <div class="listContainer"></div>
+                    </div>
+                </div>
+                <div id="createConsoleMenu" class="tallWindow windowBorder">
+                    <div class="dialogScreenContainer tallWindow">
+                        <div class="windowCostLabel"></div>
+                        <div class="dialogScreen1">
+                            <div class="dialogScreen1Title windowTitle">ll:{Console Development}</div>
+                            <div class="dialogScreen1ContentContainer">
+                                <input class="consoleName" type="text" value="" maxlength="15" style="font-size: 22pt"
+                                    required />
+                                <div class="consoleSliderContainer"></div>
+                                <div class="centeredButtonWrapper" style="margin-top: 20px">
+                                    <h2>ll:{Quality Assurance Budget}</h2>
+                                    <div class="consoleQASlider"></div>
+                                </div>
+                            </div>
+
+                            <div class="dialogNextButton baseButton disabledButton">ll:{Next}</div>
+                        </div>
+                        <div class="dialogScreen2">
+                            <div class="dialogBackButton fontCharacterButton icon-arrow-left"></div>
+                            <div class="dialogScreen2Title windowTitle">ll:{Feature Selection}</div>
+                            <div class="featureSelectionContainer"></div>
+                            <div class="centeredButtonWrapper">
+                                <div onclick="UI.createConsoleClick()"
+                                    class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                                    ll:{Start Development}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selectionOverlayContainer">
+                        <div class="overlayTitle windowTitle smallerWindowTitle"></div>
+                        <div class="listContainer"></div>
+                    </div>
+                </div>
+                <div id="genericProjectMenu" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Special Project}</div>
+                    <div class="genericProjectSliderContainer">
+                    </div>
+                    <div class="centeredButtonWrapper okButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Start Project}
+                        </div>
+                    </div>
+                </div>
+                <div id="genericProjectTemplate" class="genericProjectTemplate">
+                    <div class="projectTitle projectTitleLabel"></div>
+                    <div class="projectTitle sliderTabCaption rsTmb"></div>
+                    <img class="projectIcon" src="./images/projectIcons/superb/grid.png" />
+                    <div class="projectDescription"></div>
+                    <div class="projectCashCost"></div>
+                    <div class="projectPointCost"></div>
+                </div>
+                <div id="selectFeatureMenuTemplate">
+                    <div class="featureWindowTitle windowTitle"></div>
+                    <div class="gameName"></div>
+                    <div class="topicGenre"></div>
+                    <div class="focusSliderContainer">
+                        <div class="focusSliderWrapper feature1">
+                            <div class="focusSliderStaffName">W</div>
+                            <div class="focusSlider feature1"></div>
+                            <div class="focusSliderTitle"></div>
+                            <div class="focusSliderHint"></div>
+                        </div>
+                        <div class="focusSliderWrapper feature2">
+                            <div class="focusSliderStaffName">W</div>
+                            <div class="focusSlider feature2"></div>
+                            <div class="focusSliderTitle"></div>
+                            <div class="focusSliderHint"></div>
+                        </div>
+                        <div class="focusSliderWrapper feature3">
+                            <div class="focusSliderStaffName">W</div>
+                            <div class="focusSlider feature3"></div>
+                            <div class="focusSliderTitle"></div>
+                            <div class="focusSliderHint"></div>
+                        </div>
+                    </div>
+                    <div class="featureDurationPreviewContainer">
+                        <div class="featureDurationPreviewTitle">ll:{Time Allocation (Preview)}</div>
+                        <div class="featureDurationPreviewWrapper">
+                            <div class="featureDurationPreview featurePreview1"></div>
+                            <div class="featureDurationPreview featurePreview2"></div>
+                            <div class="featureDurationPreview featurePreview3"></div>
+                        </div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton"
+                            onclick="UI.featuresSelectedClick()">
+                            ll:{OK}
+                        </div>
+                    </div>
+                    <div class="featureSelectionPanel featureSelectionPanelHiddenState">
+                        <div class="windowTitle smallerWindowTitle">ll:{Selected Features}</div>
+                        <div class="cost"></div>
+                        <div class="featureSelectionContainer featurePanel"></div>
+                    </div>
+                    <div class="featureStaffAsignPanel hidden">
+                        <div class="windowTitle smallerWindowTitle">ll:{Staff}</div>
+                        <div class="staffListContainer"></div>
+                    </div>
+                </div>
+                <div id="staffListItemTemplate" class="staffListItem staffItemBorder">
+                    <div class="workload"></div>
+                    <div class="specialization"></div>
+                    <div class="staffName"></div>
+                    <div class="responsibility"></div>
+                    <div class="pointsDisplayContainer">
+                        <div class="design"></div>
+                        <div class="technology"></div>
+                    </div>
+                </div>
+                <div id="selectFeatureMenu" class="windowBorder tallWindow">
+                </div>
+                <div id="releaseGameDialog" class="windowBorder wideWindow">
+                    <div class="gameNameContainer">
+                        <div class="gameNameDisplay" style="display: block; text-align: center">
+                            <div class="releaseGameNameDisplay smallerWindowTitle"></div>
+                            <div class="releaseGameNameEditButton gameNameEditButton fontCharacterButton subtle">
+                                <span class="icon-edit"></span>
+                            </div>
+                        </div>
+                        <div class="gameNameEdit"
+                            style="position: absolute; width: 100%; top: 5px; text-align: center; display: none">
+                            <input class="releaseGameNameInput smallerWindowTitle" type="text" maxlength="35"
+                                style="font-size: 22pt;" required />
+                            <div class="releaseGameNameEditOKButton gameNameEditButton fontCharacterButton">
+                                <span class="icon-ok"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="smallerWindowTitle windowTitle" style="margin-top: 0px;">ll:{is ready!},lc:{game title
+                        is
+                        mentioned the line before}</div>
+                    <div class="releaseGameDialogContentContainer">
+                        <div class="pointsNewRecord designPointsNewRecord">ll:{New Record!}</div>
+                        <div class="pointsNewRecord technologyPointsNewRecord">ll:{New Record!}</div>
+                        <div class="pointDisplayContainer">
+                            <div class="designPoints pointsDisplay">99</div>
+                            <div class="technologyPoints pointsDisplay">99</div>
+                        </div>
+                        <div class="xpGainedTitleContainer">
+                            <div class="xpGainedTitle">ll:{Experience gained}</div>
+                            <div class="xpBonusModifier" style="display: inline-block; margin-left: 20px;">
+                                ll:{XP Bonus:}
+                            </div>
+                        </div>
+                        <div class="featuresContainer"></div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div
+                            class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton releaseGameButton">
+                            ll:{Release Game}
+                        </div>
+                    </div>
+                    <div class="trashGameButton selectorButton deleteButton">
+                        <span class="icon-trash"></span> ll:{Trash Game}
+                    </div>
+                </div>
+                <div class="releaseGameFeatureTemplate">
+                    <div class="featureName"></div>
+                    <div class="featureLevel"></div>
+                    <div class="featureProgressContainer">
+                        <div class="featureProgress"></div>
+                        <div class="featureProgressGain"></div>
+                    </div>
+                    <div class="featureGainCaption"></div>
+                    <div class="featureLevelUp">ll:{Level Up!}</div>
+                </div>
+                <div id="gameDetailsTemplate" class="gameDetails">
+                    <div class="gameDetailsTitle gameDetailsTitleLabel"></div>
+                    <div class="gameDetailsTitle sliderTabCaption rsTmb"></div>
+
+                    <img class="gameDetailsImage" src="./images/platforms/G64.png" />
+                    <img class="gameDetailsPiracyImage" src="./images/misc/pirate.png" style="display:none;" />
+                    <div class="gameDetailsPiracyRate" style="display:none;"></div>
+                    <div class="gameDetailsTopicGenre"></div>
+                    <div class="gameDetailsPlatform"></div>
+                    <div class="gameDetailsAudience"></div>
+                    <div class="gameDetailsUnitsSoldLabel gameDetailsColumn1">ll:{Units Sold:}</div>
+                    <div class="gameDetailsUnitsSold gameDetailsColumn2"></div>
+                    <div class="gameDetailsCostsLabel gameDetailsColumn1">ll:{Costs:}</div>
+                    <div class="gameDetailsCosts gameDetailsColumn2 red"></div>
+                    <div class="gameDetailsAmountEarnedLabel gameDetailsColumn1">ll:{Income:}</div>
+                    <div class="gameDetailsAmountEarned gameDetailsColumn2 green"></div>
+                    <div class="gameDetailsTotalLabel gameDetailsColumn1">ll:{Profit:}</div>
+                    <div class="gameDetailsTotal gameDetailsColumn2"></div>
+                    <div class="gameDetailsReleaseWeekLabel gameDetailsColumn1">ll:{Released:}</div>
+                    <div class="gameDetailsReleaseWeek gameDetailsColumn2"></div>
+                    <div class="gameDetailsFansChangeLabel gameDetailsColumn1">ll:{Fans:}</div>
+                    <div class="gameDetailsFansChange gameDetailsColumn2"></div>
+                    <div class="gameDetailsAvgReviewLabel gameDetailsColumn1">ll:{Avg. Review Score:}</div>
+                    <div class="gameDetailsAvgReview gameDetailsColumn2"></div>
+                    <div class="gameDetailsTopSalesRankLabel gameDetailsColumn1">ll:{Top Sales Rank:}</div>
+                    <div class="gameDetailsTopSalesRank gameDetailsColumn2"></div>
+                    <div class="gameAverageScoreOverview"></div>
+                    <div class="gameId" style="display: none;"></div>
+                </div>
+                <div id="gameHistoryDialog" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Game History}</div>
+                    <div class="gameDetailsListContainer">
+                        <div id="gameHistoryContent">
+                        </div>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{OK}
+                        </div>
+                    </div>
+                </div>
+                <div id="trashGameConfirmationDialog">
+                    <div class="windowBorder">
+                        <div>
+                            ll:{Do you really want to throw away this game?}<br />
+                            <br />
+                            <strong>ll:{Note:}</strong> ll:{You do not lose the experience gained during development.}
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <div class="confirmActionButton deleteButton selectorButton">ll:{Yes}</div>
+                            <div class="cancelActionButton selectorButton orangeButton">ll:{No}</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="takeOffMarketDialog">
+                    <div class="windowBorder">
+                        <div>
+                            ll:{Do you really want to remove this from the market?}<br />
+                            <br />
+                            <strong>ll:{Note:}</strong> ll:{You will no longer get any income from it.}
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <div class="confirmActionButton deleteButton selectorButton">ll:{Yes}</div>
+                            <div class="cancelActionButton selectorButton orangeButton">ll:{No}</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cancelProjectDialog">
+                    <div class="windowBorder">
+                        <div>
+                            ll:{Do you really want to cancel this project?}<br />
+                            <br />
+                            <strong>ll:{Note:}</strong> ll:{All progress on the project will be}
+                            <strong>ll:{lost!}</strong>
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <div class="confirmActionButton deleteButton selectorButton">ll:{Yes}</div>
+                            <div class="cancelActionButton selectorButton orangeButton">ll:{No}</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="useKnowledgeFromPreviousGameDialog" class="windowBorder smallWindow">
+                    <div class="windowTitle smallerWindowTitle">ll:{Unlock hints?}</div>
+                    <div class="useKnowledgeFromPreviousGameMessage"></div>
+                    <div class="centeredButtonWrapper">
+                        <div class="confirmActionButton selectorButton orangeButton">ll:{Yes}</div>
+                        <div class="cancelActionButton selectorButton whiteButton">ll:{No}</div>
+                    </div>
+                </div>
+                <div id="purchasePlatformDialog" class="windowBorder smallWindow">
+                    <div class="windowTitle smallerWindowTitle">ll:{Acquire license?}</div>
+                    <div class="purchasePlatformMessage"></div>
+                    <div class="centeredButtonWrapper">
+                        <div class="confirmActionButton selectorButton orangeButton">ll:{Yes}</div>
+                        <div class="cancelActionButton selectorButton whiteButton">ll:{No}</div>
+                    </div>
+                </div>
+                <div id="overwriteGameDialog">
+                    <div class="rtl">ll:{Do you really want to overwrite this game?}</div>
+                    <div class="centeredButtonWrapper">
+                        <div class="confirmActionButton deleteButton selectorButton">ll:{Yes}</div>
+                        <div class="cancelActionButton selectorButton orangeButton">ll:{No}</div>
+                    </div>
+                </div>
+                <div id="deleteGameDialog">
+                    <div class="rtl">ll:{Do you really want to delete this save slot?}</div>
+                    <div class="centeredButtonWrapper">
+                        <div class="confirmActionButton deleteButton selectorButton">ll:{Yes}</div>
+                        <div class="cancelActionButton selectorButton orangeButton">ll:{No}</div>
+                    </div>
+                </div>
+                <div id="createShareCodeWindow" class="windowBorder">
+                    <div class="topPart">
+                        <div class="windowTitle smallerWindowTitle">ll:{Upload}</div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="flipContainer">
+                        <div class="page page1">
+                            <div class="saveContainer"></div>
+                            <div class="achievementsCheck centeredButtonWrapper" style="margin-top:10px;display:none">
+                                <div class="checkbox achievement icon-check"></div><label class="label">Enable
+                                    achievements on
+                                    this save.</label>
+                            </div>
+                        </div>
+                        <div class="page page2">
+                            <div class="icon-spinner spinner"></div>
+                        </div>
+                        <div class="page page3">
+                            <div class="centeredButtonWrapper">
+                                <span class="prefix">GDT-</span><input class="sharecodeInput" type="text"
+                                    maxlength="8" />
+                                <div class="copiedNotice"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legalCheck centeredButtonWrapper" style="margin-top:10px">
+                        <div class="checkbox legal icon-check-empty"></div><label class="label legal"></label>
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="uploadToCloudButton confirmActionButton orangeButton selectorButton">ll:{Upload}
+                        </div>
+                    </div>
+                </div>
+                <div id="displaySharecode" class="windowBorder smallWindow">
+                    <div class="windowTitle smallerWindowTitle">ll:{Share code}</div>
+                    <div>ll:{Hooray! The servers have bestowed this shiny new share code upon you.}</div>
+                    GDT-<input class="sharecodeInput" type="text" value="" maxlength="8" style="font-size: 14pt"
+                        required />
+                    <div class="centeredButtonWrapper">
+                        <div class="confirmActionButton orangeButton selectorButton">ll:{OK}</div>
+                    </div>
+                </div>
+                <div id="gameEndStatisticItem">
+                </div>
+                <div id="fullGameFeatureTeaser">
+                    <div>
+                        <h2 style="margin-top: 20px; font-weight: bold;">ll:{Some of the features in the full game}</h2>
+                        <ul>
+                            <li>ll:{Play the full 30 years of the game, all the way to modern day technology and
+                                beyond!}
+                            </li>
+                            <li>ll:{Move your company into bigger offices.}</li>
+                            <li>ll:{Hire and train staff.}</li>
+                            <li>ll:{Develop bigger/better games and unlock even more options.}</li>
+                            <li>ll:{Unlock secret labs and conduct industry-changing projects.}</li>
+                            <li><strong>ll:{And much more!}</strong></li>
+                        </ul>
+                    </div>
+                    <div class="centeredButtonWrapper" style="margin-top: 20px;">
+                        <div
+                            class="purchaseButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Unlock Full Game ...}
+                        </div>
+                    </div>
+                </div>
+                <div id="gameEndAnimationItem" class="gameEndAnimationItem">
+                    <div class="label"></div>
+                    <div class="value"></div>
+                </div>
+                <div id="gameEndDialog">
+                    <div class="windowBorder">
+                        <div class="wideWindow">
+                            <div class="dialogScreenContainer">
+                                <div class="screen1">
+                                    <div class="windowTitle">ll:{Final Score}</div>
+                                    <div class="companyName"></div>
+                                    <div class="counterContainer"></div>
+                                    <div class="animationItemsContainer"></div>
+                                    <div class="buttonContainer">
+                                        <div class="selectorButton orangeButton next">ll:{Close}</div>
+                                    </div>
+                                    <!--<div class="dialogNextButton selectorButton orangeButton">Next</div>-->
+                                </div>
+                                <!-- <div class="screen2">
+                                <div class="dialogBackButton fontCharacterButton icon-arrow-left"></div>
+                                <div class="windowTitle">Thank you for playing.</div>
+                                <div class="thankYouText">Thank you for playing Game Dev Tycoon. We hope you enjoyed our little simulation game. We are a small two-man startup and this is our very first game.</div>
+                            </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="supporterDialog">
+                    <div class="wideWindow windowBorder">
+                        <div class="supporterOptionsContainer">
+                            <div class="supporterOption">
+                                <div class="title">ll:{Send us feedback}</div>
+                                <div class="description">ll:{Want to provide some feedback or report some issues? Send
+                                    us an
+                                    email to support@greenheartgames.com - While we might not respond to every email we
+                                    do
+                                    read/consider everything that is sent to us.}</div>
+                                <div class="centeredButtonWrapper">
+                                    <div class="selectorButton greenButton actionButton sendFeedback">ll:{Send feedback
+                                        ...}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="supporterOption">
+                                <div class="title">ll:{Rate and Review}</div>
+                                <div class="description">ll:{If you like the game please consider rating it on the
+                                    Store. If
+                                    you
+                                    want to support an issue please do not do this via a Store rating as we will be
+                                    unable
+                                    to
+                                    reply.}</div>
+                                <div class="centeredButtonWrapper actionContainer">
+                                    <div class="selectorButton greenButton actionButton rateAndReview">ll:{Rate and
+                                        Review
+                                        ...}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="supporterOption packOptions">
+                                <div class="title">ll:{Vote with your wallet}</div>
+                                <div class="description">ll:{If you would've gladly paid a little more for the game or
+                                    you
+                                    just
+                                    want to help make sure that we can continue bringing you games in the future then
+                                    you
+                                    can
+                                    buy one of the supporter packs below. You will support a small independent start-up.
+                                    This
+                                    does not unlock any in-game perks and is entirely optional. You do get an
+                                    achievement
+                                    though
+                                    :)}</div>
+                                <div class="centeredButtonWrapper actionContainer">
+                                    <div class="selectorButton greenButton actionButton pack1">Pack 1</div>
+                                </div>
+                                <div class="centeredButtonWrapper actionContainer">
+                                    <div class="selectorButton greenButton actionButton pack2">Pack 2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="centeredButtonWrapper">
+                            <div
+                                class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton ">
+                                Close
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="gameEndTrialDialog">
+                    <div class="windowBorder">
+                        <h1 style="text-align: center;">ll:{Thank you for playing!}</h1>
+                        <div class="gameEndDialogContent tallWindow">
+                            <div class="endOfGameBlurb">
+                            </div>
+                            <h2 style="margin-top: 20px; font-weight: bold;">
+                                ll:{Current Game Statistics}
+                            </h2>
+                            <div class="gameEndStatisticsContainer">
+                            </div>
+                            <div class="featureTeaserContainer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="gameFinalChoiceTemplate" class="gameFinalChoiceItem">
+                    <div class="finalChoicetTitle"></div>
+                    <img src="./images/projectIcons/superb/grid.png" class="finalChoiceIcon" />
+                    <div class="finalChoiceDescription"></div>
+                </div>
+                <div id="gameTrialDialog">
+                    <div class="windowBorder tallWindow" style="padding: 20px;">
+                        <h1 style="text-align: center;">ll:{Thank you for playing!}</h1>
+                        <div class="gameTrialBlurb" style="margin-top: 20px;"></div>
+                        <div class="featureTeaserContainer"></div>
+                    </div>
+                </div>
+
+                <div id="findStaffDialog" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Find Staff}</div>
+                    <div class="windowCostLabel">Cost: 50K</div>
+                    <div class="centeredButtonWrapper" style="margin-top: 20px">
+                        <h2>ll:{Budget}</h2>
+                        <div class="hireStaffBudgetSlider"></div>
+
+                    </div>
+                    <div class="centeredButtonWrapper" style="margin-top: 20px">
+                        <h2>ll:{Pre-filter Applicants}</h2>
+                        <div class="findStaffFilters" style="margin: 5px 20px 0px 20px;">
+                        </div>
+                    </div>
+                    <div class="centeredButtonWrapper okButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Start looking}
+                        </div>
+                    </div>
+                </div>
+                <div id="staffTemplate" class="staffTemplate">
+                    <div class="staffName">ll:{First Last}</div>
+                    <div class="staffName sliderTabCaption rsTmb"></div>
+                    <div class="staffDTContainer">
+                        <div class="staffDContainer">
+                            <div class="staffDLabel">
+                                ll:{Design}
+                            </div>
+                            <div class="staffD">112</div>
+                        </div>
+                        <div class="staffDTBarContainer">
+                            <div class="staffDBar"></div>
+                            <div class="staffTBar"></div>
+                        </div>
+                        <div class="staffTContainer">
+                            <div class="staffTLabel">
+                                ll:{Technology}
+                            </div>
+                            <div class="staffT">112</div>
+                        </div>
+                    </div>
+                    <div class="staffLeftColumn">
+                        ll:{Experience}
+                    </div>
+                    <div class="staffRightColumn">
+                        <div class="staffQ"></div>
+                    </div>
+                    <div class="staffLeftColumn">
+                        ll:{Speed}
+                    </div>
+                    <div class="staffRightColumn">
+                        <div class="staffS trainingS"></div>
+                    </div>
+                    <div class="staffLeftColumn">
+                        ll:{Research}
+                    </div>
+                    <div class="staffRightColumn">
+                        <div class="staffR trainingR"></div>
+                    </div>
+                    <div class="staffLeftColumn">
+                        ll:{Salary}
+                    </div>
+                    <div class="staffRightColumn">
+                        <div class="staffSalary">90K</div>
+                    </div>
+                </div>
+                <div id="hireStaffDialog" class="wideWindow windowBorder">
+                    <div class="windowTitle">ll:{Hire Staff}</div>
+                    <div class="applicantSliderContainer">
+                    </div>
+                    <div class="centeredButtonWrapper okButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Hire}
+                        </div>
+                    </div>
+                </div>
+                <div id="staffListDialog" class="wideWindow windowBorder">
+                    <div class="windowTitle">ll:{Staff}</div>
+                    <div class="staffSliderContainer">
+                    </div>
+                    <div class="centeredButtonWrapper okButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{OK}
+                        </div>
+                    </div>
+                </div>
+                <div id="boostButtonTemplate" class="boostHost">
+                    <div class="boostButton">ϟ</div>
+                    <div class="boostMultiplier"></div>
+                </div>
+                <div id="trainingOverlayTemplate" class="trainingOverlayTemplate">
+                    <div class="trainingInnerBorder"></div>
+                    <div class="trainingContent">
+                        <div class="trainingD trainingColumnLeft">
+                            ll:{Design}
+                        </div>
+                        <div class="trainingD trainingColumnRight">
+                            120
+                        </div>
+                        <div class="trainingD trainingGain">
+                            +12
+                        </div>
+                        <div class="trainingT trainingColumnLeft">
+                            ll:{Technology}
+                        </div>
+                        <div class="trainingT trainingColumnRight">120</div>
+                        <div class="trainingT trainingGain">
+                            +12
+                        </div>
+                        <div class="trainingS trainingColumnLeft">
+                            ll:{Speed}
+                        </div>
+                        <div class="trainingS trainingColumnRight">120</div>
+                        <div class="trainingS trainingGain">
+                            +12
+                        </div>
+                        <div class="trainingR trainingColumnLeft">
+                            ll:{Research}
+                        </div>
+                        <div class="trainingR trainingColumnRight">120</div>
+                        <div class="trainingR trainingGain">
+                            +12
+                        </div>
+                    </div>
+                </div>
+                <div id="appUpdateNotificationV1">
+                    <div class="tallWindow windowBorder">
+                        <div class="windowTitle">Upgrade Notes</div>
+                        <div style="height: 450px; margin: 20px">
+                            <p>It seems that you have played the preview version of Game Dev Tycoon before.</p>
+                            <p>We are in the process of completing the final game but before we can submit the full game
+                                to
+                                the
+                                Windows Store we had to rename our preview release to <strong>Game Dev Tycoon
+                                    Lite</strong>
+                                to
+                                prevent a naming conflict.</p>
+                            <p>In this new lite version you can experience the first three years of the full game. The
+                                game
+                                has
+                                changed a lot since our first preview and while most changes happened in the later
+                                stages of
+                                the
+                                game some of them are also visible in the first few years. </p>
+                            <p>We hope you like the changes and are looking forward to bringing you the full game soon.
+                            </p>
+                            <p>For more information please visit our website</p>
+                            <a href="http://www.greenheartgames.com">www.greenheartgames.com</a>
+                        </div>
+                        <div class="centeredButtonWrapper okButtonWrapper">
+                            <div
+                                class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                                OK
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fullGameAvailable">
+                    <div class="tallWindow windowBorder">
+                        <div class="windowTitle">Full Game available!</div>
+                        <div style="height: 450px; text-align: center">
+                            <div style="font-family: 'Segoe UI Symbol'; font-size: 52pt; text-align: center;">☺</div>
+                            <h3 style="margin: 20px;">Good news, the full game of Game Dev Tycoon is now available!</h3>
+                            <img class="splashImage" src="./images/splashScreen.png"
+                                style="text-align: center; display: inline-block; opacity: 0.5;" />
+
+                        </div>
+                        <div class="centeredButtonWrapper okButtonWrapper">
+                            <div
+                                class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                                Find out more
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="findContractWorkWindow" class="tallWindow windowBorder">
+                    <div class="windowTitle">ll:{Contracts}</div>
+                    <div id="contractSliderContainer">
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{Accept Contract}
+                        </div>
+                    </div>
+                </div>
+                <div id="contractTemplate" class="contractItem">
+                    <div class="contract name"></div>
+                    <div class="sliderTabCaption rsTmb"></div>
+                    <div class="contract description"></div>
+                    <div class="contract designPoints pointsDisplay">99</div>
+                    <div class="contract technologyPoints pointsDisplay">99</div>
+                    <div class="contract duration"></div>
+                    <div class="contract payment"></div>
+                    <div class="contract penalty"></div>
+                </div>
+
+                <div id="gameContractTemplate" class="contractItem">
+                    <div class="contract name"></div>
+                    <div class="sliderTabCaption rsTmb"></div>
+                    <div class="contract description"></div>
+                    <div class="contract topicNotResearched"></div>
+                    <img class="contract platform" src="./images/platforms/any.png" />
+                    <div class="contract platformLabel">ll:{Any},lc:{shown underneath the Any platform icon in publisher
+                        contracts}</div>
+                    <div class="contract reqs"></div>
+                    <div class="contract gameSize"></div>
+                    <div class="contract targetAudience"></div>
+                    <div class="contract royaltyRate"></div>
+                    <div class="contract payment game"></div>
+                    <div class="contract penalty game"></div>
+                </div>
+
+                <div id="achievementTemplate">
+                    <div class="achievement innerContainer">
+                        <div class="achievement unlocked">ll:{Achievement Unlocked}</div>
+                        <div class="achievement dismiss">ll:{Achievement Unlocked}</div>
+                        <div class="achievement content">
+                            <div class="achievement icon tint">★</div>
+                            <div class="achievement banner backgroundTint"></div>
+                            <div class="achievement title"></div>
+                            <div class="achievement descr"></div>
+                            <div class="achievement overlay sliceGlow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="reviewWindow" class="wideWindow windowBorder">
+                    <div class="windowTitle smallerWindowTitle">Reviews for Really really long Game Name 15</div>
+                    <div id="reviewAnimationContainer"></div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton ">
+                            ll:{Close}
+                        </div>
+                    </div>
+                </div>
+                <div id="reviewItemTemplate" class="reviewItem">
+                    <div class="reviewContainer">
+                        <div class="scoreContainer">
+                            <div class="score">8</div>
+                            <img class="award" src="images/misc/icon_starlarge.png" draggable="false" />
+                            <div class="starsEmpty"><img class="starEmpty" src="images/misc/icon_starempty.png"
+                                    draggable="false" /><img class="starEmpty" src="images/misc/icon_starempty.png"
+                                    draggable="false" /><img class="starEmpty" src="images/misc/icon_starempty.png"
+                                    draggable="false" /><img class="starEmpty" src="images/misc/icon_starempty.png"
+                                    draggable="false" /><img class="starEmpty" src="images/misc/icon_starempty.png"
+                                    draggable="false" /></div>
+                            <div class="stars"><img class="star half" src="images/misc/icon_starhalf.png"
+                                    draggable="false" /><img class="star full" src="images/misc/icon_starfull.png"
+                                    draggable="false" /><img class="star half" src="images/misc/icon_starhalf.png"
+                                    draggable="false" /><img class="star full" src="images/misc/icon_starfull.png"
+                                    draggable="false" /><img class="star half" src="images/misc/icon_starhalf.png"
+                                    draggable="false" /><img class="star full" src="images/misc/icon_starfull.png"
+                                    draggable="false" /><img class="star half" src="images/misc/icon_starhalf.png"
+                                    draggable="false" /><img class="star full" src="images/misc/icon_starfull.png"
+                                    draggable="false" /><img class="star half" src="images/misc/icon_starhalf.png"
+                                    draggable="false" /><img class="star full" src="images/misc/icon_starfull.png"
+                                    draggable="false" /></div>
+                        </div>
+                        <div class="text">A true achievement.</div>
+                        <div class="reviewer">All Games</div>
+                    </div>
+                </div>
+                <div id="contextMenuItemTemplate" class="contextMenuItem contextMenuButton hideState">
+                    <div class="iconContainer">
+                        <img class="icon" />
+                    </div>
+                    <span class="label"></span>
+                </div>
+                <div id="mainMenu" class="tallWindow windowBorder">
+                    <div class="centeredButtonWrapper">
+                        <div
+                            class="continueButton selectorButton orangeButton windowLargeOkButton mainMenuButton disabled">
+                            ll:{Continue}
+                        </div>
+                        <div class="newButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                            ll:{New}
+                        </div>
+                        <div>
+                            <div
+                                class="saveButton selectorButton orangeButton windowLargeOkButton mainMenuButton mainMenuButtonSmall disabled">
+                                ll:{Save}
+                            </div>
+                            <div
+                                class="loadButton selectorButton orangeButton windowLargeOkButton mainMenuButton mainMenuButtonSmall">
+                                ll:{Load}
+                            </div>
+                        </div>
+                        <div class="settingsButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                            ll:{Settings}
+                        </div>
+                        <div>
+                            <div class="modsButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                                ll:{Mods}
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="highscoreButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                            ll:{High Score}
+                        </div>
+                        <div class="achievementsButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                            ll:{Achievements}
+                        </div>
+                        <hr />
+                        <div class="helpButton selectorButton orangeButton windowLargeOkButton mainMenuButton">
+                            ll:{Help}
+                        </div>
+                        <div class="exitButton selectorButton deleteButton windowLargeOkButton mainMenuButton">
+                            ll:{Exit}
+                        </div>
+                    </div>
+                    <div class="version"></div>
+                </div>
+                <div id="helpPanel" class="windowBorder wideWindow">
+                    <div class="windowTitle smallerWindowTitle">ll:{Help}</div>
+                    <h2>ll:{Development stages}</h2>
+                    <div id="devStages">
+                        <h3>ll:{Stage 1}</h3>
+                        <div>
+                            <h3>ll:{Engine}</h3>
+                            <p>ll:{Engine game cung cấp khối xây dựng cơ bản của một trò chơi, công nghệ nền tảng. Một
+                                engine tốt cũng cho phép những thứ như hỗ trợ nhiều người chơi, phát lại video và vật lý
+                                thực tế.}
+                            </p>
+                            <h3>ll:{Gameplay}</h3>
+                            <p>ll:{Lối chơi xác định cách người chơi tương tác với trò chơi và cách cơ chế trò chơi, các
+                                quy tắc khiến trò chơi hoạt động, vận hành.}</p>
+                            <h3>ll:{Story/Quests}</h3>
+                            <p>ll:{Kể chuyện và giao mục tiêu cho người chơi hoàn thành đã là những yếu tố cơ bản của
+                                trò chơi trong một thời gian dài.}</p>
+                        </div>
+                        <h3>ll:{Stage 2}</h3>
+                        <div>
+                            <h3>ll:{Dialogues}</h3>
+                            <p>ll:{Đối thoại cũng là một phần của việc kể chuyện nhưng cũng cung cấp sự tương tác giữa
+                                NPC (nhân vật không phải người chơi) và người chơi.}</p>
+                            <h3>ll:{Level Design}</h3>
+                            <p>ll:{Thiết kế màn chơi xác định cấu trúc mà người chơi trải qua trong một trò chơi. Điều
+                                này bao gồm những thứ đơn giản như vị trí của các đối tượng mà còn cả các tình tiết câu
+                                chuyện trong trò chơi.}</p>
+                            <h3>ll:{Artificial Intelligence}</h3>
+                            <p>ll:{A.I. là cách các thực thể do máy tính điều khiển (kẻ thù, bạn đồng hành hoặc chính
+                                thế giới) phản ứng với người chơi.}</p>
+                        </div>
+                        <h3>ll:{Stage 3}</h3>
+                        <div>
+                            <h3>ll:{World Design}</h3>
+                            <p>ll:{Một số trò chơi tạo ra cả một thế giới ảo. Thiết kế thế giới mang đến một câu chuyện
+                                nền cho trò chơi và làm cho thế giới trò chơi trở nên phức tạp và đáng tin cậy hơn.}</p>
+                            <h3>ll:{Graphics}</h3>
+                            <p>ll:{Phần dễ nhận thấy nhất của một trò chơi là đồ họa của nó nhưng điều đó không có nghĩa
+                                là nó luôn là phần quan trọng nhất.}</p>
+                            <h3>ll:{Sound}</h3>
+                            <p>ll:{Mặc dù âm thanh không được chú ý thường xuyên như đồ họa của trò chơi, thiết kế âm
+                                thanh đóng một vai trò quan trọng để làm cho trò chơi trở nên tuyệt vời.}</p>
+                        </div>
+                        <h3>ll:{Hints}</h3>
+                        <p>ll:{Hãy suy nghĩ về loại trò chơi bạn muốn tạo, sau đó quyết định những lĩnh vực nào thực sự
+                            quan trọng cho
+                            trò chơi
+                            này và tập trung vào những lĩnh vực đó. Đừng ngần ngại thử nghiệm và thay đổi giá trị của
+                            các
+                            thanh trượt
+                            nhiều
+                            lần.}</p>
+                    </div>
+                    <h2>ll:{Tutorial message history}</h2>
+                    <div id="helpMessagesContainer">
+                    </div>
+                </div>
+                <div id="settingsPanel" class="windowBorder tallWindow">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#settingsPanel1">ll:{Settings}</a></li>
+                            <li><a href="#settingsPanel2">ll:{Messages}</a></li>
+                        </ul>
+                        <div id="settingsPanel1" class="settingsChildPanel">
+                            <h2>ll:{Gameplay}</h2>
+                            <div>
+                                <h3>
+                                    ll:{Hints}
+                                </h3>
+                                <select class="hintsToggle">
+                                    <option value="on">ll:{On}</option>
+                                    <option value="off">ll:{Off}</option>
+                                </select>
+                                <br />
+                                <small>
+                                    ll:{Khi bật (mặc định) thì những hiểu biết thu được qua việc tạo báo cáo trò chơi sẽ
+                                    được
+                                    hiển thị trong giao diện người dùng. Tắt tùy chọn này để có thử thách lớn hơn. (Lưu
+                                    ý:
+                                    Tùy
+                                    chọn này không ảnh hưởng đến Hướng dẫn theo bất kỳ cách nào.)}
+                                </small>
+                                <br /><br />
+                                <div class="tutorialSettings">
+                                    <h3>ll:{Tutorials}</h3>
+                                    <select class="tutorialSelection">
+                                        <option value="onlyNew">ll:{Show only new tutorials (recommended)}</option>
+                                        <option value="always">ll:{Show all tutorials}</option>
+                                        <option value="never">ll:{Disable tutorials}</option>
+                                    </select>
+                                    <br />
+                                </div>
+                                <div class="animationSettings">
+                                    <h3>ll:{Animations}</h3>
+                                    <select class="animationSelection">
+                                        <option value="quality">ll:{Quality}</option>
+                                        <option value="performance">ll:{Performance}</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br />
+                            <h2>ll:{Audio}</h2>
+                            <div class="soundSettings">
+                                <h3>
+                                    ll:{Sound Effects}
+                                </h3>
+
+                                <select class="fxToggle">
+                                    <option value="on">ll:{On}</option>
+                                    <option value="off">ll:{Off}</option>
+                                </select>
+                            </div>
+                            <div class="musicSettings">
+                                <h3>
+                                    ll:{Music}
+                                </h3>
+
+                                <select class="musicToggle">
+                                    <option value="on">ll:{On}</option>
+                                    <option value="off">ll:{Off}</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h3>ll:{Volume}</h3>
+                                <div class="volumeSlider"></div>
+                            </div>
+                            <br />
+                            <div id="windowSettings">
+                                <div class="windowTitle smallerWindowTitle">ll:{Window}</div>
+                                <div>
+                                    <div class="centeredButtonWrapper">
+                                        <div id="toggleFullscreenButton"
+                                            class="selectorButton windowMainActionButton orangeButton windowLargeOkButton"
+                                            onclick="toggleFullscreen()">
+                                            ll:{Toggle Fullscreen}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="resetDataSettings">
+                                <div class="windowTitle smallerWindowTitle text-red-500">ll:{Xóa Dữ Liệu}</div>
+                                <div>
+                                    <div class="centeredButtonWrapper">
+                                        <div id="resetAllDataButton"
+                                            class="selectorButton windowMainActionButton deleteButton windowLargeOkButton font-bold">
+                                            ll:{Xóa Tất Cả Dữ Liệu}</div>
+                                    </div>
+                                    <br />
+                                    <small class="block text-center text-red-500 px-5 leading-relaxed">
+                                        ll:{Cảnh báo: Hành động này sẽ xóa toàn bộ dữ liệu trò chơi, bao gồm bản lưu và
+                                        cài đặt. Sau khi xóa, trò chơi sẽ tải lại trang. Hành động này không thể hoàn
+                                        tác!}
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="settingsPanel2" class="settingsChildPanel messagesConfig">
+                            <span>ll:{Tùy chỉnh những tin nhắn trong trò chơi nào sẽ tự động mở và những tin nhắn nào sẽ
+                                được
+                                thêm vào hàng đợi tin nhắn ở phía bên trái màn hình.}</span>
+                            <!--add draggable grid to customize which messages show up where-->
+                            <br />
+                            <div class="header">ll:{Auto-Popup}</div>
+                            <div class="header">ll:{Message Queue}</div>
+                            <div class="messagesGrid"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="upateNotificationWindow" class="windowBorder smallWindow">
+                    <div class="windowTitle">ll:{Update Available}</div>
+                    <div style="font-size: 14pt; text-align: center;">
+                        <div>ll:{A newer version of this game is available.}</div>
+                        <br />
+                        <br />
+                        <div style="font-weight: bold;">ll:{Please update to the latest version.}</div>
+                        <br />
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div
+                            class="updateButton selectorButton windowMainActionButton orangeButton windowLargeOkButton ">
+                            ll:{Get Update}
+                        </div>
+                    </div>
+                </div>
+                <div id="eulaWindow" class="windowBorder wideWindow">
+                    <div class="windowTitle smallerWindowTitle">ll:{End User License Agreement}</div>
+                    <div class="eulaContainer">
+                    </div>
+                    <div class="centeredButtonWrapper">
+                        <div class="okButton selectorButton windowMainActionButton orangeButton windowLargeOkButton">
+                            ll:{I Agree}
+                        </div>
+                    </div>
+                    <div class="selectorButton deleteButton">
+                        ll:{I Disagree}
+                    </div>
+                </div>
+                <div id="sidebarNotificationItemTemplate" class="sidebarNotificationItem">
+                    <img class="icon" />
+                    <div class="title"></div>
+                    <div class="previewText"></div>
+                </div>
+            </div>
+        </div>
+        <div id="greenworksLoading">
+            <div id="greenworksLoadingContainer">
+                <img class="splashImage" src="./images/splashscreen.png"
+                    style="margin-top: -155px; margin-left: -315px; position: absolute; top: 50%; left: 50%;" />
+                <div style="position:absolute; top: 70%; left:0px; display: block; width: 100%; text-align: center;">
+                    ll:{Please wait. Synchronizing Steam Workshop subscriptions.}
+                    <label style="font-family: 'Segoe UI', 'Open Sans'; font-size: 12pt; color: black;">
+                        <div id="greenworksLoadingProgress">
+                        </div>
+                    </label>
+                    <div class="centeredButtonWrapper">
+                        <div id="skipSyncButton"
+                            class="cancelActionButton selectorButton windowMainActionButton deleteButton windowLargeOkButton hidden"
+                            onclick="Greenworks.skipSync();">
+                            ll:{Skip}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+#greenworksLoading {
+    text-align: center; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 5px; 
+    position: fixed; 
+    z-index: 100000; 
+    color: black;
+    font-family: 'Open Sans Light';
+    background-color:orange;
+}
+
+#greenworksLoadingContainer {
+    margin: 0 auto; 
+    vertical-align: middle;
+    display:inline-block;
+    text-align: center; 
+}
+
+#greenworksLoadingProgress {
+    text-align: center; 
+    width:100%; 
+    height: 32px; 
+    overflow:hidden;
+}
+
+#modsPanelActions {
+    display: none;
+}
+
+#modsPanelUpload {
+    display: none;
+}
+
+#modsPanelUpdate {
+    display: none;
+}
+
+.modsPanelWorkshopButton {
+	width: 165px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	cursor: pointer;
+	font-size: 14pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	text-align: center;
+    float: left;
+    color: black;
+	border: solid 1px #b7b7b7;
+	background: white;
+	background-image: -ms-linear-gradient(top, #FAA51A 0%, #F47A20 100%);
+	background-image: -webkit-linear-gradient(top, #FAA51A 0%, #F47A20 100%);
+
+}
+
+.modsPanelWorkshopButton:active {
+	-ms-transition-duration: 0.2s;
+	-ms-transform: scale(0.95);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transform: scale(0.95);
+	background-image: -ms-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFE563 0%, #FF8000 100%);
+}
+
+.modsPanelWorkshopButton:hover {
+	background-image: -ms-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+	background-image: -webkit-linear-gradient(top, #FFC561 0%, #FF8000 100%);
+}
+
+.modsPanelWorkshopButtoDisabled {
+	width: 165px;
+	height: 50px;
+	margin: 10px;
+	outline: none;
+	font-size: 14pt;
+	font-family: Segoe UI, Open Sans, sans-serif;
+	line-height: 50px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	text-align: center;
+    float: left;
+    color: black;
+	border: solid 1px #b7b7b7;
+	background: lightgray;
+	background-image: none;
+	cursor: default;
+}
+
+
+.modsPanelWorkshopButtonSubmit {
+    float: right;
+}
+
+
+
+.listContainerWorkshop {
+	height: 92%; /*hack to counteract small windowTitle*/
+	width: 100%;
+	position: relative;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+    list-style:none;
+    padding:4px;
+    border: 1px solid #ABADB3;
+    top: -16px;
+
+}
+
+.listContainerWorkshop .workshopItem {
+    background-color: #FFF9EF;
+    cursor: pointer;
+}
+
+.listContainerWorkshop li:hover, li.active {
+    background-color: darkgray;
+}
+
+.listContainerWorkshop li.selected {
+    background-color: orange;
+}
+
+.modsPanelContainerWorkshop {
+	height: 450px;
+	overflow: hidden;
+	/*
+        overflow-x: hidden;
+	overflow-y: auto;
+        */
+}
+
+.browseForButtonWrapper {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  right: 30px;
+  height: 32px;
+  width: 32px;
+}
+
+
+.browseForButtonWrapper .browseForButton {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  color: gray;
+  font-family: FontAwesome;
+  font-size: 24pt;
+}
+
+.browseForButtonWrapper .browseForImageButton {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  color: gray;
+  font-family: FontAwesome;
+  font-size: 24pt;
+}
+
+.browseForButtonWrapper input {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  width: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.browseForImageFilePreview {
+    width: 256px;
+    height: 226px;
+    padding: 0px;
+    border: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.imagePreviewContainer {
+    width: 352px;
+    border: 0px solid #ABADB3;
+    margin: 0;
+    padding: 0;
+}
+
+.modsPanelStatus {
+    width: 355px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 0; 
+    font-size: 12pt;
+    float: left;
+    vertical-align: middle;
+}
+
+.line {
+    border: 0px solid #ABADB3;
+    border-bottom-width: 1px;
+    height: 1px;
+}

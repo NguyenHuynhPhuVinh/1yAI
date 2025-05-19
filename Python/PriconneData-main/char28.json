@@ -1,0 +1,180 @@
+{
+    "character": {
+      "id": 28,
+      "name": "Yukari",
+      "name_jp": "ユカリ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92904_main.jpg",
+      "catchphrase": "Này, cậu có đang rảnh không?\nNếu vậy thì đi uống gì đó với tôi nhé?\nTất nhiên là cậu sẽ uống nước trái cây thôi.",
+      "element": "光属性",
+      "quick_summary": {
+        "strengths": [
+          "Có kỹ năng hỗ trợ hồi phục HP và TP cho đồng đội",
+          "Có UB tạo lá chắn vô hiệu hóa phép thuật quý giá cho toàn đội",
+          "Hoạt động hiệu quả ở những nơi kẻ địch có nhiều đòn tấn công phép thuật"
+        ],
+        "weaknesses": [
+          "Union Burst chỉ thực sự tỏa sáng từ chương 8 của nhiệm vụ chính"
+        ],
+        "exclusive_equipment": [
+          "Tăng mạnh lượng hồi phục của kỹ năng",
+          "Thêm hiệu ứng tăng phòng thủ phép thuật cho kỹ năng"
+        ],
+        "six_star_upgrade": [
+          "UB được thêm hiệu ứng tăng phòng thủ phép thuật + hồi HP",
+          "Tăng hiệu quả của lá chắn"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "SS+",
+        "boss_battle": "S",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Elf",
+        "guild": "Tập đoàn Mercurius"
+      },
+      "max_stats": {
+        "hp": 16542,
+        "physical_attack": 3614,
+        "magic_attack": 20,
+        "physical_defense": 298,
+        "magic_defense": 251
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_8.png",
+          "name": "Bảy Tấm Màn",
+          "description": "Tạo lá chắn vô hiệu hóa phép thuật cho toàn đội.",
+          "effects": [
+            "Tạo lá chắn vô hiệu hóa phép thuật với lượng 2034 sát thương"
+          ],
+          "six_star_effect": [
+            "Tạo lá chắn vô hiệu hóa phép thuật (hiệu quả gấp 2 lần) cho toàn đội, tăng mạnh phòng thủ phép thuật, đồng thời hồi phục một lượng HP nhỏ."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+          "name": "Rượu Aquavit",
+          "description": "Hồi phục lượng HP trung bình cho 1 đồng đội có HP thấp nhất.",
+          "effects": [
+            "Hồi phục 3491 HP cho một đồng đội"
+          ],
+          "exclusive_equipment_effect": [
+            "Hồi phục lượng HP lớn cho 1 đồng đội có HP thấp nhất, đồng thời tăng phòng thủ phép thuật ở mức trung bình và tạo trạng thái hồi HP liên tục."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_6.png",
+          "name": "Ánh Trăng",
+          "description": "Hồi phục lượng TP trung bình cho 1 đồng đội có TP thấp nhất",
+          "effects": [
+            "Hồi phục 355 TP cho một đồng đội",
+            "Tăng nhẹ sức tấn công vật lý và phép thuật của mục tiêu"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_20.png",
+          "name": "Khúc Dạo Đầu Fizz",
+          "description": "Tăng phòng thủ phép thuật của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng phòng thủ phép thuật của bản thân ở mức trung bình khi bắt đầu trận đấu",
+            "Tăng nhẹ sức tấn công vật lý"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Tạo lá chắn vô hiệu hóa phép thuật bằng Union Burst",
+            "description": "Yukari có thể tạo lá chắn vô hiệu hóa phép thuật cho toàn đội thông qua Union Burst, đây là điểm cực kỳ xuất sắc. Cô ấy có thể hoạt động hiệu quả ngay cả trong các nhiệm vụ chính giai đoạn sau với những đòn tấn công phép thuật mạnh mẽ, nên đây là nhân vật 1 sao đáng để đầu tư.",
+            "sub_point": "Cô ấy hoạt động hiệu quả hơn đối với kẻ địch có đòn tấn công diện rộng hơn là tấn công đơn lẻ."
+          },
+          {
+            "main_point": "Hai kỹ năng hỗ trợ xuất sắc",
+            "description": "Yukari có thể hồi phục HP hoặc TP cho một đồng đội thông qua các kỹ năng của mình. Cả hai kỹ năng đều nhắm vào nhân vật có HP/TP thấp nhất, nên hiếm khi bị lãng phí, làm cho chúng trở thành những kỹ năng rất hiệu quả.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Union Burst không hiệu quả đối với tấn công vật lý",
+            "description": "Mặc dù Yukari có thể tạo lá chắn phép thuật cho toàn đội bằng Union Burst, nhưng nó không thể ngăn chặn các đòn tấn công vật lý. Khi sử dụng Yukari trong đấu trường, hãy kiểm tra kỹ các nhân vật vật lý của đối thủ.",
+            "sub_point": "Mặc dù cô ấy là một nhân vật hỗ trợ xuất sắc chỉ với các kỹ năng, nhưng tùy thuộc vào đội hình đối phương, các nhân vật hỗ trợ khác như Maho, Yuki, hoặc Saren có thể hiệu quả hơn trong một số tình huống. Tất nhiên, cũng có những tình huống mà Yukari phát huy tốt nhất, nên việc sử dụng linh hoạt là rất quan trọng."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Hoạt động hiệu quả trong nhiều nhiệm vụ và hầm ngục",
+            "description": "Là một nhân vật quý giá có thể vô hiệu hóa một lượng nhất định sát thương phép thuật, giúp đối phó với các đòn tấn công phép thuật. Không chỉ có thể hoạt động như một người hồi phục, mà còn có thể đóng vai trò hỗ trợ sát thương nếu nhắm vào việc hồi phục TP cho các nhân vật tấn công có UB mạnh, là một nhân vật hỗ trợ rất đa năng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động hiệu quả trong đấu trường tùy thuộc vào đội hình",
+            "description": "Yukari là nhân vật có thể hỗ trợ TP ngay từ đầu trận. Tùy thuộc vào đội hình, cô ấy có thể đẩy nhanh UB của các nhân vật tấn công đồng đội, giúp hoạt động hiệu quả trong đấu trường.",
+            "sub_point": "Khác với Saren có khả năng hồi TP, Yukari không thể liên tục cung cấp TP cho cùng một nhân vật, nên hãy lưu ý điều này. Tuy nhiên, với khả năng hồi HP và tạo lá chắn phép thuật xuất sắc, cô ấy thường là một lựa chọn phổ biến trong Đấu trường Công chúa."
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng hỗ trợ cao được tăng cường thêm!",
+            "description": "Nhờ trang bị độc quyền, kỹ năng hồi phục đơn lẻ xuất sắc được tăng cường thêm. Không chỉ đơn thuần tăng lượng hồi phục, mà còn thêm hiệu ứng tăng phòng thủ phép thuật và hồi HP liên tục, giúp tăng khả năng sống sót cho đồng đội được hỗ trợ, điều này cực kỳ xuất sắc.",
+            "sub_point": "Mặc dù có lo ngại rằng việc tăng phòng thủ phép thuật sẽ giảm sát thương nhận vào, làm chậm tốc độ tích lũy TP, nhưng về cơ bản, kỹ năng này vẫn được coi là một sự cải thiện. Hơn nữa, việc tăng chỉ số nhờ trang bị cũng rất mạnh mẽ!"
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Thêm hồi phục toàn đội vào UB",
+            "description": "Khi nâng lên 6 sao, Union Burst được thêm khả năng hồi phục toàn đội. So với các nhân vật hồi phục toàn đội khác, lượng hồi phục đơn thuần có thể kém hơn, nhưng Yukari cũng có thể hồi phục thông qua kỹ năng, nên cô ấy trở thành một người hồi phục mạnh mẽ hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng phòng thủ phép thuật giúp mạnh mẽ hơn đối với phép thuật",
+            "description": "Một điểm cải thiện của UB là không chỉ thêm hồi phục mà còn thêm hiệu ứng tăng phòng thủ phép thuật. Hiệu quả của buff khá cao và thời gian kéo dài khoảng 18 giây, đủ dài. Cô ấy trở nên mạnh mẽ hơn trong việc đối phó với phép thuật.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng hiệu quả của lá chắn",
+            "description": "Khả năng tạo lá chắn vô hiệu hóa phép thuật cũng được tăng cường, với hiệu quả tăng gấp khoảng 2 lần. Không chỉ đơn giản là giảm sát thương phép thuật nhận vào, mà còn dễ dàng ngăn chặn các đòn tấn công gây trạng thái bất lợi, điều này rất xuất sắc.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng chỉ số giúp cải thiện nhẹ các kỹ năng hiện có",
+            "description": "Nhờ việc phát triển tài năng, sức tấn công được tăng lên, giúp tăng lượng hồi phục. Với việc tăng thêm hiệu quả hồi phục từ bộ trang bị, hiệu quả của kỹ năng hồi phục đơn lẻ cũng được cải thiện.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Hoạt động mạnh mẽ hơn trong nhiệm vụ và đấu trường",
+            "description": "Với việc thêm tăng phòng thủ phép thuật cho toàn đội cùng với hồi phục, khả năng hỗ trợ được tăng cường hơn nữa. Hoạt động trong nhiệm vụ và đấu trường trở nên mạnh mẽ hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hoạt động hiệu quả trong Clan Battle",
+            "description": "Trước đây, cô ấy thường được sử dụng để đối phó với boss phép thuật hoặc làm vai trò hỗ trợ TP. Với việc thêm hồi phục toàn đội, giờ đây cô ấy có thể đối phó với các boss mạnh về mặt tấn công hiệu quả hơn trước.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ノゾミ",
+        "ユキ",
+        "キョウカ",
+        "リノ"
+      ]
+    }
+  }

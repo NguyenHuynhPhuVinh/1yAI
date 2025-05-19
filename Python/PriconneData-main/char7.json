@@ -1,0 +1,192 @@
+{
+    "character": {
+      "id": 7,
+      "name": "Miyako",
+      "name_jp": "ミヤコ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92882_main.jpg",
+      "catchphrase": "Ta sẽ biến ngươi thành bánh pudding",
+      "element": "闇属性",
+      "quick_summary": {
+        "strengths": [
+          "Nhân vật tiền tuyến với phòng thủ vật lý cao",
+          "Biến thành ma và trở nên bất tử trong một khoảng thời gian",
+          "Có thể tự hồi phục thông qua Skill/Union Burst",
+          "Biến kẻ địch thành pudding và ăn",
+          "Là tank hoạt động ở vị trí đầu tiên của đội hình",
+          "Chỉ số né đòn cao, đôi khi tránh được đòn tấn công"
+        ],
+        "weaknesses": [
+          "Tấn công vật lý thấp, khó gây sát thương",
+          "Không thể hành động khi đang sử dụng kỹ năng bất tử",
+          "Phòng thủ phép thuật không cao lắm",
+          "Không có kỹ năng hỗ trợ đồng đội"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng tăng phòng thủ vật lý + né đòn cho Skill",
+          "Có thể tăng HP/phòng thủ thông qua chỉ số trang bị"
+        ],
+        "six_star_upgrade": [
+          "Chỉ số né đòn tăng mạnh",
+          "Sức mạnh UB tăng & thêm hiệu ứng tăng né đòn cho bản thân",
+          "Được tăng cường vai trò chống chịu trong Arena",
+          "Không có hiệu ứng hỗ trợ đồng đội"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S+",
+        "arena": "SS+",
+        "boss_battle": "B",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Ma tộc",
+        "guild": "Quân đội Vương quốc Ma giả (Diabolos)"
+      },
+      "max_stats": {
+        "hp": 20496,
+        "physical_attack": 3309,
+        "magic_attack": 20,
+        "physical_defense": 412,
+        "magic_defense": 296
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Biến Thành Pudding",
+          "description": "Gây sát thương vật lý lớn cho 1 kẻ địch ở phía trước, đồng thời hồi phục HP ở mức trung bình cho bản thân.",
+          "effects": [
+            "Gây 13372 sát thương vật lý cho kẻ địch đơn lẻ",
+            "Hồi phục 3658 HP cho bản thân"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, đồng thời hồi phục HP ở mức trung bình và tăng né đòn ở mức trung bình cho bản thân."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_3.png",
+          "name": "Oán Hận Của Ma",
+          "description": "【Biến hình】Biến thành ma và trở nên bất tử trong một khoảng thời gian.",
+          "effects": [
+            "Trở nên bất tử trong một khoảng thời gian"
+          ],
+          "exclusive_equipment_effect": [
+            "【Biến hình】Biến thành ma và trở nên bất tử trong một khoảng thời gian. Đồng thời, tăng né đòn ở mức trung bình và tăng phòng thủ vật lý ở mức lớn cho bản thân."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+          "name": "Giờ Ăn Vặt",
+          "description": "Hồi phục HP ở mức trung bình cho bản thân.",
+          "effects": [
+            "Hồi phục 3149 HP cho bản thân"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_19.png",
+          "name": "Ma Trong Suốt",
+          "description": "Khi bắt đầu trận đấu, tăng phòng thủ vật lý ở mức trung bình cho bản thân",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng phòng thủ vật lý ở mức trung bình cho bản thân"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Kỹ năng bất tử mạnh mẽ không nhận bất kỳ sát thương nào",
+            "description": "Miyako có thể trở nên bất tử trong một khoảng thời gian thông qua kỹ năng. Trong thời gian kích hoạt kỹ năng, cô không nhận bất kỳ sát thương nào từ đòn tấn công thường hay sát thương độc, trở thành nhân vật cực kỳ mạnh mẽ theo đúng nghĩa đen.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng chống chịu hàng đầu ở tiền tuyến",
+            "description": "Miyako là nhân vật tiền tuyến nên dễ bị tấn công, nhưng cô có thể tự hồi phục thông qua cả Union Burst và Skill. Kết hợp với kỹ năng bất tử, cô sở hữu khả năng chống chịu cực kỳ mạnh mẽ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Yếu trước tấn công phép thuật",
+            "description": "Mặc dù Miyako là tank xuất sắc với phòng thủ vật lý cao và kỹ năng bất tử, nhưng phòng thủ phép thuật của cô không cao lắm. Trong Arena, cô có thể bị hạ gục nhanh chóng khi đối mặt với nhân vật phép thuật, đây là điểm cần lưu ý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Không thể hỗ trợ đồng đội",
+            "description": "Miyako chỉ có các kỹ năng tăng khả năng chống chịu cho bản thân, không thể hỗ trợ đồng đội như Nozomi hay Jun. Đối với các đòn tấn công diện rộng hoặc tầm xa của kẻ địch, một mình Miyako khó có thể bảo vệ toàn đội.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Tank vật lý hàng đầu trong số nhân vật 2 sao",
+            "description": "Là tank chiến đấu bằng kỹ năng bất tử và phòng thủ vật lý cao. Với khả năng tự hồi phục, cô có khả năng chống chịu cá nhân cực cao và có thể hoạt động hiệu quả trong nhiều tình huống khác nhau.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Xuất sắc như một đối sách cho tấn công vật lý",
+            "description": "Miyako là tank chuyên đối phó với tấn công vật lý. Ngay cả khi đối mặt với đòn tấn công vật lý mạnh của kẻ địch, việc bố trí Miyako có thể giúp đội hình chống chịu được, khiến cô trở thành nhân vật đáng để ưu tiên phát triển.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng đối phó tấn công vật lý được tăng cường",
+            "description": "Trang bị độc quyền thêm hiệu ứng tăng phòng thủ vật lý và né đòn cho Skill. Điều này giúp tăng cường khả năng đối phó với tấn công vật lý, tăng độ ổn định khi đối mặt với boss hoặc đội hình có tấn công vật lý mạnh.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Điểm yếu với phép thuật vẫn không thay đổi",
+            "description": "Hiệu ứng tăng phòng thủ vật lý + né đòn từ Skill đều không phát huy tác dụng đối với phép thuật. Khả năng chống chịu phép thuật chỉ có thể tăng thông qua việc nâng chỉ số từ trang bị, nên cần lưu ý điểm này.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Khả năng né đòn được tăng cường đáng kể",
+            "description": "Khi lên 6 sao, chỉ số né đòn tăng mạnh, đồng thời UB được bổ sung hiệu ứng tăng né đòn cho bản thân. Khả năng né đòn vốn đã mạnh nay càng được tăng cường, giúp cô trở thành tank vật lý xuất sắc hơn trong Arena.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Chỉ số phòng thủ được tăng cường",
+            "description": "HP và phòng thủ vật lý/phép thuật cùng các chỉ số phòng thủ khác đều tăng, giúp cô chống chịu tốt hơn ở vị trí đầu tiên. Tuy nhiên, cần lưu ý rằng cô không có khả năng bảo vệ đồng đội như tạo lá chắn, khiêu khích hay hồi phục.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Được tăng cường vai trò tank đối phó tấn công vật lý",
+            "description": "Khi lên 6 sao, chỉ số né đòn tăng và UB được bổ sung hiệu ứng tăng né đòn. Kết hợp với việc tăng chỉ số phòng thủ, khả năng chống chịu của cô trong đội hình phòng thủ Arena và làm tank trong các trận boss đối phó tấn công vật lý được cải thiện đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khó phát huy hiệu quả trong các tình huống né đòn không có tác dụng",
+            "description": "Khả năng chống chịu đối với tấn công phép thuật hoặc sát thương liên tục từ trạng thái bất thường mà không thể né được không cao. Vì vậy, cô thường bị hạ gục bởi các nhân vật tấn công phép thuật mạnh như Misaki 6 sao hoặc Kyouka 6 sao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Mặc dù được tăng cường nhưng điểm yếu vẫn giữ nguyên như trước 6 sao",
+            "description": "Mặc dù chỉ số phòng thủ và khả năng né đòn được cải thiện, nhưng những điểm yếu như không có khả năng bảo vệ đồng đội và yếu trước tấn công phép thuật vẫn không thay đổi. Cô chủ yếu được sử dụng ở vị trí đầu tiên trong các tình huống cần khả năng chống chịu vật lý.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "クウカ",
+        "ジュン",
+        "モニカ",
+        "マホ"
+      ]
+    }
+  }

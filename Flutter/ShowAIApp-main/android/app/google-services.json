@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1031619693187",
+    "project_id": "showai-tomi",
+    "storage_bucket": "showai-tomi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031619693187:android:3b63230f52a9082f1ba9b6",
+        "android_client_info": {
+          "package_name": "com.tomi.show_ai_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNka5y1ZrPDhHlHmr1GgUNbf3V5BhdnqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031619693187-7afvldduhp8fk2m1avrkm4lchflo1t4c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.showai"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031619693187:android:2149e1a0f0f806fb1ba9b6",
+        "android_client_info": {
+          "package_name": "com.tomisakae.showai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031619693187-jdcet2uflgg9if1fgp0jj6v6ktji65g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomisakae.showai",
+            "certificate_hash": "d9b86b5d8af40a480457ddb1b1bc30d8ac313f32"
+          }
+        },
+        {
+          "client_id": "1031619693187-jp8okdq3k6ikaf31qvtllscpb61qdob5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomisakae.showai",
+            "certificate_hash": "7efdd226db5854f53aa8e95352074a0580c3dfaa"
+          }
+        },
+        {
+          "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNka5y1ZrPDhHlHmr1GgUNbf3V5BhdnqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031619693187-gc4ns63hugogccuunr7aopgneh784ecf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031619693187-7afvldduhp8fk2m1avrkm4lchflo1t4c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.showai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

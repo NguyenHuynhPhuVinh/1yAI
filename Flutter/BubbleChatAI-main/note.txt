@@ -1,0 +1,6 @@
+& "C:\Program Files\Java\jdk-23\bin\keytool.exe" -genkey -v -keystore "$env:USERPROFILE\key.jks" -keyalg RSA -keysize 2048 -validity 10000 -alias key
+
+flutter pub get
+flutter pub run flutter_launcher_icons
+
+flutter build apk --release

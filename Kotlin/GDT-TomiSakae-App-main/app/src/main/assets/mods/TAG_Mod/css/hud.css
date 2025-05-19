@@ -1,0 +1,503 @@
+#tagBottomBar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+    color: #8a939b
+}
+
+.tagStatusBarItem {
+    padding: 10px 16px;
+    background: linear-gradient(#f2f2f2, #e5eef3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    margin: 0 5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center
+}
+
+.tagStatusBarItem div {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.tagStatusBarItem img,
+.creditsIcon {
+    width: 28px;
+    margin-right: 8px
+}
+
+.creditsIcon {
+    background: #e99c13;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 195%
+}
+
+.tagFansAll,
+.tagIncomeAll,
+.tagLossAll {
+    margin-left: 10px
+}
+
+#tagIncome {
+    color: #49b478
+}
+
+#tagLoss {
+    color: #e84c3d
+}
+
+#tagIncome:after,
+#tagLoss:after {
+    content: ' Mo.';
+    font-weight: normal;
+    color: #8a939b;
+    margin-left: 5px
+}
+
+.tagStatusBarItem .tm-weekly-ticks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    height: 16px;
+    justify-content: flex-start
+}
+
+.tagStatusBarItem .tm-weekly-ticks-tick {
+    width: 3px;
+    height: 3px;
+    background: #8a939b;
+    margin-bottom: 1px
+}
+
+.tagInfoStatsButt,
+.tagStaffButt {
+    cursor: pointer;
+    padding-left: 50px !important
+}
+
+.month {
+    color: #899297;
+    display: inline-block
+}
+
+.leftBar {
+    left: 10px;
+    width: 223px;
+    height: auto
+}
+
+.rightBar {
+    right: 10px;
+    width: 223px
+}
+
+.gameSalesCard {
+    border: 0;
+    border-radius: 5px;
+    background: 0;
+    color: #4c5660;
+    width: 100%;
+    margin-top: 0
+}
+
+.tm-sales-card-rating {
+    padding: 8px 8px 12px 8px;
+    cursor: pointer;
+    position: relative;
+    border-image: url('../Img/border.png') 2;
+    border-width: 0;
+    border-bottom-width: 2px
+}
+
+.tm-sales-card-rating::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.gameSalesCard.tm-closed .tm-sales-card-item,
+.gameSalesCard.tm-closed .gameSalesLabelContainer,
+.gameSalesCard.tm-closed .gameSalesCardCanvas,
+.gameSalesCard.tm-closed .tm-sales-card-actions {
+    display: none !important
+}
+
+.gameSalesCard.tm-closed .tm-sales-card-rating {
+    border-bottom: none !important
+}
+
+.gameSalesCard .tagReviewAverageScore .tagReviewCircleOuter {
+    width: 50px;
+    height: 50px
+}
+
+.gameSalesCard .gameNameLabel {
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: .8rem;
+    cursor: pointer;
+    width: 150px;
+    font-weight: 600
+}
+
+.gameSalesCard .tm-sales-card-subtitle {
+    margin: 0;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: .6rem;
+    color: #8a9398;
+    cursor: pointer;
+    width: 150px
+}
+
+.gameSalesCard .gameSalesCardCanvas {
+    padding: 5px 8px 0 8px
+}
+
+.gameSalesLabelContainer {
+    display: flex;
+    margin: 8px;
+    word-spacing: inherit
+}
+
+.gameSalesUnitsLabel,
+.gameSalesRankLabel {
+    width: auto;
+    font-size: .8rem;
+    word-spacing: inherit;
+    text-align: left
+}
+
+.gameSalesUnitsLabel {
+    flex: 1
+}
+
+.tm-sales-card-item {
+    display: flex;
+    font-size: .8rem;
+    padding: 4px 8px 0 8px
+}
+
+.tm-sales-card-item:last-of-type {
+    padding-bottom: 8px
+}
+
+.tm-sales-card-item-profit {
+    position: relative;
+    padding-top: 8px;
+    border-image: url('../Img/border.png') 2;
+    border-width: 0;
+    border-top-width: 2px
+}
+
+.tm-sales-card-item-profit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.tm-sales-card-item>* {
+    flex: 1
+}
+
+.tm-sales-card-item-value {
+    font-weight: bold
+}
+
+.tm-sales-card-actions {
+    padding: 8px
+}
+
+.tm-sales-card-actions .btn-tm-action {
+    display: block;
+    width: 100%
+}
+
+#releaseButton {
+    top: 150px;
+    margin-left: -15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30)
+}
+
+#releaseButton.windowStyleHideState {
+    display: none
+}
+
+#trendContainer {
+    border: 0;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, #f2f2f2 0, #e5eef3 100%);
+    background: linear-gradient(to bottom, #f2f2f2 0, #e5eef3 100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: #4c5660;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: .9rem
+}
+
+#tagFans,
+#tagMoney {
+    position: relative
+}
+
+#tagMoney {
+    color: #e99c13
+}
+
+.tm-hud-delta {
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    font-size: 1rem;
+    font-weight: bold;
+    pointer-events: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transition: all 3s linear;
+    opacity: 1
+}
+
+.tm-hud-delta.tm-hud-delta-end-pos {
+    -webkit-transform: translate3d(0, -60px, 0);
+    opacity: 0
+}
+
+.projectStatusCard,
+#gameSalesContainer {
+    border: 0;
+    background: linear-gradient(to bottom, #f2f2f2 0, #e5eef3 100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    color: #4c5660;
+    border-radius: 5px;
+    margin-top: 10px
+}
+
+.projectCardRight {
+    right: 10px;
+    bottom: 60px;
+    width: 223px
+}
+
+.projectCardLeft {
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.projectStatusCard>* {
+    border-image: url('../Img/border.png') 2;
+    border-width: 0;
+    border-bottom-width: 2px
+}
+
+.projectStatusCard>*::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.projectStatusCard>*:last-child,
+.projectStatusCard>*:last-child::before {
+    border-width: 0
+}
+
+.projectCardLabel {
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-size: 25px 25px;
+    background-position: 8px 50%;
+    padding: 10px !important;
+    padding-left: 38px !important;
+    display: block !important;
+    height: auto !important;
+    position: relative
+}
+
+.projectCardLabel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: url('../Img/icon-svgs/grey/research_grey_no_circle.svg') no-repeat 8px 6px;
+    background-size: 25px
+}
+
+.hwCard .projectCardLabel::before {
+    background-image: url('../Img/icon-svgs/grey/console-gray.svg')
+}
+
+.projectStatusContainer {
+    height: 76px
+}
+
+.projectProgressContainer {
+    height: 30px;
+    border-radius: 5px;
+    background: #8a9398;
+    left: 80px;
+    width: 130px;
+    overflow: hidden;
+    top: auto;
+    bottom: 8px
+}
+
+.projectStatusCard .projectTitle {
+    left: 80px;
+    font-size: 1rem;
+    width: 130px;
+    top: 11px;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.projectStatusCard .projectTitle * {
+    font-size: 1rem !important
+}
+
+.projectIcon {
+    width: 60px !important;
+    padding: 8px
+}
+
+.projectBudgetSliderContainer {
+    width: auto;
+    padding: 20px
+}
+
+.projectProgressContainer .projectProgress {
+    position: static;
+    background: linear-gradient(to bottom, #f1c40f 0, #f39c12 100%)
+}
+
+.hwCard .projectProgressContainer .projectProgress {
+    background: linear-gradient(to bottom, #6dcff6 0, #00aeef 100%)
+}
+
+.projectPointsRemaining {
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    top: 34px;
+    left: 65px
+}
+
+.projectBudgetLabel {
+    display: none !important
+}
+
+.projectBudgetSlider {
+    display: block !important;
+    height: 30px !important;
+    margin: 0 !important;
+    border: 0
+}
+
+.projectBudgetValue {
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+    z-index: 5;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    top: auto;
+    bottom: 27px;
+    pointer-events: none
+}
+
+.tm-sales-card-console {
+    background: 0;
+    box-shadow: none;
+    margin-top: 0
+}
+
+.tm-sales-card-console .tm-sales-card-rating {
+    padding: 8px 155px 8px 8px
+}
+
+.tm-sales-card-console .tm-sales-card-rating img {
+    width: 100%;
+    display: block
+}
+
+.tm-sales-card-console .gameNameLabel,
+.tm-sales-card-console .tm-sales-card-subtitle {
+    width: 140px
+}
+
+.hwCard .ui-slider.ui-slider-horizontal .ui-slider-range {
+    background: linear-gradient(to bottom, #6dcff6 0, #00aeef 100%)
+}
+
+.hwCard .tm-sales-card-actions {
+    padding: 4px 8px
+}
+
+.consoleMainContainer {
+    top: auto;
+    left: auto
+}
+
+.consoleMainCard {
+    border: 0;
+    background: 0;
+    width: auto
+}
+
+.consoleMainCard .title,
+.consoleMainCard .happySmiley,
+.consoleMainCard .sadSmiley {
+    display: none !important
+}
+
+.consoleMainCard .points {
+    left: 8px;
+    top: 5px;
+    font-size: .8rem;
+    font-weight: normal;
+    margin: 0
+}
+
+.consoleMainCard .points .tm-maintenance-card-points-val {
+    font-weight: bold
+}
+
+.tm-maintenance-card-status {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    font-size: .8rem;
+    font-weight: normal
+}
+
+.tm-maintenance-card-status-val {
+    font-weight: bold
+}
+
+.consoleMainCardGroupCanvas {
+    margin-bottom: 0;
+    left: 0;
+    margin-top: 25px
+}

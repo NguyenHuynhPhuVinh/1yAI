@@ -1,0 +1,183 @@
+{
+    "character": {
+      "id": 30,
+      "name": "Rino",
+      "name_jp": "リノ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92906_main.jpg",
+      "catchphrase": "Gần đây, tôi thực sự muốn ăn bánh ngọt!\nHãy cùng nhau đi ăn ngay nào!",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Có thể tăng sức tấn công và tỷ lệ chí mạng bằng kỹ năng",
+          "Các kỹ năng tăng sức mạnh có thể chồng lên nhau",
+          "Union Burst tấn công diện rộng + đa đòn",
+          "Có thể tấn công đơn lẻ bằng kỹ năng",
+          "Kết hợp Union Burst + chí mạng để quét sạch kẻ địch"
+        ],
+        "weaknesses": [
+          "Phòng thủ rất thấp, dễ bị hạ gục khi đơn độc",
+          "Đòn chí mạng không phải lúc nào cũng xảy ra"
+        ],
+        "exclusive_equipment": [
+          "Tăng hiệu quả của các hiệu ứng tăng sức mạnh",
+          "Thêm hiệu ứng tăng tốc độ hành động"
+        ],
+        "six_star_upgrade": [
+          "Hệ số chí mạng của UB tăng lên 3.5",
+          "Sức mạnh cơ bản cao nhờ chỉ số cao",
+          "Có thể tăng đáng kể độ chính xác thông qua điểm thân thiết"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S",
+        "arena": "SS+",
+        "boss_battle": "S+",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "後衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Nhân loại",
+        "guild": "Labyrinth"
+      },
+      "max_stats": {
+        "hp": 13480,
+        "physical_attack": 6100,
+        "magic_attack": 0,
+        "physical_defense": 160,
+        "magic_defense": 199
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Mưa Tên",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước.",
+          "effects": [
+            "Gây 8927 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước. Khi kỹ năng này gây chí mạng, sát thương sẽ tăng 3.5 lần thay vì 2 lần."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Tập Trung",
+          "description": "Tăng sức tấn công vật lý và tỷ lệ chí mạng vật lý của bản thân ở mức trung bình.",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân lên 1695",
+            "Tăng tỷ lệ chí mạng vật lý của bản thân lên 45"
+          ],
+          "exclusive_equipment_effect": [
+            "Tăng mạnh sức tấn công vật lý, tăng trung bình tỷ lệ chí mạng vật lý, và tăng mạnh tốc độ hành động của bản thân\n※Hiệu ứng tăng sức tấn công/tốc độ kéo dài khoảng 12 giây\n※Hiệu ứng tăng tỷ lệ chí mạng có hiệu lực vĩnh viễn"
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Mũi Tên Xuyên Thủng",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch ở phía trước.",
+          "effects": [
+            "Gây 8800 sát thương vật lý cho một kẻ địch"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Xuyên Thấu",
+          "description": "Khi bắt đầu trận đấu, tăng sức tấn công vật lý của bản thân ở mức trung bình.",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân ở mức trung bình."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ vật lý hàng sau",
+            "description": "Rino là nhân vật tấn công với sức tấn công vật lý cao và sở hữu các kỹ năng gây sát thương. Là nhân vật hàng sau nên ít bị tấn công hơn hàng trước, giúp cô ấy gây sát thương ổn định trong các nhiệm vụ và đấu trường.",
+            "sub_point": "Về cơ bản là một nhân vật mạnh có thể gây nhiều sát thương. Tuy nhiên, cần lưu ý rằng cô ấy gần như không thể gây sát thương cho kẻ địch có phòng thủ vật lý cực cao."
+          },
+          {
+            "main_point": "Có thể quét sạch kẻ địch với đòn chí mạng và tấn công diện rộng",
+            "description": "Rino có thể tăng sức tấn công vật lý và tỷ lệ chí mạng của bản thân thông qua kỹ năng. Đối với kẻ địch có phòng thủ vật lý thấp, cô ấy có thể gây sát thương cực kỳ cao khi kết hợp với đòn chí mạng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đấu sĩ tấn công diện rộng mạnh mẽ trong đấu trường",
+            "description": "Nhân vật có Union Burst tấn công diện rộng cực kỳ hiệu quả. Khi kết hợp với Mitsuki - người có khả năng giảm chỉ số diện rộng, có thể quét sạch hàng giữa/sau của đối phương.",
+            "sub_point": "Union Burst của Rino có thể bao phủ phạm vi rộng nhưng không phải là tấn công toàn bộ. Cần lưu ý rằng tùy thuộc vào đội hình của đối phương, Union Burst có thể không phát huy hiệu quả tối đa."
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Kích hoạt Union Burst khá chậm",
+            "description": "Mặc dù Rino có Union Burst mạnh mẽ, nhưng cô ấy không có kỹ năng hồi TP nên việc kích hoạt không quá nhanh. Cần lưu ý rằng cô ấy có thể bị hạ gục trước khi có cơ hội sử dụng khả năng tấn công mạnh mẽ của mình.",
+            "sub_point": "Có thể xây dựng đội hình với Yukari hoặc Yuki để cung cấp TP, giúp Rino sử dụng UB ngay từ đầu trận."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Đấu sĩ tấn công diện rộng mạnh mẽ trong đấu trường",
+            "description": "Nhân vật có Union Burst tấn công diện rộng cực kỳ hiệu quả. Khi kết hợp với Mitsuki - người có khả năng giảm chỉ số diện rộng, có thể quét sạch hàng giữa/sau của đối phương.",
+            "sub_point": "Union Burst của Rino có thể bao phủ phạm vi rộng nhưng không phải là tấn công toàn bộ. Cần lưu ý rằng tùy thuộc vào đội hình của đối phương, Union Burst có thể không phát huy hiệu quả tối đa."
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Dễ dàng sử dụng đơn lẻ hơn",
+            "description": "Với trang bị đặc biệt, cô ấy được bổ sung hiệu ứng tăng tốc độ hành động, giúp kích hoạt UB nhanh hơn mà không cần hỗ trợ. Sát thương gây ra cho kẻ địch phía trước cũng tăng lên, giúp cô ấy có thể hoạt động hiệu quả khi được sử dụng đơn lẻ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Vai trò tấn công diện rộng trong đấu trường",
+            "description": "Mặc dù có thể tăng đáng kể sức mạnh của bản thân, nhưng sát thương gây ra cho các tanker vẫn còn hạn chế. Về cơ bản, cô ấy vẫn phù hợp với vai trò nhân vật tấn công diện rộng nhắm vào các đấu sĩ và hỗ trợ của đối phương.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng đáng kể tỷ lệ chí mạng với trang bị đặc biệt",
+            "description": "Khi nâng cấp tối đa trang bị đặc biệt 2, tỷ lệ chí mạng tăng 540, giúp ổn định đòn chí mạng ngay cả khi đối đầu với đối thủ cấp độ cao. Phòng thủ vật lý cũng được tăng cường, giúp cô ấy mạnh hơn một chút khi đối đầu với các đấu sĩ vật lý.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Ứng viên cho vai trò tấn công đa mục tiêu hệ Hỏa",
+            "description": "Hệ Hỏa có khá nhiều nhân vật hỗ trợ, nên có thể cân nhắc sử dụng cô ấy làm đấu sĩ chính cho các trận đa mục tiêu. Vì Rino nằm ngoài phạm vi buff của Jun 6 sao, nên hãy sử dụng Labyrista hoặc Eris làm người tăng tốc độ hành động. Trong cùng hệ Hỏa, Muimi 6 sao là đấu sĩ tấn công diện rộng mạnh mẽ, nhưng hãy cân nhắc sử dụng Rino khi xây dựng đội hình tận dụng vị trí hàng sau của cô ấy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Sức mạnh UB tăng đáng kể",
+            "description": "Sát thương cơ bản của UB tăng mạnh. Ngoài ra, UB của Rino 6 sao khi gây chí mạng sẽ gây sát thương gấp 3.5 lần thay vì 2 lần như thông thường, khiến sát thương chí mạng đặc biệt mạnh mẽ. Hiệu suất của cô ấy như một đấu sĩ tấn công diện rộng trong đấu trường được cải thiện đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Chỉ số độ chính xác tăng",
+            "description": "Các tập 9-12 của câu chuyện thân thiết được mở khóa, cho phép nhận thêm điểm thân thiết. Điểm thân thiết sẽ tăng sức tấn công vật lý và độ chính xác, giúp dễ dàng tấn công trúng đối thủ có độ né cao.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò đấu sĩ tấn công diện rộng trong đấu trường",
+            "description": "Ở cấp 6 sao, khả năng tấn công được nâng cao, giúp cô ấy phù hợp hơn với vai trò đấu sĩ tấn công diện rộng trong đấu trường. Tuy nhiên, so với Tsumugi 6 sao hay Ninon 6 sao, khả năng đột phá của cô ấy vẫn thấp hơn, phù hợp với các đội hình tận dụng vị trí hàng sau của cô ấy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ユニ",
+        "ツムギ",
+        "カリン",
+        "シズル(バレンタイン)"
+      ]
+    }
+  }

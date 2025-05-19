@@ -1,0 +1,138 @@
+{
+  "character": {
+    "id": 292,
+    "name": "Fio",
+    "name_jp": "フィオ",
+    "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/484456_main.jpg",
+    "catchphrase": "Tôi là tiên nữ chỉ dành riêng cho bạn thôi đấy♪",
+    "element": "風属性",
+    "quick_summary": {
+      "strengths": [
+        "Buff tốc độ hành động & hỗ trợ TP cho nhân vật thuộc hệ Phong",
+        "Khả năng hỗ trợ cả tấn công lẫn phòng thủ"
+      ],
+      "weaknesses": [
+        "Cần xây dựng đội hình tập trung vào hệ Phong"
+      ],
+      "exclusive_equipment": [
+        "Chưa triển khai"
+      ],
+      "six_star_upgrade": [
+        "Chưa triển khai"
+      ]
+    },
+    "content_ratings_text": {
+      "quest": "S",
+     "high_difficulty_quest": "SS+(tạm thời)",
+      "arena": "S(tạm thời)",
+      "boss_battle": "SS+(tạm thời)",
+      "elemental_evaluation": "SS+(tạm thời)"
+    },
+    "basic_information": {
+      "type": "後衛 / 魔法攻撃",
+      "initial_rarity": "★★★☆☆",
+      "race": "???",
+      "guild": "？？？"
+    },
+    "max_stats": {
+      "hp": 69139,
+      "physical_attack": 0,
+      "magic_attack": 33253,
+      "physical_defense": 1984,
+      "magic_defense": 2182
+    },
+    "skills": {
+      "union_burst": {
+        "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+        "name": "Hạnh Phúc Hoa",
+        "description": "Tăng mạnh phòng thủ vật lý và phòng thủ phép cho toàn đội, áp dụng trạng thái hồi HP liên tục, và triển khai lá chắn vô hiệu hóa sát thương vật lý/phép.",
+        "effects": [
+          "Tăng phòng thủ vật lý của toàn đội lên 402",
+          "Tăng phòng thủ phép của toàn đội lên 402 (khoảng 18 giây)",
+          "Hồi 3196 HP mỗi giây (10 lần)",
+          "Triển khai lá chắn vô hiệu hóa sát thương vật lý/phép với 15075 điểm sát thương (hiệu lực vĩnh viễn)"
+        ],
+        "six_star_effect": []
+      },
+      "skill_1": {
+        "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+        "name": "Ánh Sáng Sản Sinh",
+        "description": "Áp dụng hiệu ứng giảm sát thương vật lý và giảm sát thương phép cho tất cả đồng đội đang có lá chắn. Ngoài ra, hồi HP trung bình và tăng mạnh tốc độ hành động cho tất cả đồng đội thuộc hệ Phong.",
+        "effects": [
+          "Giảm 15% sát thương vật lý nhận vào cho đồng đội đang có lá chắn",
+          "Giảm 15% sát thương phép nhận vào cho đồng đội đang có lá chắn",
+          "Hồi 17464 HP cho đồng đội thuộc hệ Phong",
+          "Tăng tốc độ hành động cho đồng đội thuộc hệ Phong (khoảng 12 giây)"
+        ],
+        "exclusive_equipment_effect": []
+      },
+      "skill_2": {
+        "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+        "name": "Nhịp Đập Tiên Nữ",
+        "description": "Tăng mạnh sức tấn công vật lý và sức tấn công phép cho toàn đội, tăng nhẹ sát thương khi đánh chí mạng vật lý và sát thương khi đánh chí mạng phép. Hiệu quả này sẽ tăng cao hơn đối với đồng đội đang có lá chắn. Ngoài ra, hồi TP trung bình cho tất cả đồng đội thuộc hệ Phong.",
+        "effects": [
+          "Tăng sức tấn công vật lý và sức tấn công phép lên 10720 cho đồng đội đang có lá chắn",
+          "Tăng 16% sát thương chí mạng vật lý và sát thương chí mạng phép cho đồng đội đang có lá chắn",
+          "Tăng sức tấn công vật lý và sức tấn công phép lên 5360 cho đồng đội không có lá chắn",
+          "Tăng 8% sát thương chí mạng vật lý và sát thương chí mạng phép cho đồng đội không có lá chắn (khoảng 12 giây)",
+          "Hồi 200 TP cho đồng đội thuộc hệ Phong"
+        ]
+      },
+      "ex_skill": {
+        "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_18.png",
+        "name": "Tiên Nữ Nhỏ",
+        "description": "Khi bắt đầu trận đấu, tăng trung bình sức tấn công phép của bản thân.",
+        "effects": [
+          "※Hiện đang chuẩn bị. Thông tin sẽ được cập nhật ngay khi có."
+        ]
+      }
+    },
+    "strengths_and_usage": {
+      "points": [
+        {
+          "main_point": "Buff tốc độ hành động + hồi TP cho nhân vật hệ Phong",
+          "description": "Có thể hỗ trợ buff tốc độ hành động và hồi TP cho nhân vật hệ Phong thông qua Kỹ năng 1 & 2. Cả hai đều mạnh mẽ và là khả năng hỗ trợ chính của Fio.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Khả năng hỗ trợ phòng thủ cao",
+          "description": "Với UB và Kỹ năng 1 cung cấp hồi máu/lá chắn/tăng phòng thủ cho toàn đội, Fio trở thành trụ cột về mặt phòng thủ. Nhờ đó, các nhân vật tấn công không cần lo lắng về khả năng sống sót, giúp tăng tính linh hoạt trong việc xây dựng đội hình hệ Phong.",
+          "sub_point": null
+        }
+      ]
+    },
+    "weaknesses_and_limitations": {
+      "points": [
+        {
+          "main_point": "Ảnh hưởng lớn từ việc xây dựng đội hình cùng hệ",
+          "description": "Các kỹ năng liên quan đến hệ Phong giúp tăng cường hành động của nhân vật, nhưng khả năng hỗ trợ sát thương chỉ phát huy hết tiềm năng khi xây dựng đội hình hệ Phong. Đặc biệt khi muốn xây dựng đội hình phép thuật, độ khó trong việc xây dựng đội hình là điều đáng lưu ý.",
+          "sub_point": null
+        }
+      ]
+    },
+    "overall_evaluation": {
+      "points": [
+        {
+          "main_point": "Nhân vật buff tốc độ hành động mạnh nhất cho hệ Phong",
+          "description": "Trước khi Fio xuất hiện, các nhân vật buff tốc độ hành động cho hệ Phong có hiệu quả khá khiêm tốn, khiến người chơi đôi khi phải sử dụng nhân vật khác hệ như Nefinel. Fio có hiệu quả buff tốc độ hành động cao, nên khi xây dựng đội hình hệ Phong, việc đưa cô vào đội hình là lựa chọn không thể bỏ qua.",
+          "sub_point": null
+        }
+      ]
+    },
+    "equipment_evaluation": {
+      "points": []
+    },
+    "six_star_improvements": {
+      "points": []
+    },
+    "six_star_evaluation": {
+      "points": []
+    },
+    "recommended_pairings_name": [
+      "シオリ",
+      "キョウカ(スプリング)",
+      "ワカナ",
+      "アネモネ"
+    ]
+  }
+}

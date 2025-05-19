@@ -1,0 +1,46 @@
+name: showai
+description: "A showai Flutter project"
+
+# Phiên bản app
+version: 1.1.1+4
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  http: ^1.1.0
+  url_launcher: ^6.1.14
+  firebase_auth: ^4.17.4
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.15.4
+  firebase_core: ^2.25.4
+  flutter_markdown: ^0.6.18
+  path_provider: ^2.1.2
+  permission_handler: ^11.2.0
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  firebase_messaging: ^14.7.15
+
+# Dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+
+# Cấu hình flutter_launcher_icons
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.jpg"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+
+# Flutter specific settings
+flutter:
+  uses-material-design: true

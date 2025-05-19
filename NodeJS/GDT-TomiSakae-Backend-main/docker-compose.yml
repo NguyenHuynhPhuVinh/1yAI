@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  # Dịch vụ Node.js API
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGODB_URI=mongodb+srv://tomisakae:tomisakae0000@gdt-tomisakae.lyadipr.mongodb.net/?retryWrites=true&w=majority&appName=GDT-TomiSakae
+      - NODE_ENV=production
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

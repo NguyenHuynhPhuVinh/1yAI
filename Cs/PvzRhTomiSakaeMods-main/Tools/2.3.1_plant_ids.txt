@@ -1,0 +1,295 @@
+2.3.1 Plant ID List - By @xabdi on Discord.
+Categories: 
+- Base Plants
+- Other Plants
+- Odyssey Fusions
+- Base Fusions
+- Advanced Fusions
+- Titan Fusions
+
+ Base Plants:
+0 - Peashooter
+1 - Sunflower
+2 - Cherry Bomb
+3 - Wall-nut
+4 - Potato Mine
+5 - Chomper
+6 - Puff-shroom
+7 - Fume-shroom
+8 - Hypno-shroom
+9 - Scaredy-shroom
+10 - Ice-shroom
+11 - Doom-shroom
+12 - Lily Pad
+13 - Squash
+14 - Threepeater 
+15 - Tangle Kelp
+16 - Jalapeno
+17 - Spikeweed
+18 - Torchwood
+19 - Sea-shroom
+20 - Plantern
+21 - Cactus
+22 - Blover
+23 - Starfruit
+24 - Pumpkin 
+25 - Magnet-shroom
+26 - Cabbage-pult
+27 - Flower Pot
+28 - Kernel-pult
+29 - Garlic
+30 - Umbrella Leaf
+31 - Marigold
+32 - Melon-pult
+34 - Electronion
+ Other Plants:
+33 - Bladegrass
+241 - Coldsnap Bean
+242 - Queen Endoflame
+243 - Burger Blaster
+244 - Jicamagic
+245 - Imitater
+248 - Neko Squash
+249 - Swordmaster Starfruit
+250 - Zombie Giftbox
+251 - Solar Giant-nut (From: Twin Solar-nut)
+252 - Cattail Girl
+253 - Barley
+254 - Endoflame
+255 - Giant-nut
+256 - Plant Giftbox
+ Odyssey Fusions:
+900 - Empress-shroom
+901 - Gatling Cherrybomber
+902 - Squashed Infernowood
+903 - Cherrizilla
+904 - Doominator-shroom
+905 - Twin Solar-nut
+906 - Spikesidian
+907 - Gatling Doom
+908 - Gatling Icicle-shroom
+909 - Magnetar
+910 - Oblivion-shroom
+911 - Laser Pumpkin
+912 - Laser Drone (From: Laser Pumpkin)
+913 - Obsidian Tall-nut
+914 - Wither-pult
+915 - Cob-livion Cannon
+916 - Midas Umbrella
+917 - Enchantress-shroom
+918 - Ashen Threepeater
+919 - Phoenix Threepeater
+920 - Gravitron
+921 - Garlizilla
+922 - Blast Pumpkin
+923 - Aegis Umbrella
+924 - Charmatron-shroom
+925 - Obsidian-mine
+926 - Magicat Nettle
+927 - Titan Apeacalypse Turret
+928 - Calamity-shroom
+929 - Gatling Sunburst-shroom
+930 - Gatling Frenzy-shroom
+931 - Obsidian Spike-nut
+932 - Tycoon Torch
+933 - Thornminator
+934 - Helios Cabbage
+935 - Mechanized Pumpkin
+936 - Radiant Pot
+937 - Tesla Umbrella
+938 - Avarice-shroom
+ Base Fusions / Upgrade Plants:
+1000 - Pea Sunflower
+1001 - Cherryshooter 
+1002 - Solar Bomb
+1003 - Cherry-nut
+1004 - Pea-nut
+1006 - Solar-nut
+1007 - Pea Mine
+1008 - Cherrypeater
+1009 - Solar Mine
+1010 - Mine-nut
+1011 - Chomp-shooter
+1012 - Chomp-nut
+1014 - Solar Chomper
+1015 - Chomp-mine
+1016 - Cherry Chomper
+1017 - Gatling Cherry
+1018 - Pea-shroom
+1019 - Repeat-shroom
+1020 - Buckshooter
+1021 - Nut-shroom
+1022 - Mini Hypno-shroom
+1023 - Perfume-shroom
+1024 - Trippy-shroom
+1025 - Gutsy-shroom
+1027 - Tall-nut
+1028 - Rugby-nut
+1029 - Buck-nut
+1030 - Repeater
+1031 - Sun-shroom
+1032 - Gatling Pea
+1033 - Twin Sunflower
+1034 - Snow Pea
+1035 - Icicle-shroom
+1036 - Mini Ice-shroom
+1037 - Frost-shroom
+1038 - Shivery-shroom
+1039 - Frost-nut
+1040 - Cryodoom-shroom
+1041 - Frostveil-shroom
+1042 - Frenzy-shroom
+1043 - Soot-shroom
+1044 - Mini Doom-shoom
+1045 - Curse-shroom
+1047 - Squash-spreader
+1048 - Spike-nut
+1049 - Spicy Kelp
+1050 - Mangle Kelp
+1051 - Kelp-spreader
+1053 - Scorchwood
+1054 - Spicy Squash
+1055 - Torchthree
+1056 - Torchkelp
+1057 - Hot Squash (From: Squashed Torchwood)
+1058 - Scorched Threepeater
+1059 - Squashed Torchwood
+1060 - Spikerock
+1061 - Torchweed
+1062 - Scorchweed
+1063 - Squashweed
+1064 - Weed-spreader
+1065 - Gatling Pea-shroom
+1067 - Cattail
+1068 - Frost Cattail
+1069 - Flame Cattail
+1070 - Gloom-shroom
+1071 - Embergloom-shroom
+1072 - Snowgloom-shroom
+1073 - Scorch-nut
+1074 - Spikecicle
+1075 - Spikinferno
+1076 - Sea Thorn-shroom
+1077 - Sea Sun-shroom
+1078 - Sea Lamp-shroom
+1079 - Lumicactus
+1080 - Glowver
+1081 - Starglow
+1082 - Thornball
+1083 - Sea Star
+1084 - Starblover
+1085 - Starthorn
+1086 - Sea Blow-shroom
+1087 - Jack O' Lantern
+1088 - Thorngourd
+1089 - Stargourd
+1090 - Split Pea
+1091 - Windgourd
+1092 - Pumpkin Lure
+1093 - Starlure
+1094 - Starjoker
+1095 - Starpick
+1096 - Starsteel
+1097 - Steel Pumpkin
+1098 - Joker Pumpkin
+1099 - Miner Pumpkin
+1100 - Magled-shroom
+1101 - Sea Magnet-shroom
+1102 - Magblover
+1103 - Magnethorn
+1105 - Snow Repeater
+1106 - Gatling Snow
+1107 - Split Snow
+1108 - Split Cherry
+1109 - Sniper Pea
+1111 - Solar-pult
+1112 - Cabbage Pot
+1113 - Taco-pult
+1114 - Kernel Pot
+1115 - Umbrella Husk
+1116 - Winter Melon
+1117 - Clove-pult
+1118 - Garbage-pult
+1119 - Garlic-pult
+1120 - Cob Cannon
+1121 - Corn-pult
+1122 - Pyro Cannon
+1123 - Cryo Cannon
+1124 - Stuffed Melon
+1125 - Melon Pot
+1127 - Umbrella Clove
+1128 - Umbrella Kale
+1129 - Mecha-nut
+1130 - Garlic Pot
+1131 - Umbrella Rind
+1133 - Umbrella Pot
+1134 - Silver Cabbage
+1135 - Golden Cabbage
+1136 - Silver Pot
+1137 - Golden Pot
+1138 - Silver Kernel
+1139 - Golden Kernel
+1140 - Twin Marigold
+1141 - Silver Melon
+1142 - Golden Melon
+1143 - Silver Umbrella
+1144 - Golden Umbrella
+1145 - Silver Garlic
+1146 - Golden Garlic
+1147 - Hypno-nut
+1149 - Summer Melon
+1150 - Gold Magnet
+1151 - Giga Mecha-nut
+1152 - Buck-shroom
+1153 - Split Pea-shroom
+1154 - Solar Magnet
+1155 - Hot Spikeweed (From: Torchweed)
+1156 - Hot Kelp (From: Torchkelp)
+1157 - Charm Magnet
+1158 - Lure-shroom
+1159 - Rust-shroom
+1160 - Rugby-shroom
+1162 - Explod-o-tato Mine
+1164 - Pump-Kaboom
+1165 - Snow Commando
+1166 - Volatile Magnet
+1167 - Blazer Pea
+1168 - Pea Commando
+1170 - Nugget-shroom
+1171 - Spuddy-shroom
+1172 - Foul-shroom
+1173 - Frostburnt Jalapeno
+1176 - Hypnoblover
+1177 - Twin Bladegrass
+1178 - Boomwood
+1179 - Bamboom
+1180 - Frostweed
+1181 - Foul Blover
+1182 - Frostburn-wood
+1183 - Twinkle-shroom
+1184 - Sunflower Pot
+1185 - Lumos Umbrella
+1186 - Umbrella Thorn
+1187 - Silver Sunflower
+1188 - Golden Sunflower
+1189 - Frost Wall-nut
+1190 - Pumpkin Mine
+1191 - Doom Cactus
+1192 - Doom Chomper
+ Advanced Fusions:
+1005 - Explod-o-shooter
+1013 - Chewzilla
+1026 - Charm-shroom
+1046 - Doomberg-shroom
+1052 - Infernowood 
+1066 - Krakerberus
+1104 - Stardrop
+1110 - Bloverthorn Pumpkin
+1126 - Salad-pult
+1148 - Alchemist Umbrella
+ Titan Fusions: 
+1132 - Titan Melon Barrage
+1161 - Titan Pea Turret
+1169 - Titan Pumpkin Bunker
+1174 - Titan Chomper Maw
+1175 - Titan Kraken-shroom

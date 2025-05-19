@@ -1,0 +1,213 @@
+﻿.achievement.content {
+	width: 600px;
+	height: 140px;
+	position: relative;
+	background-color: black;
+	background-image: radial-gradient(at top, #2B2B2B, black);
+	background-image: -webkit-radial-gradient(at top, #2B2B2B, black);
+	border: 2px solid #3D3D3D;
+	color: white;
+}
+
+.achievement.title.locked {
+	font-style: italic;
+	color: gray;
+}
+
+.achievement.title {
+	font-size: 22pt;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	right: 10px;
+}
+
+.achievement.descr {
+	font-size: 14pt;
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	width: 470px;
+	height: 70px;
+}
+
+.achievement.icon {
+	position: absolute;
+	top: 10px;
+	left: 25px;
+	width: 100px;
+	height: 100px;
+	font-family: 'Segoe UI Symbol';
+	font-size: 90px;
+	line-height: 100px;
+}
+
+.achievement.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 600px;
+	height: 140px;
+}
+
+	.achievement.overlay.sliceGlow {
+		background-image: linear-gradient(66deg, rgba(132, 132, 132, 0) 42.2%, rgba(103, 103, 103, 0.404) 48.5%, rgba(129, 129, 129, 0.604) 52.3%, white 55.4%, rgba(180, 180, 180, 0.6) 57.2%, rgba(150, 150, 150, 0.4) 58.2%, rgba(132, 132, 132, 0) 58.9%, rgba(0, 0, 0, 0));
+		/*webkit gradient has different start angle (-45 deg). could not find official source for this but tested through trial and error*/
+		background-image: -webkit-linear-gradient(21deg, rgba(132, 132, 132, 0) 42.2%, rgba(103, 103, 103, 0.404) 48.5%, rgba(129, 129, 129, 0.604) 52.3%, white 55.4%, rgba(180, 180, 180, 0.6) 57.2%, rgba(150, 150, 150, 0.4) 58.2%, rgba(132, 132, 132, 0) 58.9%, rgba(0, 0, 0, 0));
+		margin-left: -100%;
+		opacity: 0;
+	}
+
+.achievement.banner {
+	position: absolute;
+	height: 100%;
+	width: 10px;
+}
+
+.achievement.innerContainer.hideState {
+	opacity: 0;
+	-ms-backface-visibility: visible;
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: perspective(500px) scale(1.2) rotateX(10deg);
+	-ms-transition: 0.4s ease-out;
+	-webkit-backface-visibility: visible;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: perspective(500px) scale(1.2) rotateX(10deg);
+	-webkit-transition: 0.4s ease-out;
+}
+
+.achievement.unlocked {
+	color: white;
+	position: absolute;
+	font-size: 14pt;
+	width: 300px;
+	text-align: center;
+	margin-left: 150px;
+	border: 2px solid #3D3D3D;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: black;
+}
+
+.achievement.dismiss {
+	color: white;
+	position: absolute;
+	font-size: 12pt;
+	font-style: italic;
+	width: 300px;
+	text-align: center;
+	margin-left: 150px;
+	border: 2px solid #3D3D3D;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: black;
+	margin-top: 115px;
+}
+
+.achievement .disabled {
+	opacity: 0.5;
+}
+
+#achievementsPanel {
+	position: absolute;
+	right: -646px;
+	width: 646px; /*same as wide flyout*/
+	top: 0px;
+	bottom: 0px;
+	z-index: 10001; /*over splash screen and greenheart*/
+}
+
+	#achievementsPanel.hidden {
+		right: -646px;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-timing-function: ease-in;
+	}
+
+	#achievementsPanel.show {
+		right: 0px;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-timing-function: ease-in;
+	}
+
+/*#achievementsPanel .windowTitle {
+		text-align: left;
+	}
+
+.achievementsScore {
+	position:absolute;
+	right:20px;
+	vertical-align:middle;
+	font-size:22pt;
+	text-align:right;
+}*/
+
+.achievementsContainer {
+	position: absolute;
+	top: 80px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+
+#highScorePanel {
+	position: absolute;
+	left: -646px;
+	width: 646px; /*same as wide flyout*/
+	top: 0px;
+	bottom: 0px;
+	z-index: 6500; /*over splash screen*/
+}
+
+	#highScorePanel.hidden {
+		left: -646px;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-timing-function: ease-in;
+	}
+
+	#highScorePanel.show {
+		left: 0px;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+		-webkit-transition-duration: 0.2s;
+		-webkit-transition-timing-function: ease-in;
+	}
+
+.highScoreContainer {
+	position: absolute;
+	top: 80px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.highScoreItem {
+	width: 80%;
+	font-size: 18pt;
+	padding: 10px;
+}
+
+.highScoreItemNname {
+	display: inline-block;
+	width: 50%;
+}
+
+.highScoreItem .score {
+	display: inline-block;
+	width: 30%;
+	font-weight: bold;
+}

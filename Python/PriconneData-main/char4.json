@@ -1,0 +1,184 @@
+{
+  "character": {
+    "id": 4,
+    "name": "Shizuru",
+    "name_jp": "シズル",
+    "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92873_main.jpg",
+    "catchphrase": "Ừm, ừm... Chị sẽ dạy em nhiều thứ. Hehe, cứ để chị gái lo nhé♪",
+    "element": "光属性",
+    "quick_summary": {
+      "strengths": [
+        "Có kỹ năng hồi phục đồng đội rất tốt",
+        "Chỉ số phòng thủ vật lý cao",
+        "Triển khai lá chắn hấp thụ sát thương vật lý cho bản thân khi dùng Union Burst",
+        "Giảm sát thương cho đồng đội bằng lá chắn vô hiệu hóa sát thương vật lý"
+      ],
+      "weaknesses": [
+        "Đứng gần cuối trong hàng tiền tuyến nên khó bảo vệ các nhân vật tấn công",
+        "Có thể đảm nhận vai trò Tank nếu chỉ đặt Shizuru ở tiền tuyến",
+        "Không giỏi trong việc gây sát thương"
+      ],
+      "exclusive_equipment": [
+        "Kỹ năng hồi phục được bổ sung hiệu ứng tăng phòng thủ vật lý",
+        "Trở thành Tank phụ hiệu quả hơn khi đối phó với sát thương vật lý"
+      ],
+      "six_star_upgrade": [
+        "Tăng khả năng sống sót nhờ nâng chỉ số",
+        "UB có thể hỗ trợ đồng đội trong phạm vi xung quanh",
+        "Có thể hỗ trợ khả năng phòng thủ với buff phòng thủ vật lý/lá chắn hấp thụ sát thương vật lý/hồi HP liên tục"
+      ]
+    },
+    "content_ratings_text": {
+      "quest": "A",
+      "high_difficulty_quest": "SS",
+      "arena": "SS",
+      "boss_battle": "S+",
+      "elemental_evaluation": "S+"
+    },
+    "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Nhân loại",
+        "guild": "Mê cung"
+      },
+    "max_stats": {
+      "hp": 24868,
+      "physical_attack": 4249,
+      "magic_attack": 10,
+      "physical_defense": 369,
+      "magic_defense": 282
+    },
+    "skills": {
+      "union_burst": {
+        "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+        "name": "Trừng Phạt Thiêng Liêng",
+        "description": "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước, đồng thời triển khai lá chắn hấp thụ sát thương vật lý cho bản thân.",
+        "effects": [
+          "Gây 16223 sát thương vật lý cho kẻ địch đơn lẻ",
+          "Triển khai lá chắn hấp thụ 1130 sát thương vật lý"
+        ],
+        "six_star_effect": [
+          "Gây sát thương vật lý cực lớn cho 1 kẻ địch phía trước.",
+          "Tăng mạnh phòng thủ vật lý (khoảng 18 giây), triển khai lá chắn hấp thụ sát thương vật lý, và áp dụng trạng thái hồi HP liên tục (8 lần) cho bản thân và tất cả đồng đội trong phạm vi xung quanh."
+        ]
+      },
+      "skill_1": {
+        "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+        "name": "Hồi Phục Thánh",
+        "description": "Hồi phục HP trung bình cho 1 đồng đội có HP thấp nhất.",
+        "effects": [
+          "Hồi phục 3941 HP cho một đồng đội"
+        ],
+        "exclusive_equipment_effect": [
+          "Hồi phục HP trung bình và tăng phòng thủ vật lý trung bình cho 1 đồng đội có HP thấp nhất"
+        ]
+      },
+      "skill_2": {
+        "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_8.png",
+        "name": "Bảo Vệ",
+        "description": "Triển khai lá chắn vô hiệu hóa sát thương vật lý cho đồng đội xung quanh.",
+        "effects": [
+          "Triển khai lá chắn vô hiệu hóa 678 sát thương vật lý"
+        ]
+      },
+      "ex_skill": {
+        "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_19.png",
+        "name": "Sức Mạnh Chị Gái",
+        "description": "Khi bắt đầu trận đấu, tăng trung bình phòng thủ vật lý của bản thân.",
+        "effects": [
+          "Khi bắt đầu trận đấu, tăng trung bình phòng thủ vật lý của bản thân.",
+          "Tăng nhẹ sức tấn công vật lý"
+        ]
+      }
+    },
+    "strengths_and_usage": {
+      "points": [
+        {
+          "main_point": "Kỹ năng hồi phục và lá chắn vật lý xuất sắc",
+          "description": "Shizuru có kỹ năng hồi phục cho nhân vật có HP thấp nhất rất hiệu quả. Ngoài ra, cô còn có thể triển khai lá chắn vô hiệu hóa sát thương vật lý cho bản thân và đồng đội xung quanh, giúp tăng khả năng sống sót cho cả đội.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Union Burst hấp thụ sát thương vật lý",
+          "description": "Union Burst của Shizuru không chỉ gây sát thương lớn cho kẻ địch mà còn triển khai lá chắn hấp thụ sát thương vật lý cho bản thân. Nhờ đó, cô có khả năng sống sót cao và có thể hỗ trợ đồng đội một cách ổn định.",
+          "sub_point": null
+        }
+      ]
+    },
+    "weaknesses_and_limitations": {
+      "points": [
+        {
+          "main_point": "Thiếu sát thương ở giai đoạn sau của nhiệm vụ",
+          "description": "Mặc dù Shizuru có khả năng phòng thủ cao và rất dễ sử dụng, nhưng ở giai đoạn giữa và cuối game, khi kẻ địch có nhiều HP hơn, sát thương của cô sẽ không đủ. Vì lý do tương tự, cô cũng sẽ thiếu sát thương trong Arena.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Không quá mạnh trước sát thương phép",
+          "description": "Các kỹ năng và UB của Shizuru có thể giảm sát thương vật lý nhưng không thể giảm sát thương phép. Bản thân cô có phòng thủ vật lý cao nhưng phòng thủ phép không cao lắm. Khi dùng để đối phó với sát thương phép, cô có thể không đủ hiệu quả.",
+          "sub_point": null
+        }
+      ]
+    },
+    "overall_evaluation": {
+      "points": [
+        {
+          "main_point": "Nhân vật tiền tuyến tối ưu cho nhiệm vụ",
+          "description": "Shizuru có kỹ năng hồi phục và triển khai lá chắn để hỗ trợ phòng thủ. Với khả năng sống sót cao, cô là nhân vật tiền tuyến rất hiệu quả giúp hoàn thành nhiệm vụ một cách ổn định.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Tank chính/phụ xuất sắc",
+          "description": "Mặc dù không mạnh bằng các nhân vật Tank chuyên nghiệp, Shizuru vẫn có khả năng sống sót rất cao và có thể đảm nhận vai trò Tank chính hoặc phụ. Trong đội hình, cô có thể không phải là lựa chọn ưu tiên so với các Tank khác, nhưng vẫn là ứng cử viên tốt cho Arena và Clan Battle.",
+          "sub_point": null
+        }
+      ]
+    },
+    "equipment_evaluation": {
+      "points": [
+        {
+          "main_point": "Kỹ năng hồi phục thêm hiệu ứng tăng phòng thủ vật lý",
+          "description": "Kỹ năng hồi phục của Shizuru được bổ sung hiệu ứng tăng phòng thủ vật lý. Đây là một công cụ hiệu quả để đối phó với sát thương vật lý. Trang bị độc quyền cũng tăng lượng hồi phục, giúp cô hồi phục nhiều HP hơn.",
+          "sub_point": null
+        }
+      ]
+    },
+    "six_star_improvements": {
+      "points": [
+        {
+          "main_point": "UB mở rộng phạm vi + thêm buff",
+          "description": "Khi nâng lên 6 sao, UB được cải thiện, cho phép triển khai lá chắn hấp thụ sát thương vật lý + buff phòng thủ vật lý + hồi HP liên tục cho bản thân và đồng đội xung quanh. Điều này giúp tăng đáng kể khả năng chống chịu sát thương vật lý cho cả đội.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Tăng sát thương cơ bản của UB",
+          "description": "Nhờ cải thiện UB và tăng chỉ số, sát thương cơ bản của UB được tăng lên. Mặc dù chỉ số tấn công thấp, nhưng khi đối thủ bị giảm phòng thủ, cô có thể trở thành nguồn sát thương đáng kể.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Tăng lượng hồi phục qua bond bonus",
+          "description": "Khi nâng lên 6 sao, bond bonus từ 9 đến 12 được mở khóa. Tổng cộng có thể tăng lượng hồi phục lên +20, giúp tăng đáng kể lượng hồi phục của bản thân và phiên bản khác của Shizuru (Valentine).",
+          "sub_point": null
+        }
+      ]
+    },
+    "six_star_evaluation": {
+      "points": [
+        {
+          "main_point": "Hiệu quả trong trận đấu với boss sát thương vật lý mạnh",
+          "description": "Mặc dù không đóng góp nhiều vào sát thương, nhưng nhờ cải thiện UB, cô có thể tăng đáng kể khả năng chống chịu sát thương vật lý cho bản thân và đồng đội. Buff phòng thủ vật lý và lá chắn sẽ phát huy tác dụng trong các trận đấu boss khó.",
+          "sub_point": null
+        },
+        {
+          "main_point": "Phòng thủ trong Arena/Princess Arena",
+          "description": "Với khả năng sống sót cao và tăng khả năng chống chịu sát thương vật lý cho đồng đội, cô là lựa chọn tốt cho đội hình phòng thủ trong Arena và Princess Arena. Tuy nhiên, do chuyên về đối phó sát thương vật lý nên yếu trước sát thương phép, cần bổ sung nhân vật khác để đối phó với sát thương phép.",
+          "sub_point": null
+        }
+      ]
+    },
+    "recommended_pairings_name": [
+      "ノゾミ",
+      "マホ",
+      "ミヤコ"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  characters[] {
+    avatar
+    name
+    role
+    rating_below_6_stars
+    rating_6_stars
+  }
+}
+
+
+{
+  character {
+    image_character_main_banner
+    catchphrase
+    element
+     quick_summary {
+      strengths[]
+      weaknesses[]
+      exclusive_equipment[]
+      six_star_upgrade[]
+    }
+    content_ratings_text {
+      quest
+      high_difficulty_quest
+      arena
+      boss_battle
+      elemental_evaluation 
+    }
+    basic_information {
+      type
+      initial_rarity
+      race
+      guild
+    }
+     max_stats {
+      hp
+      physical_attack
+      magic_attack
+      physical_defense
+      magic_defense
+     }
+     skills {
+          union_burst {
+            icon_skill_ub_square
+            name
+            description
+            effects[]
+            six_star_effect[]
+          }
+           skill_1{
+            icon_skill_1_square
+             name
+             description
+             effects[]
+             exclusive_equipment_effect[]
+           }
+           skill_2{
+            icon_skill_2_square
+             name
+             description
+             effects[]
+           }
+           ex_skill{
+            icon_ex_skill_square
+             name
+             description
+             effects[]
+           }
+
+      }
+      strengths_and_usage {
+      points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    weaknesses_and_limitations {
+        points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    overall_evaluation {
+      points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    equipment_evaluation {
+     points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    six_star_improvements {
+      points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    six_star_evaluation {
+      points[]{
+        main_point
+        description
+        sub_point
+      }
+    }
+    recommended_pairings_name[]
+  }
+}
+
+
+"攻撃型": "DPS",
+"攻撃支援型": "DPS Hỗ trợ",    
+"支援型": "Hỗ trợ",            
+"耐久型": "Tank",             
+"耐久支援型": "Tank Hỗ trợ",    
+"耐久攻撃型": "Tank DPS" 
+
+Dịch các thông tin sau sang tiếng việt dựa trên ngữ cảnh là game gacha anime princess connect re dive. Lưu ý trường name, name_jp, recommended_pairings, element, type không cần dịch, trường content_ratings thay tiếng nhật bằng ký hiệu phù hợp như + để thành các chỉ số như D,C,B,A, SS, SS+,.... Đảm bào dịch cả trường name của skill và effect của skill cho phù hợp! Nếu có tên tiếng nhật trong mô tả thì dùng chính xác tên trong trường name. Khi dịch thì đồng bộ sài tiếng việt hết trừ khi có các thuật ngữ tiếng anh của game để cho phù hợp! Đối với các tên Skill thì dịch cho đúng sang tiếng việt luôn!

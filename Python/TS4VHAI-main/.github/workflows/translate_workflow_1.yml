@@ -1,0 +1,53 @@
+name: Translation Workflow 1
+
+on:
+  workflow_dispatch:
+    inputs:
+      package_name:
+        description: 'Tên gói cần dịch'
+        required: true
+        type: string
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-generativeai python-dotenv
+          
+      - name: Run translation script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY_1 }}
+        run: |
+          python main.py ${{ github.event.inputs.package_name }} 5
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull origin main --rebase || true
+          git add .
+          git commit -m "Translated ${{ github.event.inputs.package_name }}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload translation artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: translated-files
+          path: |
+            ./output/file.xml
+            ./output/file.json

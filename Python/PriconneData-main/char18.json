@@ -1,0 +1,210 @@
+{
+    "character": {
+      "id": 18,
+      "name": "Saren",
+      "name_jp": "サレン",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92893_main.jpg",
+      "catchphrase": "Tất cả trẻ em ở viện cứu trợ đều là những đứa con đáng yêu của tôi. Tôi muốn làm cho chúng hạnh phúc. Bạn sẽ giúp tôi chứ?",
+      "element": "火属性",
+      "quick_summary": {
+        "strengths": [
+          "Chỉ số HP cao",
+          "Kỹ năng hỗ trợ phục hồi TP cho đồng đội rất mạnh",
+          "Union Burst/Kỹ năng tấn công diện rộng",
+          "Sức mạnh Union Burst tăng khi HP bản thân thấp",
+          "Có khả năng lật ngược tình thế khi gặp bất lợi nhờ Union Burst"
+        ],
+        "weaknesses": [
+          "Yếu trong việc gây sát thương đơn mục tiêu",
+          "Cần bổ sung nhân vật tấn công khác",
+          "Phụ thuộc vào đòn tấn công của đối phương nên khó nhắm đến"
+        ],
+        "exclusive_equipment": [
+          "Kỹ năng trở nên mạnh hơn khi HP thấp"
+        ],
+        "six_star_upgrade": [
+          "Hiệu ứng tăng tấn công toàn đội từ UB rất mạnh",
+          "Sức mạnh UB tăng đáng kể"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "A",
+        "arena": "S+",
+        "boss_battle": "S",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Tộc Elf",
+        "guild": "Viện Cứu Trợ Sarendia"
+      },
+      "max_stats": {
+        "hp": 21221,
+        "physical_attack": 5753,
+        "magic_attack": 0,
+        "physical_defense": 207,
+        "magic_defense": 152
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Kiếm Phượng Hoàng",
+          "description": "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước. Sát thương tăng khi HP của Saren thấp.",
+          "effects": [
+            "Gây 7912 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý lớn cho tất cả kẻ địch trong phạm vi phía trước, đồng thời tăng đáng kể sức tấn công vật lý và ma thuật cho toàn bộ đồng đội. Sát thương và lượng tăng tấn công sẽ tăng khi HP của Saren thấp."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Lửa",
+          "description": "Gây sát thương vật lý nhỏ cho tất cả kẻ địch trong phạm vi phía trước.",
+          "effects": [
+            "Gây 3956 sát thương vật lý cho kẻ địch trong phạm vi"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý trung bình cho tất cả kẻ địch trong phạm vi phía trước. Sát thương tăng khi HP của Saren thấp."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_6.png",
+          "name": "Khúc Hát Thanh Nhã",
+          "description": "Phục hồi TP ở mức trung bình cho 1 đồng đội gần nhất.",
+          "effects": [
+            "Phục hồi 355 TP cho một đồng đội",
+            "Tăng nhẹ sức tấn công vật lý và ma thuật cho mục tiêu"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Linh Hồn Quý Tộc Thanh Lịch",
+          "description": "Khi bắt đầu trận đấu, tăng sức tấn công vật lý của bản thân ở mức trung bình.",
+          "effects": [
+            "Tăng sức tấn công vật lý của bản thân ở mức trung bình.",
+            "Nâng cấp hiệu ứng tăng sức tấn công vật lý từ mức trung bình lên mức lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Có thể phục hồi TP cho đồng đội",
+            "description": "Saren có khả năng phục hồi đáng kể TP cho đồng đội gần nhất. Vì vậy, cô ấy có tương tác tốt với các nhân vật tấn công hoặc hỗ trợ có Union Burst mạnh.",
+            "sub_point": "Khi kết hợp với Ilya hoặc Tamaki, những nhân vật có khả năng tích lũy TP tốt, bạn có thể sử dụng Union Burst rất sớm."
+          },
+          {
+            "main_point": "Tấn công diện rộng với sát thương cao",
+            "description": "Union Burst của Saren là đòn tấn công vật lý với phạm vi rộng. Hơn nữa, sát thương của Union Burst này tăng khi HP của cô ấy thấp, cho phép gây sát thương lớn trong một số tình huống.",
+            "sub_point": "Mặc dù chủ yếu là nhân vật hỗ trợ, cô ấy có hai kỹ năng tấn công diện rộng và có thể gây sát thương đáng ngạc nhiên."
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Sát thương đơn mục tiêu thấp",
+            "description": "Cả Union Burst và kỹ năng của Saren đều là tấn công diện rộng. Khi cần tập trung tấn công một kẻ địch hoặc đối mặt với kẻ địch xuất hiện đơn lẻ, hiệu quả gây sát thương của cô ấy thường thấp hơn so với các nhân vật khác.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đội hình bị ảnh hưởng bởi vị trí",
+            "description": "Kỹ năng hỗ trợ TP mạnh mẽ của Saren phục hồi cho đồng đội gần nhất. Bạn không thể đặt bất kỳ nhân vật nào gần Saren hơn nhân vật tấn công mà bạn muốn hỗ trợ TP, điều này làm giảm tự do trong việc xây dựng đội hình.",
+            "sub_point": "Nếu nhân vật tấn công ở gần Saren, điều này không quá đáng lo ngại, nhưng nếu họ ở xa hơn một chút, việc xây dựng đội hình sẽ trở nên khó khăn. Ngoài ra, nếu nhân vật tấn công bị hạ gục, hỗ trợ TP có thể chuyển sang tank."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật hỗ trợ xuất sắc trong đấu trường",
+            "description": "Một nhân vật hỗ trợ xuất sắc có thể cung cấp TP ổn định cho các nhân vật có UB mạnh. Miễn là bạn có nhân vật phù hợp để hỗ trợ, cô ấy có thể hoạt động hiệu quả trong nhiều tình huống. Cô ấy đặc biệt có giá trị trong đấu trường, nơi tốc độ ban đầu rất quan trọng.",
+            "sub_point": "Mặc dù có những nhân vật khác như Yukari và Yuki cũng có khả năng hỗ trợ TP xuất sắc, nhưng về khả năng 'cung cấp TP liên tục cho một nhân vật cụ thể', Saren vượt trội hơn hẳn về tính dễ sử dụng."
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Sức mạnh tăng khi HP thấp",
+            "description": "Chém Lửa được nâng cấp để tăng sức mạnh khi HP của Saren thấp. Vì phụ thuộc vào đòn tấn công của kẻ địch, nên khó để cố tình kích hoạt tăng sức mạnh. Đây là một nâng cấp có yếu tố may rủi, vì vậy mức độ ưu tiên trang bị tương đối thấp.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Mối tương quan giữa lượng HP và hệ số sát thương",
+            "description": null,
+            "sub_point": "Khi đặt Saren trong phòng thủ ở các chế độ như Princess Arena, cô ấy đôi khi có thể hoạt động bất ngờ tốt. Nếu bạn có tài nguyên dư thừa, việc trang bị cho cô ấy cũng hoàn toàn hợp lý."
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "UB bổ sung hiệu ứng tăng tấn công toàn đội!",
+            "description": "Với UB 6 sao, cô ấy có thể tăng sức tấn công vật lý/ma thuật cho toàn đội. Tương tự như sát thương, hiệu quả của buff tăng khi HP của Saren thấp. Cô ấy đã trở thành một nhân vật hỗ trợ mạnh mẽ hơn.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Mối tương quan giữa lượng buff UB và HP (Cấp 172/Rank 15)",
+            "description": null,
+            "sub_point": "Thời gian hiệu lực của buff UB khoảng 18 giây. Ngoài ra, mặc dù vẫn đang kiểm chứng, nhưng có vẻ như lượng buff tăng phụ thuộc vào lượng HP đã mất chứ không phải tỷ lệ HP. Có thể nói rằng HP tối đa càng cao càng tốt cho nhân vật này."
+          },
+          {
+            "main_point": "Mối tương quan giữa sức mạnh UB và HP (Cấp 172/Rank 15)",
+            "description": "※Hiển thị lượng sát thương đối với kẻ địch có phòng thủ vật lý 173.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tham khảo: Chênh lệch sát thương UB (5 sao/6 sao)",
+            "description": null,
+            "sub_point": null
+          },
+          {
+            "main_point": "Chỉ số tăng TP được nâng cấp!",
+            "description": "Khi nâng lên 6 sao, chỉ số tăng TP tăng thêm 10 từ set bonus. Vì UB giờ đây có thêm hiệu ứng buff, việc tăng tốc độ sử dụng UB là điều rất hữu ích. Ngoài ra, các chỉ số cơ bản như HP cũng tăng đáng kể, khiến cô ấy dễ sử dụng hơn nhiều.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Nhân vật tấn công phụ với khả năng hỗ trợ cao",
+            "description": "Với việc bổ sung hiệu ứng buff toàn đội xuất sắc vào UB, cô ấy đã trở nên đa dụng hơn ngoài vai trò hỗ trợ TP. Sức mạnh và phạm vi UB cũng được tăng cường, vì vậy hãy sử dụng cô ấy như một nhân vật hỗ trợ kiêm tấn công diện rộng trong các chế độ như đấu trường.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Nên sử dụng trong môi trường có thể nhận sát thương",
+            "description": "Mặc dù hiệu quả của UB rất xuất sắc, nhưng để tăng lượng buff/sát thương, cô ấy cần nhận sát thương. Để tối đa hóa hiệu quả của Saren, hãy sử dụng cô ấy trong các nhiệm vụ có nhiều đòn tấn công diện rộng hoặc đặt cô ấy ở vị trí đầu để nhận sát thương.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Ứng cử viên cho vị trí hỗ trợ trong trận đấu boss đơn lẻ",
+            "description": "Khả năng buff/hỗ trợ TP cũng hữu ích trong các trận đấu boss đơn lẻ như Clan Battle hoặc sự kiện. Vì Saren có thể cung cấp hỗ trợ TP cho các nhân vật hỗ trợ thường xuyên được sử dụng và có vị trí gần cô ấy như Kokkoro (Princess), bạn có thể đưa cô ấy vào đội hình khi muốn tăng lượng buff hoặc debuff.",
+            "sub_point": "Kokkoro (Princess) có buff tăng sát thương chí mạng mạnh mẽ. Bằng cách hỗ trợ TP với Saren, bạn có thể nhắm đến việc chồng buff. Tùy thuộc vào đội hình, cô ấy cũng có thể đảm nhận vai trò hỗ trợ cho các nhân vật như Rei, nơi tốc độ kích hoạt UB rất quan trọng."
+          },
+          {
+            "main_point": "Cũng là nhân vật tấn công phụ cho boss nhiều mục tiêu",
+            "description": "Cô ấy có thể hoạt động hiệu quả trong các trận đấu boss nhiều mục tiêu vì có thể cung cấp buff mạnh mẽ đồng thời gây sát thương diện rộng. Như đã đề cập trước đó, cô ấy có thể đóng góp nhiều hơn trong các trận đấu boss nơi Saren nhận nhiều sát thương.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Đội hình New Year Kyaru trở nên mạnh mẽ hơn",
+            "description": "Trong Clan Battle, đội hình New Year Kyaru với Saren đôi khi là lựa chọn tối ưu. Với khả năng hỗ trợ buff mới, cô ấy giờ đây cũng giúp tăng sát thương UB của New Year Kyaru nhanh hơn.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "イリヤ",
+        "タマキ",
+        "ニノン",
+        "水着ペコリーヌ",
+        "シノブ(ハロウィン)",
+        "ミヤコ(ハロウィン)"
+      ]
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "id": "LearnByDoing",
+    "name": "Learn By Doing",
+    "version": "0.1",
+    "author": "Boom Blockhead",
+    "description": "Gain Skill Points from producing Bubbles, completing Contracts, building Game Engines, you name it. If you're doing something, you're learning something.",
+    "url": "",
+    "main": "./main.js",
+    "image": "learnByDoing-Thumbnail.png",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    }
+}

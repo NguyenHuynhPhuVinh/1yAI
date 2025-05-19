@@ -1,0 +1,23 @@
+const message = {
+      topic: 'new', // Gửi đến topic 'new'
+      notification: {
+        title: 'Website mới trên ShowAI',
+        body: `${name} đã được thêm vào ShowAI`,
+      },
+      data: {
+        type: 'new',
+        name: name,
+        displayName: displayName,
+    },
+};
+
+const updateMessage = {
+    topic: 'update',
+    notification: {
+        title: 'Cập nhật mới',
+        body: 'Đã có phiên bản mới với nhiều tính năng hấp dẫn!'
+    },
+    data: {
+        type: 'update'
+    }
+};

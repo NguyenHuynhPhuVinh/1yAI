@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kotor\\Documents\\System203\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|c:\\users\\kotor\\documents\\system203\\nouiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|solutionrelative:nouiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|c:\\users\\kotor\\documents\\system203\\ctrlkprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|solutionrelative:ctrlkprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|C:\\Users\\kotor\\Documents\\System203\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|c:\\users\\kotor\\documents\\system203\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EF3883-D983-4887-BC12-F7EDB9140DE8}|System203.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CtrlKProgram.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\System203\\CtrlKProgram.cs",
+              "RelativeDocumentMoniker": "CtrlKProgram.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\System203\\CtrlKProgram.cs",
+              "RelativeToolTip": "CtrlKProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T05:31:59.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoUIProgram.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\System203\\NoUIProgram.cs",
+              "RelativeDocumentMoniker": "NoUIProgram.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\System203\\NoUIProgram.cs",
+              "RelativeToolTip": "NoUIProgram.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAswNoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T04:48:54.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\System203\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\System203\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T04:43:35.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kotor\\Documents\\System203\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\kotor\\Documents\\System203\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T04:49:11.595Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

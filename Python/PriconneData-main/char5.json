@@ -1,0 +1,198 @@
+{
+    "character": {
+      "id": 5,
+    "name": "Gita",
+    "name_jp": "ジータ",
+    "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92875_main.jpg",
+      "catchphrase": "Mình muốn trở thành một hiệp sĩ không gian thực thụ.\nMột ngày nào đó, mình sẽ trở thành hiệp sĩ không gian như cha,\nvà du hành đến tận cùng của bầu trời. Đó là ước mơ của mình!",
+      "element": "光属性",
+      "quick_summary": {
+        "strengths": [
+          "Gây sát thương lớn cho một kẻ địch bằng Union Burst",
+          "Chỉ số tấn công vật lý cao",
+          "Có thể sử dụng Union Burst nhanh chóng nhờ kỹ năng hồi TP",
+          "Là một đấu sĩ tấn công nhanh có thể gây sát thương lớn ngay từ đầu trận"
+        ],
+        "weaknesses": [
+          "HP/Phòng thủ thấp, dễ bị hạ gục",
+          "Không có kỹ năng hỗ trợ đồng đội"
+        ],
+        "exclusive_equipment": [
+          "Kỹ năng được bổ sung hiệu ứng hồi TP",
+          "Có thể hồi TP cho toàn bộ đồng đội",
+          "Tỷ lệ xoay vòng UB cực cao khi kết hợp với trang bị chuyên dụng"
+        ],
+        "six_star_upgrade": [
+          "Không chỉ UB mà hiệu quả kỹ năng cũng được tăng cường",
+          "Kỹ năng 2 được bổ sung sát thương, lượng TP tự hồi tăng thêm 30",
+          "Sức mạnh tấn công được tăng cường đáng kể",
+          "Tăng 7 điểm TP từ set bonus"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "SS",
+        "arena": "S",
+        "boss_battle": "S+",
+        "elemental_evaluation": "SS"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★★★☆☆",
+        "race": "Nhân loại",
+        "guild": "？？？"
+      },
+      "max_stats": {
+        "hp": 19930,
+        "physical_attack": 6593,
+        "magic_attack": 0,
+        "physical_defense": 172,
+        "magic_defense": 121
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92875_ub.jpg",
+          "name": "Lưỡi Kiếm Bão Táp",
+          "description": "Gây sát thương vật lý cực lớn cho 1 kẻ địch phía trước.",
+          "effects": [
+            "Gây 28898 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn (khoảng 1.9 lần so với ban đầu) cho 1 kẻ địch phía trước, đồng thời tăng mạnh tấn công vật lý của bản thân (khoảng 18 giây)."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Lưỡi Kiếm Rộng",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước.",
+          "effects": [
+            "Gây 9632 sát thương vật lý cho kẻ địch đơn lẻ"
+          ],
+          "exclusive_equipment_effect": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước. Ngoài ra, hồi phục lượng TP trung bình cho bản thân và hồi phục lượng TP nhỏ cho tất cả đồng đội khác."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_6.png",
+          "name": "Bùng Nổ Vũ Khí",
+          "description": "Hồi phục lượng TP trung bình cho bản thân.",
+          "effects": [
+            "Hồi phục 318 TP cho bản thân",
+            "Tăng nhẹ tấn công vật lý của bản thân"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Lưỡi Kiếm Lốc Xoáy (Sao 6: Bản Chất Kiếm Thánh)",
+          "description": "Tăng tấn công vật lý trung bình cho bản thân khi bắt đầu trận đấu.",
+          "effects": [
+            "Hiệu ứng tăng tấn công vật lý trung bình được nâng cấp thành tăng tấn công vật lý lớn."
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Kỹ năng \"Bùng Nổ Vũ Khí\" hồi phục TP cho bản thân",
+            "description": "Gita có thể hồi phục lượng TP lớn cho bản thân thông qua kỹ năng, giúp cô có thể sử dụng Union Burst nhanh chóng. Nhờ đó, cô rất hiệu quả trong các chế độ như Arena, nơi cần tiêu diệt kẻ địch nhanh chóng.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Cực kỳ mạnh khi đối đầu với kẻ địch đơn lẻ",
+            "description": "Union Burst và kỹ năng của Gita đều có khả năng gây sát thương lớn cho kẻ địch đơn lẻ. Khi kết hợp với các nhân vật đồng đội có khả năng giảm phòng thủ vật lý của kẻ địch, cô có thể gây sát thương ổn định ngay cả với các boss.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Dễ bị thay thế bởi các đấu sĩ tấn công đơn lẻ khác",
+            "description": "Có khá nhiều nhân vật đấu sĩ tấn công vật lý đơn lẻ, nên Gita dễ bị thay thế. Trước khi có trang bị chuyên dụng, mức độ ưu tiên phát triển của cô không quá cao.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Là đấu sĩ tấn công trong Clan Battle",
+            "description": "Với khả năng hồi TP và nhiều đòn tấn công đơn lẻ, Gita là một đấu sĩ tấn công xuất sắc. Mặc dù sức mạnh tấn công hơi kém so với các nhân vật đấu sĩ hàng đầu, nhưng cô vẫn là một lựa chọn tốt cho Clan Battle.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hoạt động hiệu quả trong Arena",
+            "description": "Nhờ khả năng tự hồi phục TP thông qua kỹ năng, Gita có thể nhanh chóng gây sát thương lớn cho kẻ địch. Cô là một ứng cử viên tốt khi xây dựng đội hình chú trọng vào tốc độ.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Lớp nhân vật tối ưu cho Clan Battle",
+            "description": "Kỹ năng \"Lưỡi Kiếm Rộng\" được bổ sung hiệu ứng hồi phục TP cho bản thân và đồng đội. Khả năng hồi TP cho đồng đội bất kể phạm vi là vô cùng mạnh mẽ. Không chỉ nâng cao hiệu suất của bản thân mà còn tăng cường khả năng tấn công của đồng đội.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tỷ lệ xoay vòng UB được cải thiện",
+            "description": "Ngoài việc hồi TP thông qua kỹ năng, trang bị chuyên dụng (cấp 130) còn giúp tăng chỉ số TP lên đến 8. Điều này giúp tăng tỷ lệ xoay vòng UB tấn công đơn lẻ hơn nữa, khiến cô trở thành một đấu sĩ tấn công xuất sắc.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hoạt động hiệu quả trong Arena",
+            "description": "Gita có thể đẩy nhanh UB của đồng đội đồng thời thực hiện tấn công đơn lẻ. Cô cũng có thể đối phó hiệu quả với các nhân vật có phòng thủ vật lý thấp như Kuuka hay Rei năm mới, và có thể phát huy tác dụng tùy thuộc vào đội hình đối phương.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Cả UB và kỹ năng đều được tăng cường!",
+            "description": "Gita 6 sao khác với các nhân vật 6 sao khác ở chỗ không chỉ UB mà cả hiệu suất kỹ năng cũng được nâng cấp. Đặc biệt, kỹ năng 2 Triple Attack giờ đây có thể gây sát thương, đồng thời lượng TP tự hồi phục tăng thêm khoảng 30.",
+            "sub_point": null
+          },
+          {
+            "main_point": "UB được bổ sung buff bản thân với giá trị hiệu quả cao",
+            "description": "UB không chỉ tăng sát thương mà còn được bổ sung buff bản thân với giá trị hiệu quả trên 8000. Nhờ cả hai kỹ năng đều có hồi TP, tỷ lệ xoay vòng UB rất tốt, giúp buff có thể chồng lên nhau dễ dàng và tạo ra sát thương cao.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Dễ dàng sử dụng ở vị trí sau các đấu sĩ tấn công mạnh",
+            "description": "Gita có thể được bố trí sau các đấu sĩ tấn công mạnh như Kaori, Akino, hay Hiyori (Princess). Trong Clan Battle, việc này giúp dễ dàng xây dựng đội hình cho phép đấu sĩ tấn công nhận sát thương và hồi TP thông qua sát thương nhận vào để xoay vòng UB.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Sức mạnh tấn công thuần túy kém hơn Kaori",
+            "description": "Hiệu suất đấu sĩ tấn công của Gita không cao bằng Kaori 6 sao với UB siêu mạnh kèm buff vĩnh viễn. Do đó, trong các đội hình tập trung hỗ trợ toàn lực cho một đấu sĩ tấn công, việc sử dụng Kaori hoặc Akino (có thể đảm nhận vai trò Tank) có thể tốt hơn trong một số trường hợp.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kết hợp tốt với các nhân vật hỗ trợ TP",
+            "description": "Gita có tỷ lệ xoay vòng UB cao nhờ khả năng tự hồi TP, nhưng chỉ với khả năng hồi phục của bản thân, lượng TP hồi từ Triple Attack có thể trở nên dư thừa. Để có thể sử dụng UB hiệu quả trước Triple Attack, nên kết hợp cô với các nhân vật hỗ trợ hồi TP như Nozomi mùa hè hoặc Kokkoro Princess.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng đấu sĩ tấn công được nâng cấp đáng kể",
+            "description": "Khi lên 6 sao, hiệu suất tấn công được tăng cường đáng kể, cho phép Gita vừa hồi TP cho đồng đội vừa tự mình gây sát thương. Cô có thể hoạt động như một đấu sĩ tấn công kiêm hỗ trợ TP đa năng, đặc biệt hiệu quả trong các trận đấu boss như Clan Battle.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "カオリ",
+        "ヒヨリ(プリンセス)",
+        "アキノ",
+        "ラビリスタ",
+        "コッコロ(プリンセス)",
+        "水着ノゾミ",
+        "アオイ(作業服)",
+        "水着マコト"
+      ]
+    }
+  }

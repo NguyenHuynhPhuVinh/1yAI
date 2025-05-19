@@ -1,0 +1,193 @@
+{
+    "character": {
+      "id": 25,
+      "name": "Mifuyu",
+      "name_jp": "ミフユ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92901_main.jpg",
+      "catchphrase": "Tôi sẽ trở thành sư phụ của cậu!\nTất nhiên không phải miễn phí đâu.\nTôi sẽ tính tiền theo giờ đấy.",
+      "element": "水属性",
+      "quick_summary": {
+        "strengths": [
+          "Sở hữu khả năng phòng thủ cao và khả năng tự hồi phục",
+          "Có thể gây choáng thông qua Union Burst và kỹ năng",
+          "Có thể đảm nhận vai trò lá chắn ở vị trí trung tuyến"
+        ],
+        "weaknesses": [
+          "Sức mạnh tấn công của bản thân không cao"
+        ],
+        "exclusive_equipment": [
+          "Thêm hiệu ứng tăng phòng thủ vật lý/phép thuật",
+          "Thêm hiệu ứng hồi phục theo thời gian trong phạm vi"
+        ],
+        "six_star_upgrade": [
+          "Tăng sát thương cơ bản của UB và tăng chỉ số cơ bản",
+          "Khi mục tiêu của UB đang bị vô hiệu hóa, sẽ kích hoạt thêm hiệu ứng choáng toàn thể địch"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "B",
+        "high_difficulty_quest": "S",
+        "arena": "SS",
+        "boss_battle": "B",
+        "elemental_evaluation": "A"
+      },
+      "basic_information": {
+        "type": "中衛 / 物理攻撃",
+        "initial_rarity": "★★☆☆☆",
+        "race": "Người",
+        "guild": "Tập đoàn Mercurius"
+      },
+      "max_stats": {
+        "hp": 14518,
+        "physical_attack": 4942,
+        "magic_attack": 10,
+        "physical_defense": 300,
+        "magic_defense": 207
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Lặn Bắn Nước",
+          "description": "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, đồng thời làm choáng chúng.",
+          "effects": [
+            "Gây 20058 sát thương vật lý cho một kẻ địch",
+            "Làm cho kẻ địch đó không thể hành động trong một khoảng thời gian"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch ở phía trước, đồng thời làm choáng chúng.",
+            "Nếu mục tiêu tấn công đã trong trạng thái không thể hành động khi kích hoạt Union Burst, sẽ gây thêm sát thương vật lý cực lớn cho tất cả kẻ địch và làm choáng chúng."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_5.png",
+          "name": "Sơ Cứu",
+          "description": "Hồi phục HP của bản thân ở mức trung bình.",
+          "effects": [
+            "Hồi phục 4732 HP cho bản thân"
+          ],
+          "exclusive_equipment_effect": [
+            "Hồi phục HP của bản thân ở mức lớn, đồng thời tăng mạnh khả năng phòng thủ vật lý và phòng thủ phép thuật của bản thân, và triển khai một trường hồi phục nhỏ xung quanh bản thân cho tất cả đồng minh trong phạm vi."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Nước",
+          "description": "Gây sát thương vật lý nhỏ cho 1 kẻ địch ở phía trước, đồng thời làm choáng chúng",
+          "effects": [
+            "Gây 4011 sát thương vật lý cho một kẻ địch",
+            "Làm cho kẻ địch đó không thể hành động trong một khoảng thời gian"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_17.png",
+          "name": "Cô Dâu Lính Đánh Thuê",
+          "description": "Khi bắt đầu trận đấu, tăng sức tấn công vật lý của bản thân ở mức trung bình",
+          "effects": [
+            "Khi bắt đầu trận đấu, tăng sức tấn công vật lý của bản thân ở mức trung bình",
+            "Tăng khả năng phòng thủ vật lý ở mức nhỏ"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Nhân vật trung tuyến với nhiều kỹ năng gây choáng",
+            "description": "Mifuyu có thể gây hiệu ứng choáng lên một kẻ địch thông qua Union Burst và kỹ năng. Choáng là trạng thái bất lợi mạnh mẽ có thể khóa hành động của kẻ địch trong một khoảng thời gian, nên việc đưa cô ấy vào đội hình sẽ rất hữu ích.",
+            "sub_point": "Union Burst có thể được kích hoạt vào thời điểm mong muốn, nên bạn có thể gây choáng vào đúng thời điểm cần thiết. Tất nhiên, cô ấy cũng hoạt động tốt trong chế độ tự động."
+          },
+          {
+            "main_point": "Có thể chiến đấu bền bỉ nhờ khả năng tự hồi phục",
+            "description": "Mifuyu có thể hồi phục HP của bản thân thông qua kỹ năng. Ngoài ra, khả năng phòng thủ vật lý của cô ấy cũng rất cao, nên cô là một trong những nhân vật trung tuyến có thể chiến đấu bền bỉ.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Kỹ năng gây choáng đầu trận phát động nhanh",
+            "description": "Kỹ năng gây choáng đầu trận của Mifuyu phát động rất nhanh, thậm chí có thể ngăn kẻ địch hoàn thành hành động của chúng. Tốc độ phát động này thuộc hàng top trong tất cả các nhân vật, khiến cô trở thành một nhân vật gây cản trở xuất sắc.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Cẩn thận với kẻ địch miễn nhiễm với hiệu ứng choáng",
+            "description": "Mifuyu là một nhân vật trung tuyến xuất sắc với nhiều đòn tấn công gây choáng, nhưng cô khó phát huy thế mạnh trước những kẻ địch miễn nhiễm với hiệu ứng choáng. Nhiều boss trong các nhiệm vụ thường miễn nhiễm với hiệu ứng choáng, nên hãy cẩn thận.",
+            "sub_point": null
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Vai trò gây cản trở trong Arena",
+            "description": "Với kỹ năng đầu trận gây choáng phát động nhanh, cô có thể vô hiệu hóa kỹ năng đầu trận của đối thủ trước khi nó phát huy tác dụng. Mục tiêu là kẻ địch ở vị trí đầu tiên, nhưng có thể vô hiệu hóa những nhân vật hỗ trợ TP như Yukari hoặc những nhân vật có khả năng gây choáng diện rộng mạnh mẽ như Inori để giành lợi thế.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Hữu ích trong các nhiệm vụ khó",
+            "description": "Với nhiều kỹ năng gây choáng, cô có thể khóa hành động của kẻ địch trừ những con quái vật lớn. Điều này giúp tăng khả năng sống sót của đội hình, đặc biệt hữu ích trong các nhiệm vụ khó ở giai đoạn sau.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Trở thành nhân vật trung tuyến có thể hồi phục đồng đội",
+            "description": "Với trang bị chuyên dụng, Mifuyu có thể triển khai trường hồi phục để hồi máu cho đồng đội xung quanh. Có rất ít nhân vật trung tuyến có thể hồi phục bằng kỹ năng, và bản thân cô có khả năng chống chịu cao, nên cô có thể đảm nhận vai trò hỗ trợ hồi phục.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khả năng chống chịu càng được tăng cường",
+            "description": "Ngoài trường hồi phục, còn có thêm hiệu ứng tăng đáng kể khả năng phòng thủ của bản thân. Cô có thể đảm nhận vai trò tank phụ kiêm hỗ trợ hồi phục ở vị trí trung tuyến, nên nếu bạn cần một nhân vật có thể làm tank, hãy trang bị trang bị chuyên dụng cho cô ấy.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Có thể tấn công toàn thể + gây choáng khi đáp ứng điều kiện",
+            "description": "Khi kích hoạt UB vào lúc mục tiêu tấn công đang trong trạng thái không thể hành động (choáng hoặc trói buộc), sẽ kích hoạt hiệu ứng bổ sung là tấn công toàn thể kẻ địch + gây choáng. Hiệu quả này có thể phát huy tối đa khi kết hợp với kỹ năng của bản thân hoặc các nhân vật khác có khả năng gây choáng.",
+            "sub_point": "Nếu mục tiêu tấn công ở vị trí đầu tiên không trong trạng thái không thể hành động, UB sẽ hoạt động giống như khi ở 5 sao, chỉ tấn công và gây choáng một kẻ địch."
+          },
+          {
+            "main_point": "Tăng các chỉ số như tốc độ tích lũy TP",
+            "description": "Khi nâng lên 6 sao, các chỉ số bao gồm tốc độ tích lũy TP được tăng cường đáng kể. Tốc độ sử dụng UB tăng lên, giúp dễ dàng kết hợp UB với hiệu ứng choáng từ kỹ năng của bản thân.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Xuất sắc trong vai trò tank phụ kiêm tấn công",
+            "description": "Vốn đã có khả năng chống chịu cao và có thể hồi phục trong phạm vi. Sức mạnh của UB được tăng cường đáng kể, giúp cô dễ dàng được đưa vào đội hình như một nhân vật tấn công. Hãy sử dụng cô ấy làm tank phụ trong các nhiệm vụ và Arena.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Khó đáp ứng điều kiện để kích hoạt hiệu ứng bổ sung",
+            "description": "Nếu có thể kích hoạt UB toàn thể, cô sẽ trở thành một nhân vật tấn công rất mạnh. Tuy nhiên, việc đáp ứng điều kiện khá khó khăn và phụ thuộc không chỉ vào bản thân mà còn vào đội hình đối phương. Khó phát huy hết tiềm năng là điểm yếu của cô.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Xuất sắc trong vai trò phòng thủ",
+            "description": "Tận dụng khả năng chống chịu cao để làm nhân vật phòng thủ trong Arena/PArena. Kết hợp với các nhân vật có kỹ năng/UB gây choáng để tạo đội hình phòng thủ giúp hiệu ứng bổ sung dễ kích hoạt.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Có thể hoạt động như nhân vật tấn công",
+            "description": "Để chủ động kích hoạt UB khi kẻ địch đang bị choáng, cách đơn giản nhất là hỗ trợ TP ngay từ đầu trận để tấn công nhanh. Tuy nhiên, nếu đối phương có Lima thì dễ thất bại. Nên sử dụng cô như một nhân vật tấn công có thể gây choáng trong các đội hình phòng thủ không có Lima hoặc trong PArena.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "リマ",
+        "ユカリ",
+        "水着サレン",
+        "ハツネ",
+        "リン(デレマス)"
+      ]
+    }
+  }

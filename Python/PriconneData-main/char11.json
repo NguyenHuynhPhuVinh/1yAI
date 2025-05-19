@@ -1,0 +1,181 @@
+{
+    "character": {
+      "id": 11,
+      "name": "Pecorine",
+      "name_jp": "ペコリーヌ",
+      "image_character_main_banner": "https://img.gamewith.jp/article_tools/pricone-re/gacha/92887_main.jpg",
+      "catchphrase": "Chào cậu~☆ Tên tôi là... Pecorine với cái bụng đói meo meo!",
+      "element": "光属性",
+      "quick_summary": {
+        "strengths": [
+          "Dễ dàng mở khóa tiềm năng và hoạt động tốt trong vai trò tank",
+          "Có kỹ năng tự hồi phục giúp tăng khả năng sống sót",
+          "Tăng phòng thủ từ Union Burst rất xuất sắc"
+        ],
+        "weaknesses": [
+          "Sát thương khá thấp kể cả từ Union Burst"
+        ],
+        "exclusive_equipment": [
+          "Nâng cấp kỹ năng với khả năng tạo lá chắn hấp thụ sát thương vật lý và phép thuật",
+          "Lượng hồi phục tăng đáng kể",
+          "Khả năng tank được tăng cường đáng kể",
+          "Tăng sát thương vật lý và sát thương kỹ năng giúp tăng hỏa lực",
+          "Thêm hiệu ứng giảm phòng thủ vật lý",
+          "Chỉ số cao cùng với hồi HP liên tục giúp tăng khả năng sống sót"
+        ],
+        "six_star_upgrade": [
+          "Tăng hiệu quả của buff phòng thủ",
+          "Thêm buff tấn công vật lý",
+          "Buff tấn công tăng theo lượng HP còn lại",
+          "Tăng chỉ số cơ bản HP/phòng thủ vật lý/phòng thủ phép thuật"
+        ]
+      },
+      "content_ratings_text": {
+        "quest": "A",
+        "high_difficulty_quest": "S",
+        "arena": "S+",
+        "boss_battle": "S+",
+        "elemental_evaluation": "S+"
+      },
+      "basic_information": {
+        "type": "前衛 / 物理攻撃",
+        "initial_rarity": "★☆☆☆☆",
+        "race": "Nhân loại",
+        "guild": "Hội Ẩm Thực"
+      },
+      "max_stats": {
+        "hp": 33302,
+        "physical_attack": 4768,
+        "magic_attack": 20,
+        "physical_defense": 433,
+        "magic_defense": 330
+      },
+      "skills": {
+        "union_burst": {
+          "icon_skill_ub_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Đòn Tấn Công Công Chúa",
+          "description": "Gây sát thương vật lý lớn cho 1 kẻ địch phía trước, đồng thời tăng mạnh phòng thủ vật lý và phòng thủ phép thuật của bản thân.",
+          "effects": [
+            "Gây sát thương vật lý lớn cho 1 kẻ địch",
+            "Tăng phòng thủ vật lý bản thân ở mức trung bình",
+            "Tăng phòng thủ phép thuật bản thân ở mức trung bình"
+          ],
+          "six_star_effect": [
+            "Gây sát thương vật lý cực lớn cho 1 kẻ địch phía trước, đồng thời tăng cực mạnh phòng thủ vật lý và phòng thủ phép thuật, và tăng tấn công vật lý ở mức trung bình. Hiệu quả tăng tấn công vật lý sẽ tăng theo lượng HP còn lại của bản thân."
+          ]
+        },
+        "skill_1": {
+          "icon_skill_1_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_4.png",
+          "name": "Giờ Ăn Trưa",
+          "description": "Tăng phòng thủ phép thuật của bản thân ở mức trung bình, đồng thời hồi phục HP ở mức trung bình.",
+          "effects": [
+            "Tăng phòng thủ phép thuật bản thân lên 91",
+            "Hồi phục 3788 HP cho bản thân"
+          ],
+          "exclusive_equipment_effect": [
+            "Tăng phòng thủ phép thuật của bản thân ở mức trung bình, đồng thời hồi phục HP ở mức lớn và tạo lá chắn hấp thụ sát thương vật lý và phép thuật cho bản thân."
+          ]
+        },
+        "skill_2": {
+          "icon_skill_2_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_1.png",
+          "name": "Chém Rơi",
+          "description": "Gây sát thương vật lý trung bình cho 1 kẻ địch phía trước",
+          "effects": [
+            "Gây 7416 sát thương vật lý cho 1 kẻ địch"
+          ]
+        },
+        "ex_skill": {
+          "icon_ex_skill_square": "https://img.gamewith.jp/article_tools/pricone-re/gacha/skill_21.png",
+          "name": "Sức Mạnh Công Chúa",
+          "description": "Tăng HP tối đa của bản thân ở mức trung bình khi bắt đầu trận đấu",
+          "effects": [
+            "Tăng HP tối đa của bản thân ở mức trung bình khi bắt đầu trận đấu"
+          ]
+        }
+      },
+      "strengths_and_usage": {
+        "points": [
+          {
+            "main_point": "Nhân vật tank có thể đối phó với cả sát thương vật lý và phép thuật",
+            "description": "Pecorine có thể gây sát thương cho kẻ địch đơn lẻ bằng Union Burst đồng thời tăng phòng thủ vật lý/phép thuật cho bản thân. Mặc dù không chuyên biệt vào một loại phòng thủ nào, nhưng khi được đầu tư, cô ấy có thể đối phó với cả hai loại tấn công.",
+            "sub_point": "Là một trong những nhân vật dễ sử dụng nhất trong số các nhân vật ban đầu. Mạnh đến vậy mà chỉ là sao 1 thì thật là kinh khủng nhỉ☆"
+          },
+          {
+            "main_point": "HP cực kỳ cao",
+            "description": "Bằng cách nâng cấp trang bị lên cấp 7, cô ấy sẽ học được kỹ năng EX giúp tăng HP một cách đáng kể. Nhờ đó, cô trở thành tank có HP cao nhất trong số các nhân vật hiếm thấp, giúp dễ dàng chịu đựng các đòn tấn công của kẻ địch.",
+            "sub_point": null
+          }
+        ]
+      },
+      "weaknesses_and_limitations": {
+        "points": [
+          {
+            "main_point": "Phòng thủ thấp hơn so với các tank khác",
+            "description": "Vì kỹ năng EX của Pecorine chỉ tăng HP nên phòng thủ của cô ấy hơi thấp hơn so với các tank khác. Mặc dù có thể bù đắp bằng kỹ năng và UB, nhưng khi đối mặt với các hiệu ứng debuff, cô ấy sẽ dễ bị đánh bại hơn so với các tank chuyên biệt.",
+            "sub_point": "Mặc dù có khả năng đối phó với nhiều loại kẻ địch khác nhau trong các nhiệm vụ, nhưng trong đấu trường khi bị tập trung tấn công bằng vật lý/phép thuật, cô ấy dễ bị hạ gục."
+          }
+        ]
+      },
+      "overall_evaluation": {
+        "points": [
+          {
+            "main_point": "Tank đa năng phát triển mạnh về sau",
+            "description": "Pecorine là nhân vật tank có thể đối phó với cả sát thương vật lý và phép thuật. Khi được đầu tư trang bị và mở khóa tiềm năng, cô ấy sẽ có HP cực kỳ cao và có thể hoạt động hiệu quả trong các nhiệm vụ và đấu trường.",
+            "sub_point": null
+          }
+        ]
+      },
+      "equipment_evaluation": {
+        "points": [
+          {
+            "main_point": "Khả năng sống sót tăng đáng kể",
+            "description": "Ngoài việc tăng chỉ số từ trang bị, việc nâng cấp kỹ năng 'Giờ Ăn Trưa' mang lại lợi ích rất lớn. Không chỉ tăng lượng hồi phục và buff phòng thủ phép thuật, mà còn có thêm lá chắn hấp thụ sát thương vật lý và phép thuật, giúp khả năng tank tăng lên đáng kể.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Yếu trước kỹ năng gây choáng",
+            "description": "Vì Pecorine dựa vào kỹ năng để hồi phục, nên nếu bị choáng trong lúc sử dụng kỹ năng, việc hồi phục sẽ bị gián đoạn. Cần cẩn thận khi đối mặt với đối thủ có kỹ năng gây choáng.",
+            "sub_point": null
+          }
+        ]
+      },
+      "six_star_improvements": {
+        "points": [
+          {
+            "main_point": "Tăng giá trị buff từ UB",
+            "description": "Khi lên sao 6, hiệu quả của buff phòng thủ vốn đã cao sẽ được tăng cường thêm nữa. Ngoài ra, HP, phòng thủ vật lý và phòng thủ phép thuật cơ bản cũng tăng lên. Khả năng tank được tăng cường một cách thuần túy.",
+            "sub_point": "Thời gian buff vẫn giữ nguyên như khi sao 5, khoảng 19 giây. Đôi khi khi buff sắp hết, UB tiếp theo đã sẵn sàng, giúp duy trì chỉ số phòng thủ cao liên tục."
+          },
+          {
+            "main_point": "Buff tấn công từ UB rất mạnh",
+            "description": "Khi lên sao 6, UB sẽ có thêm buff tấn công vật lý. Buff này tăng theo lượng HP còn lại, và theo tính toán, có thể đạt tối đa khoảng 4500 tấn công. Với thời gian hiệu lực dài, nó giúp tăng cường đáng kể sát thương và khả năng hồi phục.",
+            "sub_point": null
+          },
+          {
+            "main_point": "Tăng lượng hồi phục từ Giờ Ăn Trưa",
+            "description": "Nhờ việc tăng chỉ số từ mở khóa tiềm năng và bonus từ bộ trang bị, lượng hồi phục được tăng cường đáng kể. Với việc UB có thêm buff tấn công vật lý, lượng hồi phục từ Giờ Ăn Trưa+ còn được tăng thêm trong thời gian UB.",
+            "sub_point": "Bonus từ bộ Pure Memory Piece giúp tăng lượng hồi phục. Ngay cả khi chưa lên sao 6, việc thu thập Pure Memory Piece vẫn rất quan trọng."
+          }
+        ]
+      },
+      "six_star_evaluation": {
+        "points": [
+          {
+            "main_point": "Tank chuyên về khả năng sống sót cá nhân",
+            "description": "Khi lên sao 6, khả năng tank được nâng cao hơn nữa. Tuy nhiên, cô ấy chỉ tập trung vào việc tăng khả năng sống sót của bản thân mà không có khả năng khiêu khích hay hỗ trợ đồng đội. Hiện tại, Miyako đối phó với sát thương vật lý và Kuuka đối phó với sát thương phép thuật có vai trò rõ ràng hơn, khiến nhu cầu sử dụng Pecorine sao 6 không nhiều.",
+            "sub_point": "Tình huống lý tưởng cho Pecorine sao 6 là khi phải đối mặt với cả sát thương vật lý và phép thuật mạnh từ phía trước, nhưng hiện tại những tình huống như vậy không nhiều. Mặc dù là tank rất mạnh, nhưng có thể tạm thời giảm độ ưu tiên đầu tư."
+          },
+          {
+            "main_point": "Có tiềm năng làm sát thương phụ",
+            "description": "Buff tấn công vật lý từ UB rất mạnh và nếu duy trì được HP cao, chỉ số tấn công có thể đạt mức tương đương với các nhân vật sát thương chính. Đây là điểm mạnh mà các tank thông thường không có, và trong những tình huống Pecorine nhận nhiều sát thương, cô ấy vẫn có thể đóng góp vào việc gây sát thương.",
+            "sub_point": null
+          }
+        ]
+      },
+      "recommended_pairings_name": [
+        "ノゾミ",
+        "シズル",
+        "マホ"
+      ]
+    }
+  }

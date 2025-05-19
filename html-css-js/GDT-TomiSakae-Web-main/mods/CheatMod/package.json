@@ -1,0 +1,10 @@
+{
+    "id": "CheatMod-kristof1104",
+    "name": "CheatMod",
+    "version": "1.0.6",
+    "author": "kristof1104",
+    "url": "https://github.com/kristof1104/CheatMod",
+    "description": "Version 1.0.5c\n\nCheatMod By Kristof1104\t\n\nThis is a mod for Game Dev Tycoon, it enables users to use cheats through an in-game menu.\nUsing this mod is a safer method then changing the save game directly with an editor.",
+    "main": "./CheatMod.js",
+    "image": "cheatmod_pic-Thumbnail.png"
+}

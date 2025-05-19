@@ -1,0 +1,10 @@
+videos/
+*.mp4
+*.jpg
+client_secrets.json
+client_secrets1.json
+client_secrets2.json
+client_secrets3.json
+serviceAccountKey.json
+oauth_token.json
+config.py

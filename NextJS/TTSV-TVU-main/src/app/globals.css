@@ -1,0 +1,128 @@
+@import 'tailwindcss';
+
+/* Animation keyframes */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+:root {
+    /* Modern Vibrant Color Palette */
+    --primary: #4F46E5; /* Indigo - màu chính */
+    --primary-light: #818CF8; /* Light Indigo - màu chính nhạt */
+    --primary-dark: #3730A3; /* Dark Indigo - màu chính đậm */
+    --primary-gradient: linear-gradient(135deg, #4F46E5 0%, #818CF8 100%);
+    
+    --secondary: #06B6D4; /* Cyan - màu phụ */
+    --secondary-light: #67E8F9; /* Light Cyan - màu phụ nhạt */
+    --secondary-dark: #0891B2; /* Dark Cyan - màu phụ đậm */
+    --secondary-gradient: linear-gradient(135deg, #06B6D4 0%, #22D3EE 100%);
+    
+    --accent1: #F59E0B; /* Amber */
+    --accent2: #10B981; /* Emerald */
+    --accent3: #8B5CF6; /* Violet */
+    --accent4: #F97316; /* Orange */
+    --accent5: #EC4899; /* Pink */
+    
+    --accent1-gradient: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
+    --accent2-gradient: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+    --accent3-gradient: linear-gradient(135deg, #8B5CF6 0%, #A78BFA 100%);
+    --accent4-gradient: linear-gradient(135deg, #F97316 0%, #FB923C 100%);
+    --accent5-gradient: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
+    --disabled-gradient: linear-gradient(135deg, #94a3b8, #64748b);
+    
+    /* Animated Gradients */
+    --rainbow-gradient: linear-gradient(45deg, #4F46E5, #8B5CF6, #EC4899, #F97316, #F59E0B, #10B981, #06B6D4);
+    --rainbow-gradient-animated: linear-gradient(45deg, #4F46E5, #8B5CF6, #EC4899, #F97316, #F59E0B, #10B981, #06B6D4);
+    
+    --success: #10B981; /* Emerald - màu thành công */
+    --warning: #F59E0B; /* Amber - màu cảnh báo */
+    --danger: #EF4444; /* Red - màu nguy hiểm */
+    
+    /* Background Options */
+    --background: #F8FAFC; /* Light background */
+    --card-bg: #FFFFFF; /* Card background */
+    --glass-bg: rgba(255, 255, 255, 0.7); /* Glass background */
+    --glass-bg-dark: rgba(240, 245, 250, 0.85); /* Darker glass background */
+    --glass-border: rgba(255, 255, 255, 0.5); /* Glass border */
+    
+    /* Border Colors */
+    --border: #E2E8F0; /* Light border */
+    --border-accent: rgba(79, 70, 229, 0.4); /* Accent border */
+    --border-hover: #06B6D4; /* Hover border */
+    
+    /* Text Colors */
+    --text-primary: #121212; /* Dark text */
+    --text-secondary: #4B5563; /* Medium dark text */
+    --text-tertiary: #9CA3AF; /* Light text */
+    
+    /* Shadow Effects */
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    
+    /* Glass Morphism Shadows */
+    --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    
+    /* Glow Effects */
+    --shadow-neon: 0 0 15px rgba(79, 70, 229, 0.5), 0 0 30px rgba(79, 70, 229, 0.2);
+    --shadow-neon-indigo: 0 0 15px rgba(79, 70, 229, 0.5), 0 0 30px rgba(79, 70, 229, 0.2);
+    --shadow-neon-emerald: 0 0 15px rgba(16, 185, 129, 0.5), 0 0 30px rgba(16, 185, 129, 0.2);
+    --shadow-neon-cyan: 0 0 15px rgba(6, 182, 212, 0.5), 0 0 30px rgba(6, 182, 212, 0.2);
+    --shadow-neon-violet: 0 0 15px rgba(139, 92, 246, 0.5), 0 0 30px rgba(139, 92, 246, 0.2);
+    --shadow-neon-amber: 0 0 15px rgba(245, 158, 11, 0.5), 0 0 30px rgba(245, 158, 11, 0.2);
+    
+    --lime-green: var(--accent2);
+    --coral-red: var(--danger);
+    --golden-yellow: var(--warning);
+}
+
+/* Default body styles */
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    /* Màu nền và chữ mặc định */
+    background-image: radial-gradient(circle at top right, rgba(79, 70, 229, 0.1), transparent 500px),
+                      radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.1), transparent 500px);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-hover);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-tertiary);
+}
+
+/* Ẩn scroll bar theo chiều ngang */
+::-webkit-scrollbar {
+    height: 0;
+}
+

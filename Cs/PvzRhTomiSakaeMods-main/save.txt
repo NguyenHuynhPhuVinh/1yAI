@@ -1,0 +1,102 @@
+// =======================================================
+//                       USING STATEMENTS
+// =======================================================
+using CayTuyChinh; // Đảm bảo đây là namespace chứa CustomCore của bạn
+using GiaoDienTuyChinh;
+using HarmonyLib;
+using Il2Cpp; // Namespace chứa các lớp game gốc: Producer, InitBoard, Board, CardUI, PlantType, ZombieType, InGameUIMgr, PlantDataLoader, etc.
+using Il2CppInterop.Runtime; // Thêm cho Il2CppMarshal
+using Il2CppInterop.Runtime.Injection;
+using Il2CppTMPro; // Cho TextMeshProUGUI
+using MelonLoader;
+using System;
+using System.Collections;
+using System.Collections.Generic; // Cho List<>
+using UnityEngine;
+using UnityEngine.Events; // Cho Button.onClick UnityAction
+using UnityEngine.UI; // Cho Image, Button, LayoutElement, LayoutGroup, LayoutRebuilder, RectTransform
+
+// =======================================================
+//                       ASSEMBLY ATTRIBUTES
+// =======================================================
+[assembly: MelonInfo(typeof(HoaLua.Core), "PvzRhTomiSakaeMods v1.0 - HoaLua", "1.0", "TomiSakae", null)] // Tăng version
+[assembly: MelonGame("LanPiaoPiao", "PlantsVsZombiesRH")] // Tên game target
+[assembly: MelonPlatformDomain(MelonPlatformDomainAttribute.CompatibleDomains.IL2CPP)]
+
+namespace HoaLua
+{
+    // =======================================================
+    //            CUSTOM PLANT COMPONENT (Nếu cần logic riêng)
+    // =======================================================
+    [RegisterTypeInIl2Cpp]
+    public class LopHoaLua : MonoBehaviour
+    {
+        // Thuộc tính tiện lợi để truy cập component Producer gốc
+        public Producer plant => base.gameObject.GetComponent<Producer>();
+
+        // Constructor cần thiết cho Il2CppInterop
+        public LopHoaLua(IntPtr ptr) : base(ptr) { }
+
+        // Bạn có thể thêm các phương thức hoặc thuộc tính riêng cho HoaLua ở đây
+    }
+
+    // =======================================================
+    //                       MAIN MOD CLASS
+    // =======================================================
+    public class Core : MelonMod
+    {
+        public const int HoaLuaPlantId = 2031;
+        public static Sprite HoaLuaSeedSprite = null; // Vẫn cần load sprite
+
+        public override void OnInitializeMelon()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            MelonLogger.Msg("Khởi tạo mod Hoa Lửa v1.0.5 (Sử dụng ModPlantSelectorUI)...");
+
+            // --- Load AssetBundle, Prefabs, Đăng ký cây, Almanac (Giữ nguyên) ---
+            AssetBundle ab = null; try { ab = CustomCore.GetAssetBundle(MelonAssembly.Assembly, "hoalua"); } catch (Exception e) { MelonLogger.Error(e); return; }
+            var pfab = ab.GetAsset<GameObject>("SunflowerPrefab"); var pview = ab.GetAsset<GameObject>("SunflowerPreview");
+            if (pfab != null && pview != null) CustomCore.RegisterCustomPlant<Producer, LopHoaLua>(HoaLuaPlantId, pfab, pview, [(1, 16), (16, 1)], 0f, 15f, 0, 300, 15f, 175);
+            else MelonLogger.Error("Thiếu prefab/preview Hoa Lửa!");
+            //try { HoaLuaSeedSprite = ab.GetAsset<Sprite>("SunFlowerPreview"); if (HoaLuaSeedSprite == null) { var r = pview?.GetComponent<SpriteRenderer>(); if (r?.sprite != null) HoaLuaSeedSprite = r.sprite; } } catch (Exception e) { MelonLogger.Error(e); }
+            if (HoaLuaSeedSprite == null) MelonLogger.Error("!!! Không thể load hoặc copy sprite gói hạt cho Hoa Lửa!"); // Lỗi nếu vẫn null
+            string name = "Hướng Dương Lửa"; string desc = "..."; CustomCore.AddPlantAlmanacStrings(HoaLuaPlantId, name, desc);
+
+
+            // --- CẤU HÌNH VÀ ĐĂNG KÝ VỚI THƯ VIỆN ---
+            ModPlantUISystem.ConfigureLayout(
+             templateObjectName: "PeaShooter",
+             contentOffsetX: 0f,
+             contentOffsetY: 200f
+            );
+            // (Optional) Cấu hình nút bấm - Chỉ cần gọi 1 lần từ 1 mod chính hoặc để mặc định
+            ModPlantUISystem.ConfigureButton(text: "Tomi's Plants", anchoredPosition: new Vector2(-20, 50));
+
+            // Đăng ký cây Hoa Lửa (Cung cấp ID, Tên, và Sprite)
+            
+            ModPlantUISystem.RegisterModPlant(HoaLuaPlantId, "Hoa Lửa", HoaLuaSeedSprite);
+            
+
+            MelonLogger.Msg("Khởi tạo mod Hoa Lửa hoàn tất.");
+        }
+    }
+
+    // =======================================================
+    //            PATCH CHO HIỆU ỨNG TẠO LỬA
+    // =======================================================
+    [HarmonyPatch(typeof(Producer), "ProduceSun")]
+    public static class FireSunflower_ProduceSun_CreateFireLine_Patch
+    {
+        public static void Postfix(Producer __instance)
+        {
+            if (__instance != null && __instance.thePlantType == (PlantType)Core.HoaLuaPlantId)
+            {
+                if (Board.Instance == null) return;
+                int plantRow = __instance.thePlantRow;
+                try { Board.Instance.CreateFireLine(plantRow, 900, false, false, true); }
+                catch (Exception ex) { MelonLogger.Error($"Lỗi khi Hoa Lửa (ID: {Core.HoaLuaPlantId}) tạo dòng lửa: {ex.Message}\n{ex.StackTrace}"); }
+            }
+        }
+    }
+
+} // Kết thúc namespace HoaLua
