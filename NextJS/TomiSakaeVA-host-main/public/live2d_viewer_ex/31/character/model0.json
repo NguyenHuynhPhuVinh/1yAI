@@ -1,0 +1,1133 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json",
+            "MaxWeight": 0.404
+        },
+        "Motions": {
+            "动作鉴赏-主界面": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                }
+            ],
+            "动作鉴赏-触摸": [
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_2_Sound_0.wav"
+                }
+            ],
+            "动作鉴赏-事件提醒": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                }
+            ],
+            "动作鉴赏-登录与回港": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                }
+            ],
+            "动作鉴赏-语音鉴赏": [
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "系列动作": [
+                {
+                    "File": "motions/Motions_系列动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_11_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_12_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_13_File_0.json"
+                }
+            ],
+            "彩蛋动作": [
+                {
+                    "File": "motions/Motions_彩蛋动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_7_File_0.json"
+                }
+            ],
+            "待机状态": [
+                {
+                    "File": "motions/Motions_待机状态_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_9_File_0.json"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                }
+            ],
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Tick4": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                }
+            ],
+            "Tick8": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                }
+            ],
+            "Tick20": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_11_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_12_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_13_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_彩蛋动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_待机状态_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_0_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_1_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_动作鉴赏-触摸_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-触摸_2_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_1_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_2_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_20": [
+                {
+                    "Sound": "voice/Motions_动作鉴赏-语音鉴赏_3_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_21": [
+                {
+                    "File": "motions/Motions_系列动作_0_File_0.json"
+                }
+            ],
+            "Animation_22": [
+                {
+                    "File": "motions/Motions_系列动作_1_File_0.json"
+                }
+            ],
+            "Animation_23": [
+                {
+                    "File": "motions/Motions_系列动作_2_File_0.json"
+                }
+            ],
+            "Animation_24": [
+                {
+                    "File": "motions/Motions_系列动作_3_File_0.json"
+                }
+            ],
+            "Animation_25": [
+                {
+                    "File": "motions/Motions_系列动作_4_File_0.json"
+                }
+            ],
+            "Animation_26": [
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                }
+            ],
+            "Animation_27": [
+                {
+                    "File": "motions/Motions_系列动作_6_File_0.json"
+                }
+            ],
+            "Animation_28": [
+                {
+                    "File": "motions/Motions_系列动作_7_File_0.json"
+                }
+            ],
+            "Animation_29": [
+                {
+                    "File": "motions/Motions_系列动作_8_File_0.json"
+                }
+            ],
+            "Animation_30": [
+                {
+                    "File": "motions/Motions_系列动作_9_File_0.json"
+                }
+            ],
+            "Animation_31": [
+                {
+                    "File": "motions/Motions_系列动作_10_File_0.json"
+                }
+            ],
+            "Animation_32": [
+                {
+                    "File": "motions/Motions_系列动作_11_File_0.json"
+                }
+            ],
+            "Animation_33": [
+                {
+                    "File": "motions/Motions_系列动作_12_File_0.json"
+                }
+            ],
+            "Animation_34": [
+                {
+                    "File": "motions/Motions_系列动作_13_File_0.json"
+                }
+            ],
+            "Animation_35": [
+                {
+                    "File": "motions/Motions_彩蛋动作_0_File_0.json"
+                }
+            ],
+            "Animation_36": [
+                {
+                    "File": "motions/Motions_彩蛋动作_1_File_0.json"
+                }
+            ],
+            "Animation_37": [
+                {
+                    "File": "motions/Motions_彩蛋动作_2_File_0.json"
+                }
+            ],
+            "Animation_38": [
+                {
+                    "File": "motions/Motions_彩蛋动作_3_File_0.json"
+                }
+            ],
+            "Animation_39": [
+                {
+                    "File": "motions/Motions_彩蛋动作_4_File_0.json"
+                }
+            ],
+            "Animation_40": [
+                {
+                    "File": "motions/Motions_彩蛋动作_5_File_0.json"
+                }
+            ],
+            "Animation_41": [
+                {
+                    "File": "motions/Motions_彩蛋动作_6_File_0.json"
+                }
+            ],
+            "Animation_42": [
+                {
+                    "File": "motions/Motions_彩蛋动作_7_File_0.json"
+                }
+            ],
+            "Animation_43": [
+                {
+                    "File": "motions/Motions_待机状态_0_File_0.json"
+                }
+            ],
+            "Animation_44": [
+                {
+                    "File": "motions/Motions_待机状态_1_File_0.json"
+                }
+            ],
+            "Animation_45": [
+                {
+                    "File": "motions/Motions_待机状态_2_File_0.json"
+                }
+            ],
+            "Animation_46": [
+                {
+                    "File": "motions/Motions_待机状态_3_File_0.json"
+                }
+            ],
+            "Animation_47": [
+                {
+                    "File": "motions/Motions_待机状态_4_File_0.json"
+                }
+            ],
+            "Animation_48": [
+                {
+                    "File": "motions/Motions_系列动作_5_File_0.json"
+                }
+            ],
+            "Animation_49": [
+                {
+                    "File": "motions/Motions_待机状态_6_File_0.json"
+                }
+            ],
+            "Animation_50": [
+                {
+                    "File": "motions/Motions_待机状态_7_File_0.json"
+                }
+            ],
+            "Animation_51": [
+                {
+                    "File": "motions/Motions_待机状态_8_File_0.json"
+                }
+            ],
+            "Animation_52": [
+                {
+                    "File": "motions/Motions_待机状态_9_File_0.json"
+                }
+            ],
+            "Animation_53": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_0_Sound_0.wav"
+                }
+            ],
+            "Animation_54": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_55": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_0_Sound_0.wav"
+                }
+            ],
+            "Animation_56": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_1_Sound_0.wav"
+                }
+            ],
+            "Animation_57": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_2_Sound_0.wav"
+                }
+            ],
+            "Animation_58": [
+                {
+                    "File": "motions/Motions_动作鉴赏-主界面_3_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-主界面_3_Sound_0.wav"
+                }
+            ],
+            "Animation_59": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_0_Sound_0.wav"
+                }
+            ],
+            "Animation_60": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_0_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_1_Sound_0.wav"
+                }
+            ],
+            "Animation_61": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_2_Sound_0.wav"
+                }
+            ],
+            "Animation_62": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_2_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_3_Sound_0.wav"
+                }
+            ],
+            "Animation_63": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_4_Sound_0.wav"
+                }
+            ],
+            "Animation_64": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_4_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_5_Sound_0.wav"
+                }
+            ],
+            "Animation_65": [
+                {
+                    "File": "motions/Motions_动作鉴赏-事件提醒_6_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-事件提醒_6_Sound_0.wav"
+                }
+            ],
+            "Animation_66": [
+                {
+                    "File": "motions/Motions_动作鉴赏-登录与回港_1_File_0.json",
+                    "Sound": "voice/Motions_动作鉴赏-登录与回港_1_Sound_0.wav"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {
+            "Items": [
+                {
+                    "Name": "亮度调整",
+                    "Id": "touch_drag3",
+                    "HitArea": "默认状态-亮度调整",
+                    "Axis": 1,
+                    "Weight": 0.297330171,
+                    "Factor": 0.01,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "RGB调整",
+                    "Id": "touch_drag4",
+                    "HitArea": "默认状态-RGB调整",
+                    "Axis": 1,
+                    "Weight": 0.348745078,
+                    "Factor": 0.01,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamLoop": {},
+        "KeyTrigger": {
+            "Items": [
+                {
+                    "Input": 77,
+                    "DownMtn": "菜单"
+                },
+                {
+                    "Input": 78,
+                    "DownMtn": "系列动作:待机状态1-good判定"
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Items": [
+                {
+                    "Id": "ParamEyeROpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "BlendMode": 2,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamEyeLOpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "BlendMode": 2,
+                    "Input": 0
+                }
+            ]
+        },
+        "LipSync": {
+            "Gain": 5.0,
+            "Items": [
+                {
+                    "Id": "ParamMouthOpenY",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "Input": 0
+                }
+            ]
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Items": [
+                {
+                    "BlendMode": 1,
+                    "Input": 0
+                }
+            ]
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {},
+        "Accelerometer": {},
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {},
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "默认状态-黄鸡",
+            "Id": "TouchDrag5",
+            "Motion": "黄鸡动画"
+        },
+        {
+            "Name": "默认状态-摸头",
+            "Id": "TouchHead",
+            "Motion": "动作鉴赏-触摸:摸头台词"
+        },
+        {
+            "Name": "默认状态-普通触摸",
+            "Id": "TouchBody",
+            "Motion": "动作鉴赏-触摸:普通触摸"
+        },
+        {
+            "Name": "默认状态-特殊触摸",
+            "Id": "TouchSpecial",
+            "Motion": "动作鉴赏-触摸:特殊触摸"
+        },
+        {
+            "Name": "默认状态-灯柱",
+            "Id": "TouchDrag2",
+            "Motion": "调色动画"
+        },
+        {
+            "Name": "默认状态-提示动画",
+            "Id": "TouchDrag11",
+            "Motion": "彩蛋动作:默认待机-提示动画"
+        },
+        {
+            "Name": "默认状态-猫猫的左腿",
+            "Id": "TouchIdle8",
+            "Motion": "系列动作:待机状态7-给猫猫拍照"
+        },
+        {
+            "Name": "默认状态-RGB调整",
+            "Id": "TouchDrag3",
+            "Motion": "Tap默认状态-RGB调整"
+        },
+        {
+            "Name": "默认状态-亮度调整",
+            "Id": "TouchDrag4",
+            "Motion": "Tap默认状态-亮度调整"
+        },
+        {
+            "Name": "默认状态-猫猫玩偶",
+            "Id": "ArtMesh242",
+            "Motion": "玩偶动画"
+        },
+        {
+            "Name": "默认状态-摄像机",
+            "Id": "TouchDrag19",
+            "Motion": "贴纸动画"
+        },
+        {
+            "Name": "默认状态-进入逗猫状态",
+            "Id": "TouchIdle1",
+            "Motion": "系列动作:默认状态-进入逗猫状态"
+        },
+        {
+            "Name": "待机状态1-perfect判定",
+            "Id": "TouchIdle2",
+            "Motion": "系列动作:待机状态1-perfect判定"
+        },
+        {
+            "Name": "待机状态2-摸猫猫头",
+            "Id": "TouchIdle11",
+            "Motion": "系列动作:待机状态2-摸猫猫头"
+        },
+        {
+            "Name": "待机状态3-点击猫猫头",
+            "Id": "TouchIdle4",
+            "Motion": "系列动作:待机状态3-点击猫猫头"
+        },
+        {
+            "Name": "待机状态4-点击躺下的猫猫头",
+            "Id": "TouchIdle12",
+            "Order": 1,
+            "Motion": "系列动作:待机状态4-给猫猫拍照返回主界面"
+        },
+        {
+            "Name": "待机状态1-第二次perfect判定(1)",
+            "Id": "TouchIdle5",
+            "Motion": "系列动作:待机状态1-第二次perfect判定(1)"
+        },
+        {
+            "Name": "待机状态1-第二次perfect判定(2)",
+            "Id": "TouchIdle13",
+            "Motion": "系列动作:待机状态1-第二次perfect判定(2)"
+        },
+        {
+            "Name": "待机状态7-猫猫收起来腿",
+            "Id": "TouchIdle14",
+            "Motion": "系列动作:待机状态7-猫猫收起来腿"
+        },
+        {
+            "Name": "待机状态8-猫猫抬起腿",
+            "Id": "TouchIdle15",
+            "Order": 2,
+            "Motion": "系列动作:待机状态8-猫猫抬起腿"
+        },
+        {
+            "Name": "待机状态8-摸猫猫头",
+            "Id": "TouchDrag1",
+            "Order": 1,
+            "Motion": "系列动作:待机状态8-摸猫猫头"
+        },
+        {
+            "Name": "待机状态9-猫猫抬起双腿",
+            "Id": "TouchIdle10",
+            "Order": 3,
+            "Motion": "系列动作:待机状态9-猫猫抬起双腿"
+        },
+        {
+            "Name": "待机状态2-提示动画",
+            "Id": "TouchDrag12",
+            "Motion": "彩蛋动作:待机2-提示动画"
+        },
+        {
+            "Name": "待机状态3-提示动画",
+            "Id": "TouchDrag13",
+            "Motion": "彩蛋动作:待机3-提示动画"
+        },
+        {
+            "Name": "待机状态4-提示动画",
+            "Id": "TouchDrag14",
+            "Order": 1,
+            "Motion": "彩蛋动作:待机4-提示动画"
+        },
+        {
+            "Name": "待机状态7-提示动画",
+            "Id": "TouchDrag15",
+            "Order": 2,
+            "Motion": "彩蛋动作:待机7-提示动画"
+        },
+        {
+            "Name": "待机状态8-提示动画",
+            "Id": "TouchDrag16",
+            "Order": 3,
+            "Motion": "彩蛋动作:待机8-提示动画"
+        },
+        {
+            "Name": "待机状态9-提示动画",
+            "Id": "TouchDrag17",
+            "Order": 4,
+            "Motion": "彩蛋动作:待机9-提示动画"
+        },
+        {
+            "Name": "待机状态10-提示动画",
+            "Id": "TouchDrag18",
+            "Order": 5,
+            "Motion": "彩蛋动作:待机10-提示动画"
+        }
+    ],
+    "Options": {
+        "Name": "naximofu_2",
+        "ScaleFactor": 0.132,
+        "TexFixed": true,
+        "TexType": 0
+    }
+}

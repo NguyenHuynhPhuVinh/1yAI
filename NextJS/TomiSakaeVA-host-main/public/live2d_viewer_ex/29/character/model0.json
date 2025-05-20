@@ -1,0 +1,868 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Motions_菜单_8_Command_0.png",
+            "textures/Motions_菜单_8_Command_0_0.png",
+            "textures/Motions_菜单_9_Command_0.png",
+            "textures/Motions_菜单_9_Command_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Idle#1": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "睡觉": [
+                {
+                    "File": "motions/Motions_睡觉_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                }
+            ],
+            "动作": [
+                {
+                    "File": "motions/Motions_动作_0_File_0.json",
+                    "Sound": "voice/Motions_动作_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作_1_File_0.json",
+                    "Sound": "voice/Motions_动作_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作_2_File_0.json",
+                    "Sound": "voice/Motions_动作_2_Sound_0.wav"
+                }
+            ],
+            "腿动作": [
+                {
+                    "File": "motions/Motions_腿动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_12_File_0.json"
+                }
+            ],
+            "Tap": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Leave30_30_30": [
+                {
+                    "File": "motions/Motions_Leave30_30_30_0_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_1_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_2_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_3_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_3_Sound_0.wav"
+                }
+            ],
+            "Leave600_1_1": [
+                {
+                    "File": "motions/Motions_Leave600_1_1_0_File_0.json",
+                    "Sound": "voice/Motions_Leave600_1_1_0_Sound_0.wav"
+                }
+            ],
+            "誓约": [
+                {
+                    "File": "motions/Motions_誓约_0_File_0.json",
+                    "Sound": "voice/Motions_誓约_0_Sound_0.wav"
+                }
+            ],
+            "待机": [
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_动作_0_File_0.json",
+                    "Sound": "voice/Motions_动作_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作_1_File_0.json",
+                    "Sound": "voice/Motions_动作_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_动作_2_File_0.json",
+                    "Sound": "voice/Motions_动作_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_腿动作_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_12_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_0_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_1_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_2_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave30_30_30_3_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave600_1_1_0_File_0.json",
+                    "Sound": "voice/Motions_Leave600_1_1_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_誓约_0_File_0.json",
+                    "Sound": "voice/Motions_誓约_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_睡觉_0_File_0.json"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_睡觉_1_File_0.json"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_睡觉_3_File_0.json"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_动作_0_File_0.json",
+                    "Sound": "voice/Motions_动作_0_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_动作_1_File_0.json",
+                    "Sound": "voice/Motions_动作_1_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_动作_2_File_0.json",
+                    "Sound": "voice/Motions_动作_2_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_腿动作_0_File_0.json"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_腿动作_2_File_0.json"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_腿动作_3_File_0.json"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_腿动作_4_File_0.json"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "File": "motions/Motions_腿动作_6_File_0.json"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "File": "motions/Motions_腿动作_8_File_0.json"
+                }
+            ],
+            "Animation_20": [
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                }
+            ],
+            "Animation_21": [
+                {
+                    "File": "motions/Motions_腿动作_10_File_0.json"
+                }
+            ],
+            "Animation_22": [
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                }
+            ],
+            "Animation_23": [
+                {
+                    "File": "motions/Motions_腿动作_12_File_0.json"
+                }
+            ],
+            "Animation_24": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                }
+            ],
+            "Animation_25": [
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                }
+            ],
+            "Animation_26": [
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "Animation_27": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Animation_28": [
+                {
+                    "File": "motions/Motions_Leave30_30_30_0_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_0_Sound_0.wav"
+                }
+            ],
+            "Animation_29": [
+                {
+                    "File": "motions/Motions_Leave30_30_30_1_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_1_Sound_0.wav"
+                }
+            ],
+            "Animation_30": [
+                {
+                    "File": "motions/Motions_Leave30_30_30_2_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_2_Sound_0.wav"
+                }
+            ],
+            "Animation_31": [
+                {
+                    "File": "motions/Motions_Leave30_30_30_3_File_0.json",
+                    "Sound": "voice/Motions_Leave30_30_30_3_Sound_0.wav"
+                }
+            ],
+            "Animation_32": [
+                {
+                    "File": "motions/Motions_Leave600_1_1_0_File_0.json",
+                    "Sound": "voice/Motions_Leave600_1_1_0_Sound_0.wav"
+                }
+            ],
+            "Animation_33": [
+                {
+                    "File": "motions/Motions_誓约_0_File_0.json",
+                    "Sound": "voice/Motions_誓约_0_Sound_0.wav"
+                }
+            ],
+            "Animation_34": [
+                {
+                    "File": "motions/Motions_睡觉_2_File_0.json"
+                }
+            ],
+            "Animation_35": [
+                {
+                    "File": "motions/Motions_腿动作_1_File_0.json"
+                }
+            ],
+            "Animation_36": [
+                {
+                    "File": "motions/Motions_腿动作_5_File_0.json"
+                }
+            ],
+            "Animation_37": [
+                {
+                    "File": "motions/Motions_腿动作_7_File_0.json"
+                }
+            ],
+            "Animation_38": [
+                {
+                    "File": "motions/Motions_腿动作_9_File_0.json"
+                }
+            ],
+            "Animation_39": [
+                {
+                    "File": "motions/Motions_腿动作_11_File_0.json"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {
+            "Items": [
+                {
+                    "Name": "白丝",
+                    "Id": "touch_drag8",
+                    "HitArea": "白丝",
+                    "Axis": 0,
+                    "Factor": 99.0,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "黑丝",
+                    "Id": "touch_drag9",
+                    "HitArea": "黑丝",
+                    "Axis": 0,
+                    "Factor": 99.0,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "衣服",
+                    "Id": "touch_drag10",
+                    "HitArea": "衣服",
+                    "Axis": 0,
+                    "Weight": 0.0202575214,
+                    "Factor": 0.1,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                },
+                {
+                    "Name": "枕头",
+                    "Id": "touch_drag7",
+                    "HitArea": "枕头",
+                    "Axis": 0,
+                    "Weight": 0.495985419,
+                    "Factor": 0.01,
+                    "ReleaseType": 0,
+                    "LockParam": true
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {
+            "Items": [
+                {
+                    "Name": "杯子",
+                    "Ids": [
+                        "Part84"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "放咖啡的桌子",
+                    "Ids": [
+                        "Part85"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "桌子上的杂志",
+                    "Ids": [
+                        "Part86"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "放杂志的桌子",
+                    "Ids": [
+                        "Part87"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "沙发上的枕头",
+                    "Ids": [
+                        "Part88"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "沙发上的头发",
+                    "Ids": [
+                        "Part89"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "沙发",
+                    "Ids": [
+                        "Part90"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "沙发下的头发",
+                    "Ids": [
+                        "Part91"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "沙发下头发阴影",
+                    "Ids": [
+                        "Part92"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "小凳子",
+                    "Ids": [
+                        "Part93"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "书",
+                    "Ids": [
+                        "Part94"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "闹钟",
+                    "Ids": [
+                        "Part95"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "时钟旁摆件",
+                    "Ids": [
+                        "Part96"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "唱片",
+                    "Ids": [
+                        "Part97"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "画",
+                    "Ids": [
+                        "Part98"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "书架",
+                    "Ids": [
+                        "Part99"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "灯",
+                    "Ids": [
+                        "Part100"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "花盆",
+                    "Ids": [
+                        "Part101"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "窗户",
+                    "Ids": [
+                        "Part102"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "墙上的画",
+                    "Ids": [
+                        "Part103"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "地板",
+                    "Ids": [
+                        "Part104"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "窗外的草",
+                    "Ids": [
+                        "Part105"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "灯光",
+                    "Ids": [
+                        "Part24"
+                    ],
+                    "Value": 1.0
+                }
+            ],
+            "Enabled": true
+        },
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "摸头",
+            "Id": "TouchHead",
+            "Motion": "动作:摸头"
+        },
+        {
+            "Name": "特触",
+            "Id": "TouchSpecial",
+            "Motion": "动作:特触"
+        },
+        {
+            "Name": "普通触摸",
+            "Id": "TouchBody",
+            "Motion": "动作:普通触摸"
+        },
+        {
+            "Name": "白丝",
+            "Id": "TouchDrag8",
+            "Motion": "Tap白丝"
+        },
+        {
+            "Name": "黑丝",
+            "Id": "TouchDrag9",
+            "Motion": "Tap黑丝"
+        },
+        {
+            "Name": "睡觉",
+            "Id": "TouchIdle1",
+            "Order": 1,
+            "Motion": "睡觉:开始"
+        },
+        {
+            "Name": "睡觉二",
+            "Id": "TouchDrag1",
+            "Order": 2,
+            "Motion": "睡觉:二"
+        },
+        {
+            "Name": "衣服",
+            "Id": "TouchDrag10",
+            "Motion": "Tap衣服"
+        },
+        {
+            "Name": "腿动作组1",
+            "Id": "TouchIdle3",
+            "Motion": "腿动作:开始"
+        },
+        {
+            "Name": "腿1-1",
+            "Id": "TouchDrag2",
+            "Motion": "腿动作:1-1"
+        },
+        {
+            "Name": "腿1-2",
+            "Id": "TouchDrag3",
+            "Motion": "腿动作:1-2"
+        },
+        {
+            "Name": "腿二",
+            "Id": "TouchIdle4",
+            "Motion": "腿动作:二"
+        },
+        {
+            "Name": "腿三",
+            "Id": "TouchIdle5",
+            "Motion": "腿动作:三"
+        },
+        {
+            "Name": "腿四",
+            "Id": "TouchIdle6",
+            "Motion": "腿动作:四"
+        },
+        {
+            "Name": "腿五",
+            "Id": "TouchIdle8",
+            "Motion": "腿动作:五"
+        },
+        {
+            "Name": "腿结束",
+            "Id": "TouchIdle7",
+            "Order": 9,
+            "Motion": "腿动作:结束"
+        },
+        {
+            "Name": "枕头",
+            "Id": "TouchDrag7",
+            "Motion": "Tap枕头"
+        },
+        {
+            "Name": "誓约",
+            "Id": "ArtMesh36",
+            "Motion": "誓约:誓约"
+        },
+        {
+            "Name": "菜单",
+            "Id": "ArtMesh174",
+            "Order": 8,
+            "Motion": "菜单:菜单"
+        }
+    ],
+    "Options": {
+        "ScaleFactor": 0.09999999,
+        "AnisoLevel": 9,
+        "TexFixed": true,
+        "TexType": 0
+    }
+}

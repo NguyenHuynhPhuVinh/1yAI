@@ -1,0 +1,487 @@
+{
+    "Version": 3,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Tapface": [
+                {
+                    "File": "motions/Motions_Tapface_0_File_0.json",
+                    "Sound": "voice/Motions_Tapface_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapface_1_File_0.json",
+                    "Sound": "voice/Motions_Tapface_1_Sound_0.wav"
+                }
+            ],
+            "Taphair": [
+                {
+                    "File": "motions/Motions_Taphair_0_File_0.json",
+                    "Sound": "voice/Motions_Taphair_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Taphair_1_File_0.json",
+                    "Sound": "voice/Motions_Taphair_1_Sound_0.wav"
+                }
+            ],
+            "Tapxiongbu": [
+                {
+                    "File": "motions/Motions_Tapxiongbu_0_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapxiongbu_1_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_1_Sound_0.wav"
+                }
+            ],
+            "Tapqunzi": [
+                {
+                    "File": "motions/Motions_Tapqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapqunzi_1_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_1_Sound_0.wav"
+                }
+            ],
+            "Tapleg": [
+                {
+                    "File": "motions/Motions_Tapleg_0_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapleg_1_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapleg_2_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_2_Sound_0.wav"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Tapface_0_File_0.json",
+                    "Sound": "voice/Motions_Tapface_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapface_1_File_0.json",
+                    "Sound": "voice/Motions_Tapface_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Taphair_0_File_0.json",
+                    "Sound": "voice/Motions_Taphair_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Taphair_1_File_0.json",
+                    "Sound": "voice/Motions_Taphair_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapxiongbu_0_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapxiongbu_1_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapqunzi_1_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapleg_0_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapleg_1_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tapleg_2_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_2_Sound_0.wav"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Tapface_0_File_0.json",
+                    "Sound": "voice/Motions_Tapface_0_Sound_0.wav"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_Tapface_1_File_0.json",
+                    "Sound": "voice/Motions_Tapface_1_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_Taphair_0_File_0.json",
+                    "Sound": "voice/Motions_Taphair_0_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_Taphair_1_File_0.json",
+                    "Sound": "voice/Motions_Taphair_1_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_Tapxiongbu_0_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_0_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_Tapxiongbu_1_File_0.json",
+                    "Sound": "voice/Motions_Tapxiongbu_1_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_Tapqunzi_0_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_0_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_Tapqunzi_1_File_0.json",
+                    "Sound": "voice/Motions_Tapqunzi_1_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_Tapleg_0_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_0_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_Tapleg_1_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_1_Sound_0.wav"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_Tapleg_2_File_0.json",
+                    "Sound": "voice/Motions_Tapleg_2_Sound_0.wav"
+                }
+            ]
+        },
+        "Expressions": [
+            {
+                "Name": "exp1.exp3",
+                "File": "expressions/Expressions_0_File_0.json"
+            },
+            {
+                "Name": "exp2.exp3",
+                "File": "expressions/Expressions_1_File_0.json"
+            },
+            {
+                "Name": "exp3.exp3",
+                "File": "expressions/Expressions_2_File_0.json"
+            },
+            {
+                "Name": "exp4.exp3",
+                "File": "expressions/Expressions_3_File_0.json"
+            },
+            {
+                "Name": "exp5.exp3",
+                "File": "expressions/Expressions_4_File_0.json"
+            },
+            {
+                "Name": "exp6.exp3",
+                "File": "expressions/Expressions_5_File_0.json"
+            },
+            {
+                "Name": "exp7.exp3",
+                "File": "expressions/Expressions_6_File_0.json"
+            }
+        ]
+    },
+    "Controllers": {
+        "ParamHit": {},
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Items": [
+                {
+                    "Id": "ParamAngleX",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "BlendMode": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamAngleY",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "BlendMode": 1,
+                    "Axis": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamAngleZ",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "BlendMode": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamEyeBallX",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "BlendMode": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamEyeBallY",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "BlendMode": 1,
+                    "Axis": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamBodyAngleX",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "BlendMode": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamBodyAngleY",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "BlendMode": 1,
+                    "Axis": 1,
+                    "Input": 0
+                },
+                {
+                    "Id": "ParamBodyAngleZ",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "BlendMode": 1,
+                    "Input": 0
+                }
+            ],
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "AngleX": [
+                {
+                    "Id": "ParamAngleX",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "AngleY": [
+                {
+                    "Id": "ParamAngleY",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "AngleZ": [
+                {
+                    "Id": "ParamAngleZ",
+                    "Min": -30.0,
+                    "Max": 30.0,
+                    "DefaultValue": 0.0,
+                    "Inverted": true,
+                    "Input": 0
+                }
+            ],
+            "PositionX": [
+                {
+                    "Id": "ParamBodyAngleX",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "PositionY": [
+                {
+                    "Id": "ParamBodyAngleY",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "PositionZ": [
+                {
+                    "Id": "ParamBodyAngleZ",
+                    "Min": -10.0,
+                    "Max": 10.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "EyeLOpen": [
+                {
+                    "Id": "ParamEyeLOpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "DefaultValue": 1.0,
+                    "Input": 0
+                }
+            ],
+            "EyeROpen": [
+                {
+                    "Id": "ParamEyeROpen",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "DefaultValue": 1.0,
+                    "Input": 0
+                }
+            ],
+            "EyeballX": [
+                {
+                    "Id": "ParamEyeBallX",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "EyeballY": [
+                {
+                    "Id": "ParamEyeBallY",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "BrowLY": [
+                {
+                    "Id": "ParamBrowLY",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "BrowRY": [
+                {
+                    "Id": "ParamBrowRY",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "MouthOpenY": [
+                {
+                    "Id": "ParamMouthOpenY",
+                    "Min": 0.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Input": 0
+                }
+            ],
+            "MouthForm": [
+                {
+                    "Id": "ParamMouthForm",
+                    "Min": -1.0,
+                    "Max": 1.0,
+                    "DefaultValue": 0.0,
+                    "Inverted": true,
+                    "Input": 0
+                }
+            ],
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "face",
+            "Id": "HitArea",
+            "Motion": "Tapface"
+        },
+        {
+            "Name": "hair",
+            "Id": "HitArea2",
+            "Motion": "Taphair"
+        },
+        {
+            "Name": "xiongbu",
+            "Id": "HitArea3",
+            "Motion": "Tapxiongbu"
+        },
+        {
+            "Name": "qunzi",
+            "Id": "HitArea4",
+            "Motion": "Tapqunzi"
+        },
+        {
+            "Name": "leg",
+            "Id": "HitArea5",
+            "Motion": "Tapleg"
+        }
+    ],
+    "Options": {
+        "ScaleFactor": 0.7,
+        "TexFixed": true
+    }
+}

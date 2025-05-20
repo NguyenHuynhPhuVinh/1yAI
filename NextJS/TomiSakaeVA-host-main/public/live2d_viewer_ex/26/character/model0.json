@@ -1,0 +1,462 @@
+{
+    "Version": 3,
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "Motions": {
+            "Idle": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle_1_File_0.json"
+                }
+            ],
+            "touch_oppai": [
+                {
+                    "File": "motions/Motions_touch_oppai_0_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_oppai_1_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_1_Sound_0.wav"
+                }
+            ],
+            "touch_head": [
+                {
+                    "File": "motions/Motions_touch_head_0_File_0.json",
+                    "Sound": "voice/Motions_touch_head_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_1_File_0.json",
+                    "Sound": "voice/Motions_touch_head_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_2_File_0.json",
+                    "Sound": "voice/Motions_touch_head_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_3_File_0.json",
+                    "Sound": "voice/Motions_touch_head_3_Sound_0.wav"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "fl_01": [
+                {
+                    "File": "motions/Motions_fl_01_0_File_0.json",
+                    "Sound": "voice/Motions_fl_01_0_Sound_0.wav"
+                }
+            ],
+            "fl_02": [
+                {
+                    "File": "motions/Motions_fl_02_0_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touch_oppai_0_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_oppai_1_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_0_File_0.json",
+                    "Sound": "voice/Motions_touch_head_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_1_File_0.json",
+                    "Sound": "voice/Motions_touch_head_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_2_File_0.json",
+                    "Sound": "voice/Motions_touch_head_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_touch_head_3_File_0.json",
+                    "Sound": "voice/Motions_touch_head_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_fl_01_0_File_0.json",
+                    "Sound": "voice/Motions_fl_01_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_fl_02_0_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Idle_1_File_0.json"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_touch_oppai_0_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_0_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_touch_oppai_1_File_0.json",
+                    "Sound": "voice/Motions_touch_oppai_1_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_touch_head_0_File_0.json",
+                    "Sound": "voice/Motions_touch_head_0_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_touch_head_1_File_0.json",
+                    "Sound": "voice/Motions_touch_head_1_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_touch_head_2_File_0.json",
+                    "Sound": "voice/Motions_touch_head_2_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_touch_head_3_File_0.json",
+                    "Sound": "voice/Motions_touch_head_3_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_fl_01_0_File_0.json",
+                    "Sound": "voice/Motions_fl_01_0_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_fl_02_0_File_0.json"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {},
+        "ParamLoop": {
+            "Items": [
+                {
+                    "Name": "光",
+                    "Ids": [
+                        "xia_guang_hu"
+                    ],
+                    "Type": 0,
+                    "Duration": 10500,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "花开1",
+                    "Ids": [
+                        "hua_kai_1"
+                    ],
+                    "Type": 0,
+                    "Duration": 10500,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "花开2",
+                    "Ids": [
+                        "hua_kai_2"
+                    ],
+                    "Type": 0,
+                    "Duration": 10500,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "花开3",
+                    "Ids": [
+                        "hua_kai_3"
+                    ],
+                    "Type": 0,
+                    "Duration": 10500,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "花开4",
+                    "Ids": [
+                        "hua_kai_4"
+                    ],
+                    "Type": 0,
+                    "Duration": 10500,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "蝴蝶翅膀",
+                    "Ids": [
+                        "Param_hudie_fei"
+                    ],
+                    "Type": 1,
+                    "Duration": 600,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 1.0
+                },
+                {
+                    "Name": "光环",
+                    "Ids": [
+                        "Param_touhuan_zhuan"
+                    ],
+                    "Type": 0,
+                    "Duration": 6700,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 360.0
+                },
+                {
+                    "Name": "优酱飘",
+                    "Ids": [
+                        "Param2"
+                    ],
+                    "Type": 1,
+                    "Duration": 7800,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 1.0
+                },
+                {
+                    "Name": "优尼控飘",
+                    "Ids": [
+                        "Param3"
+                    ],
+                    "Type": 1,
+                    "Duration": 9200,
+                    "BlendMode": 1,
+                    "MinValue": -1.0,
+                    "MaxValue": 1.0
+                },
+                {
+                    "Name": "飘带飘",
+                    "Ids": [
+                        "Parampiaodai"
+                    ],
+                    "Type": 1,
+                    "Duration": 9980,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 2.0
+                },
+                {
+                    "Name": "裙子飘",
+                    "Ids": [
+                        "Paramqunzi"
+                    ],
+                    "Type": 1,
+                    "Duration": 9980,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 2.0
+                },
+                {
+                    "Name": "大蝴蝶翅膀",
+                    "Ids": [
+                        "U_CHIBANG"
+                    ],
+                    "Type": 1,
+                    "Duration": 7800,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 1.0
+                },
+                {
+                    "Name": "下花雨",
+                    "Ids": [
+                        "luo_huaban"
+                    ],
+                    "Type": 0,
+                    "Duration": 13400,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "下花雨2",
+                    "Ids": [
+                        "luo_huaban2"
+                    ],
+                    "Type": 0,
+                    "Duration": 11200,
+                    "BlendMode": 1,
+                    "MinValue": 0.0,
+                    "MaxValue": 30.0
+                },
+                {
+                    "Name": "舰装",
+                    "Ids": [
+                        "Param_jianzhuang_shousuo"
+                    ],
+                    "Type": 1,
+                    "Duration": 6000,
+                    "BlendMode": 1,
+                    "MinValue": -1.0,
+                    "MaxValue": 0.0
+                }
+            ],
+            "Enabled": true
+        },
+        "KeyTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000
+        },
+        "LipSync": {
+            "Gain": 5.0,
+            "Enabled": true
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {},
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {
+            "InitValue": 100,
+            "MaxValue": 200,
+            "Enabled": true
+        }
+    },
+    "HitAreas": [
+        {
+            "Name": "oppai",
+            "Id": "ArtMesh124",
+            "Order": 2,
+            "Motion": "touch_oppai"
+        },
+        {
+            "Name": "head1",
+            "Id": "ArtMesh39",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head2",
+            "Id": "ArtMesh40",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head3",
+            "Id": "ArtMesh41",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head4",
+            "Id": "ArtMesh42",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head5",
+            "Id": "ArtMesh43",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head6",
+            "Id": "ArtMesh44",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head7",
+            "Id": "ArtMesh45",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head8",
+            "Id": "ArtMesh46",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head9",
+            "Id": "ArtMesh116",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head10",
+            "Id": "ArtMesh48",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head11",
+            "Id": "ArtMesh49",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "head12",
+            "Id": "ArtMesh74",
+            "Motion": "touch_head"
+        },
+        {
+            "Name": "fl_1",
+            "Id": "ArtMesh12",
+            "Motion": "fl_01"
+        },
+        {
+            "Name": "fl_02",
+            "Id": "ArtMesh363",
+            "Motion": "fl_02"
+        }
+    ],
+    "Options": {
+        "TexFixed": true
+    }
+}

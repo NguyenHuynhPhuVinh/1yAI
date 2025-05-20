@@ -1,0 +1,1071 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "Bounds": {
+        "Width": 29.1938019,
+        "Height": 20.6014366,
+        "CenterX": 0.33678335,
+        "CenterY": -0.379726321
+    },
+    "FileReferences": {
+        "Moc": "Moc_0.moc3",
+        "Textures": [
+            "textures/Textures_0_0.png"
+        ],
+        "Physics": "Physics_0.json",
+        "PhysicsV2": {
+            "File": "Physics_0.json"
+        },
+        "Motions": {
+            "Idle#1": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "Leave60_40_60": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Start": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Tap": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Tap誓约": [
+                {
+                    "File": "motions/Motions_Tap誓约_0_File_0.json",
+                    "Sound": "voice/Motions_Tap誓约_0_Sound_0.wav"
+                }
+            ],
+            "Tap触摸": [
+                {
+                    "File": "motions/Motions_Tap触摸_0_File_0.json",
+                    "Sound": "voice/Motions_Tap触摸_0_Sound_0.wav"
+                }
+            ],
+            "Tap摸头": [
+                {
+                    "File": "motions/Motions_Tap摸头_0_File_0.json",
+                    "Sound": "voice/Motions_Tap摸头_0_Sound_0.wav"
+                }
+            ],
+            "Tap特触": [
+                {
+                    "File": "motions/Motions_Tap特触_0_File_0.json",
+                    "Sound": "voice/Motions_Tap特触_0_Sound_0.wav"
+                }
+            ],
+            "Tap回港": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                }
+            ],
+            "Tap任务提醒": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                }
+            ],
+            "Tap任务完成": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Tap委托完成": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                }
+            ],
+            "Tap邮件提醒": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                }
+            ],
+            "主界面1": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                }
+            ],
+            "主界面2": [
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                }
+            ],
+            "主界面3": [
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "皮肤描述": [
+                {
+                    "Sound": "voice/Motions_皮肤描述_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "查看详情": [
+                {
+                    "Sound": "voice/Motions_查看详情_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "idle": [
+                {
+                    "File": "Motions_idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_7_File_0.json"
+                }
+            ],
+            "touchidle": [
+                {
+                    "File": "motions/Motions_touchidle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_11_File_0.json"
+                }
+            ],
+            "touchdrag": [
+                {
+                    "File": "motions/Motions_touchdrag_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_9_File_0.json"
+                }
+            ],
+            "Animation": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap誓约_0_File_0.json",
+                    "Sound": "voice/Motions_Tap誓约_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap触摸_0_File_0.json",
+                    "Sound": "voice/Motions_Tap触摸_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap摸头_0_File_0.json",
+                    "Sound": "voice/Motions_Tap摸头_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap特触_0_File_0.json",
+                    "Sound": "voice/Motions_Tap特触_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                },
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                },
+                {
+                    "Sound": "voice/Motions_皮肤描述_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "Sound": "voice/Motions_查看详情_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                },
+                {
+                    "File": "Motions_idle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_idle_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_9_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_10_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchidle_11_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_0_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_1_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_2_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_3_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_4_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_5_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_6_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_7_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_8_File_0.json"
+                },
+                {
+                    "File": "motions/Motions_touchdrag_9_File_0.json"
+                }
+            ],
+            "Animation_1": [
+                {
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_2": [
+                {
+                    "File": "motions/Motions_Idle1_0_File_0.json"
+                }
+            ],
+            "Animation_3": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                }
+            ],
+            "Animation_4": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                }
+            ],
+            "Animation_5": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                }
+            ],
+            "Animation_6": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                }
+            ],
+            "Animation_7": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Animation_8": [
+                {
+                    "File": "motions/Motions_Start_0_File_0.json",
+                    "Sound": "voice/Motions_Start_0_Sound_0.wav"
+                }
+            ],
+            "Animation_9": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                }
+            ],
+            "Animation_10": [
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                }
+            ],
+            "Animation_11": [
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "Animation_12": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                }
+            ],
+            "Animation_13": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                }
+            ],
+            "Animation_14": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                }
+            ],
+            "Animation_15": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Animation_16": [
+                {
+                    "File": "motions/Motions_Tap誓约_0_File_0.json",
+                    "Sound": "voice/Motions_Tap誓约_0_Sound_0.wav"
+                }
+            ],
+            "Animation_17": [
+                {
+                    "File": "motions/Motions_Tap触摸_0_File_0.json",
+                    "Sound": "voice/Motions_Tap触摸_0_Sound_0.wav"
+                }
+            ],
+            "Animation_18": [
+                {
+                    "File": "motions/Motions_Tap摸头_0_File_0.json",
+                    "Sound": "voice/Motions_Tap摸头_0_Sound_0.wav"
+                }
+            ],
+            "Animation_19": [
+                {
+                    "File": "motions/Motions_Tap特触_0_File_0.json",
+                    "Sound": "voice/Motions_Tap特触_0_Sound_0.wav"
+                }
+            ],
+            "Animation_20": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_1_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_1_Sound_0.wav"
+                }
+            ],
+            "Animation_21": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_3_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_3_Sound_0.wav"
+                }
+            ],
+            "Animation_22": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_4_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_4_Sound_0.wav"
+                }
+            ],
+            "Animation_23": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_0_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_0_Sound_0.wav"
+                }
+            ],
+            "Animation_24": [
+                {
+                    "File": "motions/Motions_Leave60_40_60_2_File_0.json",
+                    "Sound": "voice/Motions_Leave60_40_60_2_Sound_0.wav"
+                }
+            ],
+            "Animation_25": [
+                {
+                    "File": "motions/Motions_Tap_0_File_0.json",
+                    "Sound": "voice/Motions_Tap_0_Sound_0.wav"
+                }
+            ],
+            "Animation_26": [
+                {
+                    "File": "motions/Motions_Tap_1_File_0.json",
+                    "Sound": "voice/Motions_Tap_1_Sound_0.wav"
+                }
+            ],
+            "Animation_27": [
+                {
+                    "File": "motions/Motions_Tap_2_File_0.json",
+                    "Sound": "voice/Motions_Tap_2_Sound_0.wav"
+                }
+            ],
+            "Animation_28": [
+                {
+                    "Sound": "voice/Motions_皮肤描述_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_29": [
+                {
+                    "Sound": "voice/Motions_查看详情_0_Sound_0.wav",
+                    "File": "motions/Motions_Idle_0_File_0.json"
+                }
+            ],
+            "Animation_30": [
+                {
+                    "File": "Motions_idle_0_File_0.json"
+                }
+            ],
+            "Animation_31": [
+                {
+                    "File": "motions/Motions_idle_1_File_0.json"
+                }
+            ],
+            "Animation_32": [
+                {
+                    "File": "motions/Motions_idle_2_File_0.json"
+                }
+            ],
+            "Animation_33": [
+                {
+                    "File": "motions/Motions_idle_3_File_0.json"
+                }
+            ],
+            "Animation_34": [
+                {
+                    "File": "motions/Motions_idle_4_File_0.json"
+                }
+            ],
+            "Animation_35": [
+                {
+                    "File": "motions/Motions_idle_5_File_0.json"
+                }
+            ],
+            "Animation_36": [
+                {
+                    "File": "motions/Motions_idle_6_File_0.json"
+                }
+            ],
+            "Animation_37": [
+                {
+                    "File": "motions/Motions_idle_7_File_0.json"
+                }
+            ],
+            "Animation_38": [
+                {
+                    "File": "motions/Motions_touchidle_0_File_0.json"
+                }
+            ],
+            "Animation_39": [
+                {
+                    "File": "motions/Motions_touchidle_1_File_0.json"
+                }
+            ],
+            "Animation_40": [
+                {
+                    "File": "motions/Motions_touchidle_2_File_0.json"
+                }
+            ],
+            "Animation_41": [
+                {
+                    "File": "motions/Motions_touchidle_3_File_0.json"
+                }
+            ],
+            "Animation_42": [
+                {
+                    "File": "motions/Motions_touchidle_4_File_0.json"
+                }
+            ],
+            "Animation_43": [
+                {
+                    "File": "motions/Motions_touchidle_5_File_0.json"
+                }
+            ],
+            "Animation_44": [
+                {
+                    "File": "motions/Motions_touchidle_6_File_0.json"
+                }
+            ],
+            "Animation_45": [
+                {
+                    "File": "motions/Motions_touchidle_7_File_0.json"
+                }
+            ],
+            "Animation_46": [
+                {
+                    "File": "motions/Motions_touchidle_8_File_0.json"
+                }
+            ],
+            "Animation_47": [
+                {
+                    "File": "motions/Motions_touchidle_9_File_0.json"
+                }
+            ],
+            "Animation_48": [
+                {
+                    "File": "motions/Motions_touchidle_10_File_0.json"
+                }
+            ],
+            "Animation_49": [
+                {
+                    "File": "motions/Motions_touchidle_11_File_0.json"
+                }
+            ],
+            "Animation_50": [
+                {
+                    "File": "motions/Motions_touchdrag_0_File_0.json"
+                }
+            ],
+            "Animation_51": [
+                {
+                    "File": "motions/Motions_touchdrag_1_File_0.json"
+                }
+            ],
+            "Animation_52": [
+                {
+                    "File": "motions/Motions_touchdrag_2_File_0.json"
+                }
+            ],
+            "Animation_53": [
+                {
+                    "File": "motions/Motions_touchdrag_3_File_0.json"
+                }
+            ],
+            "Animation_54": [
+                {
+                    "File": "motions/Motions_touchdrag_4_File_0.json"
+                }
+            ],
+            "Animation_55": [
+                {
+                    "File": "motions/Motions_touchdrag_5_File_0.json"
+                }
+            ],
+            "Animation_56": [
+                {
+                    "File": "motions/Motions_touchdrag_6_File_0.json"
+                }
+            ],
+            "Animation_57": [
+                {
+                    "File": "motions/Motions_touchdrag_7_File_0.json"
+                }
+            ],
+            "Animation_58": [
+                {
+                    "File": "motions/Motions_touchdrag_8_File_0.json"
+                }
+            ],
+            "Animation_59": [
+                {
+                    "File": "motions/Motions_touchdrag_9_File_0.json"
+                }
+            ]
+        }
+    },
+    "Controllers": {
+        "ParamHit": {},
+        "ParamLoop": {},
+        "KeyTrigger": {},
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 10.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {
+            "Items": [
+                {
+                    "Name": "全背景",
+                    "Ids": [
+                        "Part45"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "尾巴",
+                    "Ids": [
+                        "Part25"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "耳机",
+                    "Ids": [
+                        "Part33"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "长发",
+                    "Ids": [
+                        "Part44"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "彩纸",
+                    "Ids": [
+                        "Part127"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "跑车",
+                    "Ids": [
+                        "Part60",
+                        "Part55"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "云",
+                    "Ids": [
+                        "Part46"
+                    ],
+                    "Value": 1.0
+                }
+            ],
+            "Enabled": true
+        },
+        "ArtmeshOpacity": {
+            "Items": [
+                {
+                    "Name": "建筑",
+                    "Ids": [
+                        "ArtMesh211",
+                        "ArtMesh236",
+                        "ArtMesh224",
+                        "ArtMesh437",
+                        "ArtMesh231",
+                        "ArtMesh218",
+                        "ArtMesh233",
+                        "ArtMesh232"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "天空",
+                    "Ids": [
+                        "ArtMesh67"
+                    ],
+                    "Value": 1.0
+                },
+                {
+                    "Name": "胖次",
+                    "Ids": [
+                        "ArtMesh97",
+                        "ArtMesh139"
+                    ],
+                    "Value": 1.0,
+                    "Hidden": true
+                }
+            ],
+            "Enabled": true
+        },
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "特触",
+            "Id": "TouchSpecial",
+            "Order": 2,
+            "Motion": "Tap特触"
+        },
+        {
+            "Name": "摸头",
+            "Id": "TouchHead",
+            "Motion": "Tap摸头"
+        },
+        {
+            "Name": "触摸",
+            "Id": "TouchBody",
+            "Motion": "Tap触摸"
+        },
+        {
+            "Name": "主界面",
+            "Motion": "Tap主界面"
+        },
+        {
+            "Name": "誓约",
+            "Id": "ArtMesh262",
+            "Motion": "Tap誓约"
+        },
+        {
+            "Name": "功能",
+            "Id": "ArtMesh194",
+            "Motion": "功能"
+        },
+        {
+            "Name": "TouchDrag9",
+            "Id": "TouchDrag9",
+            "Motion": "touchdrag:9"
+        },
+        {
+            "Name": "TouchDrag8",
+            "Id": "TouchDrag8",
+            "Motion": "touchdrag:8"
+        },
+        {
+            "Name": "TouchDrag11",
+            "Id": "TouchDrag11",
+            "Motion": "touchdrag:11"
+        },
+        {
+            "Name": "TouchDrag1",
+            "Id": "TouchDrag1",
+            "Motion": "touchdrag:1"
+        },
+        {
+            "Name": "TouchDrag2",
+            "Id": "TouchDrag2",
+            "Motion": "touchdrag:2"
+        },
+        {
+            "Name": "TouchDrag3",
+            "Id": "TouchDrag3",
+            "Motion": "touchdrag:3"
+        },
+        {
+            "Name": "TouchDrag4",
+            "Id": "TouchDrag4",
+            "Motion": "touchdrag:4"
+        },
+        {
+            "Name": "TouchDrag5",
+            "Id": "TouchDrag5",
+            "Motion": "touchdrag:5"
+        },
+        {
+            "Name": "TouchDrag7",
+            "Id": "TouchDrag7",
+            "Motion": "touchdrag:7"
+        },
+        {
+            "Name": "TouchIdle9",
+            "Id": "TouchIdle9",
+            "Motion": "touchidle:2dianzuan3"
+        },
+        {
+            "Name": "TouchIdle8",
+            "Id": "TouchIdle8",
+            "Motion": "touchidle:2dianzuan2"
+        },
+        {
+            "Name": "TouchIdle7",
+            "Id": "TouchIdle7",
+            "Motion": "touchidle:2dianzuan1"
+        },
+        {
+            "Name": "TouchIdle6",
+            "Id": "TouchIdle6",
+            "Motion": "touchidle:1dianzuan0"
+        },
+        {
+            "Name": "TouchIdle5",
+            "Id": "TouchIdle5",
+            "Motion": "touchidle:1dianzuan2"
+        },
+        {
+            "Name": "TouchIdle4",
+            "Id": "TouchIdle4",
+            "Motion": "touchidle:1dianzuan1"
+        },
+        {
+            "Name": "TouchIdle3",
+            "Id": "TouchIdle3",
+            "Motion": "touchidle:2dianzuan"
+        },
+        {
+            "Name": "TouchIdle2",
+            "Id": "TouchIdle2",
+            "Motion": "touchidle:piguF"
+        },
+        {
+            "Name": "TouchIdle1",
+            "Id": "TouchIdle1",
+            "Motion": "touchidle:piguN"
+        },
+        {
+            "Name": "TouchIdle10",
+            "Id": "TouchIdle10",
+            "Motion": "touchidle:2dianzuan4"
+        },
+        {
+            "Name": "TouchIdle11",
+            "Id": "TouchIdle11",
+            "Motion": "touchidle:11"
+        },
+        {
+            "Name": "TouchIdle12",
+            "Id": "TouchIdle12",
+            "Motion": "touchidle:12"
+        },
+        {
+            "Name": "TouchDrag6",
+            "Id": "TouchDrag6",
+            "Motion": "touchdrag:6"
+        }
+    ],
+    "Options": {
+        "ScaleFactor": 0.1,
+        "TexFixed": true,
+        "TexType": 0
+    }
+}
